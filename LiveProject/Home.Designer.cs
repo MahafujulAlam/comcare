@@ -74,12 +74,13 @@
             this.pURCHASERETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sALERETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rEPORTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rEPORTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tRANSACTIONToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cUSTOMERPAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pARTYPAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXPENSESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eMPLOYEESALARYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rEPORTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sETTINGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aDMINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uSERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -107,7 +108,6 @@
             this.puchase = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.homeimage = new System.Windows.Forms.PictureBox();
-            this.rEPORTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menubar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -379,6 +379,18 @@
             this.oToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
             this.oToolStripMenuItem.Text = "STOCK";
             // 
+            // rEPORTToolStripMenuItem
+            // 
+            this.rEPORTToolStripMenuItem.Name = "rEPORTToolStripMenuItem";
+            this.rEPORTToolStripMenuItem.Size = new System.Drawing.Size(102, 23);
+            this.rEPORTToolStripMenuItem.Text = "NEAR EXPIRY";
+            // 
+            // rEPORTToolStripMenuItem1
+            // 
+            this.rEPORTToolStripMenuItem1.Name = "rEPORTToolStripMenuItem1";
+            this.rEPORTToolStripMenuItem1.Size = new System.Drawing.Size(69, 23);
+            this.rEPORTToolStripMenuItem1.Text = "REPORT";
+            // 
             // tRANSACTIONToolStripMenuItem1
             // 
             this.tRANSACTIONToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -417,12 +429,6 @@
             this.eMPLOYEESALARYToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.eMPLOYEESALARYToolStripMenuItem.Text = "EMPLOYEE SALARY";
             this.eMPLOYEESALARYToolStripMenuItem.Click += new System.EventHandler(this.eMPLOYEESALARYToolStripMenuItem_Click);
-            // 
-            // rEPORTToolStripMenuItem
-            // 
-            this.rEPORTToolStripMenuItem.Name = "rEPORTToolStripMenuItem";
-            this.rEPORTToolStripMenuItem.Size = new System.Drawing.Size(102, 23);
-            this.rEPORTToolStripMenuItem.Text = "NEAR EXPIRY";
             // 
             // sETTINGToolStripMenuItem
             // 
@@ -473,13 +479,13 @@
             // iNDEXToolStripMenuItem
             // 
             this.iNDEXToolStripMenuItem.Name = "iNDEXToolStripMenuItem";
-            this.iNDEXToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.iNDEXToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
             this.iNDEXToolStripMenuItem.Text = "INDEX";
             // 
             // aBOUTToolStripMenuItem
             // 
             this.aBOUTToolStripMenuItem.Name = "aBOUTToolStripMenuItem";
-            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
             this.aBOUTToolStripMenuItem.Text = "ABOUT";
             // 
             // eXITToolStripMenuItem
@@ -598,6 +604,7 @@
             this.button10.TabIndex = 9;
             this.button10.Text = "EXIT";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -727,12 +734,6 @@
             this.homeimage.TabIndex = 0;
             this.homeimage.TabStop = false;
             this.homeimage.Click += new System.EventHandler(this.homeimage_Click);
-            // 
-            // rEPORTToolStripMenuItem1
-            // 
-            this.rEPORTToolStripMenuItem1.Name = "rEPORTToolStripMenuItem1";
-            this.rEPORTToolStripMenuItem1.Size = new System.Drawing.Size(69, 23);
-            this.rEPORTToolStripMenuItem1.Text = "REPORT";
             // 
             // Home
             // 

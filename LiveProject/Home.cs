@@ -118,5 +118,10 @@ namespace LiveProject
             ColorSetup dlg = new ColorSetup();
             dlg.ShowDialog();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
