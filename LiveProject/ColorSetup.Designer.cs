@@ -201,7 +201,11 @@
             this.Controls.Add(this.addCF);
             this.Controls.Add(this.updateCF);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "ColorSetup";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColorSetup";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

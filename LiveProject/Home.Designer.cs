@@ -108,6 +108,7 @@
             this.puchase = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.homeimage = new System.Windows.Forms.PictureBox();
+            this.hOMEDPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menubar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -181,6 +182,7 @@
             this.pACKSETUPToolStripMenuItem.Name = "pACKSETUPToolStripMenuItem";
             this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(173, 24);
             this.pACKSETUPToolStripMenuItem.Text = "BANK SETUP";
+            this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
             // 
             // mONEYToolStripMenuItem
             // 
@@ -223,6 +225,7 @@
             this.tYPESETUPToolStripMenuItem1.Name = "tYPESETUPToolStripMenuItem1";
             this.tYPESETUPToolStripMenuItem1.Size = new System.Drawing.Size(216, 24);
             this.tYPESETUPToolStripMenuItem1.Text = "TYPE SETUP";
+            this.tYPESETUPToolStripMenuItem1.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem1_Click);
             // 
             // pACKSETUPToolStripMenuItem1
             // 
@@ -243,18 +246,21 @@
             this.gROUPSETUPToolStripMenuItem.Name = "gROUPSETUPToolStripMenuItem";
             this.gROUPSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.gROUPSETUPToolStripMenuItem.Text = "GROUP SETUP";
+            this.gROUPSETUPToolStripMenuItem.Click += new System.EventHandler(this.gROUPSETUPToolStripMenuItem_Click);
             // 
             // cOMPOSITIONSETUPToolStripMenuItem
             // 
             this.cOMPOSITIONSETUPToolStripMenuItem.Name = "cOMPOSITIONSETUPToolStripMenuItem";
             this.cOMPOSITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.cOMPOSITIONSETUPToolStripMenuItem.Text = "COMPOSITION SETUP";
+            this.cOMPOSITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.cOMPOSITIONSETUPToolStripMenuItem_Click);
             // 
             // pRODUCTSETUPToolStripMenuItem
             // 
             this.pRODUCTSETUPToolStripMenuItem.Name = "pRODUCTSETUPToolStripMenuItem";
             this.pRODUCTSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.pRODUCTSETUPToolStripMenuItem.Text = "PRODUCT SETUP";
+            this.pRODUCTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTSETUPToolStripMenuItem_Click);
             // 
             // pARTYToolStripMenuItem
             // 
@@ -270,12 +276,14 @@
             this.dETAILSSETUPToolStripMenuItem.Name = "dETAILSSETUPToolStripMenuItem";
             this.dETAILSSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.dETAILSSETUPToolStripMenuItem.Text = "DETAILS SETUP";
+            this.dETAILSSETUPToolStripMenuItem.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem_Click);
             // 
             // pAYMENTSETUPToolStripMenuItem
             // 
             this.pAYMENTSETUPToolStripMenuItem.Name = "pAYMENTSETUPToolStripMenuItem";
             this.pAYMENTSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.pAYMENTSETUPToolStripMenuItem.Text = "PAYMENT SETUP";
+            this.pAYMENTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pAYMENTSETUPToolStripMenuItem_Click);
             // 
             // eMPLOYEEToolStripMenuItem
             // 
@@ -291,6 +299,7 @@
             this.dETAILSSETUPToolStripMenuItem1.Name = "dETAILSSETUPToolStripMenuItem1";
             this.dETAILSSETUPToolStripMenuItem1.Size = new System.Drawing.Size(171, 24);
             this.dETAILSSETUPToolStripMenuItem1.Text = "DETAILS SETUP";
+            this.dETAILSSETUPToolStripMenuItem1.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem1_Click);
             // 
             // sALARYSETUPToolStripMenuItem
             // 
@@ -304,11 +313,13 @@
             this.tAXCONDITIONSETUPToolStripMenuItem.Name = "tAXCONDITIONSETUPToolStripMenuItem";
             this.tAXCONDITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(233, 24);
             this.tAXCONDITIONSETUPToolStripMenuItem.Text = "TERMS AND CONDITION";
+            this.tAXCONDITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.tAXCONDITIONSETUPToolStripMenuItem_Click);
             // 
             // oTHERSToolStripMenuItem
             // 
             this.oTHERSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rACKToolStripMenuItem});
+            this.rACKToolStripMenuItem,
+            this.hOMEDPToolStripMenuItem});
             this.oTHERSToolStripMenuItem.Name = "oTHERSToolStripMenuItem";
             this.oTHERSToolStripMenuItem.Size = new System.Drawing.Size(233, 24);
             this.oTHERSToolStripMenuItem.Text = "OTHERS";
@@ -316,20 +327,23 @@
             // rACKToolStripMenuItem
             // 
             this.rACKToolStripMenuItem.Name = "rACKToolStripMenuItem";
-            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.rACKToolStripMenuItem.Text = "RACK";
+            this.rACKToolStripMenuItem.Click += new System.EventHandler(this.rACKToolStripMenuItem_Click);
             // 
             // pURCHASEToolStripMenuItem
             // 
             this.pURCHASEToolStripMenuItem.Name = "pURCHASEToolStripMenuItem";
             this.pURCHASEToolStripMenuItem.Size = new System.Drawing.Size(89, 23);
             this.pURCHASEToolStripMenuItem.Text = "PURCHASE";
+            this.pURCHASEToolStripMenuItem.Click += new System.EventHandler(this.pURCHASEToolStripMenuItem_Click);
             // 
             // sALEToolStripMenuItem
             // 
             this.sALEToolStripMenuItem.Name = "sALEToolStripMenuItem";
             this.sALEToolStripMenuItem.Size = new System.Drawing.Size(51, 23);
             this.sALEToolStripMenuItem.Text = "SALE";
+            this.sALEToolStripMenuItem.Click += new System.EventHandler(this.sALEToolStripMenuItem_Click);
             // 
             // rETURNToolStripMenuItem
             // 
@@ -345,12 +359,14 @@
             this.nEWToolStripMenuItem.Name = "nEWToolStripMenuItem";
             this.nEWToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
             this.nEWToolStripMenuItem.Text = "NEW";
+            this.nEWToolStripMenuItem.Click += new System.EventHandler(this.nEWToolStripMenuItem_Click);
             // 
             // pREVIOUSToolStripMenuItem
             // 
             this.pREVIOUSToolStripMenuItem.Name = "pREVIOUSToolStripMenuItem";
             this.pREVIOUSToolStripMenuItem.Size = new System.Drawing.Size(142, 24);
             this.pREVIOUSToolStripMenuItem.Text = "PREVIOUS";
+            this.pREVIOUSToolStripMenuItem.Click += new System.EventHandler(this.pREVIOUSToolStripMenuItem_Click);
             // 
             // tRANSACTIONToolStripMenuItem
             // 
@@ -366,30 +382,35 @@
             this.pURCHASERETURNToolStripMenuItem.Name = "pURCHASERETURNToolStripMenuItem";
             this.pURCHASERETURNToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.pURCHASERETURNToolStripMenuItem.Text = "PURCHASE RETURN";
+            this.pURCHASERETURNToolStripMenuItem.Click += new System.EventHandler(this.pURCHASERETURNToolStripMenuItem_Click);
             // 
             // sALERETURNToolStripMenuItem
             // 
             this.sALERETURNToolStripMenuItem.Name = "sALERETURNToolStripMenuItem";
             this.sALERETURNToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.sALERETURNToolStripMenuItem.Text = "SALE RETURN";
+            this.sALERETURNToolStripMenuItem.Click += new System.EventHandler(this.sALERETURNToolStripMenuItem_Click);
             // 
             // oToolStripMenuItem
             // 
             this.oToolStripMenuItem.Name = "oToolStripMenuItem";
             this.oToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
             this.oToolStripMenuItem.Text = "STOCK";
+            this.oToolStripMenuItem.Click += new System.EventHandler(this.oToolStripMenuItem_Click);
             // 
             // rEPORTToolStripMenuItem
             // 
             this.rEPORTToolStripMenuItem.Name = "rEPORTToolStripMenuItem";
             this.rEPORTToolStripMenuItem.Size = new System.Drawing.Size(102, 23);
             this.rEPORTToolStripMenuItem.Text = "NEAR EXPIRY";
+            this.rEPORTToolStripMenuItem.Click += new System.EventHandler(this.rEPORTToolStripMenuItem_Click);
             // 
             // rEPORTToolStripMenuItem1
             // 
             this.rEPORTToolStripMenuItem1.Name = "rEPORTToolStripMenuItem1";
             this.rEPORTToolStripMenuItem1.Size = new System.Drawing.Size(69, 23);
             this.rEPORTToolStripMenuItem1.Text = "REPORT";
+            this.rEPORTToolStripMenuItem1.Click += new System.EventHandler(this.rEPORTToolStripMenuItem1_Click);
             // 
             // tRANSACTIONToolStripMenuItem1
             // 
@@ -515,6 +536,7 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 27);
             this.panel2.Name = "panel2";
@@ -596,7 +618,7 @@
             // button10
             // 
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(17, 343);
             this.button10.Name = "button10";
@@ -609,7 +631,7 @@
             // button9
             // 
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(17, 307);
             this.button9.Name = "button9";
@@ -621,7 +643,7 @@
             // button8
             // 
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(17, 271);
             this.button8.Name = "button8";
@@ -633,7 +655,7 @@
             // button7
             // 
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(17, 235);
             this.button7.Name = "button7";
@@ -645,7 +667,7 @@
             // button6
             // 
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(17, 199);
             this.button6.Name = "button6";
@@ -657,7 +679,7 @@
             // button5
             // 
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(17, 163);
             this.button5.Name = "button5";
@@ -669,7 +691,7 @@
             // button4
             // 
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(17, 127);
             this.button4.Name = "button4";
@@ -681,7 +703,7 @@
             // button3
             // 
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(17, 91);
             this.button3.Name = "button3";
@@ -693,7 +715,7 @@
             // button2
             // 
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(17, 55);
             this.button2.Name = "button2";
@@ -705,7 +727,7 @@
             // puchase
             // 
             this.puchase.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.puchase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.puchase.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.puchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.puchase.Location = new System.Drawing.Point(17, 19);
             this.puchase.Name = "puchase";
@@ -735,6 +757,12 @@
             this.homeimage.TabStop = false;
             this.homeimage.Click += new System.EventHandler(this.homeimage_Click);
             // 
+            // hOMEDPToolStripMenuItem
+            // 
+            this.hOMEDPToolStripMenuItem.Name = "hOMEDPToolStripMenuItem";
+            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.hOMEDPToolStripMenuItem.Text = "HOME DP";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -748,7 +776,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menubar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";
@@ -837,6 +864,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ToolStripMenuItem rEPORTToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem hOMEDPToolStripMenuItem;
     }
 }
 

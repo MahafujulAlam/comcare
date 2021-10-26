@@ -20,5 +20,11 @@ namespace LiveProject
         {
 
         }
+
+        private void addCF_Click(object sender, EventArgs e)
+        {
+            PackSetupNew a = new PackSetupNew();
+            a.ShowDialog();
+        }
     }
 }

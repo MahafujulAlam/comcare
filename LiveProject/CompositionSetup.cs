@@ -15,5 +15,11 @@ namespace LiveProject
         {
             InitializeComponent();
         }
+
+        private void addCF_Click(object sender, EventArgs e)
+        {
+            CompositionSetupNew a = new CompositionSetupNew();
+            a.ShowDialog();
+        }
     }
 }

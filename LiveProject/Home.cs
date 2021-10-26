@@ -19,7 +19,8 @@ namespace LiveProject
 
         private void pACKSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            PackSetup a = new PackSetup();
+            a.ShowDialog();
         }
 
         private void tYPESETUPToolStripMenuItem_Click(object sender, EventArgs e)
@@ -30,7 +31,7 @@ namespace LiveProject
 
         private void aDMINToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ADMIN dlg = new ADMIN();
+            Admin dlg = new Admin();
             dlg.ShowDialog();
         }
 
@@ -77,12 +78,15 @@ namespace LiveProject
 
         private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Are you sure you want to cancel?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void eMPLOYEESALARYToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EmployeeSalary dlg = new EmployeeSalary();
+            EmployeeSalaryPay dlg = new EmployeeSalaryPay();
             dlg.ShowDialog();
         }
 
@@ -98,14 +102,14 @@ namespace LiveProject
 
         private void sALARYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            User dlg = new User();
-            dlg.ShowDialog();
+            EmployeeSalary a = new EmployeeSalary();
+            a.ShowDialog();
         }
 
         private void dASHBOARDToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //DashBoard a = new DashBoard();
-            //a.Show();
+            DashBoard a = new DashBoard();
+            a.ShowDialog();
         }
 
         private void homeimage_Click(object sender, EventArgs e)
@@ -121,7 +125,124 @@ namespace LiveProject
 
         private void button10_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Are you sure you want to cancel?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }  
+        }
+
+        private void pACKSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BankSetup a = new BankSetup();
+            a.ShowDialog();
+        }
+
+        private void tYPESETUPToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            TypeSetup a = new TypeSetup();
+            a.ShowDialog();
+        }
+
+        private void gROUPSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GroupSetup a = new GroupSetup();
+            a.ShowDialog();
+        }
+
+        private void cOMPOSITIONSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CompositionSetup a = new CompositionSetup();
+            a.ShowDialog();
+        }
+
+        private void pRODUCTSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProductSetup a = new ProductSetup();
+            a.ShowDialog();
+        }
+
+        private void dETAILSSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PartySetup a = new PartySetup();
+            a.ShowDialog();
+        }
+
+        private void pAYMENTSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PartyPayment a = new PartyPayment();
+            a.ShowDialog();
+        }
+
+        private void dETAILSSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            EmployeeDetails a = new EmployeeDetails();
+            a.ShowDialog();
+        }
+
+        private void tAXCONDITIONSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TermCond a = new TermCond();
+            a.ShowDialog();
+        }
+
+        private void rACKToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RackSetup a = new RackSetup();
+            a.ShowDialog();
+        }
+
+        private void pURCHASEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Purchase a = new Purchase();
+            a.ShowDialog();
+        }
+
+        private void sALEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sale a = new Sale();
+            a.ShowDialog();
+        }
+
+        private void nEWToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderN a = new OrderN();
+            a.ShowDialog();
+        }
+
+        private void pREVIOUSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderP a = new OrderP();
+            a.ShowDialog();
+        }
+
+        private void pURCHASERETURNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReturnPurchase a = new ReturnPurchase();
+            a.ShowDialog();
+        }
+
+        private void sALERETURNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReturnSale a = new ReturnSale();
+            a.ShowDialog();
+        }
+
+        private void oToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Stock a = new Stock();
+            a.ShowDialog();
+        }
+
+        private void rEPORTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NearExpiry a = new NearExpiry();
+            a.ShowDialog();
+        }
+
+        private void rEPORTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Report a = new Report();
+            a.ShowDialog();
         }
     }
 }

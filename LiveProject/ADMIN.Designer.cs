@@ -1,6 +1,6 @@
 ﻿namespace LiveProject
 {
-    partial class ADMIN
+    partial class Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -30,16 +30,16 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.saveadmin = new System.Windows.Forms.Button();
             this.retypepass = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.newpass = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.currpass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.save = new System.Windows.Forms.Button();
+            this.close = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -62,6 +62,20 @@
             this.panel2.Size = new System.Drawing.Size(484, 26);
             this.panel2.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.MintCream;
+            this.label1.Location = new System.Drawing.Point(12, -1);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 27);
+            this.label1.TabIndex = 57;
+            this.label1.Text = "ADMIN";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.retypepass);
@@ -75,18 +89,6 @@
             this.groupBox1.Size = new System.Drawing.Size(459, 150);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            // 
-            // saveadmin
-            // 
-            this.saveadmin.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.saveadmin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.saveadmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveadmin.Location = new System.Drawing.Point(293, 209);
-            this.saveadmin.Name = "saveadmin";
-            this.saveadmin.Size = new System.Drawing.Size(86, 32);
-            this.saveadmin.TabIndex = 64;
-            this.saveadmin.Text = "SAVE";
-            this.saveadmin.UseVisualStyleBackColor = false;
             // 
             // retypepass
             // 
@@ -157,46 +159,54 @@
             this.label2.TabIndex = 58;
             this.label2.Text = "CURRENT PASSWORD :";
             // 
-            // label1
+            // save
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.MintCream;
-            this.label1.Location = new System.Drawing.Point(12, -1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 27);
-            this.label1.TabIndex = 57;
-            this.label1.Text = "ADMIN";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.save.BackColor = System.Drawing.Color.Snow;
+            this.save.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save.Image = global::LiveProject.Properties.Resources.save34;
+            this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.save.Location = new System.Drawing.Point(265, 214);
+            this.save.Name = "save";
+            this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.save.Size = new System.Drawing.Size(100, 30);
+            this.save.TabIndex = 96;
+            this.save.Text = "SAVE";
+            this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.save.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // close
             // 
-            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(385, 209);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 32);
-            this.button1.TabIndex = 65;
-            this.button1.Text = "CLOSE";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.close.BackColor = System.Drawing.Color.Snow;
+            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.close.Image = global::LiveProject.Properties.Resources.close;
+            this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.close.Location = new System.Drawing.Point(371, 214);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(100, 30);
+            this.close.TabIndex = 100;
+            this.close.Text = "CLOSE";
+            this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.close.UseVisualStyleBackColor = false;
             // 
-            // ADMIN
+            // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(484, 264);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.saveadmin);
+            this.Controls.Add(this.close);
+            this.Controls.Add(this.save);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "ADMIN";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Admin";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADMIN";
             this.panel2.ResumeLayout(false);
@@ -213,13 +223,13 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button saveadmin;
         private System.Windows.Forms.TextBox retypepass;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox newpass;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox currpass;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button save;
+        private System.Windows.Forms.Button close;
     }
 }

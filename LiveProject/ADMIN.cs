@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class ADMIN : Form
+    public partial class Admin : Form
     {
-        public ADMIN()
+        public Admin()
         {
             InitializeComponent();
         }

@@ -28,7 +28,7 @@ namespace LiveProject
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            UserAdd dlg = new UserAdd(this);
+            UserSetupNew dlg = new UserSetupNew(this);
             dlg.ShowDialog();
 
         }

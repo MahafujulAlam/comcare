@@ -16,5 +16,16 @@ namespace LiveProject
         {
             InitializeComponent();
         }
+
+        private void addCF_Click(object sender, EventArgs e)
+        {
+            CurrencySetupNew a = new CurrencySetupNew();
+            a.ShowDialog();
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

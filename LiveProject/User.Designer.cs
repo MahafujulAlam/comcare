@@ -141,7 +141,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(707, 29);
             this.textBox1.TabIndex = 82;
-            this.textBox1.Text = "  USER";
+            this.textBox1.Text = "  USER DETAILS";
             // 
             // groupBox1
             // 
@@ -204,6 +204,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "User";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CommonForm";
             this.groupBox1.ResumeLayout(false);

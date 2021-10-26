@@ -58,3 +58,156 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.csp
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.csproj.CoreCompileInputs.cache
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.exe
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.pdb
+C:\Users\USER\Desktop\liveproject\LiveProject\bin\Debug\LiveProject.exe.config
+C:\Users\USER\Desktop\liveproject\LiveProject\bin\Debug\LiveProject.exe
+C:\Users\USER\Desktop\liveproject\LiveProject\bin\Debug\LiveProject.pdb
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ADMIN.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ColorADD.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ColorSetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\Nord.DashBoard.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.User.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CompanyProfile.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CompositionSetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CurrencySetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CustomerPayment.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeDetails.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalary.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Expenses.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Home.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PackSetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PartyPayment.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PartySetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ProductSetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Properties.Resources.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TandC.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TaxSetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TypeSetup.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.UserAdd.resources
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.exe
+C:\Users\USER\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.pdb
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\bin\Debug\LiveProject.exe.config
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\bin\Debug\LiveProject.exe
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\bin\Debug\LiveProject.pdb
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ADMIN.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ColorSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.User.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CompanyProfile.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CompositionSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CurrencySetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CustomerPayment.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeDetails.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalary.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Expenses.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Home.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PackSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PartyPayment.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PartySetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ProductSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Properties.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.TaxSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.TypeSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.csproj.GenerateResource.cache
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.exe
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.pdb
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ColorSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.UserSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.DashBoard.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.TermCond.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CompositionSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.BankSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.BankSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CurrencySetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ProductSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.TaxSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.TypeSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.GroupSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.GroupSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Purchase.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PurchaseNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PackSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalaryNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPay.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPayNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ExpensesNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Login.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.NearExpiry.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.OrderN.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.OrderP.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PartyPaymentNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.PartySetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.RackSetup.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.RackSetupNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Report.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ReturnPurchase.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.ReturnSale.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Sale.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.Stock.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.CustomerPaymentNew.resources
+C:\Users\USER\Documents\Visual Studio 2017\Projects\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeDetailsNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\bin\Debug\LiveProject.exe.config
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\bin\Debug\LiveProject.exe
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\bin\Debug\LiveProject.pdb
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.csprojAssemblyReference.cache
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Admin.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.BankSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.BankSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ColorSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ColorSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CompositionSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CurrencySetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CustomerPaymentNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.DashBoard.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeDetailsNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalaryNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPay.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPayNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ExpensesNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.GroupSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.GroupSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.HomeDp.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Login.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.NearExpiry.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.OrderN.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.OrderP.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PackSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PartyPaymentNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PartySetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ProductSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Purchase.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PurchaseNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.RackSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.RackSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Report.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ReturnPurchase.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ReturnSale.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Sale.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Stock.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TaxSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TypeSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.User.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CompanyProfile.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CompositionSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CurrencySetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.CustomerPayment.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeDetails.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.EmployeeSalary.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Expenses.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Home.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PackSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PartyPayment.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.PartySetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.ProductSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.Properties.Resources.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TermCond.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TaxSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.TypeSetup.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.UserSetupNew.resources
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.csproj.GenerateResource.cache
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.csproj.CoreCompileInputs.cache
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.exe
+C:\Users\Alam\OneDrive\Desktop\liveproject\LiveProject\obj\Debug\LiveProject.pdb

@@ -19,13 +19,13 @@ namespace LiveProject
         private void close_Click(object sender, EventArgs e)
         {
             this.Close();
-            
+            //jhgjhgjhgjhg
         }
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            ColorADD dlg = new ColorADD();
-            dlg.Show();
+            ColorSetupNew dlg = new ColorSetupNew();
+            dlg.ShowDialog();
         }
     }
 }

@@ -760,6 +760,7 @@
             this.MinimizeBox = false;
             this.Name = "CompanyProfile";
             this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CompanyProfile";
             this.groupBox1.ResumeLayout(false);
