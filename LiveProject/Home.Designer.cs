@@ -65,6 +65,7 @@
             this.tAXCONDITIONSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oTHERSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rACKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hOMEDPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pURCHASEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sALEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -108,7 +109,6 @@
             this.puchase = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.homeimage = new System.Windows.Forms.PictureBox();
-            this.hOMEDPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menubar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -327,9 +327,15 @@
             // rACKToolStripMenuItem
             // 
             this.rACKToolStripMenuItem.Name = "rACKToolStripMenuItem";
-            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(190, 24);
             this.rACKToolStripMenuItem.Text = "RACK";
             this.rACKToolStripMenuItem.Click += new System.EventHandler(this.rACKToolStripMenuItem_Click);
+            // 
+            // hOMEDPToolStripMenuItem
+            // 
+            this.hOMEDPToolStripMenuItem.Name = "hOMEDPToolStripMenuItem";
+            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(190, 24);
+            this.hOMEDPToolStripMenuItem.Text = "HOME WALPAPER";
             // 
             // pURCHASEToolStripMenuItem
             // 
@@ -756,12 +762,6 @@
             this.homeimage.TabIndex = 0;
             this.homeimage.TabStop = false;
             this.homeimage.Click += new System.EventHandler(this.homeimage_Click);
-            // 
-            // hOMEDPToolStripMenuItem
-            // 
-            this.hOMEDPToolStripMenuItem.Name = "hOMEDPToolStripMenuItem";
-            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.hOMEDPToolStripMenuItem.Text = "HOME DP";
             // 
             // Home
             // 
