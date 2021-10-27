@@ -173,14 +173,14 @@
             // tYPESETUPToolStripMenuItem
             // 
             this.tYPESETUPToolStripMenuItem.Name = "tYPESETUPToolStripMenuItem";
-            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(173, 24);
-            this.tYPESETUPToolStripMenuItem.Text = "PROFILE SETUP";
+            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(244, 24);
+            this.tYPESETUPToolStripMenuItem.Text = "COMPANY PROFILE SETUP";
             this.tYPESETUPToolStripMenuItem.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem_Click);
             // 
             // pACKSETUPToolStripMenuItem
             // 
             this.pACKSETUPToolStripMenuItem.Name = "pACKSETUPToolStripMenuItem";
-            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(173, 24);
+            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(244, 24);
             this.pACKSETUPToolStripMenuItem.Text = "BANK SETUP";
             this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
             // 
@@ -327,15 +327,15 @@
             // rACKToolStripMenuItem
             // 
             this.rACKToolStripMenuItem.Name = "rACKToolStripMenuItem";
-            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(190, 24);
+            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(223, 24);
             this.rACKToolStripMenuItem.Text = "RACK";
             this.rACKToolStripMenuItem.Click += new System.EventHandler(this.rACKToolStripMenuItem_Click);
             // 
             // hOMEDPToolStripMenuItem
             // 
             this.hOMEDPToolStripMenuItem.Name = "hOMEDPToolStripMenuItem";
-            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(190, 24);
-            this.hOMEDPToolStripMenuItem.Text = "HOME WALPAPER";
+            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(223, 24);
+            this.hOMEDPToolStripMenuItem.Text = "HOMEPAGE WALPAPER";
             // 
             // pURCHASEToolStripMenuItem
             // 
@@ -440,7 +440,7 @@
             // 
             this.pARTYPAYMENTToolStripMenuItem.Name = "pARTYPAYMENTToolStripMenuItem";
             this.pARTYPAYMENTToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
-            this.pARTYPAYMENTToolStripMenuItem.Text = "PARTY PAYMENT";
+            this.pARTYPAYMENTToolStripMenuItem.Text = "SELLER PAYMENT";
             this.pARTYPAYMENTToolStripMenuItem.Click += new System.EventHandler(this.pARTYPAYMENTToolStripMenuItem_Click);
             // 
             // eXPENSESToolStripMenuItem

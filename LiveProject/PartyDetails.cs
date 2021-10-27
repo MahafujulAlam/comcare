@@ -10,22 +10,33 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class PartySetup : Form
+    public partial class PartyDetails : Form
     {
-        public PartySetup()
+        public PartyDetails()
         {
             InitializeComponent();
         }
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            PartySetupNew a = new PartySetupNew();
+            PartyDetailsNew a = new PartyDetailsNew();
             a.ShowDialog();
         }
 
         private void close_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void close_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void addCF_Click_1(object sender, EventArgs e)
+        {
+            PartyDetailsNew dlg = new PartyDetailsNew();
+            dlg.ShowDialog();
         }
     }
 }

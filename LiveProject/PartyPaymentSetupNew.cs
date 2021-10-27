@@ -9,24 +9,14 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class PartySetupNew : Form
+    public partial class PartyPaymentSetupNew : Form
     {
-        public PartySetupNew()
+        public PartyPaymentSetupNew()
         {
             InitializeComponent();
         }
 
-        private void tagline_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void close_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to cancel?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {

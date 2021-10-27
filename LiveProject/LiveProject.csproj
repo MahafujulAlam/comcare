@@ -173,17 +173,29 @@
     <Compile Include="PackSetupNew.Designer.cs">
       <DependentUpon>PackSetupNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="PartyPaymentNew.cs">
+    <Compile Include="PartyPaymentSetup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PartyPaymentNew.Designer.cs">
-      <DependentUpon>PartyPaymentNew.cs</DependentUpon>
+    <Compile Include="PartyPaymentSetup.Designer.cs">
+      <DependentUpon>PartyPaymentSetup.cs</DependentUpon>
     </Compile>
-    <Compile Include="PartySetupNew.cs">
+    <Compile Include="PartyPaymentSetupNew.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PartySetupNew.Designer.cs">
-      <DependentUpon>PartySetupNew.cs</DependentUpon>
+    <Compile Include="PartyPaymentSetupNew.Designer.cs">
+      <DependentUpon>PartyPaymentSetupNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellerPaymentNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellerPaymentNew.Designer.cs">
+      <DependentUpon>SellerPaymentNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartyDetailsNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartyDetailsNew.Designer.cs">
+      <DependentUpon>PartyDetailsNew.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductSetupNew.cs">
       <SubType>Form</SubType>
@@ -323,17 +335,17 @@
     <Compile Include="PackSetup.Designer.cs">
       <DependentUpon>PackSetup.cs</DependentUpon>
     </Compile>
-    <Compile Include="PartyPayment.cs">
+    <Compile Include="SellerPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PartyPayment.Designer.cs">
-      <DependentUpon>PartyPayment.cs</DependentUpon>
+    <Compile Include="SellerPayment.Designer.cs">
+      <DependentUpon>SellerPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="PartySetup.cs">
+    <Compile Include="PartyDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PartySetup.Designer.cs">
-      <DependentUpon>PartySetup.cs</DependentUpon>
+    <Compile Include="PartyDetails.Designer.cs">
+      <DependentUpon>PartyDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductSetup.cs">
       <SubType>Form</SubType>
@@ -433,11 +445,17 @@
     <EmbeddedResource Include="PackSetupNew.resx">
       <DependentUpon>PackSetupNew.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PartyPaymentNew.resx">
-      <DependentUpon>PartyPaymentNew.cs</DependentUpon>
+    <EmbeddedResource Include="PartyPaymentSetup.resx">
+      <DependentUpon>PartyPaymentSetup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PartySetupNew.resx">
-      <DependentUpon>PartySetupNew.cs</DependentUpon>
+    <EmbeddedResource Include="PartyPaymentSetupNew.resx">
+      <DependentUpon>PartyPaymentSetupNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellerPaymentNew.resx">
+      <DependentUpon>SellerPaymentNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartyDetailsNew.resx">
+      <DependentUpon>PartyDetailsNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductSetupNew.resx">
       <DependentUpon>ProductSetupNew.cs</DependentUpon>
@@ -505,11 +523,11 @@
     <EmbeddedResource Include="PackSetup.resx">
       <DependentUpon>PackSetup.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PartyPayment.resx">
-      <DependentUpon>PartyPayment.cs</DependentUpon>
+    <EmbeddedResource Include="SellerPayment.resx">
+      <DependentUpon>SellerPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PartySetup.resx">
-      <DependentUpon>PartySetup.cs</DependentUpon>
+    <EmbeddedResource Include="PartyDetails.resx">
+      <DependentUpon>PartyDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductSetup.resx">
       <DependentUpon>ProductSetup.cs</DependentUpon>

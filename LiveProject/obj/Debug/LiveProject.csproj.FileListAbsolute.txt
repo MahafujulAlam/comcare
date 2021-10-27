@@ -44,8 +44,6 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Emp
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Expenses.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Home.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PackSetup.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPayment.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartySetup.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.ProductSetup.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Properties.Resources.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.TaxSetup.resources
@@ -227,8 +225,6 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Nea
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.OrderN.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.OrderP.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PackSetupNew.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPaymentNew.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartySetupNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.ProductSetupNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Purchase.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PurchaseNew.resources
@@ -243,3 +239,9 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Tax
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.TypeSetupNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.TermCond.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.UserSetupNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.SellerPaymentNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.SellerPayment.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyDetailsNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyDetails.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPaymentSetup.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPaymentSetupNew.resources
