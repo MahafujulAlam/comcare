@@ -72,7 +72,7 @@ namespace LiveProject
 
         private void pARTYPAYMENTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PartyPayment dlg = new PartyPayment();
+            SellerPayment dlg = new SellerPayment();
             dlg.ShowDialog();
         }
 
@@ -163,13 +163,13 @@ namespace LiveProject
 
         private void dETAILSSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PartySetup a = new PartySetup();
+            PartyDetails a = new PartyDetails();
             a.ShowDialog();
         }
 
         private void pAYMENTSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PartyPayment a = new PartyPayment();
+            PartyPaymentSetup a = new PartyPaymentSetup();
             a.ShowDialog();
         }
 

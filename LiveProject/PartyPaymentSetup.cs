@@ -5,14 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class CustomerPayment : Form
+    public partial class PartyPaymentSetup : Form
     {
-        public CustomerPayment()
+        public PartyPaymentSetup()
         {
             InitializeComponent();
         }
@@ -24,7 +23,7 @@ namespace LiveProject
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            CustomerPaymentNew dlg = new CustomerPaymentNew();
+            PartyPaymentSetupNew dlg = new PartyPaymentSetupNew();
             dlg.ShowDialog();
         }
     }

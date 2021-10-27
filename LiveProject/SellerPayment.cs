@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class CustomerPayment : Form
+    public partial class SellerPayment : Form
     {
-        public CustomerPayment()
+        public SellerPayment()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace LiveProject
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            CustomerPaymentNew dlg = new CustomerPaymentNew();
+            SellerPaymentNew dlg = new SellerPaymentNew();
             dlg.ShowDialog();
         }
     }

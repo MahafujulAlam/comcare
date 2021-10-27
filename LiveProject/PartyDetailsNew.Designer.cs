@@ -1,6 +1,6 @@
 ﻿namespace LiveProject
 {
-    partial class PartySetupNew
+    partial class PartyDetailsNew
     {
         /// <summary>
         /// Required designer variable.
