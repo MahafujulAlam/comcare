@@ -53,6 +53,12 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1.Designer.cs">
+      <DependentUpon>1.cs</DependentUpon>
+    </Compile>
     <Compile Include="BankSetup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,23 +113,35 @@
     <Compile Include="EmployeeDetailsNew.Designer.cs">
       <DependentUpon>EmployeeDetailsNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeSalaryNew.cs">
+    <Compile Include="EmployeeSalaryDue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeSalaryNew.Designer.cs">
-      <DependentUpon>EmployeeSalaryNew.cs</DependentUpon>
+    <Compile Include="EmployeeSalaryDue.Designer.cs">
+      <DependentUpon>EmployeeSalaryDue.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeSalaryPay.cs">
+    <Compile Include="EmployeeSalaryDueNew.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeSalaryPay.Designer.cs">
-      <DependentUpon>EmployeeSalaryPay.cs</DependentUpon>
+    <Compile Include="EmployeeSalaryDueNew.Designer.cs">
+      <DependentUpon>EmployeeSalaryDueNew.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeSalaryPayNew.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="EmployeeSalaryPayNew.Designer.cs">
       <DependentUpon>EmployeeSalaryPayNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSalarySetupNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSalarySetupNew.Designer.cs">
+      <DependentUpon>EmployeeSalarySetupNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeSalaryPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeSalaryPay.Designer.cs">
+      <DependentUpon>EmployeeSalaryPay.cs</DependentUpon>
     </Compile>
     <Compile Include="ExpensesNew.cs">
       <SubType>Form</SubType>
@@ -311,11 +329,11 @@
     <Compile Include="EmployeeDetails.Designer.cs">
       <DependentUpon>EmployeeDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeSalary.cs">
+    <Compile Include="EmployeeSalarySetup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeSalary.Designer.cs">
-      <DependentUpon>EmployeeSalary.cs</DependentUpon>
+    <Compile Include="EmployeeSalarySetup.Designer.cs">
+      <DependentUpon>EmployeeSalarySetup.cs</DependentUpon>
     </Compile>
     <Compile Include="Expenses.cs">
       <SubType>Form</SubType>
@@ -382,6 +400,9 @@
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="1.resx">
+      <DependentUpon>1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BankSetup.resx">
       <DependentUpon>BankSetup.cs</DependentUpon>
     </EmbeddedResource>
@@ -409,14 +430,20 @@
     <EmbeddedResource Include="EmployeeDetailsNew.resx">
       <DependentUpon>EmployeeDetailsNew.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeSalaryNew.resx">
-      <DependentUpon>EmployeeSalaryNew.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeSalaryDue.resx">
+      <DependentUpon>EmployeeSalaryDue.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeSalaryPay.resx">
-      <DependentUpon>EmployeeSalaryPay.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeSalaryDueNew.resx">
+      <DependentUpon>EmployeeSalaryDueNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeSalaryPayNew.resx">
       <DependentUpon>EmployeeSalaryPayNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSalarySetupNew.resx">
+      <DependentUpon>EmployeeSalarySetupNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeSalaryPay.resx">
+      <DependentUpon>EmployeeSalaryPay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExpensesNew.resx">
       <DependentUpon>ExpensesNew.cs</DependentUpon>
@@ -511,8 +538,8 @@
     <EmbeddedResource Include="EmployeeDetails.resx">
       <DependentUpon>EmployeeDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeSalary.resx">
-      <DependentUpon>EmployeeSalary.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeSalarySetup.resx">
+      <DependentUpon>EmployeeSalarySetup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Expenses.resx">
       <DependentUpon>Expenses.cs</DependentUpon>

@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace LiveProject
@@ -14,6 +8,17 @@ namespace LiveProject
         public EmployeeSalaryPay()
         {
             InitializeComponent();
+        }
+
+        private void addCF_Click(object sender, EventArgs e)
+        {
+            EmployeeSalaryPayNew dlg = new EmployeeSalaryPayNew();
+            dlg.ShowDialog();
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
