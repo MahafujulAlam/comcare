@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class EmployeeDetails : Form
+    public partial class EmployeeSalarySetup : Form
     {
-        public EmployeeDetails()
+        public EmployeeSalarySetup()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void close_Click(object sender, EventArgs e)
@@ -29,7 +24,7 @@ namespace LiveProject
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            EmployeeDetailsNew dlg = new EmployeeDetailsNew();
+            EmployeeSalarySetupNew dlg = new EmployeeSalarySetupNew();
             dlg.ShowDialog();
         }
     }

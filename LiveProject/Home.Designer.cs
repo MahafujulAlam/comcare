@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node6");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node9");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Node9");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Node10");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.menubar = new System.Windows.Forms.MenuStrip();
             this.dASHBOARDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -109,6 +109,8 @@
             this.puchase = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.homeimage = new System.Windows.Forms.PictureBox();
+            this.sALARYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dUEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menubar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -452,6 +454,9 @@
             // 
             // eMPLOYEESALARYToolStripMenuItem
             // 
+            this.eMPLOYEESALARYToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sALARYToolStripMenuItem,
+            this.dUEToolStripMenuItem});
             this.eMPLOYEESALARYToolStripMenuItem.Name = "eMPLOYEESALARYToolStripMenuItem";
             this.eMPLOYEESALARYToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.eMPLOYEESALARYToolStripMenuItem.Text = "EMPLOYEE SALARY";
@@ -566,40 +571,40 @@
             this.hometreeView.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hometreeView.Location = new System.Drawing.Point(0, 0);
             this.hometreeView.Name = "hometreeView";
-            treeNode1.Name = "Node0";
-            treeNode1.Text = "RECENT VIEWS";
-            treeNode2.Name = "Node1";
-            treeNode2.Text = "Node1";
-            treeNode3.Name = "Node2";
-            treeNode3.Text = "Node2";
-            treeNode4.Name = "Node3";
-            treeNode4.Text = "Node3";
-            treeNode5.Name = "Node4";
-            treeNode5.Text = "Node4";
-            treeNode6.Name = "Node5";
-            treeNode6.Text = "Node5";
-            treeNode7.Name = "Node6";
-            treeNode7.Text = "Node6";
-            treeNode8.Name = "Node7";
-            treeNode8.Text = "Node7";
-            treeNode9.Name = "Node8";
-            treeNode9.Text = "Node8";
-            treeNode10.Name = "Node9";
-            treeNode10.Text = "Node9";
-            treeNode11.Name = "Node10";
-            treeNode11.Text = "Node10";
+            treeNode23.Name = "Node0";
+            treeNode23.Text = "RECENT VIEWS";
+            treeNode24.Name = "Node1";
+            treeNode24.Text = "Node1";
+            treeNode25.Name = "Node2";
+            treeNode25.Text = "Node2";
+            treeNode26.Name = "Node3";
+            treeNode26.Text = "Node3";
+            treeNode27.Name = "Node4";
+            treeNode27.Text = "Node4";
+            treeNode28.Name = "Node5";
+            treeNode28.Text = "Node5";
+            treeNode29.Name = "Node6";
+            treeNode29.Text = "Node6";
+            treeNode30.Name = "Node7";
+            treeNode30.Text = "Node7";
+            treeNode31.Name = "Node8";
+            treeNode31.Text = "Node8";
+            treeNode32.Name = "Node9";
+            treeNode32.Text = "Node9";
+            treeNode33.Name = "Node10";
+            treeNode33.Text = "Node10";
             this.hometreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11});
+            treeNode23,
+            treeNode24,
+            treeNode25,
+            treeNode26,
+            treeNode27,
+            treeNode28,
+            treeNode29,
+            treeNode30,
+            treeNode31,
+            treeNode32,
+            treeNode33});
             this.hometreeView.Size = new System.Drawing.Size(157, 580);
             this.hometreeView.TabIndex = 0;
             // 
@@ -763,6 +768,20 @@
             this.homeimage.TabStop = false;
             this.homeimage.Click += new System.EventHandler(this.homeimage_Click);
             // 
+            // sALARYToolStripMenuItem
+            // 
+            this.sALARYToolStripMenuItem.Name = "sALARYToolStripMenuItem";
+            this.sALARYToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.sALARYToolStripMenuItem.Text = "PAYMENT";
+            this.sALARYToolStripMenuItem.Click += new System.EventHandler(this.sALARYToolStripMenuItem_Click);
+            // 
+            // dUEToolStripMenuItem
+            // 
+            this.dUEToolStripMenuItem.Name = "dUEToolStripMenuItem";
+            this.dUEToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.dUEToolStripMenuItem.Text = "DUE";
+            this.dUEToolStripMenuItem.Click += new System.EventHandler(this.dUEToolStripMenuItem_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -865,6 +884,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ToolStripMenuItem rEPORTToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem hOMEDPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sALARYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dUEToolStripMenuItem;
     }
 }
 

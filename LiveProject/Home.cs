@@ -86,8 +86,7 @@ namespace LiveProject
 
         private void eMPLOYEESALARYToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EmployeeSalaryPay dlg = new EmployeeSalaryPay();
-            dlg.ShowDialog();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -102,7 +101,7 @@ namespace LiveProject
 
         private void sALARYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EmployeeSalary a = new EmployeeSalary();
+            EmployeeSalarySetup a = new EmployeeSalarySetup();
             a.ShowDialog();
         }
 
@@ -243,6 +242,18 @@ namespace LiveProject
         {
             Report a = new Report();
             a.ShowDialog();
+        }
+
+        private void sALARYToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EmployeeSalaryPay dlg = new EmployeeSalaryPay();
+            dlg.ShowDialog();
+        }
+
+        private void dUEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EmployeeSalaryDue dlg = new EmployeeSalaryDue();
+            dlg.ShowDialog();
         }
     }
 }

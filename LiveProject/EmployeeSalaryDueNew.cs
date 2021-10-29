@@ -9,11 +9,31 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class EmployeeSalaryPayNew : Form
+    public partial class EmployeeSalaryDueNew : Form
     {
-        public EmployeeSalaryPayNew()
+        public EmployeeSalaryDueNew()
         {
             InitializeComponent();
+        }
+
+        private void groupBox8_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox15_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void close_Click(object sender, EventArgs e)

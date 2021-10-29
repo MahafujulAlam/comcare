@@ -5,21 +5,15 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class EmployeeDetails : Form
+    public partial class EmployeeSalaryDue : Form
     {
-        public EmployeeDetails()
+        public EmployeeSalaryDue()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void close_Click(object sender, EventArgs e)
@@ -29,7 +23,7 @@ namespace LiveProject
 
         private void addCF_Click(object sender, EventArgs e)
         {
-            EmployeeDetailsNew dlg = new EmployeeDetailsNew();
+            EmployeeSalaryDueNew dlg = new EmployeeSalaryDueNew();
             dlg.ShowDialog();
         }
     }

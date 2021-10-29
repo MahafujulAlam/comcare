@@ -40,7 +40,6 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Com
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.CurrencySetup.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.CustomerPayment.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeDetails.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalary.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Expenses.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Home.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PackSetup.resources
@@ -213,9 +212,7 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Cur
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.CustomerPaymentNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.DashBoard.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeDetailsNew.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPay.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPayNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.ExpensesNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.GroupSetup.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.GroupSetupNew.resources
@@ -245,3 +242,9 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Par
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyDetails.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPaymentSetup.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPaymentSetupNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalarySetupNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalarySetup.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\Labcare.AdminEmployeePaymentNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryDue.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryDueNew.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPayNew.resources
