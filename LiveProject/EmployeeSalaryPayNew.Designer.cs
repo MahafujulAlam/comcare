@@ -89,6 +89,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.save = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox36.SuspendLayout();
             this.GroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -129,7 +130,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.BackColor = System.Drawing.Color.White;
+            this.textBox9.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox9.Location = new System.Drawing.Point(209, 153);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(130, 24);
@@ -145,7 +146,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.BackColor = System.Drawing.Color.White;
+            this.textBox8.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox8.Location = new System.Drawing.Point(498, 117);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(90, 24);
@@ -271,7 +272,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.White;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "January",
@@ -303,7 +304,7 @@
             // 
             // TextBox6
             // 
-            this.TextBox6.BackColor = System.Drawing.Color.White;
+            this.TextBox6.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox6.Location = new System.Drawing.Point(209, 115);
             this.TextBox6.Name = "TextBox6";
             this.TextBox6.Size = new System.Drawing.Size(130, 24);
@@ -321,7 +322,7 @@
             // 
             // TextBox7
             // 
-            this.TextBox7.BackColor = System.Drawing.Color.White;
+            this.TextBox7.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox7.Location = new System.Drawing.Point(16, 114);
             this.TextBox7.Name = "TextBox7";
             this.TextBox7.Size = new System.Drawing.Size(179, 24);
@@ -349,7 +350,7 @@
             // 
             // TextBox5
             // 
-            this.TextBox5.BackColor = System.Drawing.Color.White;
+            this.TextBox5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox5.Location = new System.Drawing.Point(359, 56);
             this.TextBox5.Name = "TextBox5";
             this.TextBox5.Size = new System.Drawing.Size(116, 24);
@@ -401,7 +402,7 @@
             // 
             // TextBox4
             // 
-            this.TextBox4.BackColor = System.Drawing.Color.White;
+            this.TextBox4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox4.Location = new System.Drawing.Point(498, 56);
             this.TextBox4.Name = "TextBox4";
             this.TextBox4.Size = new System.Drawing.Size(90, 24);
@@ -419,7 +420,7 @@
             // 
             // TextBox3
             // 
-            this.TextBox3.BackColor = System.Drawing.Color.White;
+            this.TextBox3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox3.Location = new System.Drawing.Point(209, 56);
             this.TextBox3.Name = "TextBox3";
             this.TextBox3.Size = new System.Drawing.Size(130, 24);
@@ -427,7 +428,7 @@
             // 
             // TextBox2
             // 
-            this.TextBox2.BackColor = System.Drawing.Color.White;
+            this.TextBox2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox2.Location = new System.Drawing.Point(15, 56);
             this.TextBox2.Name = "TextBox2";
             this.TextBox2.Size = new System.Drawing.Size(180, 24);
@@ -500,7 +501,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.BackColor = System.Drawing.Color.White;
+            this.textBox10.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox10.Location = new System.Drawing.Point(192, 127);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
@@ -573,7 +574,7 @@
             // 
             // textBox13
             // 
-            this.textBox13.BackColor = System.Drawing.Color.White;
+            this.textBox13.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox13.Location = new System.Drawing.Point(475, 92);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(120, 24);
@@ -591,7 +592,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.BackColor = System.Drawing.Color.White;
+            this.textBox14.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox14.Location = new System.Drawing.Point(334, 92);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(120, 24);
@@ -609,7 +610,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.BackColor = System.Drawing.Color.White;
+            this.textBox15.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox15.Location = new System.Drawing.Point(192, 92);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(120, 24);
@@ -627,7 +628,7 @@
             // 
             // textBox16
             // 
-            this.textBox16.BackColor = System.Drawing.Color.White;
+            this.textBox16.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox16.Location = new System.Drawing.Point(12, 92);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(167, 24);
@@ -645,7 +646,7 @@
             // 
             // TextBox1
             // 
-            this.TextBox1.BackColor = System.Drawing.Color.White;
+            this.TextBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox1.Location = new System.Drawing.Point(121, 22);
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(210, 24);
@@ -674,7 +675,7 @@
             this.textBox11.ReadOnly = true;
             this.textBox11.Size = new System.Drawing.Size(640, 29);
             this.textBox11.TabIndex = 145;
-            this.textBox11.Text = "  EMPLOYEE SALARY PAYMENT DETAILS";
+            this.textBox11.Text = "  EMPLOYEE SALARY PAY";
             // 
             // panel1
             // 
@@ -717,12 +718,22 @@
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 492);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(640, 10);
+            this.panel2.TabIndex = 148;
+            // 
             // EmployeeSalaryPayNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(640, 495);
+            this.ClientSize = new System.Drawing.Size(640, 502);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.close);
             this.Controls.Add(this.textBox11);
@@ -805,5 +816,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.Button close;
+        private System.Windows.Forms.Panel panel2;
     }
 }

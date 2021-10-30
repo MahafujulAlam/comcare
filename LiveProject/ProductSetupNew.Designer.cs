@@ -43,6 +43,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.save = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -235,12 +236,22 @@
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 296);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(495, 10);
+            this.panel2.TabIndex = 102;
+            // 
             // ProductSetupNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(495, 297);
+            this.ClientSize = new System.Drawing.Size(495, 306);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
@@ -278,5 +289,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

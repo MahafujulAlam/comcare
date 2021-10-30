@@ -50,7 +50,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 60);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(683, 60);
+            this.groupBox1.Size = new System.Drawing.Size(960, 60);
             this.groupBox1.TabIndex = 110;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search / Edit";
@@ -82,7 +82,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 126);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(683, 219);
+            this.dataGridView1.Size = new System.Drawing.Size(960, 370);
             this.dataGridView1.TabIndex = 111;
             // 
             // textBox1
@@ -96,7 +96,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(707, 29);
+            this.textBox1.Size = new System.Drawing.Size(984, 29);
             this.textBox1.TabIndex = 109;
             this.textBox1.Text = "  EMPLOYEE DETAILS";
             // 
@@ -107,7 +107,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(593, 350);
+            this.close.Location = new System.Drawing.Point(872, 502);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 108;
@@ -121,7 +121,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(707, 15);
+            this.panel4.Size = new System.Drawing.Size(984, 15);
             this.panel4.TabIndex = 103;
             // 
             // clearCF
@@ -131,7 +131,7 @@
             this.clearCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearCF.Image = global::LiveProject.Properties.Resources.update;
             this.clearCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clearCF.Location = new System.Drawing.Point(381, 350);
+            this.clearCF.Location = new System.Drawing.Point(660, 502);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(100, 30);
             this.clearCF.TabIndex = 106;
@@ -146,7 +146,7 @@
             this.deleteCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCF.Image = global::LiveProject.Properties.Resources.delete;
             this.deleteCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.deleteCF.Location = new System.Drawing.Point(487, 350);
+            this.deleteCF.Location = new System.Drawing.Point(766, 502);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
             this.deleteCF.TabIndex = 107;
@@ -161,7 +161,7 @@
             this.addCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCF.Image = global::LiveProject.Properties.Resources.add11;
             this.addCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addCF.Location = new System.Drawing.Point(171, 350);
+            this.addCF.Location = new System.Drawing.Point(450, 502);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(100, 30);
             this.addCF.TabIndex = 104;
@@ -177,7 +177,7 @@
             this.updateCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateCF.Location = new System.Drawing.Point(275, 350);
+            this.updateCF.Location = new System.Drawing.Point(554, 502);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
             this.updateCF.TabIndex = 105;
@@ -189,8 +189,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(707, 383);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(984, 541);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);

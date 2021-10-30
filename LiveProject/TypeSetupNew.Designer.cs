@@ -41,6 +41,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -201,6 +202,16 @@
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 267);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(495, 10);
+            this.panel2.TabIndex = 102;
             // 
             // TypeSetupNew
             // 
@@ -208,6 +219,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(495, 277);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.close);
@@ -242,5 +254,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button close;
+        private System.Windows.Forms.Panel panel2;
     }
 }

@@ -60,7 +60,10 @@ namespace LiveProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (MessageBox.Show("Are you sure you want to cancel?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         
