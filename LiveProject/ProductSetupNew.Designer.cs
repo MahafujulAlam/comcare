@@ -44,6 +44,8 @@
             this.save = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,9 +70,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(25, 41);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 18);
+            this.label7.Size = new System.Drawing.Size(98, 18);
             this.label7.TabIndex = 62;
-            this.label7.Text = "NAME :";
+            this.label7.Text = "ITEM NAME :";
             // 
             // name
             // 
@@ -88,9 +90,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(25, 69);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 18);
+            this.label6.Size = new System.Drawing.Size(99, 18);
             this.label6.TabIndex = 64;
-            this.label6.Text = "COMPANY :";
+            this.label6.Text = "ITEM CODE :";
             // 
             // contact
             // 
@@ -112,7 +114,7 @@
             "SELECT",
             "ACTIVE",
             "INACTIVE"});
-            this.usertype.Location = new System.Drawing.Point(147, 125);
+            this.usertype.Location = new System.Drawing.Point(147, 151);
             this.usertype.Name = "usertype";
             this.usertype.Size = new System.Drawing.Size(282, 26);
             this.usertype.TabIndex = 71;
@@ -122,7 +124,7 @@
             this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(147, 157);
+            this.textBox2.Location = new System.Drawing.Point(147, 183);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(282, 20);
@@ -132,7 +134,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(25, 125);
+            this.label9.Location = new System.Drawing.Point(25, 151);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(74, 18);
             this.label9.TabIndex = 68;
@@ -142,7 +144,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(25, 157);
+            this.label10.Location = new System.Drawing.Point(25, 183);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(80, 18);
             this.label10.TabIndex = 69;
@@ -150,6 +152,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label7);
@@ -163,10 +167,10 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 55);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(471, 196);
+            this.groupBox1.Size = new System.Drawing.Size(471, 214);
             this.groupBox1.TabIndex = 89;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add New Product";
+            this.groupBox1.Text = "Add New Item";
             // 
             // comboBox1
             // 
@@ -180,7 +184,7 @@
             "PARACETAMOL 2",
             "PARACETAMOL 3",
             "PARACETAMOL 4"});
-            this.comboBox1.Location = new System.Drawing.Point(147, 93);
+            this.comboBox1.Location = new System.Drawing.Point(147, 119);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(282, 26);
             this.comboBox1.TabIndex = 73;
@@ -189,7 +193,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 96);
+            this.label1.Location = new System.Drawing.Point(25, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 18);
             this.label1.TabIndex = 72;
@@ -210,7 +214,7 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(277, 257);
+            this.save.Location = new System.Drawing.Point(277, 275);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
@@ -226,7 +230,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(383, 257);
+            this.close.Location = new System.Drawing.Point(383, 275);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
@@ -240,17 +244,38 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 296);
+            this.panel2.Location = new System.Drawing.Point(0, 318);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(495, 10);
             this.panel2.TabIndex = 102;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(147, 93);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.PasswordChar = '*';
+            this.textBox3.Size = new System.Drawing.Size(282, 20);
+            this.textBox3.TabIndex = 75;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(25, 93);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 18);
+            this.label2.TabIndex = 74;
+            this.label2.Text = "COMPANY :";
             // 
             // ProductSetupNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(495, 306);
+            this.ClientSize = new System.Drawing.Size(495, 328);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.textBox1);
@@ -290,5 +315,7 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label2;
     }
 }

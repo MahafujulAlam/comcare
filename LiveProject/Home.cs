@@ -255,5 +255,16 @@ namespace LiveProject
             EmployeeSalaryDue dlg = new EmployeeSalaryDue();
             dlg.ShowDialog();
         }
+
+        private void mASTERSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hOMEDPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HomeDp dlg = new HomeDp();
+            dlg.ShowDialog();
+        }
     }
 }

@@ -244,7 +244,6 @@ D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Par
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.PartyPaymentSetupNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalarySetupNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalarySetup.resources
-D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\Labcare.AdminEmployeePaymentNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryDue.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryDueNew.resources
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.EmployeeSalaryPayNew.resources
