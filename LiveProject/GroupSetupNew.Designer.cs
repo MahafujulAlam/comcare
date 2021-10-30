@@ -39,6 +39,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -179,12 +180,22 @@
             this.panel1.Size = new System.Drawing.Size(454, 15);
             this.panel1.TabIndex = 91;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 258);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(454, 10);
+            this.panel2.TabIndex = 96;
+            // 
             // GroupSetupNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(454, 267);
+            this.ClientSize = new System.Drawing.Size(454, 268);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox1);
@@ -218,5 +229,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button close;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

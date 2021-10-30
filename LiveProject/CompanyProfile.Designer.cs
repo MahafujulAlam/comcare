@@ -83,6 +83,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
@@ -205,7 +206,7 @@
             // 
             this.logo.Location = new System.Drawing.Point(621, 187);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(169, 80);
+            this.logo.Size = new System.Drawing.Size(118, 80);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logo.TabIndex = 95;
             this.logo.TabStop = false;
@@ -723,7 +724,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(920, 10);
+            this.panel1.Size = new System.Drawing.Size(920, 13);
             this.panel1.TabIndex = 6;
             // 
             // textBox2
@@ -734,13 +735,22 @@
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Honeydew;
-            this.textBox2.Location = new System.Drawing.Point(0, 10);
+            this.textBox2.Location = new System.Drawing.Point(0, 13);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(920, 23);
             this.textBox2.TabIndex = 7;
             this.textBox2.Text = "  COMPANY PROFILE";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 536);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(920, 10);
+            this.panel2.TabIndex = 8;
             // 
             // CompanyProfile
             // 
@@ -749,6 +759,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(920, 546);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button3);
@@ -828,5 +839,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Panel panel2;
     }
 }

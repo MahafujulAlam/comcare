@@ -51,6 +51,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -330,12 +331,22 @@
             this.panel1.Size = new System.Drawing.Size(489, 15);
             this.panel1.TabIndex = 91;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 391);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(489, 10);
+            this.panel2.TabIndex = 96;
+            // 
             // EmployeeSalarySetupNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(489, 395);
+            this.ClientSize = new System.Drawing.Size(489, 401);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
@@ -381,5 +392,6 @@
         private System.Windows.Forms.TextBox branchname;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox ifsccode;
+        private System.Windows.Forms.Panel panel2;
     }
 }

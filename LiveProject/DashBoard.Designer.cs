@@ -88,6 +88,7 @@
             this.TextBox19 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -136,7 +137,7 @@
             this.groupBox7.Size = new System.Drawing.Size(324, 171);
             this.groupBox7.TabIndex = 213;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Today\'s Details";
+            this.groupBox7.Text = "Last Month\'s Details";
             // 
             // groupBox8
             // 
@@ -272,7 +273,7 @@
             this.groupBox3.Size = new System.Drawing.Size(324, 232);
             this.groupBox3.TabIndex = 211;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Today\'s Details";
+            this.groupBox3.Text = "Yesterday\'s Details";
             // 
             // groupBox4
             // 
@@ -677,7 +678,7 @@
             this.groupBox5.Size = new System.Drawing.Size(324, 171);
             this.groupBox5.TabIndex = 212;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Today\'s Details";
+            this.groupBox5.Text = "Last Week\'s Details";
             // 
             // groupBox6
             // 
@@ -905,12 +906,22 @@
             this.groupBox10.TabIndex = 221;
             this.groupBox10.TabStop = false;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 554);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(722, 10);
+            this.panel2.TabIndex = 222;
+            // 
             // DashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(722, 556);
+            this.ClientSize = new System.Drawing.Size(722, 564);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);
             this.Controls.Add(this.button3);
@@ -1011,5 +1022,6 @@
         internal System.Windows.Forms.TextBox TextBox19;
         internal System.Windows.Forms.Label label12;
         internal System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Panel panel2;
     }
 }

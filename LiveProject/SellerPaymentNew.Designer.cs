@@ -33,17 +33,23 @@
             this.partyid = new System.Windows.Forms.TextBox();
             this.contact = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.save = new System.Windows.Forms.Button();
-            this.close = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.partytype = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.dueamount = new System.Windows.Forms.TextBox();
@@ -59,25 +65,20 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.partytype = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.save = new System.Windows.Forms.Button();
+            this.close = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -139,118 +140,177 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add Seller Payment";
             // 
-            // label2
+            // groupBox4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(11, 27);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 18);
-            this.label2.TabIndex = 111;
-            this.label2.Text = "PARTY NAME :";
+            this.groupBox4.Controls.Add(this.textBox7);
+            this.groupBox4.Controls.Add(this.textBox6);
+            this.groupBox4.Controls.Add(this.label19);
+            this.groupBox4.Controls.Add(this.label16);
+            this.groupBox4.Controls.Add(this.textBox4);
+            this.groupBox4.Controls.Add(this.textBox5);
+            this.groupBox4.Controls.Add(this.label17);
+            this.groupBox4.Controls.Add(this.dateTimePicker2);
+            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Controls.Add(this.label15);
+            this.groupBox4.Controls.Add(this.textBox3);
+            this.groupBox4.Controls.Add(this.label14);
+            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.label13);
+            this.groupBox4.Location = new System.Drawing.Point(483, 125);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(462, 259);
+            this.groupBox4.TabIndex = 128;
+            this.groupBox4.TabStop = false;
             // 
-            // label4
+            // textBox7
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(439, 30);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 18);
-            this.label4.TabIndex = 109;
-            this.label4.Text = "PARTY ID :";
+            this.textBox7.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(179, 78);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(265, 20);
+            this.textBox7.TabIndex = 168;
             // 
-            // label11
+            // textBox6
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(11, 56);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 18);
-            this.label11.TabIndex = 107;
-            this.label11.Text = "CONTACT NO : ";
+            this.textBox6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(180, 186);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.PasswordChar = '*';
+            this.textBox6.Size = new System.Drawing.Size(266, 20);
+            this.textBox6.TabIndex = 167;
             // 
-            // save
+            // label19
             // 
-            this.save.BackColor = System.Drawing.Color.Snow;
-            this.save.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save.Image = global::LiveProject.Properties.Resources.save34;
-            this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(758, 461);
-            this.save.Name = "save";
-            this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 100;
-            this.save.Text = "SAVE";
-            this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.save.UseVisualStyleBackColor = false;
-            this.save.Click += new System.EventHandler(this.save_Click);
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(6, 187);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(80, 18);
+            this.label19.TabIndex = 166;
+            this.label19.Text = "REMARK :";
             // 
-            // close
+            // label16
             // 
-            this.close.BackColor = System.Drawing.Color.Snow;
-            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.close.Image = global::LiveProject.Properties.Resources.cancel;
-            this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(864, 461);
-            this.close.Name = "close";
-            this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 97;
-            this.close.Text = "CANCEL";
-            this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.close.UseVisualStyleBackColor = false;
-            this.close.Click += new System.EventHandler(this.close_Click);
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(6, 135);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(55, 18);
+            this.label16.TabIndex = 165;
+            this.label16.Text = "DATE :";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
-            // panel1
+            // textBox4
             // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(976, 15);
-            this.panel1.TabIndex = 96;
+            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(180, 104);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(265, 20);
+            this.textBox4.TabIndex = 163;
             // 
-            // label12
+            // textBox5
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(439, 55);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(196, 18);
-            this.label12.TabIndex = 124;
-            this.label12.Text = "SHOW DUE AMOUNT BY : ";
+            this.textBox5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(180, 160);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.PasswordChar = '*';
+            this.textBox5.Size = new System.Drawing.Size(266, 20);
+            this.textBox5.TabIndex = 164;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // partytype
+            // label17
             // 
-            this.partytype.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.partytype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.partytype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.partytype.FormattingEnabled = true;
-            this.partytype.Items.AddRange(new object[] {
-            "SELECT",
-            "INVOICE NO",
-            "TOTAL DUE AMOUNT"});
-            this.partytype.Location = new System.Drawing.Point(641, 53);
-            this.partytype.Name = "partytype";
-            this.partytype.Size = new System.Drawing.Size(282, 26);
-            this.partytype.TabIndex = 125;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(6, 105);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(139, 18);
+            this.label17.TabIndex = 162;
+            this.label17.Text = "PAYING AMOUNT :";
+            this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
-            // groupBox2
+            // dateTimePicker2
             // 
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.partytype);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.name);
-            this.groupBox2.Controls.Add(this.contact);
-            this.groupBox2.Controls.Add(this.partyid);
-            this.groupBox2.Location = new System.Drawing.Point(6, 19);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(940, 100);
-            this.groupBox2.TabIndex = 126;
-            this.groupBox2.TabStop = false;
+            this.dateTimePicker2.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(180, 130);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(266, 24);
+            this.dateTimePicker2.TabIndex = 161;
+            this.dateTimePicker2.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(6, 161);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(90, 18);
+            this.label18.TabIndex = 160;
+            this.label18.Text = "NOW DUE :";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(6, 79);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(82, 18);
+            this.label15.TabIndex = 158;
+            this.label15.Text = "ON DATE :";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(180, 52);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(265, 20);
+            this.textBox3.TabIndex = 157;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(6, 53);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(158, 18);
+            this.label14.TabIndex = 156;
+            this.label14.Text = "LAST PAID AMOUNT :";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(180, 26);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(266, 20);
+            this.textBox2.TabIndex = 155;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(6, 27);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(168, 18);
+            this.label13.TabIndex = 154;
+            this.label13.Text = "TOTAL DUE AMOUNT :";
             // 
             // groupBox3
             // 
@@ -276,27 +336,15 @@
             this.groupBox3.TabIndex = 127;
             this.groupBox3.TabStop = false;
             // 
-            // groupBox4
+            // label7
             // 
-            this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Controls.Add(this.textBox6);
-            this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.label16);
-            this.groupBox4.Controls.Add(this.textBox4);
-            this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Controls.Add(this.dateTimePicker2);
-            this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Controls.Add(this.textBox3);
-            this.groupBox4.Controls.Add(this.label14);
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label13);
-            this.groupBox4.Location = new System.Drawing.Point(483, 125);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(462, 259);
-            this.groupBox4.TabIndex = 128;
-            this.groupBox4.TabStop = false;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(11, 191);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(55, 18);
+            this.label7.TabIndex = 158;
+            this.label7.Text = "DATE :";
             // 
             // comboBox1
             // 
@@ -451,165 +499,127 @@
             this.label9.TabIndex = 147;
             this.label9.Text = "PAID AMOUNT : ";
             // 
-            // label7
+            // groupBox2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(11, 191);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(55, 18);
-            this.label7.TabIndex = 158;
-            this.label7.Text = "DATE :";
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.partytype);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.name);
+            this.groupBox2.Controls.Add(this.contact);
+            this.groupBox2.Controls.Add(this.partyid);
+            this.groupBox2.Location = new System.Drawing.Point(6, 19);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(940, 100);
+            this.groupBox2.TabIndex = 126;
+            this.groupBox2.TabStop = false;
             // 
-            // label13
+            // label2
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(6, 27);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(168, 18);
-            this.label13.TabIndex = 154;
-            this.label13.Text = "TOTAL DUE AMOUNT :";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(11, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(111, 18);
+            this.label2.TabIndex = 111;
+            this.label2.Text = "PARTY NAME :";
             // 
-            // textBox2
+            // partytype
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(180, 26);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 20);
-            this.textBox2.TabIndex = 155;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.partytype.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.partytype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.partytype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.partytype.FormattingEnabled = true;
+            this.partytype.Items.AddRange(new object[] {
+            "SELECT",
+            "INVOICE NO",
+            "TOTAL DUE AMOUNT"});
+            this.partytype.Location = new System.Drawing.Point(641, 53);
+            this.partytype.Name = "partytype";
+            this.partytype.Size = new System.Drawing.Size(282, 26);
+            this.partytype.TabIndex = 125;
             // 
-            // textBox3
+            // label11
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(180, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(265, 20);
-            this.textBox3.TabIndex = 157;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(11, 56);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(119, 18);
+            this.label11.TabIndex = 107;
+            this.label11.Text = "CONTACT NO : ";
             // 
-            // label14
+            // label12
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(6, 53);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(158, 18);
-            this.label14.TabIndex = 156;
-            this.label14.Text = "LAST PAID AMOUNT :";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(439, 55);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(196, 18);
+            this.label12.TabIndex = 124;
+            this.label12.Text = "SHOW DUE AMOUNT BY : ";
             // 
-            // label15
+            // label4
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(6, 79);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(82, 18);
-            this.label15.TabIndex = 158;
-            this.label15.Text = "ON DATE :";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(439, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(82, 18);
+            this.label4.TabIndex = 109;
+            this.label4.Text = "PARTY ID :";
             // 
-            // label16
+            // save
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(6, 135);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(55, 18);
-            this.label16.TabIndex = 165;
-            this.label16.Text = "DATE :";
-            this.label16.Click += new System.EventHandler(this.label16_Click);
+            this.save.BackColor = System.Drawing.Color.Snow;
+            this.save.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save.Image = global::LiveProject.Properties.Resources.save34;
+            this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.save.Location = new System.Drawing.Point(758, 461);
+            this.save.Name = "save";
+            this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.save.Size = new System.Drawing.Size(100, 30);
+            this.save.TabIndex = 100;
+            this.save.Text = "SAVE";
+            this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             // 
-            // textBox4
+            // close
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(180, 104);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(265, 20);
-            this.textBox4.TabIndex = 163;
+            this.close.BackColor = System.Drawing.Color.Snow;
+            this.close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.close.Image = global::LiveProject.Properties.Resources.cancel;
+            this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.close.Location = new System.Drawing.Point(864, 461);
+            this.close.Name = "close";
+            this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.close.Size = new System.Drawing.Size(100, 30);
+            this.close.TabIndex = 97;
+            this.close.Text = "CANCEL";
+            this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
-            // textBox5
+            // panel1
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(180, 160);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PasswordChar = '*';
-            this.textBox5.Size = new System.Drawing.Size(266, 20);
-            this.textBox5.TabIndex = 164;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(976, 15);
+            this.panel1.TabIndex = 96;
             // 
-            // label17
+            // panel2
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(6, 105);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(139, 18);
-            this.label17.TabIndex = 162;
-            this.label17.Text = "PAYING AMOUNT :";
-            this.label17.Click += new System.EventHandler(this.label17_Click);
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(180, 130);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(266, 24);
-            this.dateTimePicker2.TabIndex = 161;
-            this.dateTimePicker2.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
-            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(6, 161);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(90, 18);
-            this.label18.TabIndex = 160;
-            this.label18.Text = "NOW DUE :";
-            this.label18.Click += new System.EventHandler(this.label18_Click);
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(180, 186);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.PasswordChar = '*';
-            this.textBox6.Size = new System.Drawing.Size(266, 20);
-            this.textBox6.TabIndex = 167;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(6, 187);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(80, 18);
-            this.label19.TabIndex = 166;
-            this.label19.Text = "REMARK :";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(179, 78);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(265, 20);
-            this.textBox7.TabIndex = 168;
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 500);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(976, 10);
+            this.panel2.TabIndex = 102;
             // 
             // SellerPaymentNew
             // 
@@ -617,6 +627,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(976, 510);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.save);
@@ -632,12 +643,12 @@
             this.Text = "PartyPaymentNew";
             this.Load += new System.EventHandler(this.SellerPaymentNew_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -691,5 +702,6 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Panel panel2;
     }
 }

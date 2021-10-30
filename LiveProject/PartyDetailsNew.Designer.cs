@@ -71,6 +71,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -583,12 +584,22 @@
             this.label2.TabIndex = 51;
             this.label2.Text = "PARTY ID :";
             // 
-            // PartySetupNew
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 443);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(920, 10);
+            this.panel2.TabIndex = 14;
+            // 
+            // PartyDetailsNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(920, 450);
+            this.ClientSize = new System.Drawing.Size(920, 453);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox2);
@@ -597,7 +608,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "PartySetupNew";
+            this.Name = "PartyDetailsNew";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -654,5 +665,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox gstno;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel panel2;
     }
 }

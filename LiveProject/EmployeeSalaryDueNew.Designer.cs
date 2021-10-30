@@ -70,6 +70,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.GroupBox1.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.SuspendLayout();
@@ -87,7 +88,7 @@
             this.textBox11.ReadOnly = true;
             this.textBox11.Size = new System.Drawing.Size(633, 29);
             this.textBox11.TabIndex = 147;
-            this.textBox11.Text = "  EMPLOYEE SALARY DUE DETAILS";
+            this.textBox11.Text = "  EMPLOYEE SALARY DUE";
             // 
             // panel1
             // 
@@ -219,7 +220,7 @@
             // 
             // textBox13
             // 
-            this.textBox13.BackColor = System.Drawing.Color.White;
+            this.textBox13.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox13.Location = new System.Drawing.Point(443, 92);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(151, 24);
@@ -237,7 +238,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.BackColor = System.Drawing.Color.White;
+            this.textBox14.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox14.Location = new System.Drawing.Point(308, 92);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(123, 24);
@@ -255,7 +256,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.BackColor = System.Drawing.Color.White;
+            this.textBox15.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox15.Location = new System.Drawing.Point(120, 92);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(174, 24);
@@ -274,7 +275,7 @@
             // 
             // textBox16
             // 
-            this.textBox16.BackColor = System.Drawing.Color.White;
+            this.textBox16.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox16.Location = new System.Drawing.Point(15, 92);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(90, 24);
@@ -292,7 +293,7 @@
             // 
             // TextBox1
             // 
-            this.TextBox1.BackColor = System.Drawing.Color.White;
+            this.TextBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.TextBox1.Location = new System.Drawing.Point(160, 22);
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(210, 24);
@@ -434,7 +435,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox2.Location = new System.Drawing.Point(459, 66);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(134, 24);
@@ -453,7 +454,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
+            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox3.Location = new System.Drawing.Point(307, 66);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(135, 24);
@@ -471,7 +472,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.BackColor = System.Drawing.Color.White;
+            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox4.Location = new System.Drawing.Point(153, 66);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(140, 24);
@@ -489,7 +490,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox5.Location = new System.Drawing.Point(14, 66);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(127, 24);
@@ -505,12 +506,22 @@
             this.label5.TabIndex = 24;
             this.label5.Text = "EMPLOYEE CODE";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 391);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(633, 10);
+            this.panel2.TabIndex = 153;
+            // 
             // EmployeeSalaryDueNew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(633, 393);
+            this.ClientSize = new System.Drawing.Size(633, 401);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.save);
             this.Controls.Add(this.close);
@@ -577,5 +588,6 @@
         internal System.Windows.Forms.Label label4;
         internal System.Windows.Forms.TextBox textBox5;
         internal System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
     }
 }
