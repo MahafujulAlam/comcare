@@ -62,11 +62,10 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(357, 437);
-            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.save.Location = new System.Drawing.Point(268, 355);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.save.Size = new System.Drawing.Size(133, 37);
+            this.save.Size = new System.Drawing.Size(100, 30);
             this.save.TabIndex = 0;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -81,11 +80,11 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(0, 18);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 10, 4, 10);
+            this.textBox1.Location = new System.Drawing.Point(0, 15);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(652, 34);
+            this.textBox1.Size = new System.Drawing.Size(489, 29);
             this.textBox1.TabIndex = 93;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  EMPLOYEE SALARY";
@@ -111,11 +110,9 @@
             this.groupBox1.Controls.Add(this.remark);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(16, 68);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 55);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(616, 362);
+            this.groupBox1.Size = new System.Drawing.Size(462, 294);
             this.groupBox1.TabIndex = 94;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Employee Salary Details";
@@ -124,10 +121,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 281);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(18, 228);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(120, 24);
+            this.label5.Size = new System.Drawing.Size(97, 18);
             this.label5.TabIndex = 80;
             this.label5.Text = "IFSC CODE :";
             // 
@@ -136,10 +132,9 @@
             this.branchname.BackColor = System.Drawing.SystemColors.ControlLight;
             this.branchname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.branchname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.branchname.Location = new System.Drawing.Point(201, 245);
-            this.branchname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.branchname.Location = new System.Drawing.Point(151, 199);
             this.branchname.Name = "branchname";
-            this.branchname.Size = new System.Drawing.Size(376, 27);
+            this.branchname.Size = new System.Drawing.Size(282, 22);
             this.branchname.TabIndex = 6;
             this.branchname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -147,10 +142,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(24, 247);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(18, 201);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(160, 24);
+            this.label8.Size = new System.Drawing.Size(126, 18);
             this.label8.TabIndex = 82;
             this.label8.Text = "BRANCH NAME :";
             // 
@@ -159,10 +153,9 @@
             this.ifsccode.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ifsccode.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ifsccode.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ifsccode.Location = new System.Drawing.Point(201, 279);
-            this.ifsccode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ifsccode.Location = new System.Drawing.Point(151, 227);
             this.ifsccode.Name = "ifsccode";
-            this.ifsccode.Size = new System.Drawing.Size(376, 27);
+            this.ifsccode.Size = new System.Drawing.Size(282, 22);
             this.ifsccode.TabIndex = 7;
             this.ifsccode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -170,10 +163,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(24, 176);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(18, 143);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 24);
+            this.label3.Size = new System.Drawing.Size(117, 18);
             this.label3.TabIndex = 76;
             this.label3.Text = "ACCOUNT NO :";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -183,10 +175,9 @@
             this.acno.BackColor = System.Drawing.SystemColors.ControlLight;
             this.acno.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.acno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.acno.Location = new System.Drawing.Point(201, 176);
-            this.acno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.acno.Location = new System.Drawing.Point(151, 143);
             this.acno.Name = "acno";
-            this.acno.Size = new System.Drawing.Size(376, 27);
+            this.acno.Size = new System.Drawing.Size(282, 22);
             this.acno.TabIndex = 4;
             this.acno.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             this.acno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
@@ -195,10 +186,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 213);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(18, 173);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 24);
+            this.label4.Size = new System.Drawing.Size(103, 18);
             this.label4.TabIndex = 78;
             this.label4.Text = "BANK NAME :";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -208,10 +198,9 @@
             this.bankname.BackColor = System.Drawing.SystemColors.ControlLight;
             this.bankname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bankname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bankname.Location = new System.Drawing.Point(201, 210);
-            this.bankname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bankname.Location = new System.Drawing.Point(151, 171);
             this.bankname.Name = "bankname";
-            this.bankname.Size = new System.Drawing.Size(376, 27);
+            this.bankname.Size = new System.Drawing.Size(282, 22);
             this.bankname.TabIndex = 5;
             this.bankname.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             this.bankname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
@@ -220,10 +209,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 107);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(18, 87);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 24);
+            this.label1.Size = new System.Drawing.Size(119, 18);
             this.label1.TabIndex = 72;
             this.label1.Text = "FIXED SALARY :";
             // 
@@ -232,10 +220,9 @@
             this.fixedsal.BackColor = System.Drawing.SystemColors.ControlLight;
             this.fixedsal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.fixedsal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fixedsal.Location = new System.Drawing.Point(201, 105);
-            this.fixedsal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fixedsal.Location = new System.Drawing.Point(151, 85);
             this.fixedsal.Name = "fixedsal";
-            this.fixedsal.Size = new System.Drawing.Size(376, 27);
+            this.fixedsal.Size = new System.Drawing.Size(282, 22);
             this.fixedsal.TabIndex = 2;
             this.fixedsal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -243,10 +230,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(24, 142);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(18, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 24);
+            this.label2.Size = new System.Drawing.Size(120, 18);
             this.label2.TabIndex = 74;
             this.label2.Text = "PAYING MODE :";
             // 
@@ -254,10 +240,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(24, 41);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(18, 33);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(146, 24);
+            this.label7.Size = new System.Drawing.Size(116, 18);
             this.label7.TabIndex = 62;
             this.label7.Text = "EMPLOYEE ID :";
             // 
@@ -266,10 +251,9 @@
             this.empid.BackColor = System.Drawing.SystemColors.ControlLight;
             this.empid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.empid.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.empid.Location = new System.Drawing.Point(201, 36);
-            this.empid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.empid.Location = new System.Drawing.Point(151, 29);
             this.empid.Name = "empid";
-            this.empid.Size = new System.Drawing.Size(376, 27);
+            this.empid.Size = new System.Drawing.Size(282, 22);
             this.empid.TabIndex = 0;
             this.empid.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -277,10 +261,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(24, 73);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(18, 59);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 24);
+            this.label6.Size = new System.Drawing.Size(59, 18);
             this.label6.TabIndex = 64;
             this.label6.Text = "NAME :";
             // 
@@ -289,10 +272,9 @@
             this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
             this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact.Location = new System.Drawing.Point(201, 70);
-            this.contact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.contact.Location = new System.Drawing.Point(151, 57);
             this.contact.Name = "contact";
-            this.contact.Size = new System.Drawing.Size(376, 27);
+            this.contact.Size = new System.Drawing.Size(282, 22);
             this.contact.TabIndex = 1;
             this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -307,10 +289,9 @@
             "SELECT",
             "GPAY",
             "NEFRTS"});
-            this.paymode.Location = new System.Drawing.Point(201, 139);
-            this.paymode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.paymode.Location = new System.Drawing.Point(151, 113);
             this.paymode.Name = "paymode";
-            this.paymode.Size = new System.Drawing.Size(375, 28);
+            this.paymode.Size = new System.Drawing.Size(282, 24);
             this.paymode.TabIndex = 3;
             this.paymode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -319,11 +300,10 @@
             this.remark.BackColor = System.Drawing.SystemColors.ControlLight;
             this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.remark.Location = new System.Drawing.Point(201, 314);
-            this.remark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.remark.Location = new System.Drawing.Point(151, 255);
             this.remark.Name = "remark";
             this.remark.PasswordChar = '*';
-            this.remark.Size = new System.Drawing.Size(376, 27);
+            this.remark.Size = new System.Drawing.Size(282, 22);
             this.remark.TabIndex = 8;
             this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);
             // 
@@ -331,10 +311,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(24, 318);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(18, 258);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 24);
+            this.label10.Size = new System.Drawing.Size(80, 18);
             this.label10.TabIndex = 69;
             this.label10.Text = "REMARK :";
             // 
@@ -345,11 +324,10 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(499, 437);
-            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.close.Location = new System.Drawing.Point(374, 355);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.close.Size = new System.Drawing.Size(133, 37);
+            this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 1;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -361,27 +339,25 @@
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(652, 18);
+            this.panel1.Size = new System.Drawing.Size(489, 15);
             this.panel1.TabIndex = 91;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 482);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(0, 391);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(652, 12);
+            this.panel2.Size = new System.Drawing.Size(489, 10);
             this.panel2.TabIndex = 96;
             // 
             // EmployeeSalarySetupNew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(652, 494);
+            this.ClientSize = new System.Drawing.Size(489, 401);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.textBox1);
@@ -389,7 +365,6 @@
             this.Controls.Add(this.close);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EmployeeSalarySetupNew";
