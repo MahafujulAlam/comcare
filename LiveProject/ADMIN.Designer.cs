@@ -48,8 +48,9 @@
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(484, 10);
+            this.panel1.Size = new System.Drawing.Size(645, 12);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -57,9 +58,10 @@
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 10);
+            this.panel2.Location = new System.Drawing.Point(0, 12);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(484, 26);
+            this.panel2.Size = new System.Drawing.Size(645, 32);
             this.panel2.TabIndex = 1;
             // 
             // label1
@@ -69,9 +71,10 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MintCream;
-            this.label1.Location = new System.Drawing.Point(12, -1);
+            this.label1.Location = new System.Drawing.Point(16, -1);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 27);
+            this.label1.Size = new System.Drawing.Size(109, 33);
             this.label1.TabIndex = 57;
             this.label1.Text = "ADMIN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -84,22 +87,26 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.currpass);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 53);
+            this.groupBox1.Location = new System.Drawing.Point(16, 65);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(459, 150);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(612, 185);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // retypepass
             // 
             this.retypepass.BackColor = System.Drawing.SystemColors.ControlLight;
             this.retypepass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.retypepass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.retypepass.Location = new System.Drawing.Point(207, 95);
+            this.retypepass.Location = new System.Drawing.Point(276, 117);
+            this.retypepass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.retypepass.MaxLength = 15;
             this.retypepass.Name = "retypepass";
             this.retypepass.PasswordChar = '*';
-            this.retypepass.Size = new System.Drawing.Size(235, 20);
+            this.retypepass.Size = new System.Drawing.Size(313, 25);
             this.retypepass.TabIndex = 63;
             this.retypepass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -107,9 +114,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 95);
+            this.label4.Location = new System.Drawing.Point(8, 117);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(167, 18);
+            this.label4.Size = new System.Drawing.Size(208, 24);
             this.label4.TabIndex = 62;
             this.label4.Text = "RETYPE PASSWORD :";
             // 
@@ -118,11 +126,12 @@
             this.newpass.BackColor = System.Drawing.SystemColors.ControlLight;
             this.newpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.newpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newpass.Location = new System.Drawing.Point(207, 69);
+            this.newpass.Location = new System.Drawing.Point(276, 85);
+            this.newpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newpass.MaxLength = 15;
             this.newpass.Name = "newpass";
             this.newpass.PasswordChar = '*';
-            this.newpass.Size = new System.Drawing.Size(235, 20);
+            this.newpass.Size = new System.Drawing.Size(313, 25);
             this.newpass.TabIndex = 61;
             this.newpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -130,9 +139,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 69);
+            this.label3.Location = new System.Drawing.Point(8, 85);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 18);
+            this.label3.Size = new System.Drawing.Size(178, 24);
             this.label3.TabIndex = 60;
             this.label3.Text = "NEW PASSWORD :";
             // 
@@ -141,11 +151,12 @@
             this.currpass.BackColor = System.Drawing.SystemColors.ControlLight;
             this.currpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.currpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currpass.Location = new System.Drawing.Point(207, 43);
+            this.currpass.Location = new System.Drawing.Point(276, 53);
+            this.currpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.currpass.MaxLength = 15;
             this.currpass.Name = "currpass";
             this.currpass.PasswordChar = '*';
-            this.currpass.Size = new System.Drawing.Size(235, 20);
+            this.currpass.Size = new System.Drawing.Size(313, 25);
             this.currpass.TabIndex = 59;
             this.currpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -153,9 +164,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 45);
+            this.label2.Location = new System.Drawing.Point(8, 55);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(182, 18);
+            this.label2.Size = new System.Drawing.Size(224, 24);
             this.label2.TabIndex = 58;
             this.label2.Text = "CURRENT PASSWORD :";
             // 
@@ -166,10 +178,11 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(265, 214);
+            this.save.Location = new System.Drawing.Point(353, 263);
+            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.save.Size = new System.Drawing.Size(100, 30);
+            this.save.Size = new System.Drawing.Size(133, 37);
             this.save.TabIndex = 96;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -182,9 +195,10 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(371, 214);
+            this.close.Location = new System.Drawing.Point(495, 263);
+            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(100, 30);
+            this.close.Size = new System.Drawing.Size(133, 37);
             this.close.TabIndex = 100;
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -193,16 +207,17 @@
             // 
             // Admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(484, 264);
+            this.ClientSize = new System.Drawing.Size(645, 325);
             this.Controls.Add(this.close);
             this.Controls.Add(this.save);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Admin";
