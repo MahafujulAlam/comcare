@@ -32,6 +32,14 @@ namespace LiveProject
         {
             this.Close();
         }
+
+        private void Expenses_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }
 //okkkkkkk

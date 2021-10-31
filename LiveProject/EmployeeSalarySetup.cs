@@ -27,5 +27,13 @@ namespace LiveProject
             EmployeeSalarySetupNew dlg = new EmployeeSalarySetupNew();
             dlg.ShowDialog();
         }
+
+        private void EmployeeSalarySetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

@@ -174,7 +174,7 @@ namespace LiveProject
 
         private void dETAILSSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            EmployeeDetails a = new EmployeeDetails();
+            EmployeeDetailsNew a = new EmployeeDetailsNew();
             a.ShowDialog();
         }
 

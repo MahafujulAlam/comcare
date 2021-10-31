@@ -26,5 +26,13 @@ namespace LiveProject
             EmployeeSalaryDueNew dlg = new EmployeeSalaryDueNew();
             dlg.ShowDialog();
         }
+
+        private void EmployeeSalaryDue_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

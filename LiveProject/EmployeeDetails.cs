@@ -32,5 +32,13 @@ namespace LiveProject
             EmployeeDetailsNew dlg = new EmployeeDetailsNew();
             dlg.ShowDialog();
         }
+
+        private void EmployeeDetails_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }
