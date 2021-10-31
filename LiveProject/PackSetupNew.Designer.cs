@@ -56,6 +56,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(495, 29);
             this.textBox1.TabIndex = 93;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  PACK";
             // 
             // label7
@@ -76,7 +77,8 @@
             this.name.Location = new System.Drawing.Point(135, 42);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(282, 20);
-            this.name.TabIndex = 63;
+            this.name.TabIndex = 0;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // usertype
             // 
@@ -90,7 +92,8 @@
             this.usertype.Location = new System.Drawing.Point(135, 68);
             this.usertype.Name = "usertype";
             this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 71;
+            this.usertype.TabIndex = 1;
+            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // textBox2
             // 
@@ -101,7 +104,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 70;
+            this.textBox2.TabIndex = 2;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -134,10 +138,11 @@
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 95;
+            this.save.TabIndex = 2;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // groupBox1
             // 
@@ -151,7 +156,7 @@
             this.groupBox1.Location = new System.Drawing.Point(12, 55);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(471, 158);
-            this.groupBox1.TabIndex = 94;
+            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Pack";
             // 
@@ -166,11 +171,12 @@
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 92;
+            this.close.TabIndex = 3;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // panel1
             // 
@@ -178,7 +184,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(495, 15);
-            this.panel1.TabIndex = 91;
+            this.panel1.TabIndex = 0;
             // 
             // panel2
             // 
@@ -209,6 +215,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PackSetupNew";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PackSetupNew_FormClosing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);            
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

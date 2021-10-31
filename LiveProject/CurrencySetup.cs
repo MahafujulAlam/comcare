@@ -27,5 +27,13 @@ namespace LiveProject
         {
             this.Close();
         }
+
+        private void CurrencySetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

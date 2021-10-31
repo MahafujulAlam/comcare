@@ -21,5 +21,23 @@ namespace LiveProject
             CompositionSetupNew a = new CompositionSetupNew();
             a.ShowDialog();
         }
+
+        private void CompositionSetup_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void CompositionSetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

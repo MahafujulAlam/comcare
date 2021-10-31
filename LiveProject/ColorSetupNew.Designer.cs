@@ -69,7 +69,8 @@
             this.remark.Location = new System.Drawing.Point(108, 87);
             this.remark.Name = "remark";
             this.remark.Size = new System.Drawing.Size(251, 22);
-            this.remark.TabIndex = 52;
+            this.remark.TabIndex = 2;
+            this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // label3
             // 
@@ -89,7 +90,8 @@
             this.name.Location = new System.Drawing.Point(108, 29);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(251, 20);
-            this.name.TabIndex = 50;
+            this.name.TabIndex = 0;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // label2
             // 
@@ -114,6 +116,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(422, 29);
             this.textBox1.TabIndex = 83;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  COLOR SETUP";
             // 
             // groupBox1
@@ -143,7 +146,8 @@
             this.comboBox1.Location = new System.Drawing.Point(108, 55);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(251, 26);
-            this.comboBox1.TabIndex = 54;
+            this.comboBox1.TabIndex = 1;
+            this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // button1
             // 
@@ -155,11 +159,12 @@
             this.button1.Location = new System.Drawing.Point(297, 196);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 30);
-            this.button1.TabIndex = 85;
+            this.button1.TabIndex = 1;
             this.button1.Text = "CANCEL";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // save
             // 
@@ -171,10 +176,11 @@
             this.save.Location = new System.Drawing.Point(191, 196);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 55;
+            this.save.TabIndex = 0;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // panel2
             // 
@@ -205,7 +211,9 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColorADD";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ColorSetupNew_FormClosing);
             this.Load += new System.EventHandler(this.ColorADD_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -27,5 +27,13 @@ namespace LiveProject
             CustomerPaymentNew dlg = new CustomerPaymentNew();
             dlg.ShowDialog();
         }
+
+        private void CustomerPayment_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

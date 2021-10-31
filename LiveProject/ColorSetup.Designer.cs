@@ -50,7 +50,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(6, 121);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(677, 219);
-            this.dataGridView1.TabIndex = 93;
+            this.dataGridView1.TabIndex = 5;
             // 
             // groupBox1
             // 
@@ -98,6 +98,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(690, 29);
             this.textBox1.TabIndex = 91;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  COLOR DETAILS";
             // 
             // panel4
@@ -118,7 +119,7 @@
             this.close.Location = new System.Drawing.Point(583, 346);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 90;
+            this.close.TabIndex = 4;
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
@@ -134,7 +135,7 @@
             this.clearCF.Location = new System.Drawing.Point(371, 346);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(100, 30);
-            this.clearCF.TabIndex = 88;
+            this.clearCF.TabIndex = 2;
             this.clearCF.Text = "CLEAR";
             this.clearCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.clearCF.UseVisualStyleBackColor = false;
@@ -149,7 +150,7 @@
             this.deleteCF.Location = new System.Drawing.Point(477, 346);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
-            this.deleteCF.TabIndex = 89;
+            this.deleteCF.TabIndex = 3;
             this.deleteCF.Text = "DELETE";
             this.deleteCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.deleteCF.UseVisualStyleBackColor = false;
@@ -164,7 +165,7 @@
             this.addCF.Location = new System.Drawing.Point(159, 346);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(100, 30);
-            this.addCF.TabIndex = 86;
+            this.addCF.TabIndex = 0;
             this.addCF.Text = "ADD";
             this.addCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.addCF.UseVisualStyleBackColor = false;
@@ -180,7 +181,7 @@
             this.updateCF.Location = new System.Drawing.Point(265, 346);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
-            this.updateCF.TabIndex = 87;
+            this.updateCF.TabIndex = 1;
             this.updateCF.Text = "UPDATE";
             this.updateCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.updateCF.UseVisualStyleBackColor = false;
@@ -208,6 +209,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColorSetup";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

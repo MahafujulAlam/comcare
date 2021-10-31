@@ -73,6 +73,7 @@
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // panel4
             // 

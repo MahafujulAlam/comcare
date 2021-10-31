@@ -68,6 +68,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(509, 29);
             this.textBox1.TabIndex = 93;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  BANK";
             // 
             // label7
@@ -88,7 +89,8 @@
             this.name.Location = new System.Drawing.Point(170, 39);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(282, 20);
-            this.name.TabIndex = 63;
+            this.name.TabIndex = 0;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label6
             // 
@@ -108,7 +110,8 @@
             this.contact.Location = new System.Drawing.Point(170, 65);
             this.contact.Name = "contact";
             this.contact.Size = new System.Drawing.Size(282, 20);
-            this.contact.TabIndex = 65;
+            this.contact.TabIndex = 1;
+            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // usertype
             // 
@@ -122,7 +125,8 @@
             this.usertype.Location = new System.Drawing.Point(170, 221);
             this.usertype.Name = "usertype";
             this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 71;
+            this.usertype.TabIndex = 8;
+            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // textBox2
             // 
@@ -133,7 +137,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 70;
+            this.textBox2.TabIndex = 9;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -201,7 +206,8 @@
             this.textBox7.Location = new System.Drawing.Point(170, 195);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(282, 20);
-            this.textBox7.TabIndex = 81;
+            this.textBox7.TabIndex = 6;
+            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label4
             // 
@@ -221,7 +227,8 @@
             this.textBox6.Location = new System.Drawing.Point(170, 169);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(282, 20);
-            this.textBox6.TabIndex = 79;
+            this.textBox6.TabIndex = 5;
+            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label3
             // 
@@ -241,7 +248,8 @@
             this.textBox5.Location = new System.Drawing.Point(170, 143);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(282, 20);
-            this.textBox5.TabIndex = 77;
+            this.textBox5.TabIndex = 4;
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label2
             // 
@@ -261,7 +269,8 @@
             this.textBox4.Location = new System.Drawing.Point(170, 117);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(282, 20);
-            this.textBox4.TabIndex = 75;
+            this.textBox4.TabIndex = 3;
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label1
             // 
@@ -281,7 +290,8 @@
             this.textBox3.Location = new System.Drawing.Point(170, 91);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(282, 20);
-            this.textBox3.TabIndex = 73;
+            this.textBox3.TabIndex = 2;
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // panel1
             // 
@@ -289,7 +299,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(509, 15);
-            this.panel1.TabIndex = 91;
+            this.panel1.TabIndex = 0;
             // 
             // save
             // 
@@ -302,10 +312,11 @@
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 95;
+            this.save.TabIndex = 1;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // close
             // 
@@ -318,11 +329,12 @@
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 92;
+            this.close.TabIndex = 2;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // panel2
             // 
@@ -353,7 +365,9 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BankSetupNew";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BankSetupNew_FormClosing);
             this.Load += new System.EventHandler(this.BankSetupNew_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

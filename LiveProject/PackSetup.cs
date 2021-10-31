@@ -26,5 +26,10 @@ namespace LiveProject
             PackSetupNew a = new PackSetupNew();
             a.ShowDialog();
         }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

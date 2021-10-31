@@ -68,6 +68,7 @@
             this.button1.Text = "SEARCH";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // textBox2
             // 
@@ -75,6 +76,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(180, 24);
             this.textBox2.TabIndex = 0;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // textBox1
             // 
@@ -89,6 +91,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(707, 29);
             this.textBox1.TabIndex = 91;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  COMPOSITION DETAILS";
             // 
             // panel4
@@ -106,7 +109,8 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 117);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(683, 219);
-            this.dataGridView1.TabIndex = 93;
+            this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // close
             // 
@@ -118,10 +122,12 @@
             this.close.Location = new System.Drawing.Point(595, 341);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 90;
+            this.close.TabIndex = 4;
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // clearCF
             // 
@@ -133,10 +139,11 @@
             this.clearCF.Location = new System.Drawing.Point(383, 341);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(100, 30);
-            this.clearCF.TabIndex = 88;
+            this.clearCF.TabIndex = 2;
             this.clearCF.Text = "CLEAR";
             this.clearCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.clearCF.UseVisualStyleBackColor = false;
+            this.clearCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // deleteCF
             // 
@@ -148,10 +155,11 @@
             this.deleteCF.Location = new System.Drawing.Point(489, 341);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
-            this.deleteCF.TabIndex = 89;
+            this.deleteCF.TabIndex = 3;
             this.deleteCF.Text = "DELETE";
             this.deleteCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.deleteCF.UseVisualStyleBackColor = false;
+            this.deleteCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // addCF
             // 
@@ -163,11 +171,12 @@
             this.addCF.Location = new System.Drawing.Point(171, 341);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(100, 30);
-            this.addCF.TabIndex = 86;
+            this.addCF.TabIndex = 0;
             this.addCF.Text = "ADD";
             this.addCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.addCF.UseVisualStyleBackColor = false;
             this.addCF.Click += new System.EventHandler(this.addCF_Click);
+            this.addCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // updateCF
             // 
@@ -179,10 +188,11 @@
             this.updateCF.Location = new System.Drawing.Point(277, 341);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
-            this.updateCF.TabIndex = 87;
+            this.updateCF.TabIndex = 1;
             this.updateCF.Text = "UPDATE";
             this.updateCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.updateCF.UseVisualStyleBackColor = false;
+            this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
             // CompositionSetup
             // 
@@ -207,6 +217,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CompositionSetup";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CompositionSetup_FormClosing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Node6");
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Node9");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Node9");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Node10");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.menubar = new System.Windows.Forms.MenuStrip();
             this.dASHBOARDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -172,14 +172,15 @@
             this.tYPESETUPToolStripMenuItem,
             this.pACKSETUPToolStripMenuItem});
             this.aCCOUNTToolStripMenuItem.Name = "aCCOUNTToolStripMenuItem";
-            this.aCCOUNTToolStripMenuItem.Size = new System.Drawing.Size(281, 24);
+            this.aCCOUNTToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
             this.aCCOUNTToolStripMenuItem.Text = "ACCOUNT";
             // 
             // tYPESETUPToolStripMenuItem
             // 
             this.tYPESETUPToolStripMenuItem.Name = "tYPESETUPToolStripMenuItem";
             this.tYPESETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(294, 24);
+            this.tYPESETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
             this.tYPESETUPToolStripMenuItem.Text = "COMPANY PROFILE SETUP";
             this.tYPESETUPToolStripMenuItem.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem_Click);
             // 
@@ -187,7 +188,8 @@
             // 
             this.pACKSETUPToolStripMenuItem.Name = "pACKSETUPToolStripMenuItem";
             this.pACKSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(294, 24);
+            this.pACKSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
             this.pACKSETUPToolStripMenuItem.Text = "BANK SETUP";
             this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
             // 
@@ -197,7 +199,7 @@
             this.cURRENCYSETUPToolStripMenuItem,
             this.tAXSETUPToolStripMenuItem});
             this.mONEYToolStripMenuItem.Name = "mONEYToolStripMenuItem";
-            this.mONEYToolStripMenuItem.Size = new System.Drawing.Size(281, 24);
+            this.mONEYToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
             this.mONEYToolStripMenuItem.Text = "MONEY";
             // 
             // cURRENCYSETUPToolStripMenuItem
@@ -205,7 +207,8 @@
             this.cURRENCYSETUPToolStripMenuItem.Name = "cURRENCYSETUPToolStripMenuItem";
             this.cURRENCYSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.C)));
-            this.cURRENCYSETUPToolStripMenuItem.Size = new System.Drawing.Size(277, 24);
+            this.cURRENCYSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.cURRENCYSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.cURRENCYSETUPToolStripMenuItem.Text = "CURRENCY SETUP";
             this.cURRENCYSETUPToolStripMenuItem.Click += new System.EventHandler(this.cURRENCYSETUPToolStripMenuItem_Click);
             // 
@@ -213,7 +216,8 @@
             // 
             this.tAXSETUPToolStripMenuItem.Name = "tAXSETUPToolStripMenuItem";
             this.tAXSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.tAXSETUPToolStripMenuItem.Size = new System.Drawing.Size(277, 24);
+            this.tAXSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.tAXSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.tAXSETUPToolStripMenuItem.Text = "TAX SETUP";
             this.tAXSETUPToolStripMenuItem.Click += new System.EventHandler(this.tAXSETUPToolStripMenuItem_Click);
             // 
@@ -241,14 +245,14 @@
             // pACKSETUPToolStripMenuItem1
             // 
             this.pACKSETUPToolStripMenuItem1.Name = "pACKSETUPToolStripMenuItem1";
-            this.pACKSETUPToolStripMenuItem1.Size = new System.Drawing.Size(216, 24);
+            this.pACKSETUPToolStripMenuItem1.Size = new System.Drawing.Size(233, 24);
             this.pACKSETUPToolStripMenuItem1.Text = "PACK SETUP";
             this.pACKSETUPToolStripMenuItem1.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem1_Click);
             // 
             // cOLORSETUPToolStripMenuItem
             // 
             this.cOLORSETUPToolStripMenuItem.Name = "cOLORSETUPToolStripMenuItem";
-            this.cOLORSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
+            this.cOLORSETUPToolStripMenuItem.Size = new System.Drawing.Size(233, 24);
             this.cOLORSETUPToolStripMenuItem.Text = "COLOR SETUP";
             this.cOLORSETUPToolStripMenuItem.Click += new System.EventHandler(this.cOLORSETUPToolStripMenuItem_Click);
             // 
@@ -263,7 +267,7 @@
             // cOMPOSITIONSETUPToolStripMenuItem
             // 
             this.cOMPOSITIONSETUPToolStripMenuItem.Name = "cOMPOSITIONSETUPToolStripMenuItem";
-            this.cOMPOSITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
+            this.cOMPOSITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(233, 24);
             this.cOMPOSITIONSETUPToolStripMenuItem.Text = "COMPOSITION SETUP";
             this.cOMPOSITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.cOMPOSITIONSETUPToolStripMenuItem_Click);
             // 
@@ -281,14 +285,15 @@
             this.dETAILSSETUPToolStripMenuItem,
             this.pAYMENTSETUPToolStripMenuItem});
             this.pARTYToolStripMenuItem.Name = "pARTYToolStripMenuItem";
-            this.pARTYToolStripMenuItem.Size = new System.Drawing.Size(281, 24);
+            this.pARTYToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
             this.pARTYToolStripMenuItem.Text = "PARTY";
             // 
             // dETAILSSETUPToolStripMenuItem
             // 
             this.dETAILSSETUPToolStripMenuItem.Name = "dETAILSSETUPToolStripMenuItem";
             this.dETAILSSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.dETAILSSETUPToolStripMenuItem.Size = new System.Drawing.Size(267, 24);
+            this.dETAILSSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.dETAILSSETUPToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.dETAILSSETUPToolStripMenuItem.Text = "DETAILS SETUP";
             this.dETAILSSETUPToolStripMenuItem.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem_Click);
             // 
@@ -297,7 +302,8 @@
             this.pAYMENTSETUPToolStripMenuItem.Name = "pAYMENTSETUPToolStripMenuItem";
             this.pAYMENTSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.P)));
-            this.pAYMENTSETUPToolStripMenuItem.Size = new System.Drawing.Size(267, 24);
+            this.pAYMENTSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.pAYMENTSETUPToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.pAYMENTSETUPToolStripMenuItem.Text = "PAYMENT SETUP";
             this.pAYMENTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pAYMENTSETUPToolStripMenuItem_Click);
             // 
@@ -307,7 +313,7 @@
             this.dETAILSSETUPToolStripMenuItem1,
             this.sALARYSETUPToolStripMenuItem});
             this.eMPLOYEEToolStripMenuItem.Name = "eMPLOYEEToolStripMenuItem";
-            this.eMPLOYEEToolStripMenuItem.Size = new System.Drawing.Size(281, 24);
+            this.eMPLOYEEToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
             this.eMPLOYEEToolStripMenuItem.Text = "EMPLOYEE";
             // 
             // dETAILSSETUPToolStripMenuItem1
@@ -315,7 +321,8 @@
             this.dETAILSSETUPToolStripMenuItem1.Name = "dETAILSSETUPToolStripMenuItem1";
             this.dETAILSSETUPToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D)));
-            this.dETAILSSETUPToolStripMenuItem1.Size = new System.Drawing.Size(259, 24);
+            this.dETAILSSETUPToolStripMenuItem1.ShowShortcutKeys = false;
+            this.dETAILSSETUPToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
             this.dETAILSSETUPToolStripMenuItem1.Text = "DETAILS SETUP";
             this.dETAILSSETUPToolStripMenuItem1.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem1_Click);
             // 
@@ -323,7 +330,8 @@
             // 
             this.sALARYSETUPToolStripMenuItem.Name = "sALARYSETUPToolStripMenuItem";
             this.sALARYSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.sALARYSETUPToolStripMenuItem.Size = new System.Drawing.Size(259, 24);
+            this.sALARYSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.sALARYSETUPToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.sALARYSETUPToolStripMenuItem.Text = "SALARY SETUP";
             this.sALARYSETUPToolStripMenuItem.Click += new System.EventHandler(this.sALARYSETUPToolStripMenuItem_Click);
             // 
@@ -331,7 +339,8 @@
             // 
             this.tAXCONDITIONSETUPToolStripMenuItem.Name = "tAXCONDITIONSETUPToolStripMenuItem";
             this.tAXCONDITIONSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.tAXCONDITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(281, 24);
+            this.tAXCONDITIONSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.tAXCONDITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
             this.tAXCONDITIONSETUPToolStripMenuItem.Text = "TERMS AND CONDITION";
             this.tAXCONDITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.tAXCONDITIONSETUPToolStripMenuItem_Click);
             // 
@@ -341,14 +350,15 @@
             this.rACKToolStripMenuItem,
             this.hOMEDPToolStripMenuItem});
             this.oTHERSToolStripMenuItem.Name = "oTHERSToolStripMenuItem";
-            this.oTHERSToolStripMenuItem.Size = new System.Drawing.Size(281, 24);
+            this.oTHERSToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
             this.oTHERSToolStripMenuItem.Text = "OTHERS";
             // 
             // rACKToolStripMenuItem
             // 
             this.rACKToolStripMenuItem.Name = "rACKToolStripMenuItem";
             this.rACKToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(274, 24);
+            this.rACKToolStripMenuItem.ShowShortcutKeys = false;
+            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
             this.rACKToolStripMenuItem.Text = "RACK";
             this.rACKToolStripMenuItem.Click += new System.EventHandler(this.rACKToolStripMenuItem_Click);
             // 
@@ -356,7 +366,8 @@
             // 
             this.hOMEDPToolStripMenuItem.Name = "hOMEDPToolStripMenuItem";
             this.hOMEDPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(274, 24);
+            this.hOMEDPToolStripMenuItem.ShowShortcutKeys = false;
+            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
             this.hOMEDPToolStripMenuItem.Text = "HOMEPAGE WALPAPER";
             this.hOMEDPToolStripMenuItem.Click += new System.EventHandler(this.hOMEDPToolStripMenuItem_Click);
             // 
@@ -390,7 +401,8 @@
             // 
             this.nEWToolStripMenuItem.Name = "nEWToolStripMenuItem";
             this.nEWToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.nEWToolStripMenuItem.Size = new System.Drawing.Size(255, 24);
+            this.nEWToolStripMenuItem.ShowShortcutKeys = false;
+            this.nEWToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.nEWToolStripMenuItem.Text = "NEW";
             this.nEWToolStripMenuItem.Click += new System.EventHandler(this.nEWToolStripMenuItem_Click);
             // 
@@ -400,7 +412,8 @@
             this.pREVIOUSToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.P)));
-            this.pREVIOUSToolStripMenuItem.Size = new System.Drawing.Size(255, 24);
+            this.pREVIOUSToolStripMenuItem.ShowShortcutKeys = false;
+            this.pREVIOUSToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.pREVIOUSToolStripMenuItem.Text = "PREVIOUS";
             this.pREVIOUSToolStripMenuItem.Click += new System.EventHandler(this.pREVIOUSToolStripMenuItem_Click);
             // 
@@ -419,7 +432,8 @@
             this.pURCHASERETURNToolStripMenuItem.Name = "pURCHASERETURNToolStripMenuItem";
             this.pURCHASERETURNToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.R)));
-            this.pURCHASERETURNToolStripMenuItem.Size = new System.Drawing.Size(286, 24);
+            this.pURCHASERETURNToolStripMenuItem.ShowShortcutKeys = false;
+            this.pURCHASERETURNToolStripMenuItem.Size = new System.Drawing.Size(191, 24);
             this.pURCHASERETURNToolStripMenuItem.Text = "PURCHASE RETURN";
             this.pURCHASERETURNToolStripMenuItem.Click += new System.EventHandler(this.pURCHASERETURNToolStripMenuItem_Click);
             // 
@@ -429,7 +443,8 @@
             this.sALERETURNToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.R)));
-            this.sALERETURNToolStripMenuItem.Size = new System.Drawing.Size(286, 24);
+            this.sALERETURNToolStripMenuItem.ShowShortcutKeys = false;
+            this.sALERETURNToolStripMenuItem.Size = new System.Drawing.Size(191, 24);
             this.sALERETURNToolStripMenuItem.Text = "SALE RETURN";
             this.sALERETURNToolStripMenuItem.Click += new System.EventHandler(this.sALERETURNToolStripMenuItem_Click);
             // 
@@ -481,7 +496,8 @@
             this.pARTYPAYMENTToolStripMenuItem.Name = "pARTYPAYMENTToolStripMenuItem";
             this.pARTYPAYMENTToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
-            this.pARTYPAYMENTToolStripMenuItem.Size = new System.Drawing.Size(283, 24);
+            this.pARTYPAYMENTToolStripMenuItem.ShowShortcutKeys = false;
+            this.pARTYPAYMENTToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.pARTYPAYMENTToolStripMenuItem.Text = "SELLER PAYMENT";
             this.pARTYPAYMENTToolStripMenuItem.Click += new System.EventHandler(this.pARTYPAYMENTToolStripMenuItem_Click);
             // 
@@ -489,7 +505,8 @@
             // 
             this.eXPENSESToolStripMenuItem.Name = "eXPENSESToolStripMenuItem";
             this.eXPENSESToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.eXPENSESToolStripMenuItem.Size = new System.Drawing.Size(283, 24);
+            this.eXPENSESToolStripMenuItem.ShowShortcutKeys = false;
+            this.eXPENSESToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.eXPENSESToolStripMenuItem.Text = "EXPENSES";
             this.eXPENSESToolStripMenuItem.Click += new System.EventHandler(this.eXPENSESToolStripMenuItem_Click);
             // 
@@ -501,21 +518,22 @@
             this.eMPLOYEESALARYToolStripMenuItem.Name = "eMPLOYEESALARYToolStripMenuItem";
             this.eMPLOYEESALARYToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.E)));
-            this.eMPLOYEESALARYToolStripMenuItem.Size = new System.Drawing.Size(283, 24);
+            this.eMPLOYEESALARYToolStripMenuItem.ShowShortcutKeys = false;
+            this.eMPLOYEESALARYToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.eMPLOYEESALARYToolStripMenuItem.Text = "EMPLOYEE SALARY";
             this.eMPLOYEESALARYToolStripMenuItem.Click += new System.EventHandler(this.eMPLOYEESALARYToolStripMenuItem_Click);
             // 
             // sALARYToolStripMenuItem
             // 
             this.sALARYToolStripMenuItem.Name = "sALARYToolStripMenuItem";
-            this.sALARYToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.sALARYToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.sALARYToolStripMenuItem.Text = "PAYMENT";
             this.sALARYToolStripMenuItem.Click += new System.EventHandler(this.sALARYToolStripMenuItem_Click);
             // 
             // dUEToolStripMenuItem
             // 
             this.dUEToolStripMenuItem.Name = "dUEToolStripMenuItem";
-            this.dUEToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.dUEToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.dUEToolStripMenuItem.Text = "DUE";
             this.dUEToolStripMenuItem.Click += new System.EventHandler(this.dUEToolStripMenuItem_Click);
             // 
@@ -543,7 +561,7 @@
             // 
             this.uSERToolStripMenuItem.Name = "uSERToolStripMenuItem";
             this.uSERToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.uSERToolStripMenuItem.Size = new System.Drawing.Size(288, 24);
+            this.uSERToolStripMenuItem.Size = new System.Drawing.Size(313, 24);
             this.uSERToolStripMenuItem.Text = "USER";
             this.uSERToolStripMenuItem.Click += new System.EventHandler(this.uSERToolStripMenuItem_Click);
             // 
@@ -576,7 +594,8 @@
             // 
             this.iNDEXToolStripMenuItem.Name = "iNDEXToolStripMenuItem";
             this.iNDEXToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.iNDEXToolStripMenuItem.Size = new System.Drawing.Size(237, 24);
+            this.iNDEXToolStripMenuItem.ShowShortcutKeys = false;
+            this.iNDEXToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.iNDEXToolStripMenuItem.Text = "INDEX";
             // 
             // aBOUTToolStripMenuItem
@@ -584,7 +603,8 @@
             this.aBOUTToolStripMenuItem.Name = "aBOUTToolStripMenuItem";
             this.aBOUTToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.A)));
-            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
+            this.aBOUTToolStripMenuItem.ShowShortcutKeys = false;
+            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.aBOUTToolStripMenuItem.Text = "ABOUT";
             // 
             // eXITToolStripMenuItem
@@ -639,40 +659,40 @@
             this.hometreeView.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hometreeView.Location = new System.Drawing.Point(0, 0);
             this.hometreeView.Name = "hometreeView";
-            treeNode45.Name = "Node0";
-            treeNode45.Text = "RECENT VIEWS";
-            treeNode46.Name = "Node1";
-            treeNode46.Text = "Node1";
-            treeNode47.Name = "Node2";
-            treeNode47.Text = "Node2";
-            treeNode48.Name = "Node3";
-            treeNode48.Text = "Node3";
-            treeNode49.Name = "Node4";
-            treeNode49.Text = "Node4";
-            treeNode50.Name = "Node5";
-            treeNode50.Text = "Node5";
-            treeNode51.Name = "Node6";
-            treeNode51.Text = "Node6";
-            treeNode52.Name = "Node7";
-            treeNode52.Text = "Node7";
-            treeNode53.Name = "Node8";
-            treeNode53.Text = "Node8";
-            treeNode54.Name = "Node9";
-            treeNode54.Text = "Node9";
-            treeNode55.Name = "Node10";
-            treeNode55.Text = "Node10";
+            treeNode12.Name = "Node0";
+            treeNode12.Text = "RECENT VIEWS";
+            treeNode13.Name = "Node1";
+            treeNode13.Text = "Node1";
+            treeNode14.Name = "Node2";
+            treeNode14.Text = "Node2";
+            treeNode15.Name = "Node3";
+            treeNode15.Text = "Node3";
+            treeNode16.Name = "Node4";
+            treeNode16.Text = "Node4";
+            treeNode17.Name = "Node5";
+            treeNode17.Text = "Node5";
+            treeNode18.Name = "Node6";
+            treeNode18.Text = "Node6";
+            treeNode19.Name = "Node7";
+            treeNode19.Text = "Node7";
+            treeNode20.Name = "Node8";
+            treeNode20.Text = "Node8";
+            treeNode21.Name = "Node9";
+            treeNode21.Text = "Node9";
+            treeNode22.Name = "Node10";
+            treeNode22.Text = "Node10";
             this.hometreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode45,
-            treeNode46,
-            treeNode47,
-            treeNode48,
-            treeNode49,
-            treeNode50,
-            treeNode51,
-            treeNode52,
-            treeNode53,
-            treeNode54,
-            treeNode55});
+            treeNode12,
+            treeNode13,
+            treeNode14,
+            treeNode15,
+            treeNode16,
+            treeNode17,
+            treeNode18,
+            treeNode19,
+            treeNode20,
+            treeNode21,
+            treeNode22});
             this.hometreeView.Size = new System.Drawing.Size(157, 580);
             this.hometreeView.TabIndex = 0;
             // 

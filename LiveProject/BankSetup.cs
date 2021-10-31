@@ -26,5 +26,18 @@ namespace LiveProject
         {
             this.Close();
         }
+
+        private void BankSetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+
+        private void BankSetup_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
     }
 }

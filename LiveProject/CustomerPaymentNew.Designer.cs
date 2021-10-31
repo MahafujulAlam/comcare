@@ -68,6 +68,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(512, 29);
             this.textBox1.TabIndex = 98;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  CUSTOMER PAYMENT";
             // 
             // groupBox1
@@ -106,7 +107,8 @@
             this.textBox5.Location = new System.Drawing.Point(183, 206);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(282, 20);
-            this.textBox5.TabIndex = 87;
+            this.textBox5.TabIndex = 6;
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // textBox7
             // 
@@ -116,7 +118,8 @@
             this.textBox7.Location = new System.Drawing.Point(183, 150);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(282, 20);
-            this.textBox7.TabIndex = 85;
+            this.textBox7.TabIndex = 4;
+            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // textBox8
             // 
@@ -126,7 +129,8 @@
             this.textBox8.Location = new System.Drawing.Point(183, 178);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(282, 20);
-            this.textBox8.TabIndex = 86;
+            this.textBox8.TabIndex = 5;
+            this.textBox8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // textBox3
             // 
@@ -136,7 +140,8 @@
             this.textBox3.Location = new System.Drawing.Point(183, 94);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(282, 20);
-            this.textBox3.TabIndex = 83;
+            this.textBox3.TabIndex = 2;
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // textBox4
             // 
@@ -146,7 +151,8 @@
             this.textBox4.Location = new System.Drawing.Point(183, 122);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(282, 20);
-            this.textBox4.TabIndex = 84;
+            this.textBox4.TabIndex = 3;
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // label10
             // 
@@ -245,7 +251,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(183, 232);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(282, 24);
-            this.dateTimePicker1.TabIndex = 73;
+            this.dateTimePicker1.TabIndex = 7;
             // 
             // name
             // 
@@ -255,7 +261,8 @@
             this.name.Location = new System.Drawing.Point(183, 38);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(282, 20);
-            this.name.TabIndex = 63;
+            this.name.TabIndex = 0;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // contact
             // 
@@ -265,7 +272,8 @@
             this.contact.Location = new System.Drawing.Point(183, 66);
             this.contact.Name = "contact";
             this.contact.Size = new System.Drawing.Size(282, 20);
-            this.contact.TabIndex = 65;
+            this.contact.TabIndex = 1;
+            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // textBox2
             // 
@@ -276,7 +284,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 70;
+            this.textBox2.TabIndex = 8;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // save
             // 
@@ -289,10 +298,11 @@
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 100;
+            this.save.TabIndex = 0;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // close
             // 
@@ -305,11 +315,12 @@
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 97;
+            this.close.TabIndex = 1;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             // 
             // panel1
             // 
@@ -348,6 +359,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustomerPaymentNew";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CustomerPaymentNew_FormClosing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomerPaymentNew_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

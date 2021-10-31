@@ -167,8 +167,9 @@
             this.textBox1.Location = new System.Drawing.Point(562, 405);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 100;
+            this.textBox1.TabIndex = 23;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // textBox3
             // 
@@ -178,8 +179,9 @@
             this.textBox3.Location = new System.Drawing.Point(421, 405);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 98;
+            this.textBox3.TabIndex = 22;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label24
             // 
@@ -198,12 +200,14 @@
             this.logobtn.Location = new System.Drawing.Point(821, 219);
             this.logobtn.Name = "logobtn";
             this.logobtn.Size = new System.Drawing.Size(60, 25);
-            this.logobtn.TabIndex = 96;
+            this.logobtn.TabIndex = 17;
             this.logobtn.Text = "Select";
             this.logobtn.UseVisualStyleBackColor = false;
+            this.logobtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // logo
             // 
+            this.logo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.logo.Location = new System.Drawing.Point(621, 187);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(118, 80);
@@ -219,8 +223,9 @@
             this.jurisdiction.Location = new System.Drawing.Point(621, 361);
             this.jurisdiction.Name = "jurisdiction";
             this.jurisdiction.Size = new System.Drawing.Size(260, 22);
-            this.jurisdiction.TabIndex = 93;
+            this.jurisdiction.TabIndex = 21;
             this.jurisdiction.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.jurisdiction.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label23
             // 
@@ -240,8 +245,9 @@
             this.mfglicenseno.Location = new System.Drawing.Point(621, 332);
             this.mfglicenseno.Name = "mfglicenseno";
             this.mfglicenseno.Size = new System.Drawing.Size(260, 22);
-            this.mfglicenseno.TabIndex = 91;
+            this.mfglicenseno.TabIndex = 20;
             this.mfglicenseno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mfglicenseno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label22
             // 
@@ -261,8 +267,9 @@
             this.flicenseno.Location = new System.Drawing.Point(621, 303);
             this.flicenseno.Name = "flicenseno";
             this.flicenseno.Size = new System.Drawing.Size(260, 22);
-            this.flicenseno.TabIndex = 89;
+            this.flicenseno.TabIndex = 19;
             this.flicenseno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.flicenseno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label21
             // 
@@ -282,8 +289,9 @@
             this.dlno.Location = new System.Drawing.Point(621, 273);
             this.dlno.Name = "dlno";
             this.dlno.Size = new System.Drawing.Size(260, 22);
-            this.dlno.TabIndex = 87;
+            this.dlno.TabIndex = 18;
             this.dlno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.dlno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label20
             // 
@@ -313,8 +321,9 @@
             this.tagline.Location = new System.Drawing.Point(621, 158);
             this.tagline.Name = "tagline";
             this.tagline.Size = new System.Drawing.Size(260, 22);
-            this.tagline.TabIndex = 84;
+            this.tagline.TabIndex = 16;
             this.tagline.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tagline.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label18
             // 
@@ -334,8 +343,9 @@
             this.website.Location = new System.Drawing.Point(621, 129);
             this.website.Name = "website";
             this.website.Size = new System.Drawing.Size(260, 22);
-            this.website.TabIndex = 82;
+            this.website.TabIndex = 15;
             this.website.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.website.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label17
             // 
@@ -355,8 +365,9 @@
             this.email.Location = new System.Drawing.Point(621, 100);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(260, 22);
-            this.email.TabIndex = 80;
+            this.email.TabIndex = 14;
             this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.email.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label16
             // 
@@ -376,8 +387,9 @@
             this.statecode.Location = new System.Drawing.Point(621, 71);
             this.statecode.Name = "statecode";
             this.statecode.Size = new System.Drawing.Size(260, 22);
-            this.statecode.TabIndex = 78;
+            this.statecode.TabIndex = 13;
             this.statecode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.statecode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label15
             // 
@@ -397,8 +409,9 @@
             this.license.Location = new System.Drawing.Point(621, 43);
             this.license.Name = "license";
             this.license.Size = new System.Drawing.Size(260, 22);
-            this.license.TabIndex = 76;
+            this.license.TabIndex = 12;
             this.license.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.license.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label14
             // 
@@ -418,8 +431,9 @@
             this.cnno.Location = new System.Drawing.Point(159, 361);
             this.cnno.Name = "cnno";
             this.cnno.Size = new System.Drawing.Size(260, 22);
-            this.cnno.TabIndex = 74;
+            this.cnno.TabIndex = 11;
             this.cnno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cnno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label13
             // 
@@ -439,8 +453,9 @@
             this.gstno.Location = new System.Drawing.Point(159, 332);
             this.gstno.Name = "gstno";
             this.gstno.Size = new System.Drawing.Size(260, 22);
-            this.gstno.TabIndex = 72;
+            this.gstno.TabIndex = 10;
             this.gstno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gstno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label12
             // 
@@ -461,8 +476,9 @@
             this.pan.MaxLength = 10;
             this.pan.Name = "pan";
             this.pan.Size = new System.Drawing.Size(260, 22);
-            this.pan.TabIndex = 70;
+            this.pan.TabIndex = 9;
             this.pan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pan.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label11
             // 
@@ -483,8 +499,9 @@
             this.pin.MaxLength = 6;
             this.pin.Name = "pin";
             this.pin.Size = new System.Drawing.Size(260, 22);
-            this.pin.TabIndex = 68;
+            this.pin.TabIndex = 8;
             this.pin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pin.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label10
             // 
@@ -504,8 +521,9 @@
             this.village.Location = new System.Drawing.Point(159, 245);
             this.village.Name = "village";
             this.village.Size = new System.Drawing.Size(260, 22);
-            this.village.TabIndex = 66;
+            this.village.TabIndex = 7;
             this.village.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.village.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label9
             // 
@@ -525,8 +543,9 @@
             this.ps.Location = new System.Drawing.Point(159, 216);
             this.ps.Name = "ps";
             this.ps.Size = new System.Drawing.Size(260, 22);
-            this.ps.TabIndex = 64;
+            this.ps.TabIndex = 6;
             this.ps.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ps.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label8
             // 
@@ -546,9 +565,10 @@
             this.dist.Location = new System.Drawing.Point(159, 187);
             this.dist.Name = "dist";
             this.dist.Size = new System.Drawing.Size(260, 22);
-            this.dist.TabIndex = 62;
+            this.dist.TabIndex = 5;
             this.dist.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.dist.TextChanged += new System.EventHandler(this.dist_TextChanged);
+            this.dist.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label7
             // 
@@ -568,9 +588,10 @@
             this.state.Location = new System.Drawing.Point(159, 158);
             this.state.Name = "state";
             this.state.Size = new System.Drawing.Size(260, 22);
-            this.state.TabIndex = 60;
+            this.state.TabIndex = 4;
             this.state.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.state.TextChanged += new System.EventHandler(this.state_TextChanged);
+            this.state.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label6
             // 
@@ -590,9 +611,10 @@
             this.country.Location = new System.Drawing.Point(159, 129);
             this.country.Name = "country";
             this.country.Size = new System.Drawing.Size(260, 22);
-            this.country.TabIndex = 58;
+            this.country.TabIndex = 3;
             this.country.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.country.TextChanged += new System.EventHandler(this.country_TextChanged);
+            this.country.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label5
             // 
@@ -613,9 +635,10 @@
             this.contact2.MaxLength = 10;
             this.contact2.Name = "contact2";
             this.contact2.Size = new System.Drawing.Size(260, 22);
-            this.contact2.TabIndex = 56;
+            this.contact2.TabIndex = 2;
             this.contact2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.contact2.TextChanged += new System.EventHandler(this.contact2_TextChanged);
+            this.contact2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label4
             // 
@@ -636,9 +659,10 @@
             this.contact.MaxLength = 10;
             this.contact.Name = "contact";
             this.contact.Size = new System.Drawing.Size(260, 22);
-            this.contact.TabIndex = 54;
+            this.contact.TabIndex = 1;
             this.contact.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.contact.TextChanged += new System.EventHandler(this.contact_TextChanged);
+            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label3
             // 
@@ -658,9 +682,10 @@
             this.name.Location = new System.Drawing.Point(159, 42);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(260, 22);
-            this.name.TabIndex = 52;
+            this.name.TabIndex = 0;
             this.name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label2
             // 
@@ -682,10 +707,11 @@
             this.button1.Location = new System.Drawing.Point(596, 499);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 30);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 0;
             this.button1.Text = "Save";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // button2
             // 
@@ -697,10 +723,11 @@
             this.button2.Location = new System.Drawing.Point(702, 499);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 30);
-            this.button2.TabIndex = 2;
+            this.button2.TabIndex = 1;
             this.button2.Text = "Update";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // button3
             // 
@@ -713,11 +740,12 @@
             this.button3.Location = new System.Drawing.Point(808, 499);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 30);
-            this.button3.TabIndex = 3;
+            this.button3.TabIndex = 2;
             this.button3.Text = "Close";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // panel1
             // 
@@ -741,6 +769,7 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(920, 23);
             this.textBox2.TabIndex = 7;
+            this.textBox2.TabStop = false;
             this.textBox2.Text = "  COMPANY PROFILE";
             // 
             // panel2
@@ -774,6 +803,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CompanyProfile";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CompanyProfile_FormClosing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();

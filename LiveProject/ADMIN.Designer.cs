@@ -189,6 +189,7 @@
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // Admin
             // 
@@ -209,6 +210,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADMIN";
+            this.Load += new System.EventHandler(this.Admin_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
