@@ -161,7 +161,7 @@
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(187, 282);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(376, 27);
             this.textBox5.TabIndex = 7;
@@ -216,9 +216,9 @@
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 68);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1209, 370);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -230,7 +230,7 @@
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(187, 139);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(375, 28);
             this.dateTimePicker1.TabIndex = 3;
@@ -242,7 +242,7 @@
             this.logobtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.logobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
             this.logobtn.Location = new System.Drawing.Point(1113, 172);
-            this.logobtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.logobtn.Margin = new System.Windows.Forms.Padding(4);
             this.logobtn.Name = "logobtn";
             this.logobtn.Size = new System.Drawing.Size(80, 31);
             this.logobtn.TabIndex = 11;
@@ -256,7 +256,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(817, 314);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(376, 27);
@@ -267,7 +267,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pictureBox1.Location = new System.Drawing.Point(817, 107);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(179, 165);
             this.pictureBox1.TabIndex = 193;
@@ -278,7 +278,7 @@
             this.date.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
             this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.date.Location = new System.Drawing.Point(817, 70);
-            this.date.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.date.Margin = new System.Windows.Forms.Padding(4);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(375, 28);
             this.date.TabIndex = 10;
@@ -291,7 +291,7 @@
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.Location = new System.Drawing.Point(187, 316);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(376, 27);
             this.textBox11.TabIndex = 8;
@@ -303,7 +303,7 @@
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.Location = new System.Drawing.Point(817, 36);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(376, 27);
             this.textBox12.TabIndex = 9;
@@ -338,7 +338,7 @@
             this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.remark.Location = new System.Drawing.Point(817, 279);
-            this.remark.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.remark.Margin = new System.Windows.Forms.Padding(4);
             this.remark.Name = "remark";
             this.remark.PasswordChar = '*';
             this.remark.Size = new System.Drawing.Size(376, 27);
@@ -395,7 +395,7 @@
             this.branchname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.branchname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.branchname.Location = new System.Drawing.Point(187, 247);
-            this.branchname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.branchname.Margin = new System.Windows.Forms.Padding(4);
             this.branchname.Name = "branchname";
             this.branchname.Size = new System.Drawing.Size(376, 27);
             this.branchname.TabIndex = 6;
@@ -407,7 +407,7 @@
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.Location = new System.Drawing.Point(187, 213);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(376, 27);
             this.textBox7.TabIndex = 5;
@@ -419,7 +419,7 @@
             this.fixedsal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.fixedsal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fixedsal.Location = new System.Drawing.Point(187, 105);
-            this.fixedsal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fixedsal.Margin = new System.Windows.Forms.Padding(4);
             this.fixedsal.Name = "fixedsal";
             this.fixedsal.Size = new System.Drawing.Size(376, 27);
             this.fixedsal.TabIndex = 2;
@@ -431,7 +431,7 @@
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.Location = new System.Drawing.Point(187, 36);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(376, 27);
             this.textBox8.TabIndex = 0;
@@ -443,7 +443,7 @@
             this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contact.Location = new System.Drawing.Point(187, 70);
-            this.contact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.contact.Margin = new System.Windows.Forms.Padding(4);
             this.contact.Name = "contact";
             this.contact.Size = new System.Drawing.Size(376, 27);
             this.contact.TabIndex = 1;
@@ -461,7 +461,7 @@
             "ACTIVE",
             "INACTIVE"});
             this.paymode.Location = new System.Drawing.Point(187, 176);
-            this.paymode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.paymode.Margin = new System.Windows.Forms.Padding(4);
             this.paymode.Name = "paymode";
             this.paymode.Size = new System.Drawing.Size(375, 28);
             this.paymode.TabIndex = 4;
@@ -475,7 +475,7 @@
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.close.Location = new System.Drawing.Point(1092, 446);
-            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.close.Margin = new System.Windows.Forms.Padding(4);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(133, 37);
@@ -494,7 +494,7 @@
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.save.Location = new System.Drawing.Point(951, 446);
-            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.save.Margin = new System.Windows.Forms.Padding(4);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(133, 37);
@@ -508,17 +508,18 @@
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1241, 18);
             this.panel1.TabIndex = 183;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 493);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1241, 12);
             this.panel2.TabIndex = 188;
@@ -536,7 +537,7 @@
             this.Controls.Add(this.save);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EmployeeDetailsNew";

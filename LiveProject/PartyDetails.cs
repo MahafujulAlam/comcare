@@ -38,5 +38,13 @@ namespace LiveProject
             PartyDetailsNew dlg = new PartyDetailsNew();
             dlg.ShowDialog();
         }
+
+        private void PartyDetails_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

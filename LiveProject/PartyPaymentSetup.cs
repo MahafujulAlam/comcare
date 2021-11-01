@@ -26,5 +26,13 @@ namespace LiveProject
             PartyPaymentSetupNew dlg = new PartyPaymentSetupNew();
             dlg.ShowDialog();
         }
+
+        private void PartyPaymentSetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

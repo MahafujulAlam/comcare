@@ -38,5 +38,26 @@ namespace LiveProject
         {
 
         }
+
+        private void HomeDp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void HomeDp_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want to cancel ?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void HomeDp_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

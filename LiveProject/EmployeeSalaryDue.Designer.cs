@@ -49,9 +49,9 @@
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 63);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1237, 74);
             this.groupBox1.TabIndex = 119;
             this.groupBox1.TabStop = false;
@@ -64,19 +64,20 @@
             this.button1.Image = global::LiveProject.Properties.Resources.search1;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(269, 23);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 37);
             this.button1.TabIndex = 1;
             this.button1.Text = "SEARCH";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalaryDue_KeyDown);
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(8, 28);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(239, 28);
             this.textBox2.TabIndex = 0;
@@ -87,7 +88,7 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 144);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1237, 443);
             this.dataGridView1.TabIndex = 5;
@@ -117,7 +118,7 @@
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.close.Location = new System.Drawing.Point(1120, 594);
-            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.close.Margin = new System.Windows.Forms.Padding(4);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(133, 37);
             this.close.TabIndex = 4;
@@ -131,7 +132,7 @@
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1269, 18);
             this.panel4.TabIndex = 112;
@@ -144,7 +145,7 @@
             this.clearCF.Image = global::LiveProject.Properties.Resources.update;
             this.clearCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.clearCF.Location = new System.Drawing.Point(837, 594);
-            this.clearCF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clearCF.Margin = new System.Windows.Forms.Padding(4);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(133, 37);
             this.clearCF.TabIndex = 2;
@@ -161,7 +162,7 @@
             this.deleteCF.Image = global::LiveProject.Properties.Resources.delete;
             this.deleteCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.deleteCF.Location = new System.Drawing.Point(979, 594);
-            this.deleteCF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.deleteCF.Margin = new System.Windows.Forms.Padding(4);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(133, 37);
             this.deleteCF.TabIndex = 3;
@@ -178,7 +179,7 @@
             this.addCF.Image = global::LiveProject.Properties.Resources.add11;
             this.addCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.addCF.Location = new System.Drawing.Point(557, 594);
-            this.addCF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addCF.Margin = new System.Windows.Forms.Padding(4);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(133, 37);
             this.addCF.TabIndex = 0;
@@ -196,7 +197,7 @@
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.updateCF.Location = new System.Drawing.Point(696, 594);
-            this.updateCF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.updateCF.Margin = new System.Windows.Forms.Padding(4);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(133, 37);
             this.updateCF.TabIndex = 1;
@@ -221,7 +222,7 @@
             this.Controls.Add(this.addCF);
             this.Controls.Add(this.updateCF);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EmployeeSalaryDue";

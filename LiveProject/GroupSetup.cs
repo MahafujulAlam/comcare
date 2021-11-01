@@ -21,5 +21,18 @@ namespace LiveProject
             GroupSetupNew a = new GroupSetupNew();
             a.ShowDialog();
         }
+
+        private void GroupSetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
