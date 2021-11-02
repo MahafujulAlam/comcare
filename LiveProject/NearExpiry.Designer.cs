@@ -129,6 +129,7 @@
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
+            this.close.Click += new System.EventHandler(this.close_Click_1);
             this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NearExpiry_KeyDown);
             // 
             // NearExpiry
