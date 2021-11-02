@@ -15,5 +15,17 @@ namespace LiveProject
         {
             InitializeComponent();
         }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

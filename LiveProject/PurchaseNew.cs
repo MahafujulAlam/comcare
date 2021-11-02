@@ -51,9 +51,10 @@ namespace LiveProject
 
         private void PurchaseNew_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to cancel?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            DialogResult dlg = MessageBox.Show("Are you sure you want to cancel ?", "Close window", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dlg == DialogResult.No)
             {
-                this.Close();
+                e.Cancel = true;
             }
         }
     }

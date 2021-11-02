@@ -15,5 +15,23 @@ namespace LiveProject
         {
             InitializeComponent();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home dlg = new Home();
+            dlg.ShowDialog();
+        }
+
+        
     }
 }
