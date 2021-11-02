@@ -94,6 +94,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(976, 29);
             this.textBox1.TabIndex = 98;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  SELLER PAYMENT";
             // 
             // name
@@ -104,7 +105,8 @@
             this.name.Location = new System.Drawing.Point(136, 28);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(282, 20);
-            this.name.TabIndex = 63;
+            this.name.TabIndex = 0;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // partyid
             // 
@@ -114,7 +116,8 @@
             this.partyid.Location = new System.Drawing.Point(640, 25);
             this.partyid.Name = "partyid";
             this.partyid.Size = new System.Drawing.Size(282, 20);
-            this.partyid.TabIndex = 65;
+            this.partyid.TabIndex = 2;
+            this.partyid.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // contact
             // 
@@ -125,7 +128,8 @@
             this.contact.Name = "contact";
             this.contact.PasswordChar = '*';
             this.contact.Size = new System.Drawing.Size(282, 20);
-            this.contact.TabIndex = 70;
+            this.contact.TabIndex = 1;
+            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // groupBox1
             // 
@@ -170,7 +174,8 @@
             this.textBox7.Location = new System.Drawing.Point(179, 78);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(265, 20);
-            this.textBox7.TabIndex = 168;
+            this.textBox7.TabIndex = 2;
+            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // textBox6
             // 
@@ -181,7 +186,8 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.PasswordChar = '*';
             this.textBox6.Size = new System.Drawing.Size(266, 20);
-            this.textBox6.TabIndex = 167;
+            this.textBox6.TabIndex = 6;
+            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label19
             // 
@@ -212,7 +218,8 @@
             this.textBox4.Location = new System.Drawing.Point(180, 104);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(265, 20);
-            this.textBox4.TabIndex = 163;
+            this.textBox4.TabIndex = 3;
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // textBox5
             // 
@@ -223,8 +230,9 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.PasswordChar = '*';
             this.textBox5.Size = new System.Drawing.Size(266, 20);
-            this.textBox5.TabIndex = 164;
+            this.textBox5.TabIndex = 5;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label17
             // 
@@ -244,9 +252,10 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(180, 130);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(266, 24);
-            this.dateTimePicker2.TabIndex = 161;
+            this.dateTimePicker2.TabIndex = 4;
             this.dateTimePicker2.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
             this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
+            this.dateTimePicker2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label18
             // 
@@ -278,8 +287,9 @@
             this.textBox3.Location = new System.Drawing.Point(180, 52);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(265, 20);
-            this.textBox3.TabIndex = 157;
+            this.textBox3.TabIndex = 1;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label14
             // 
@@ -299,8 +309,9 @@
             this.textBox2.Location = new System.Drawing.Point(180, 26);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(266, 20);
-            this.textBox2.TabIndex = 155;
+            this.textBox2.TabIndex = 0;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label13
             // 
@@ -333,7 +344,7 @@
             this.groupBox3.Location = new System.Drawing.Point(6, 125);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(471, 259);
-            this.groupBox3.TabIndex = 127;
+            this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             // 
             // label7
@@ -355,7 +366,8 @@
             this.comboBox1.Location = new System.Drawing.Point(167, 24);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(282, 26);
-            this.comboBox1.TabIndex = 157;
+            this.comboBox1.TabIndex = 0;
+            this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label8
             // 
@@ -375,7 +387,8 @@
             this.dueamount.Location = new System.Drawing.Point(167, 134);
             this.dueamount.Name = "dueamount";
             this.dueamount.Size = new System.Drawing.Size(282, 20);
-            this.dueamount.TabIndex = 153;
+            this.dueamount.TabIndex = 4;
+            this.dueamount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // payingamount
             // 
@@ -385,7 +398,8 @@
             this.payingamount.Location = new System.Drawing.Point(167, 160);
             this.payingamount.Name = "payingamount";
             this.payingamount.Size = new System.Drawing.Size(282, 20);
-            this.payingamount.TabIndex = 154;
+            this.payingamount.TabIndex = 5;
+            this.payingamount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // remark
             // 
@@ -396,7 +410,8 @@
             this.remark.Name = "remark";
             this.remark.PasswordChar = '*';
             this.remark.Size = new System.Drawing.Size(282, 20);
-            this.remark.TabIndex = 155;
+            this.remark.TabIndex = 7;
+            this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // billingdate
             // 
@@ -406,7 +421,8 @@
             this.billingdate.Location = new System.Drawing.Point(167, 56);
             this.billingdate.Name = "billingdate";
             this.billingdate.Size = new System.Drawing.Size(282, 20);
-            this.billingdate.TabIndex = 150;
+            this.billingdate.TabIndex = 1;
+            this.billingdate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // totalamount
             // 
@@ -416,7 +432,8 @@
             this.totalamount.Location = new System.Drawing.Point(167, 82);
             this.totalamount.Name = "totalamount";
             this.totalamount.Size = new System.Drawing.Size(282, 20);
-            this.totalamount.TabIndex = 151;
+            this.totalamount.TabIndex = 2;
+            this.totalamount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // paidamount
             // 
@@ -427,7 +444,8 @@
             this.paidamount.Name = "paidamount";
             this.paidamount.PasswordChar = '*';
             this.paidamount.Size = new System.Drawing.Size(282, 20);
-            this.paidamount.TabIndex = 152;
+            this.paidamount.TabIndex = 3;
+            this.paidamount.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label6
             // 
@@ -466,8 +484,9 @@
             this.date.Location = new System.Drawing.Point(167, 186);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(282, 24);
-            this.date.TabIndex = 145;
+            this.date.TabIndex = 6;
             this.date.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
+            this.date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label10
             // 
@@ -538,7 +557,8 @@
             this.partytype.Location = new System.Drawing.Point(641, 53);
             this.partytype.Name = "partytype";
             this.partytype.Size = new System.Drawing.Size(282, 26);
-            this.partytype.TabIndex = 125;
+            this.partytype.TabIndex = 3;
+            this.partytype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // label11
             // 
@@ -581,11 +601,12 @@
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 100;
+            this.save.TabIndex = 0;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
             this.save.Click += new System.EventHandler(this.save_Click);
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // close
             // 
@@ -598,11 +619,12 @@
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 97;
+            this.close.TabIndex = 1;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             // 
             // panel1
             // 
@@ -641,7 +663,9 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PartyPaymentNew";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SellerPaymentNew_FormClosing);
             this.Load += new System.EventHandler(this.SellerPaymentNew_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SellerPaymentNew_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();

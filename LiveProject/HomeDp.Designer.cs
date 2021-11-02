@@ -46,21 +46,23 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(0, 15);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
+            this.textBox1.Location = new System.Drawing.Point(0, 18);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 10, 4, 10);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(488, 29);
+            this.textBox1.Size = new System.Drawing.Size(651, 34);
             this.textBox1.TabIndex = 99;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  HOME PAGE WALPAPER";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 367);
+            this.panel2.Location = new System.Drawing.Point(0, 452);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(488, 10);
+            this.panel2.Size = new System.Drawing.Size(651, 12);
             this.panel2.TabIndex = 102;
             // 
             // save
@@ -70,15 +72,17 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(164, 331);
+            this.save.Location = new System.Drawing.Point(219, 407);
+            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.save.Size = new System.Drawing.Size(100, 30);
-            this.save.TabIndex = 101;
+            this.save.Size = new System.Drawing.Size(133, 37);
+            this.save.TabIndex = 1;
             this.save.Text = "SUBMIT";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
             this.save.Click += new System.EventHandler(this.save_Click);
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeDp_KeyDown);
             // 
             // close
             // 
@@ -87,30 +91,34 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(376, 331);
+            this.close.Location = new System.Drawing.Point(501, 407);
+            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.close.Size = new System.Drawing.Size(100, 30);
-            this.close.TabIndex = 98;
+            this.close.Size = new System.Drawing.Size(133, 37);
+            this.close.TabIndex = 3;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeDp_KeyDown);
             // 
             // panel1
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(488, 15);
+            this.panel1.Size = new System.Drawing.Size(651, 18);
             this.panel1.TabIndex = 97;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pictureBox1.Location = new System.Drawing.Point(78, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(104, 68);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(398, 270);
+            this.pictureBox1.Size = new System.Drawing.Size(531, 332);
             this.pictureBox1.TabIndex = 104;
             this.pictureBox1.TabStop = false;
             // 
@@ -121,31 +129,35 @@
             this.updateCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateCF.Location = new System.Drawing.Point(270, 331);
+            this.updateCF.Location = new System.Drawing.Point(360, 407);
+            this.updateCF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.updateCF.Name = "updateCF";
-            this.updateCF.Size = new System.Drawing.Size(100, 30);
-            this.updateCF.TabIndex = 105;
+            this.updateCF.Size = new System.Drawing.Size(133, 37);
+            this.updateCF.TabIndex = 2;
             this.updateCF.Text = "UPDATE";
             this.updateCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.updateCF.UseVisualStyleBackColor = false;
+            this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeDp_KeyDown);
             // 
             // logobtn
             // 
             this.logobtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.logobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.logobtn.Location = new System.Drawing.Point(12, 184);
+            this.logobtn.Location = new System.Drawing.Point(16, 226);
+            this.logobtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.logobtn.Name = "logobtn";
-            this.logobtn.Size = new System.Drawing.Size(60, 25);
-            this.logobtn.TabIndex = 106;
+            this.logobtn.Size = new System.Drawing.Size(80, 31);
+            this.logobtn.TabIndex = 0;
             this.logobtn.Text = "Select";
             this.logobtn.UseVisualStyleBackColor = false;
+            this.logobtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeDp_KeyDown);
             // 
             // HomeDp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(488, 377);
+            this.ClientSize = new System.Drawing.Size(651, 464);
             this.Controls.Add(this.logobtn);
             this.Controls.Add(this.updateCF);
             this.Controls.Add(this.pictureBox1);
@@ -155,6 +167,7 @@
             this.Controls.Add(this.close);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HomeDp";
@@ -162,7 +175,10 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeDp";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HomeDp_FormClosing);
             this.Load += new System.EventHandler(this.HomeDp_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HomeDp_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.HomeDp_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

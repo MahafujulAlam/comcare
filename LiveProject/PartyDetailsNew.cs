@@ -28,9 +28,25 @@ namespace LiveProject
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to cancel ?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            
+                this.Close();
+            
+        }
+
+        private void PartyDetailsNew_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
             {
                 this.Close();
+            }
+        }
+
+        private void PartyDetailsNew_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dlg = MessageBox.Show("Are you sure you want to cancel ?", "Close window", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dlg == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }

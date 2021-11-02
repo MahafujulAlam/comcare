@@ -21,5 +21,18 @@ namespace LiveProject
             TypeSetupNew a = new TypeSetupNew();
             a.ShowDialog();
         }
+
+        private void TypeSetup_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

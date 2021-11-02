@@ -32,5 +32,13 @@ namespace LiveProject
             dlg.ShowDialog();
 
         }
+
+        private void User_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }

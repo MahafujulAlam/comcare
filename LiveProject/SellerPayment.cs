@@ -27,5 +27,13 @@ namespace LiveProject
             SellerPaymentNew dlg = new SellerPaymentNew();
             dlg.ShowDialog();
         }
+
+        private void SellerPayment_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+        }
     }
 }
