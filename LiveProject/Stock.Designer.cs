@@ -84,7 +84,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 129);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(887, 368);
+            this.dataGridView1.Size = new System.Drawing.Size(905, 379);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Stock_KeyDown);
             // 
@@ -99,7 +99,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(911, 29);
+            this.textBox1.Size = new System.Drawing.Size(929, 29);
             this.textBox1.TabIndex = 109;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  STOCK";
@@ -111,7 +111,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(799, 503);
+            this.close.Location = new System.Drawing.Point(817, 514);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 4;
@@ -126,7 +126,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(911, 15);
+            this.panel4.Size = new System.Drawing.Size(929, 15);
             this.panel4.TabIndex = 103;
             // 
             // clearCF
@@ -136,7 +136,7 @@
             this.clearCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearCF.Image = global::LiveProject.Properties.Resources.update;
             this.clearCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clearCF.Location = new System.Drawing.Point(587, 503);
+            this.clearCF.Location = new System.Drawing.Point(605, 514);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(100, 30);
             this.clearCF.TabIndex = 2;
@@ -152,7 +152,7 @@
             this.deleteCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCF.Image = global::LiveProject.Properties.Resources.delete;
             this.deleteCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.deleteCF.Location = new System.Drawing.Point(693, 503);
+            this.deleteCF.Location = new System.Drawing.Point(711, 514);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
             this.deleteCF.TabIndex = 3;
@@ -168,7 +168,7 @@
             this.addCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCF.Image = global::LiveProject.Properties.Resources.add11;
             this.addCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addCF.Location = new System.Drawing.Point(377, 503);
+            this.addCF.Location = new System.Drawing.Point(395, 514);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(100, 30);
             this.addCF.TabIndex = 0;
@@ -184,7 +184,7 @@
             this.updateCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateCF.Location = new System.Drawing.Point(481, 503);
+            this.updateCF.Location = new System.Drawing.Point(499, 514);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
             this.updateCF.TabIndex = 1;
@@ -197,7 +197,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(911, 545);
+            this.ClientSize = new System.Drawing.Size(929, 556);
             this.Controls.Add(this.clearCF);
             this.Controls.Add(this.deleteCF);
             this.Controls.Add(this.addCF);
