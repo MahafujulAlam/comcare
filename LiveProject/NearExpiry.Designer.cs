@@ -52,6 +52,7 @@
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(1325, 34);
             this.textBox1.TabIndex = 109;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "  NEAR EXPIRY";
             // 
             // panel4
@@ -110,7 +111,7 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1295, 540);
-            this.dataGridView1.TabIndex = 115;
+            this.dataGridView1.TabIndex = 1;
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NearExpiry_KeyDown);
             // 
             // close
@@ -124,7 +125,7 @@
             this.close.Margin = new System.Windows.Forms.Padding(4);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(133, 37);
-            this.close.TabIndex = 121;
+            this.close.TabIndex = 0;
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
