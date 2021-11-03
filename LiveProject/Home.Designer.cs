@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node6");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Node9");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Node9");
+            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("Node10");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.menubar = new System.Windows.Forms.MenuStrip();
             this.dASHBOARDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -662,40 +662,40 @@
             this.hometreeView.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hometreeView.Location = new System.Drawing.Point(0, 0);
             this.hometreeView.Name = "hometreeView";
-            treeNode12.Name = "Node0";
-            treeNode12.Text = "RECENT VIEWS";
-            treeNode13.Name = "Node1";
-            treeNode13.Text = "Node1";
-            treeNode14.Name = "Node2";
-            treeNode14.Text = "Node2";
-            treeNode15.Name = "Node3";
-            treeNode15.Text = "Node3";
-            treeNode16.Name = "Node4";
-            treeNode16.Text = "Node4";
-            treeNode17.Name = "Node5";
-            treeNode17.Text = "Node5";
-            treeNode18.Name = "Node6";
-            treeNode18.Text = "Node6";
-            treeNode19.Name = "Node7";
-            treeNode19.Text = "Node7";
-            treeNode20.Name = "Node8";
-            treeNode20.Text = "Node8";
-            treeNode21.Name = "Node9";
-            treeNode21.Text = "Node9";
-            treeNode22.Name = "Node10";
-            treeNode22.Text = "Node10";
+            treeNode78.Name = "Node0";
+            treeNode78.Text = "RECENT VIEWS";
+            treeNode79.Name = "Node1";
+            treeNode79.Text = "Node1";
+            treeNode80.Name = "Node2";
+            treeNode80.Text = "Node2";
+            treeNode81.Name = "Node3";
+            treeNode81.Text = "Node3";
+            treeNode82.Name = "Node4";
+            treeNode82.Text = "Node4";
+            treeNode83.Name = "Node5";
+            treeNode83.Text = "Node5";
+            treeNode84.Name = "Node6";
+            treeNode84.Text = "Node6";
+            treeNode85.Name = "Node7";
+            treeNode85.Text = "Node7";
+            treeNode86.Name = "Node8";
+            treeNode86.Text = "Node8";
+            treeNode87.Name = "Node9";
+            treeNode87.Text = "Node9";
+            treeNode88.Name = "Node10";
+            treeNode88.Text = "Node10";
             this.hometreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode12,
-            treeNode13,
-            treeNode14,
-            treeNode15,
-            treeNode16,
-            treeNode17,
-            treeNode18,
-            treeNode19,
-            treeNode20,
-            treeNode21,
-            treeNode22});
+            treeNode78,
+            treeNode79,
+            treeNode80,
+            treeNode81,
+            treeNode82,
+            treeNode83,
+            treeNode84,
+            treeNode85,
+            treeNode86,
+            treeNode87,
+            treeNode88});
             this.hometreeView.Size = new System.Drawing.Size(157, 460);
             this.hometreeView.TabIndex = 0;
             this.hometreeView.TabStop = false;
@@ -742,6 +742,7 @@
             this.button9.TabIndex = 8;
             this.button9.Text = "NEAR EXPIRY";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button8
             // 
@@ -754,6 +755,7 @@
             this.button8.TabIndex = 7;
             this.button8.Text = "P PAYMENT";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -766,6 +768,7 @@
             this.button7.TabIndex = 6;
             this.button7.Text = "C PAYMENT";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -778,6 +781,7 @@
             this.button6.TabIndex = 5;
             this.button6.Text = "ORDER (P)";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -790,6 +794,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "ORDER (N)";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -802,6 +807,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "STOCK";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -826,6 +832,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "SALE";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // puchase
             // 
@@ -838,6 +845,7 @@
             this.puchase.TabIndex = 0;
             this.puchase.Text = "PURCHASE";
             this.puchase.UseVisualStyleBackColor = true;
+            this.puchase.Click += new System.EventHandler(this.puchase_Click);
             // 
             // panel5
             // 
