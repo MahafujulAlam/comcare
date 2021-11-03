@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class Report : Form
+    public partial class Index : Form
     {
-        public Report()
+        public Index()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
 
         }
@@ -26,12 +26,17 @@ namespace LiveProject
             this.Close();
         }
 
-        private void Report_KeyDown(object sender, KeyEventArgs e)
+        private void close_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)
             {
                 this.Close();
             }
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

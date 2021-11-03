@@ -28,6 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Node33");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Node34");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Node35");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Node36");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Node37");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Node1", new System.Windows.Forms.TreeNode[] {
+            treeNode37,
+            treeNode38,
+            treeNode39,
+            treeNode40,
+            treeNode41,
+            treeNode42,
+            treeNode43,
+            treeNode44,
+            treeNode45,
+            treeNode46});
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Node13");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Node14");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Node15");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Node16");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Node17");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Node9", new System.Windows.Forms.TreeNode[] {
+            treeNode48,
+            treeNode49,
+            treeNode50,
+            treeNode51,
+            treeNode52});
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Node18");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Node19");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Node20");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Node21");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Node22");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Node10", new System.Windows.Forms.TreeNode[] {
+            treeNode54,
+            treeNode55,
+            treeNode56,
+            treeNode57,
+            treeNode58});
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Node23");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Node24");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Node25");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Node26");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Node27");
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("Node11", new System.Windows.Forms.TreeNode[] {
+            treeNode60,
+            treeNode61,
+            treeNode62,
+            treeNode63,
+            treeNode64});
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Node28");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("Node29");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("Node30");
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Node31");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Node32");
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("Node12", new System.Windows.Forms.TreeNode[] {
+            treeNode66,
+            treeNode67,
+            treeNode68,
+            treeNode69,
+            treeNode70});
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("RECENT INVOICE", new System.Windows.Forms.TreeNode[] {
+            treeNode47,
+            treeNode53,
+            treeNode59,
+            treeNode65,
+            treeNode71});
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -114,6 +185,8 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -121,6 +194,7 @@
             this.groupBox4.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -129,7 +203,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 642);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(992, 10);
+            this.panel2.Size = new System.Drawing.Size(1208, 10);
             this.panel2.TabIndex = 105;
             // 
             // textBox1
@@ -143,7 +217,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(992, 29);
+            this.textBox1.Size = new System.Drawing.Size(1208, 29);
             this.textBox1.TabIndex = 104;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  SALE BILL";
@@ -153,7 +227,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(992, 15);
+            this.panel1.Size = new System.Drawing.Size(1208, 15);
             this.panel1.TabIndex = 103;
             // 
             // groupBox1
@@ -165,7 +239,7 @@
             this.groupBox1.Controls.Add(this.name);
             this.groupBox1.Controls.Add(this.date);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 44);
+            this.groupBox1.Location = new System.Drawing.Point(231, 44);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(965, 45);
             this.groupBox1.TabIndex = 106;
@@ -256,7 +330,7 @@
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(12, 90);
+            this.groupBox2.Location = new System.Drawing.Point(231, 90);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(965, 45);
             this.groupBox2.TabIndex = 107;
@@ -329,7 +403,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Location = new System.Drawing.Point(12, 136);
+            this.groupBox3.Location = new System.Drawing.Point(231, 136);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(965, 225);
             this.groupBox3.TabIndex = 108;
@@ -430,7 +504,7 @@
             this.groupBox4.Controls.Add(this.textBox7);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.textBox6);
-            this.groupBox4.Location = new System.Drawing.Point(12, 362);
+            this.groupBox4.Location = new System.Drawing.Point(231, 362);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(965, 188);
             this.groupBox4.TabIndex = 109;
@@ -488,7 +562,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 146F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 149F));
             this.tableLayoutPanel1.Controls.Add(this.textBox47, 5, 5);
             this.tableLayoutPanel1.Controls.Add(this.textBox46, 4, 5);
             this.tableLayoutPanel1.Controls.Add(this.textBox45, 3, 5);
@@ -539,7 +613,7 @@
             // textBox47
             // 
             this.textBox47.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox47.Location = new System.Drawing.Point(481, 138);
+            this.textBox47.Location = new System.Drawing.Point(478, 138);
             this.textBox47.Name = "textBox47";
             this.textBox47.ReadOnly = true;
             this.textBox47.Size = new System.Drawing.Size(136, 20);
@@ -548,7 +622,7 @@
             // textBox46
             // 
             this.textBox46.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox46.Location = new System.Drawing.Point(367, 138);
+            this.textBox46.Location = new System.Drawing.Point(364, 138);
             this.textBox46.Name = "textBox46";
             this.textBox46.ReadOnly = true;
             this.textBox46.Size = new System.Drawing.Size(100, 20);
@@ -557,7 +631,7 @@
             // textBox45
             // 
             this.textBox45.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox45.Location = new System.Drawing.Point(249, 138);
+            this.textBox45.Location = new System.Drawing.Point(246, 138);
             this.textBox45.Name = "textBox45";
             this.textBox45.ReadOnly = true;
             this.textBox45.Size = new System.Drawing.Size(100, 20);
@@ -566,7 +640,7 @@
             // textBox44
             // 
             this.textBox44.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox44.Location = new System.Drawing.Point(115, 138);
+            this.textBox44.Location = new System.Drawing.Point(112, 138);
             this.textBox44.Name = "textBox44";
             this.textBox44.ReadOnly = true;
             this.textBox44.Size = new System.Drawing.Size(100, 20);
@@ -575,7 +649,7 @@
             // textBox42
             // 
             this.textBox42.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox42.Location = new System.Drawing.Point(481, 110);
+            this.textBox42.Location = new System.Drawing.Point(478, 110);
             this.textBox42.Name = "textBox42";
             this.textBox42.ReadOnly = true;
             this.textBox42.Size = new System.Drawing.Size(136, 20);
@@ -584,7 +658,7 @@
             // textBox41
             // 
             this.textBox41.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox41.Location = new System.Drawing.Point(367, 110);
+            this.textBox41.Location = new System.Drawing.Point(364, 110);
             this.textBox41.Name = "textBox41";
             this.textBox41.ReadOnly = true;
             this.textBox41.Size = new System.Drawing.Size(100, 20);
@@ -593,7 +667,7 @@
             // textBox40
             // 
             this.textBox40.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox40.Location = new System.Drawing.Point(249, 110);
+            this.textBox40.Location = new System.Drawing.Point(246, 110);
             this.textBox40.Name = "textBox40";
             this.textBox40.ReadOnly = true;
             this.textBox40.Size = new System.Drawing.Size(100, 20);
@@ -602,7 +676,7 @@
             // textBox39
             // 
             this.textBox39.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox39.Location = new System.Drawing.Point(115, 110);
+            this.textBox39.Location = new System.Drawing.Point(112, 110);
             this.textBox39.Name = "textBox39";
             this.textBox39.ReadOnly = true;
             this.textBox39.Size = new System.Drawing.Size(100, 20);
@@ -611,7 +685,7 @@
             // textBox38
             // 
             this.textBox38.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox38.Location = new System.Drawing.Point(481, 81);
+            this.textBox38.Location = new System.Drawing.Point(478, 81);
             this.textBox38.Name = "textBox38";
             this.textBox38.ReadOnly = true;
             this.textBox38.Size = new System.Drawing.Size(136, 20);
@@ -620,7 +694,7 @@
             // textBox37
             // 
             this.textBox37.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox37.Location = new System.Drawing.Point(367, 81);
+            this.textBox37.Location = new System.Drawing.Point(364, 81);
             this.textBox37.Name = "textBox37";
             this.textBox37.ReadOnly = true;
             this.textBox37.Size = new System.Drawing.Size(100, 20);
@@ -629,7 +703,7 @@
             // textBox36
             // 
             this.textBox36.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox36.Location = new System.Drawing.Point(249, 81);
+            this.textBox36.Location = new System.Drawing.Point(246, 81);
             this.textBox36.Name = "textBox36";
             this.textBox36.ReadOnly = true;
             this.textBox36.Size = new System.Drawing.Size(100, 20);
@@ -638,7 +712,7 @@
             // textBox35
             // 
             this.textBox35.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox35.Location = new System.Drawing.Point(115, 81);
+            this.textBox35.Location = new System.Drawing.Point(112, 81);
             this.textBox35.Name = "textBox35";
             this.textBox35.ReadOnly = true;
             this.textBox35.Size = new System.Drawing.Size(100, 20);
@@ -647,7 +721,7 @@
             // textBox34
             // 
             this.textBox34.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox34.Location = new System.Drawing.Point(481, 51);
+            this.textBox34.Location = new System.Drawing.Point(478, 51);
             this.textBox34.Name = "textBox34";
             this.textBox34.ReadOnly = true;
             this.textBox34.Size = new System.Drawing.Size(136, 20);
@@ -656,7 +730,7 @@
             // textBox33
             // 
             this.textBox33.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox33.Location = new System.Drawing.Point(367, 51);
+            this.textBox33.Location = new System.Drawing.Point(364, 51);
             this.textBox33.Name = "textBox33";
             this.textBox33.ReadOnly = true;
             this.textBox33.Size = new System.Drawing.Size(100, 20);
@@ -665,7 +739,7 @@
             // textBox32
             // 
             this.textBox32.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox32.Location = new System.Drawing.Point(249, 51);
+            this.textBox32.Location = new System.Drawing.Point(246, 51);
             this.textBox32.Name = "textBox32";
             this.textBox32.ReadOnly = true;
             this.textBox32.Size = new System.Drawing.Size(100, 20);
@@ -674,7 +748,7 @@
             // textBox31
             // 
             this.textBox31.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox31.Location = new System.Drawing.Point(115, 51);
+            this.textBox31.Location = new System.Drawing.Point(112, 51);
             this.textBox31.Name = "textBox31";
             this.textBox31.ReadOnly = true;
             this.textBox31.Size = new System.Drawing.Size(100, 20);
@@ -683,7 +757,7 @@
             // textBox30
             // 
             this.textBox30.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox30.Location = new System.Drawing.Point(481, 22);
+            this.textBox30.Location = new System.Drawing.Point(478, 22);
             this.textBox30.Name = "textBox30";
             this.textBox30.ReadOnly = true;
             this.textBox30.Size = new System.Drawing.Size(136, 20);
@@ -692,7 +766,7 @@
             // textBox29
             // 
             this.textBox29.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox29.Location = new System.Drawing.Point(367, 22);
+            this.textBox29.Location = new System.Drawing.Point(364, 22);
             this.textBox29.Name = "textBox29";
             this.textBox29.ReadOnly = true;
             this.textBox29.Size = new System.Drawing.Size(100, 20);
@@ -701,7 +775,7 @@
             // textBox28
             // 
             this.textBox28.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox28.Location = new System.Drawing.Point(249, 22);
+            this.textBox28.Location = new System.Drawing.Point(246, 22);
             this.textBox28.Name = "textBox28";
             this.textBox28.ReadOnly = true;
             this.textBox28.Size = new System.Drawing.Size(100, 20);
@@ -715,10 +789,10 @@
             this.textBox20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox20.ForeColor = System.Drawing.Color.Black;
-            this.textBox20.Location = new System.Drawing.Point(66, 22);
+            this.textBox20.Location = new System.Drawing.Point(64, 22);
             this.textBox20.Name = "textBox20";
             this.textBox20.ReadOnly = true;
-            this.textBox20.Size = new System.Drawing.Size(43, 15);
+            this.textBox20.Size = new System.Drawing.Size(42, 15);
             this.textBox20.TabIndex = 11;
             this.textBox20.Text = "5";
             this.textBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -734,7 +808,7 @@
             this.textBox16.Location = new System.Drawing.Point(3, 22);
             this.textBox16.Name = "textBox16";
             this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(57, 15);
+            this.textBox16.Size = new System.Drawing.Size(55, 15);
             this.textBox16.TabIndex = 7;
             this.textBox16.Text = "GST";
             // 
@@ -746,10 +820,10 @@
             this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox15.ForeColor = System.Drawing.Color.Black;
-            this.textBox15.Location = new System.Drawing.Point(481, 3);
+            this.textBox15.Location = new System.Drawing.Point(478, 3);
             this.textBox15.Name = "textBox15";
             this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(141, 15);
+            this.textBox15.Size = new System.Drawing.Size(144, 15);
             this.textBox15.TabIndex = 6;
             this.textBox15.Text = "TOTAL GST";
             // 
@@ -761,7 +835,7 @@
             this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox14.ForeColor = System.Drawing.Color.Black;
-            this.textBox14.Location = new System.Drawing.Point(367, 3);
+            this.textBox14.Location = new System.Drawing.Point(364, 3);
             this.textBox14.Name = "textBox14";
             this.textBox14.ReadOnly = true;
             this.textBox14.Size = new System.Drawing.Size(108, 15);
@@ -776,7 +850,7 @@
             this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox13.ForeColor = System.Drawing.Color.Black;
-            this.textBox13.Location = new System.Drawing.Point(249, 3);
+            this.textBox13.Location = new System.Drawing.Point(246, 3);
             this.textBox13.Name = "textBox13";
             this.textBox13.ReadOnly = true;
             this.textBox13.Size = new System.Drawing.Size(112, 15);
@@ -791,7 +865,7 @@
             this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.ForeColor = System.Drawing.Color.Black;
-            this.textBox12.Location = new System.Drawing.Point(115, 3);
+            this.textBox12.Location = new System.Drawing.Point(112, 3);
             this.textBox12.Name = "textBox12";
             this.textBox12.ReadOnly = true;
             this.textBox12.Size = new System.Drawing.Size(128, 15);
@@ -806,10 +880,10 @@
             this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.ForeColor = System.Drawing.Color.Black;
-            this.textBox10.Location = new System.Drawing.Point(66, 3);
+            this.textBox10.Location = new System.Drawing.Point(64, 3);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(43, 15);
+            this.textBox10.Size = new System.Drawing.Size(42, 15);
             this.textBox10.TabIndex = 2;
             this.textBox10.Text = "RATE";
             this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -825,7 +899,7 @@
             this.textBox11.Location = new System.Drawing.Point(3, 3);
             this.textBox11.Name = "textBox11";
             this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(57, 15);
+            this.textBox11.Size = new System.Drawing.Size(55, 15);
             this.textBox11.TabIndex = 1;
             this.textBox11.Text = "TAX";
             // 
@@ -839,7 +913,7 @@
             this.textBox17.Location = new System.Drawing.Point(3, 51);
             this.textBox17.Name = "textBox17";
             this.textBox17.ReadOnly = true;
-            this.textBox17.Size = new System.Drawing.Size(57, 15);
+            this.textBox17.Size = new System.Drawing.Size(55, 15);
             this.textBox17.TabIndex = 8;
             this.textBox17.Text = "GST";
             // 
@@ -853,7 +927,7 @@
             this.textBox18.Location = new System.Drawing.Point(3, 81);
             this.textBox18.Name = "textBox18";
             this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(57, 15);
+            this.textBox18.Size = new System.Drawing.Size(55, 15);
             this.textBox18.TabIndex = 9;
             this.textBox18.Text = "GST";
             // 
@@ -867,7 +941,7 @@
             this.textBox19.Location = new System.Drawing.Point(3, 110);
             this.textBox19.Name = "textBox19";
             this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(57, 15);
+            this.textBox19.Size = new System.Drawing.Size(55, 15);
             this.textBox19.TabIndex = 10;
             this.textBox19.Text = "GST";
             // 
@@ -877,10 +951,10 @@
             this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox21.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(66, 51);
+            this.textBox21.Location = new System.Drawing.Point(64, 51);
             this.textBox21.Name = "textBox21";
             this.textBox21.ReadOnly = true;
-            this.textBox21.Size = new System.Drawing.Size(43, 15);
+            this.textBox21.Size = new System.Drawing.Size(42, 15);
             this.textBox21.TabIndex = 12;
             this.textBox21.Text = "12";
             this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -892,10 +966,10 @@
             this.textBox22.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox22.ForeColor = System.Drawing.Color.Black;
-            this.textBox22.Location = new System.Drawing.Point(66, 81);
+            this.textBox22.Location = new System.Drawing.Point(64, 81);
             this.textBox22.Name = "textBox22";
             this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(43, 15);
+            this.textBox22.Size = new System.Drawing.Size(42, 15);
             this.textBox22.TabIndex = 13;
             this.textBox22.Text = "18";
             this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -906,10 +980,10 @@
             this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(66, 110);
+            this.textBox23.Location = new System.Drawing.Point(64, 110);
             this.textBox23.Name = "textBox23";
             this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(43, 15);
+            this.textBox23.Size = new System.Drawing.Size(42, 15);
             this.textBox23.TabIndex = 14;
             this.textBox23.Text = "25";
             this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -924,14 +998,14 @@
             this.textBox24.Location = new System.Drawing.Point(3, 138);
             this.textBox24.Name = "textBox24";
             this.textBox24.ReadOnly = true;
-            this.textBox24.Size = new System.Drawing.Size(57, 15);
+            this.textBox24.Size = new System.Drawing.Size(55, 15);
             this.textBox24.TabIndex = 15;
             this.textBox24.Text = "TOTAL";
             // 
             // textBox27
             // 
             this.textBox27.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox27.Location = new System.Drawing.Point(115, 22);
+            this.textBox27.Location = new System.Drawing.Point(112, 22);
             this.textBox27.Name = "textBox27";
             this.textBox27.ReadOnly = true;
             this.textBox27.Size = new System.Drawing.Size(100, 20);
@@ -1009,7 +1083,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = global::LiveProject.Properties.Resources.print;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(500, 602);
+            this.button2.Location = new System.Drawing.Point(719, 602);
             this.button2.Name = "button2";
             this.button2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button2.Size = new System.Drawing.Size(159, 30);
@@ -1025,7 +1099,7 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(394, 602);
+            this.save.Location = new System.Drawing.Point(613, 602);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
@@ -1041,7 +1115,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(877, 602);
+            this.close.Location = new System.Drawing.Point(1096, 602);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 114;
@@ -1057,7 +1131,7 @@
             this.clearCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearCF.Image = global::LiveProject.Properties.Resources.update;
             this.clearCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clearCF.Location = new System.Drawing.Point(771, 602);
+            this.clearCF.Location = new System.Drawing.Point(990, 602);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(100, 30);
             this.clearCF.TabIndex = 112;
@@ -1072,7 +1146,7 @@
             this.deleteCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCF.Image = global::LiveProject.Properties.Resources.delete;
             this.deleteCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.deleteCF.Location = new System.Drawing.Point(665, 602);
+            this.deleteCF.Location = new System.Drawing.Point(884, 602);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
             this.deleteCF.TabIndex = 113;
@@ -1087,7 +1161,7 @@
             this.addCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCF.Image = global::LiveProject.Properties.Resources.add11;
             this.addCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addCF.Location = new System.Drawing.Point(184, 602);
+            this.addCF.Location = new System.Drawing.Point(403, 602);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(100, 30);
             this.addCF.TabIndex = 110;
@@ -1102,7 +1176,7 @@
             this.updateCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateCF.Location = new System.Drawing.Point(288, 602);
+            this.updateCF.Location = new System.Drawing.Point(507, 602);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
             this.updateCF.TabIndex = 111;
@@ -1114,7 +1188,7 @@
             // 
             this.groupBox5.Controls.Add(this.label10);
             this.groupBox5.Controls.Add(this.textBox9);
-            this.groupBox5.Location = new System.Drawing.Point(12, 550);
+            this.groupBox5.Location = new System.Drawing.Point(231, 550);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(965, 43);
             this.groupBox5.TabIndex = 117;
@@ -1142,12 +1216,105 @@
             this.textBox9.Size = new System.Drawing.Size(850, 20);
             this.textBox9.TabIndex = 120;
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.treeView1);
+            this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.Location = new System.Drawing.Point(12, 45);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(210, 549);
+            this.groupBox6.TabIndex = 118;
+            this.groupBox6.TabStop = false;
+            // 
+            // treeView1
+            // 
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.Location = new System.Drawing.Point(3, 20);
+            this.treeView1.Name = "treeView1";
+            treeNode37.Name = "Node2";
+            treeNode37.Text = "Node2";
+            treeNode38.Name = "Node3";
+            treeNode38.Text = "Node3";
+            treeNode39.Name = "Node4";
+            treeNode39.Text = "Node4";
+            treeNode40.Name = "Node5";
+            treeNode40.Text = "Node5";
+            treeNode41.Name = "Node6";
+            treeNode41.Text = "Node6";
+            treeNode42.Name = "Node33";
+            treeNode42.Text = "Node33";
+            treeNode43.Name = "Node34";
+            treeNode43.Text = "Node34";
+            treeNode44.Name = "Node35";
+            treeNode44.Text = "Node35";
+            treeNode45.Name = "Node36";
+            treeNode45.Text = "Node36";
+            treeNode46.Name = "Node37";
+            treeNode46.Text = "Node37";
+            treeNode47.Name = "Node1";
+            treeNode47.Text = "Node1";
+            treeNode48.Name = "Node13";
+            treeNode48.Text = "Node13";
+            treeNode49.Name = "Node14";
+            treeNode49.Text = "Node14";
+            treeNode50.Name = "Node15";
+            treeNode50.Text = "Node15";
+            treeNode51.Name = "Node16";
+            treeNode51.Text = "Node16";
+            treeNode52.Name = "Node17";
+            treeNode52.Text = "Node17";
+            treeNode53.Name = "Node9";
+            treeNode53.Text = "Node9";
+            treeNode54.Name = "Node18";
+            treeNode54.Text = "Node18";
+            treeNode55.Name = "Node19";
+            treeNode55.Text = "Node19";
+            treeNode56.Name = "Node20";
+            treeNode56.Text = "Node20";
+            treeNode57.Name = "Node21";
+            treeNode57.Text = "Node21";
+            treeNode58.Name = "Node22";
+            treeNode58.Text = "Node22";
+            treeNode59.Name = "Node10";
+            treeNode59.Text = "Node10";
+            treeNode60.Name = "Node23";
+            treeNode60.Text = "Node23";
+            treeNode61.Name = "Node24";
+            treeNode61.Text = "Node24";
+            treeNode62.Name = "Node25";
+            treeNode62.Text = "Node25";
+            treeNode63.Name = "Node26";
+            treeNode63.Text = "Node26";
+            treeNode64.Name = "Node27";
+            treeNode64.Text = "Node27";
+            treeNode65.Name = "Node11";
+            treeNode65.Text = "Node11";
+            treeNode66.Name = "Node28";
+            treeNode66.Text = "Node28";
+            treeNode67.Name = "Node29";
+            treeNode67.Text = "Node29";
+            treeNode68.Name = "Node30";
+            treeNode68.Text = "Node30";
+            treeNode69.Name = "Node31";
+            treeNode69.Text = "Node31";
+            treeNode70.Name = "Node32";
+            treeNode70.Text = "Node32";
+            treeNode71.Name = "Node12";
+            treeNode71.Text = "Node12";
+            treeNode72.Name = "Node0";
+            treeNode72.Text = "RECENT INVOICE";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode72});
+            this.treeView1.Size = new System.Drawing.Size(204, 526);
+            this.treeView1.TabIndex = 0;
+            // 
             // Sale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(992, 652);
+            this.ClientSize = new System.Drawing.Size(1208, 652);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.save);
@@ -1183,6 +1350,7 @@
             this.tableLayoutPanel1.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1276,5 +1444,7 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
