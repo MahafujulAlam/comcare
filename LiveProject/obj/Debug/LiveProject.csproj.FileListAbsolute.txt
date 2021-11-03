@@ -314,3 +314,4 @@ D:\ss\comcare\LiveProject\obj\Debug\LiveProject.csproj.CoreCompileInputs.cache
 D:\ss\comcare\LiveProject\obj\Debug\LiveProject.exe
 D:\ss\comcare\LiveProject\obj\Debug\LiveProject.pdb
 D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.Index.resources
+D:\ss\comcare\LiveProject\obj\Debug\LiveProject.Index.resources
