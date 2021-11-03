@@ -266,5 +266,11 @@ namespace LiveProject
             HomeDp dlg = new HomeDp();
             dlg.ShowDialog();
         }
+
+        private void iNDEXToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Index DLG = new Index();
+            DLG.ShowDialog();
+        }
     }
 }
