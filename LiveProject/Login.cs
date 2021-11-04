@@ -28,7 +28,7 @@ namespace LiveProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Home dlg = new Home();
+            Home dlg = new Home(this);
             dlg.ShowDialog();
         }
 

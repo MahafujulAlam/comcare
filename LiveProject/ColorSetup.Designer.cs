@@ -51,6 +51,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(677, 219);
             this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // groupBox1
             // 
@@ -77,6 +78,7 @@
             this.searchbtn.Text = "SEARCH";
             this.searchbtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.searchbtn.UseVisualStyleBackColor = false;
+            this.searchbtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // search
             // 
@@ -84,6 +86,7 @@
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(220, 24);
             this.search.TabIndex = 0;
+            this.search.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // textBox1
             // 
@@ -124,6 +127,7 @@
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // clearCF
             // 
@@ -139,6 +143,7 @@
             this.clearCF.Text = "CLEAR";
             this.clearCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.clearCF.UseVisualStyleBackColor = false;
+            this.clearCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // deleteCF
             // 
@@ -154,6 +159,7 @@
             this.deleteCF.Text = "DELETE";
             this.deleteCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.deleteCF.UseVisualStyleBackColor = false;
+            this.deleteCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // addCF
             // 
@@ -170,6 +176,7 @@
             this.addCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.addCF.UseVisualStyleBackColor = false;
             this.addCF.Click += new System.EventHandler(this.addCF_Click);
+            this.addCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // updateCF
             // 
@@ -185,6 +192,7 @@
             this.updateCF.Text = "UPDATE";
             this.updateCF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.updateCF.UseVisualStyleBackColor = false;
+            this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetup_KeyDown);
             // 
             // ColorSetup
             // 

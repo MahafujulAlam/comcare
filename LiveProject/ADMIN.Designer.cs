@@ -48,7 +48,7 @@
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(645, 12);
             this.panel1.TabIndex = 0;
@@ -59,7 +59,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 12);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(645, 32);
             this.panel2.TabIndex = 1;
@@ -88,9 +88,9 @@
             this.groupBox1.Controls.Add(this.currpass);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(16, 65);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(612, 185);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
@@ -102,13 +102,14 @@
             this.retypepass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.retypepass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.retypepass.Location = new System.Drawing.Point(276, 117);
-            this.retypepass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.retypepass.Margin = new System.Windows.Forms.Padding(4);
             this.retypepass.MaxLength = 15;
             this.retypepass.Name = "retypepass";
             this.retypepass.PasswordChar = '*';
             this.retypepass.Size = new System.Drawing.Size(313, 25);
-            this.retypepass.TabIndex = 63;
+            this.retypepass.TabIndex = 2;
             this.retypepass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.retypepass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             // 
             // label4
             // 
@@ -127,13 +128,14 @@
             this.newpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.newpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newpass.Location = new System.Drawing.Point(276, 85);
-            this.newpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.newpass.Margin = new System.Windows.Forms.Padding(4);
             this.newpass.MaxLength = 15;
             this.newpass.Name = "newpass";
             this.newpass.PasswordChar = '*';
             this.newpass.Size = new System.Drawing.Size(313, 25);
-            this.newpass.TabIndex = 61;
+            this.newpass.TabIndex = 1;
             this.newpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.newpass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             // 
             // label3
             // 
@@ -152,13 +154,14 @@
             this.currpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.currpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currpass.Location = new System.Drawing.Point(276, 53);
-            this.currpass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.currpass.Margin = new System.Windows.Forms.Padding(4);
             this.currpass.MaxLength = 15;
             this.currpass.Name = "currpass";
             this.currpass.PasswordChar = '*';
             this.currpass.Size = new System.Drawing.Size(313, 25);
-            this.currpass.TabIndex = 59;
+            this.currpass.TabIndex = 0;
             this.currpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.currpass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             // 
             // label2
             // 
@@ -179,14 +182,15 @@
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.save.Location = new System.Drawing.Point(353, 263);
-            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.save.Margin = new System.Windows.Forms.Padding(4);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(133, 37);
-            this.save.TabIndex = 96;
+            this.save.TabIndex = 0;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             // 
             // close
             // 
@@ -196,14 +200,15 @@
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.close.Location = new System.Drawing.Point(495, 263);
-            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.close.Margin = new System.Windows.Forms.Padding(4);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(133, 37);
-            this.close.TabIndex = 100;
+            this.close.TabIndex = 1;
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.close.UseVisualStyleBackColor = false;
             this.close.Click += new System.EventHandler(this.close_Click);
+            this.close.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             // 
             // Admin
             // 
@@ -217,7 +222,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Admin";
@@ -225,6 +230,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADMIN";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Admin_FormClosing);
             this.Load += new System.EventHandler(this.Admin_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Admin_KeyDown);
             this.panel2.ResumeLayout(false);

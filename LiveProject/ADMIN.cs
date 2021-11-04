@@ -49,6 +49,15 @@ namespace LiveProject
         {
 
         }
+
+        private void Admin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dlgres = MessageBox.Show("Are you sure you want to cance ?", "Close window",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dlgres == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
 //ok

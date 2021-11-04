@@ -12,9 +12,16 @@ namespace LiveProject
 {
     public partial class Home : Form
     {
-        public Home()
+        private Login parent1;
+        public Home(Login parent)
         {
+            this.parent1 = parent;
             InitializeComponent();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            parent1.Visible = false;
         }
 
         private void pACKSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -92,12 +99,7 @@ namespace LiveProject
         private void label1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void Home_Load(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void sALARYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -272,5 +274,54 @@ namespace LiveProject
             Index DLG = new Index();
             DLG.ShowDialog();
         }
+
+        private void puchase_Click(object sender, EventArgs e)
+        {
+            Purchase dlg = new Purchase();
+            dlg.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Sale dlg = new Sale();
+            dlg.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Stock dlg = new Stock();
+            dlg.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            OrderN dlg = new OrderN();
+            dlg.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OrderP dlg = new OrderP();
+            dlg.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            CustomerPayment dlg = new CustomerPayment();
+            dlg.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            PartyPaymentSetup dlg = new PartyPaymentSetup();
+            dlg.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            NearExpiry dlg = new NearExpiry();
+            dlg.ShowDialog();
+        }
+       
     }
 }

@@ -11,16 +11,16 @@ namespace LiveProject
 {
     public partial class UserSetupNew : Form
     {
-        private User parent;
-        public UserSetupNew(User parent)
+        //private User parent;
+        public UserSetupNew()
         {
             InitializeComponent();
-            this.parent = parent;
+            //this.parent = parent;
         }
 
         private void UserAdd_Load(object sender, EventArgs e)
         {
-            parent.Visible = false;
+            //parent.Visible = false;
 
         }
 
@@ -55,9 +55,10 @@ namespace LiveProject
 
         private void UserSetupNew_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to cancel ?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to cancel ?", "Close window", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.No)
             {
-                this.Close();
+                e.Cancel = true;
             }
         }
     }
