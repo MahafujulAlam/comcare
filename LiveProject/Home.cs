@@ -12,9 +12,16 @@ namespace LiveProject
 {
     public partial class Home : Form
     {
-        public Home()
+        private Login parent1;
+        public Home(Login parent)
         {
+            this.parent1 = parent;
             InitializeComponent();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            parent1.Visible = false;
         }
 
         private void pACKSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -92,12 +99,7 @@ namespace LiveProject
         private void label1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void Home_Load(object sender, EventArgs e)
-        {
-
-        }
+        }        
 
         private void sALARYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -320,5 +322,6 @@ namespace LiveProject
             NearExpiry dlg = new NearExpiry();
             dlg.ShowDialog();
         }
+       
     }
 }
