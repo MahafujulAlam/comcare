@@ -5,277 +5,695 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LiveProject
 {
     public partial class Home : Form
     {
-        private Login parent1;
-        public Home(Login parent)
+        private  Login log1;
+        public Home(Login log)
         {
-            this.parent1 = parent;
+            this.log1 = log;
             InitializeComponent();
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
-            parent1.Visible = false;
+            log1.Visible = false;
+
+            //HomeBG dlg = new HomeBG();
+            //dlg.MdiParent = this;
+            //dlg.Dock = DockStyle.Fill;
+            //dlg.Show();
         }
 
-        private void pACKSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void dASHBOARDToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PackSetup a = new PackSetup();
-            a.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "DashBoard")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    DashBoard dlg = new DashBoard();
+            //    dlg.MdiParent = this;
+            //    dlg.ShowDiolog();
+            //}
+
+            DashBoard dlg = new DashBoard();
+            dlg.ShowDialog();
         }
 
-        private void tYPESETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sALEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaleA dlg = new SaleA();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "SaleA")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    SaleA dlg = new SaleA();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+
+        }
+
+        private void cOMPANYPROFILESETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CompanyProfile dlg = new CompanyProfile();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "CompanyProfile")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    CompanyProfile dlg = new CompanyProfile();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
-        private void aDMINToolStripMenuItem_Click(object sender, EventArgs e)
+        private void bANKSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Admin dlg = new Admin();
+            BankSetup dlg = new BankSetup();
             dlg.ShowDialog();
-        }
-
-        private void uSERToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            User dlg = new User();
-            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "BankSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    BankSetup dlg = new BankSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void cURRENCYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CurrencySetup dlg = new CurrencySetup();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen = false)
+            //{
+            //    CurrencySetup dlg = new CurrencySetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void tAXSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TaxSetup dlg = new TaxSetup();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "TaxSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    TaxSetup dlg = new TaxSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
-        private void eXPENSESToolStripMenuItem_Click(object sender, EventArgs e)
+        private void tYPESETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Expenses dlg = new Expenses();
+            TypeSetup dlg = new TypeSetup();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "TypeSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    TypeSetup dlg = new TypeSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
-        private void homepictureBox_Click(object sender, EventArgs e)
+        private void pACKSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void cUSTOMERPAYMENTToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            CustomerPayment DLG = new CustomerPayment();
-            DLG.ShowDialog();
-        }
-
-        private void pARTYPAYMENTToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            SellerPayment dlg = new SellerPayment();
+            PackSetup dlg = new PackSetup();
             dlg.ShowDialog();
-        }
-
-        private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Are you sure you want to cancel ?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-        }
-
-        private void eMPLOYEESALARYToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }        
-
-        private void sALARYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            EmployeeSalarySetup a = new EmployeeSalarySetup();
-            a.ShowDialog();
-        }
-
-        private void dASHBOARDToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            DashBoard a = new DashBoard();
-            a.ShowDialog();
-        }
-
-        private void homeimage_Click(object sender, EventArgs e)
-        {
-
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "PackSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    PackSetup dlg = new PackSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void cOLORSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ColorSetup dlg = new ColorSetup();
             dlg.ShowDialog();
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Are you sure you want to cancel ?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }  
-        }
-
-        private void pACKSETUPToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            BankSetup a = new BankSetup();
-            a.ShowDialog();
-        }
-
-        private void tYPESETUPToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            TypeSetup a = new TypeSetup();
-            a.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "ColorSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    ColorSetup dlg = new ColorSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void gROUPSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            GroupSetup a = new GroupSetup();
-            a.ShowDialog();
+            GroupSetup dlg = new GroupSetup();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "GroupSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    GroupSetup dlg = new GroupSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void cOMPOSITIONSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CompositionSetup a = new CompositionSetup();
-            a.ShowDialog();
+            CompositionSetup dlg = new CompositionSetup();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "CompositionSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    CompositionSetup dlg = new CompositionSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void pRODUCTSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ProductSetup a = new ProductSetup();
-            a.ShowDialog();
+            ProductSetup dlg = new ProductSetup();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "ProductSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    ProductSetup dlg = new ProductSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void dETAILSSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PartyDetails a = new PartyDetails();
-            a.ShowDialog();
+            PartyDetails dlg = new PartyDetails();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "PartyDetails")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    PartyDetails dlg = new PartyDetails();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void pAYMENTSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            PartyPaymentSetup a = new PartyPaymentSetup();
-            a.ShowDialog();
+            PartyPaymentSetup dlg = new PartyPaymentSetup();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "PartyPaymentSetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    PartyPaymentSetup dlg = new PartyPaymentSetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void dETAILSSETUPToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            EmployeeDetailsNew a = new EmployeeDetailsNew();
-            a.ShowDialog();
+            EmployeeDetails dlg = new EmployeeDetails();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "EmployeeDetails")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    EmployeeDetails dlg = new EmployeeDetails();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
-        private void tAXCONDITIONSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sALARYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TermCond a = new TermCond();
-            a.ShowDialog();
-        }
-
-        private void rACKToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            RackSetup a = new RackSetup();
-            a.ShowDialog();
+            EmployeeSalarySetup dlg = new EmployeeSalarySetup();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "EmployeeSalarySetup")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen = false)
+            //{
+            //    EmployeeSalarySetup dlg = new EmployeeSalarySetup();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void pURCHASEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Purchase a = new Purchase();
-            a.ShowDialog();
-        }
-
-        private void sALEToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Sale a = new Sale();
-            a.ShowDialog();
-        }
-
-        private void nEWToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OrderN a = new OrderN();
-            a.ShowDialog();
-        }
-
-        private void pREVIOUSToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            OrderP a = new OrderP();
-            a.ShowDialog();
-        }
-
-        private void pURCHASERETURNToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ReturnPurchase a = new ReturnPurchase();
-            a.ShowDialog();
-        }
-
-        private void sALERETURNToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ReturnSale a = new ReturnSale();
-            a.ShowDialog();
-        }
-
-        private void oToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Stock a = new Stock();
-            a.ShowDialog();
-        }
-
-        private void rEPORTToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            NearExpiry a = new NearExpiry();
-            a.ShowDialog();
-        }
-
-        private void rEPORTToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Report a = new Report();
-            a.ShowDialog();
-        }
-
-        private void sALARYToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            EmployeeSalaryPay dlg = new EmployeeSalaryPay();
+            Purchase dlg = new Purchase();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "Purchase")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen = false)
+            //{
+            //    Purchase dlg = new Purchase();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void nEWORDERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderN dlg = new OrderN();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "OrderN")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    OrderN dlg = new OrderN();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void pREVIOUSORDERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OrderP dlg = new OrderP();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "OrderP")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    OrderP dlg = new OrderP();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void sTOCKToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Stock dlg = new Stock();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "Stock")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    Stock dlg = new Stock();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void nEAREXPIRYToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NearExpiry dlg = new NearExpiry();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "NearExpiry")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    NearExpiry dlg = new NearExpiry();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void cUSTOMERPAYMENTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomerPayment dlg = new CustomerPayment();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "CustomerPayment")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    CustomerPayment dlg = new CustomerPayment();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void sELLERPAYMENTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SellerPayment dlg = new SellerPayment();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "SellerPayment")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    SellerPayment dlg = new SellerPayment();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void eXPENSESToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Expenses dlg = new Expenses();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "Expenses")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    Expenses dlg = new Expenses();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void dUEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             EmployeeSalaryDue dlg = new EmployeeSalaryDue();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    EmployeeSalaryDue dlg = new EmployeeSalaryDue();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
-        private void mASTERSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        private void pAYMENTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void hOMEDPToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            HomeDp dlg = new HomeDp();
+            EmployeeSalaryPay dlg = new EmployeeSalaryPay();
             dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "EmployeeSalaryPay")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    EmployeeSalaryPay dlg = new EmployeeSalaryPay();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
+        }
+
+        private void aDMINToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Admin dlg = new Admin();
+            //dlg.Show();
+            bool IsOpen = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Text == "Admin")
+                {
+                    IsOpen = true;
+                    f.Focus();
+                    break;
+                }
+            }
+            if (IsOpen == false)
+            {
+                Admin dlg = new Admin();
+                //dlg.MdiParent = this;
+                dlg.Show();
+            }
+        }
+
+        private void uSERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            User dlg = new User();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "User")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    User dlg = new User();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
         private void iNDEXToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Index DLG = new Index();
-            DLG.ShowDialog();
+            Index dlg = new Index();
+            dlg.ShowDialog();
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Text == "Index")
+            //    {
+            //        IsOpen = true;
+            //        f.Focus();
+            //        break;
+            //    }
+            //}
+            //if (IsOpen == false)
+            //{
+            //    Index dlg = new Index();
+            //    dlg.MdiParent = this;
+            //    dlg.Show();
+            //}
         }
 
-        private void puchase_Click(object sender, EventArgs e)
+        private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    this.Close();
+            //}
+        }
+
+        private void Home_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dlg = MessageBox.Show("Are you sure you want to cancel ?", "Close application", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dlg == DialogResult.No)
+            {
+                //Application.Exit();
+                e.Cancel = true;
+                foreach (Form f in Application.OpenForms)
+                {
+                    f.Close();
+                }
+            }
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             Purchase dlg = new Purchase();
             dlg.ShowDialog();
@@ -283,45 +701,66 @@ namespace LiveProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Sale dlg = new Sale();
+            SaleA dlg = new SaleA();
             dlg.ShowDialog();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             Stock dlg = new Stock();
             dlg.ShowDialog();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             OrderN dlg = new OrderN();
             dlg.ShowDialog();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             OrderP dlg = new OrderP();
             dlg.ShowDialog();
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Admin dlg = new Admin();
+            dlg.ShowDialog();
+        }
+
         private void button7_Click(object sender, EventArgs e)
         {
-            CustomerPayment dlg = new CustomerPayment();
+            User dlg = new User();
             dlg.ShowDialog();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            PartyPaymentSetup dlg = new PartyPaymentSetup();
-            dlg.ShowDialog();
+            Application.Exit();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            CustomerPayment dlg = new CustomerPayment();
+            dlg.ShowDialog();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            SellerPayment dlg = new SellerPayment();
+            dlg.ShowDialog();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
             NearExpiry dlg = new NearExpiry();
             dlg.ShowDialog();
         }
-       
     }
 }

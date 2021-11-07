@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace LiveProject
 {
-    public partial class Sale : Form
+    public partial class SaleA : Form
     {
-        public Sale()
+        public SaleA()
         {
             InitializeComponent();
         }
@@ -39,6 +39,26 @@ namespace LiveProject
             {
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                SendKeys.Send("{TAB}");
+            }
+        }
+
+        private void groupBox7_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

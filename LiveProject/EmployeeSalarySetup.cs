@@ -34,6 +34,11 @@ namespace LiveProject
             {
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                SendKeys.Send("{TAB}");
+            }
         }
     }
 }

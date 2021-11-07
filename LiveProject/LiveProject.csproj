@@ -65,6 +65,12 @@
     <Compile Include="BankSetupNew.Designer.cs">
       <DependentUpon>BankSetupNew.cs</DependentUpon>
     </Compile>
+    <Compile Include="BillSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BillSetting.Designer.cs">
+      <DependentUpon>BillSetting.cs</DependentUpon>
+    </Compile>
     <Compile Include="ColorSetupNew.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,12 @@
     <Compile Include="GroupSetupNew.Designer.cs">
       <DependentUpon>GroupSetupNew.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeBG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeBG.Designer.cs">
+      <DependentUpon>HomeBG.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeDp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +214,24 @@
     </Compile>
     <Compile Include="PartyPaymentSetupNew.Designer.cs">
       <DependentUpon>PartyPaymentSetupNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleB.Designer.cs">
+      <DependentUpon>SaleB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleC.Designer.cs">
+      <DependentUpon>SaleC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleD.Designer.cs">
+      <DependentUpon>SaleD.cs</DependentUpon>
     </Compile>
     <Compile Include="SellerPaymentNew.cs">
       <SubType>Form</SubType>
@@ -263,11 +293,11 @@
     <Compile Include="ReturnSale.Designer.cs">
       <DependentUpon>ReturnSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sale.cs">
+    <Compile Include="SaleA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sale.Designer.cs">
-      <DependentUpon>Sale.cs</DependentUpon>
+    <Compile Include="SaleA.Designer.cs">
+      <DependentUpon>SaleA.cs</DependentUpon>
     </Compile>
     <Compile Include="NearExpiry.cs">
       <SubType>Form</SubType>
@@ -406,6 +436,9 @@
     <EmbeddedResource Include="BankSetupNew.resx">
       <DependentUpon>BankSetupNew.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BillSetting.resx">
+      <DependentUpon>BillSetting.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ColorSetupNew.resx">
       <DependentUpon>ColorSetupNew.cs</DependentUpon>
     </EmbeddedResource>
@@ -451,6 +484,9 @@
     <EmbeddedResource Include="GroupSetupNew.resx">
       <DependentUpon>GroupSetupNew.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomeBG.resx">
+      <DependentUpon>HomeBG.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeDp.resx">
       <DependentUpon>HomeDp.cs</DependentUpon>
     </EmbeddedResource>
@@ -477,6 +513,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PartyPaymentSetupNew.resx">
       <DependentUpon>PartyPaymentSetupNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleB.resx">
+      <DependentUpon>SaleB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleC.resx">
+      <DependentUpon>SaleC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleD.resx">
+      <DependentUpon>SaleD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SellerPaymentNew.resx">
       <DependentUpon>SellerPaymentNew.cs</DependentUpon>
@@ -508,8 +553,8 @@
     <EmbeddedResource Include="ReturnSale.resx">
       <DependentUpon>ReturnSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sale.resx">
-      <DependentUpon>Sale.cs</DependentUpon>
+    <EmbeddedResource Include="SaleA.resx">
+      <DependentUpon>SaleA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Stock.resx">
       <DependentUpon>Stock.cs</DependentUpon>

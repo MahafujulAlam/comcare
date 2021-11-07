@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node1");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node2");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node3");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node4");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node6");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node9");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("RECENT VIEWS");
+            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("Node13");
+            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("Node14");
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("Node15");
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("Node16");
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("Node17");
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("Node18");
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("Node19");
+            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("Node20");
+            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("Node21");
+            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("Node22");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.menubar = new System.Windows.Forms.MenuStrip();
             this.dASHBOARDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mASTERSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCCOUNTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tYPESETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pACKSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cOMPANYPROFILESETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bANKSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mONEYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cURRENCYSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tAXSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tYPESETUPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pACKSETUPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tYPESETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pACKSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOLORSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gROUPSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOMPOSITIONSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,28 +62,28 @@
             this.eMPLOYEEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dETAILSSETUPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sALARYSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tAXCONDITIONSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tERMSANDCONDITIONSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bILLSETTINGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oTHERSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rACKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hOMEDPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hOMEPAGEWALPAPERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pURCHASEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sALEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nEWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pREVIOUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nEWORDERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pREVIOUSORDERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tRANSACTIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pURCHASERETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sALERETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rEPORTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pURCHASEToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.sTOCKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nEAREXPIRYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEPORTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tRANSACTIONToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cUSTOMERPAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pARTYPAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sELLERPAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXPENSESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eMPLOYEESALARYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sALARYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dUEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sETTINGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aDMINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uSERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -93,30 +93,28 @@
             this.iNDEXToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBOUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.hometreeView = new System.Windows.Forms.TreeView();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.homepageimg = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.puchase = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.homeimage = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.menubar.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.homeimage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homepageimg)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // menubar
@@ -130,8 +128,8 @@
             this.sALEToolStripMenuItem,
             this.rETURNToolStripMenuItem,
             this.tRANSACTIONToolStripMenuItem,
-            this.oToolStripMenuItem,
-            this.rEPORTToolStripMenuItem,
+            this.sTOCKToolStripMenuItem,
+            this.nEAREXPIRYToolStripMenuItem,
             this.rEPORTToolStripMenuItem1,
             this.tRANSACTIONToolStripMenuItem1,
             this.sETTINGToolStripMenuItem,
@@ -159,39 +157,39 @@
             this.pRODUCTToolStripMenuItem,
             this.pARTYToolStripMenuItem,
             this.eMPLOYEEToolStripMenuItem,
-            this.tAXCONDITIONSETUPToolStripMenuItem,
+            this.tERMSANDCONDITIONSToolStripMenuItem,
+            this.bILLSETTINGToolStripMenuItem,
             this.oTHERSToolStripMenuItem});
             this.mASTERSETUPToolStripMenuItem.Name = "mASTERSETUPToolStripMenuItem";
             this.mASTERSETUPToolStripMenuItem.Size = new System.Drawing.Size(115, 23);
             this.mASTERSETUPToolStripMenuItem.Text = "MASTER SETUP";
-            this.mASTERSETUPToolStripMenuItem.Click += new System.EventHandler(this.mASTERSETUPToolStripMenuItem_Click);
             // 
             // aCCOUNTToolStripMenuItem
             // 
             this.aCCOUNTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tYPESETUPToolStripMenuItem,
-            this.pACKSETUPToolStripMenuItem});
+            this.cOMPANYPROFILESETUPToolStripMenuItem,
+            this.bANKSETUPToolStripMenuItem});
             this.aCCOUNTToolStripMenuItem.Name = "aCCOUNTToolStripMenuItem";
-            this.aCCOUNTToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
+            this.aCCOUNTToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.aCCOUNTToolStripMenuItem.Text = "ACCOUNT";
             // 
-            // tYPESETUPToolStripMenuItem
+            // cOMPANYPROFILESETUPToolStripMenuItem
             // 
-            this.tYPESETUPToolStripMenuItem.Name = "tYPESETUPToolStripMenuItem";
-            this.tYPESETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.tYPESETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
-            this.tYPESETUPToolStripMenuItem.Text = "COMPANY PROFILE SETUP";
-            this.tYPESETUPToolStripMenuItem.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem_Click);
+            this.cOMPANYPROFILESETUPToolStripMenuItem.Name = "cOMPANYPROFILESETUPToolStripMenuItem";
+            this.cOMPANYPROFILESETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.cOMPANYPROFILESETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.cOMPANYPROFILESETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
+            this.cOMPANYPROFILESETUPToolStripMenuItem.Text = "COMPANY PROFILE SETUP";
+            this.cOMPANYPROFILESETUPToolStripMenuItem.Click += new System.EventHandler(this.cOMPANYPROFILESETUPToolStripMenuItem_Click);
             // 
-            // pACKSETUPToolStripMenuItem
+            // bANKSETUPToolStripMenuItem
             // 
-            this.pACKSETUPToolStripMenuItem.Name = "pACKSETUPToolStripMenuItem";
-            this.pACKSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.pACKSETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
-            this.pACKSETUPToolStripMenuItem.Text = "BANK SETUP";
-            this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
+            this.bANKSETUPToolStripMenuItem.Name = "bANKSETUPToolStripMenuItem";
+            this.bANKSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
+            this.bANKSETUPToolStripMenuItem.ShowShortcutKeys = false;
+            this.bANKSETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
+            this.bANKSETUPToolStripMenuItem.Text = "BANK SETUP";
+            this.bANKSETUPToolStripMenuItem.Click += new System.EventHandler(this.bANKSETUPToolStripMenuItem_Click);
             // 
             // mONEYToolStripMenuItem
             // 
@@ -199,7 +197,7 @@
             this.cURRENCYSETUPToolStripMenuItem,
             this.tAXSETUPToolStripMenuItem});
             this.mONEYToolStripMenuItem.Name = "mONEYToolStripMenuItem";
-            this.mONEYToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
+            this.mONEYToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.mONEYToolStripMenuItem.Text = "MONEY";
             // 
             // cURRENCYSETUPToolStripMenuItem
@@ -224,32 +222,29 @@
             // pRODUCTToolStripMenuItem
             // 
             this.pRODUCTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tYPESETUPToolStripMenuItem1,
-            this.pACKSETUPToolStripMenuItem1,
+            this.tYPESETUPToolStripMenuItem,
+            this.pACKSETUPToolStripMenuItem,
             this.cOLORSETUPToolStripMenuItem,
             this.gROUPSETUPToolStripMenuItem,
             this.cOMPOSITIONSETUPToolStripMenuItem,
             this.pRODUCTSETUPToolStripMenuItem});
             this.pRODUCTToolStripMenuItem.Name = "pRODUCTToolStripMenuItem";
-            this.pRODUCTToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
+            this.pRODUCTToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.pRODUCTToolStripMenuItem.Text = "PRODUCT";
             // 
-            // tYPESETUPToolStripMenuItem1
+            // tYPESETUPToolStripMenuItem
             // 
-            this.tYPESETUPToolStripMenuItem1.Name = "tYPESETUPToolStripMenuItem1";
-            this.tYPESETUPToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.T)));
-            this.tYPESETUPToolStripMenuItem1.ShowShortcutKeys = false;
-            this.tYPESETUPToolStripMenuItem1.Size = new System.Drawing.Size(216, 24);
-            this.tYPESETUPToolStripMenuItem1.Text = "TYPE SETUP";
-            this.tYPESETUPToolStripMenuItem1.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem1_Click);
+            this.tYPESETUPToolStripMenuItem.Name = "tYPESETUPToolStripMenuItem";
+            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
+            this.tYPESETUPToolStripMenuItem.Text = "TYPE SETUP";
+            this.tYPESETUPToolStripMenuItem.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem_Click);
             // 
-            // pACKSETUPToolStripMenuItem1
+            // pACKSETUPToolStripMenuItem
             // 
-            this.pACKSETUPToolStripMenuItem1.Name = "pACKSETUPToolStripMenuItem1";
-            this.pACKSETUPToolStripMenuItem1.Size = new System.Drawing.Size(216, 24);
-            this.pACKSETUPToolStripMenuItem1.Text = "PACK SETUP";
-            this.pACKSETUPToolStripMenuItem1.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem1_Click);
+            this.pACKSETUPToolStripMenuItem.Name = "pACKSETUPToolStripMenuItem";
+            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
+            this.pACKSETUPToolStripMenuItem.Text = "PACK SETUP";
+            this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
             // 
             // cOLORSETUPToolStripMenuItem
             // 
@@ -261,8 +256,6 @@
             // gROUPSETUPToolStripMenuItem
             // 
             this.gROUPSETUPToolStripMenuItem.Name = "gROUPSETUPToolStripMenuItem";
-            this.gROUPSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
-            this.gROUPSETUPToolStripMenuItem.ShowShortcutKeys = false;
             this.gROUPSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.gROUPSETUPToolStripMenuItem.Text = "GROUP SETUP";
             this.gROUPSETUPToolStripMenuItem.Click += new System.EventHandler(this.gROUPSETUPToolStripMenuItem_Click);
@@ -277,8 +270,6 @@
             // pRODUCTSETUPToolStripMenuItem
             // 
             this.pRODUCTSETUPToolStripMenuItem.Name = "pRODUCTSETUPToolStripMenuItem";
-            this.pRODUCTSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.pRODUCTSETUPToolStripMenuItem.ShowShortcutKeys = false;
             this.pRODUCTSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.pRODUCTSETUPToolStripMenuItem.Text = "PRODUCT SETUP";
             this.pRODUCTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTSETUPToolStripMenuItem_Click);
@@ -289,25 +280,20 @@
             this.dETAILSSETUPToolStripMenuItem,
             this.pAYMENTSETUPToolStripMenuItem});
             this.pARTYToolStripMenuItem.Name = "pARTYToolStripMenuItem";
-            this.pARTYToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
+            this.pARTYToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.pARTYToolStripMenuItem.Text = "PARTY";
             // 
             // dETAILSSETUPToolStripMenuItem
             // 
             this.dETAILSSETUPToolStripMenuItem.Name = "dETAILSSETUPToolStripMenuItem";
-            this.dETAILSSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.dETAILSSETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.dETAILSSETUPToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
+            this.dETAILSSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.dETAILSSETUPToolStripMenuItem.Text = "DETAILS SETUP";
             this.dETAILSSETUPToolStripMenuItem.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem_Click);
             // 
             // pAYMENTSETUPToolStripMenuItem
             // 
             this.pAYMENTSETUPToolStripMenuItem.Name = "pAYMENTSETUPToolStripMenuItem";
-            this.pAYMENTSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.P)));
-            this.pAYMENTSETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.pAYMENTSETUPToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
+            this.pAYMENTSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.pAYMENTSETUPToolStripMenuItem.Text = "PAYMENT SETUP";
             this.pAYMENTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pAYMENTSETUPToolStripMenuItem_Click);
             // 
@@ -317,64 +303,48 @@
             this.dETAILSSETUPToolStripMenuItem1,
             this.sALARYSETUPToolStripMenuItem});
             this.eMPLOYEEToolStripMenuItem.Name = "eMPLOYEEToolStripMenuItem";
-            this.eMPLOYEEToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
+            this.eMPLOYEEToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.eMPLOYEEToolStripMenuItem.Text = "EMPLOYEE";
             // 
             // dETAILSSETUPToolStripMenuItem1
             // 
             this.dETAILSSETUPToolStripMenuItem1.Name = "dETAILSSETUPToolStripMenuItem1";
-            this.dETAILSSETUPToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.D)));
-            this.dETAILSSETUPToolStripMenuItem1.ShowShortcutKeys = false;
-            this.dETAILSSETUPToolStripMenuItem1.Size = new System.Drawing.Size(162, 24);
+            this.dETAILSSETUPToolStripMenuItem1.Size = new System.Drawing.Size(171, 24);
             this.dETAILSSETUPToolStripMenuItem1.Text = "DETAILS SETUP";
             this.dETAILSSETUPToolStripMenuItem1.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem1_Click);
             // 
             // sALARYSETUPToolStripMenuItem
             // 
             this.sALARYSETUPToolStripMenuItem.Name = "sALARYSETUPToolStripMenuItem";
-            this.sALARYSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.sALARYSETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.sALARYSETUPToolStripMenuItem.Size = new System.Drawing.Size(162, 24);
+            this.sALARYSETUPToolStripMenuItem.Size = new System.Drawing.Size(171, 24);
             this.sALARYSETUPToolStripMenuItem.Text = "SALARY SETUP";
             this.sALARYSETUPToolStripMenuItem.Click += new System.EventHandler(this.sALARYSETUPToolStripMenuItem_Click);
             // 
-            // tAXCONDITIONSETUPToolStripMenuItem
+            // tERMSANDCONDITIONSToolStripMenuItem
             // 
-            this.tAXCONDITIONSETUPToolStripMenuItem.Name = "tAXCONDITIONSETUPToolStripMenuItem";
-            this.tAXCONDITIONSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
-            | System.Windows.Forms.Keys.T)));
-            this.tAXCONDITIONSETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.tAXCONDITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
-            this.tAXCONDITIONSETUPToolStripMenuItem.Text = "TERMS AND CONDITION";
-            this.tAXCONDITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.tAXCONDITIONSETUPToolStripMenuItem_Click);
+            this.tERMSANDCONDITIONSToolStripMenuItem.Name = "tERMSANDCONDITIONSToolStripMenuItem";
+            this.tERMSANDCONDITIONSToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
+            this.tERMSANDCONDITIONSToolStripMenuItem.Text = "TERMS AND CONDITIONS";
+            // 
+            // bILLSETTINGToolStripMenuItem
+            // 
+            this.bILLSETTINGToolStripMenuItem.Name = "bILLSETTINGToolStripMenuItem";
+            this.bILLSETTINGToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
+            this.bILLSETTINGToolStripMenuItem.Text = "BILL SETTING";
             // 
             // oTHERSToolStripMenuItem
             // 
             this.oTHERSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rACKToolStripMenuItem,
-            this.hOMEDPToolStripMenuItem});
+            this.hOMEPAGEWALPAPERToolStripMenuItem});
             this.oTHERSToolStripMenuItem.Name = "oTHERSToolStripMenuItem";
-            this.oTHERSToolStripMenuItem.Size = new System.Drawing.Size(224, 24);
+            this.oTHERSToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.oTHERSToolStripMenuItem.Text = "OTHERS";
             // 
-            // rACKToolStripMenuItem
+            // hOMEPAGEWALPAPERToolStripMenuItem
             // 
-            this.rACKToolStripMenuItem.Name = "rACKToolStripMenuItem";
-            this.rACKToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.rACKToolStripMenuItem.ShowShortcutKeys = false;
-            this.rACKToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
-            this.rACKToolStripMenuItem.Text = "RACK";
-            this.rACKToolStripMenuItem.Click += new System.EventHandler(this.rACKToolStripMenuItem_Click);
-            // 
-            // hOMEDPToolStripMenuItem
-            // 
-            this.hOMEDPToolStripMenuItem.Name = "hOMEDPToolStripMenuItem";
-            this.hOMEDPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.hOMEDPToolStripMenuItem.ShowShortcutKeys = false;
-            this.hOMEDPToolStripMenuItem.Size = new System.Drawing.Size(214, 24);
-            this.hOMEDPToolStripMenuItem.Text = "HOMEPAGE WALPAPER";
-            this.hOMEDPToolStripMenuItem.Click += new System.EventHandler(this.hOMEDPToolStripMenuItem_Click);
+            this.hOMEPAGEWALPAPERToolStripMenuItem.Name = "hOMEPAGEWALPAPERToolStripMenuItem";
+            this.hOMEPAGEWALPAPERToolStripMenuItem.Size = new System.Drawing.Size(227, 24);
+            this.hOMEPAGEWALPAPERToolStripMenuItem.Text = "HOME PAGE WALPAPER";
             // 
             // pURCHASEToolStripMenuItem
             // 
@@ -395,77 +365,62 @@
             // rETURNToolStripMenuItem
             // 
             this.rETURNToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nEWToolStripMenuItem,
-            this.pREVIOUSToolStripMenuItem});
+            this.nEWORDERToolStripMenuItem,
+            this.pREVIOUSORDERToolStripMenuItem});
             this.rETURNToolStripMenuItem.Name = "rETURNToolStripMenuItem";
             this.rETURNToolStripMenuItem.Size = new System.Drawing.Size(65, 23);
             this.rETURNToolStripMenuItem.Text = "ORDER";
             // 
-            // nEWToolStripMenuItem
+            // nEWORDERToolStripMenuItem
             // 
-            this.nEWToolStripMenuItem.Name = "nEWToolStripMenuItem";
-            this.nEWToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.nEWToolStripMenuItem.ShowShortcutKeys = false;
-            this.nEWToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
-            this.nEWToolStripMenuItem.Text = "NEW";
-            this.nEWToolStripMenuItem.Click += new System.EventHandler(this.nEWToolStripMenuItem_Click);
+            this.nEWORDERToolStripMenuItem.Name = "nEWORDERToolStripMenuItem";
+            this.nEWORDERToolStripMenuItem.Size = new System.Drawing.Size(190, 24);
+            this.nEWORDERToolStripMenuItem.Text = "NEW ORDER";
+            this.nEWORDERToolStripMenuItem.Click += new System.EventHandler(this.nEWORDERToolStripMenuItem_Click);
             // 
-            // pREVIOUSToolStripMenuItem
+            // pREVIOUSORDERToolStripMenuItem
             // 
-            this.pREVIOUSToolStripMenuItem.Name = "pREVIOUSToolStripMenuItem";
-            this.pREVIOUSToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
-            | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.P)));
-            this.pREVIOUSToolStripMenuItem.ShowShortcutKeys = false;
-            this.pREVIOUSToolStripMenuItem.Size = new System.Drawing.Size(133, 24);
-            this.pREVIOUSToolStripMenuItem.Text = "PREVIOUS";
-            this.pREVIOUSToolStripMenuItem.Click += new System.EventHandler(this.pREVIOUSToolStripMenuItem_Click);
+            this.pREVIOUSORDERToolStripMenuItem.Name = "pREVIOUSORDERToolStripMenuItem";
+            this.pREVIOUSORDERToolStripMenuItem.Size = new System.Drawing.Size(190, 24);
+            this.pREVIOUSORDERToolStripMenuItem.Text = "PREVIOUS ORDER";
+            this.pREVIOUSORDERToolStripMenuItem.Click += new System.EventHandler(this.pREVIOUSORDERToolStripMenuItem_Click);
             // 
             // tRANSACTIONToolStripMenuItem
             // 
             this.tRANSACTIONToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pURCHASERETURNToolStripMenuItem,
-            this.sALERETURNToolStripMenuItem});
+            this.sALERETURNToolStripMenuItem,
+            this.pURCHASEToolStripMenuItem1});
             this.tRANSACTIONToolStripMenuItem.Name = "tRANSACTIONToolStripMenuItem";
             this.tRANSACTIONToolStripMenuItem.Size = new System.Drawing.Size(71, 23);
             this.tRANSACTIONToolStripMenuItem.Text = "RETURN";
             // 
-            // pURCHASERETURNToolStripMenuItem
-            // 
-            this.pURCHASERETURNToolStripMenuItem.Name = "pURCHASERETURNToolStripMenuItem";
-            this.pURCHASERETURNToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.R)));
-            this.pURCHASERETURNToolStripMenuItem.ShowShortcutKeys = false;
-            this.pURCHASERETURNToolStripMenuItem.Size = new System.Drawing.Size(191, 24);
-            this.pURCHASERETURNToolStripMenuItem.Text = "PURCHASE RETURN";
-            this.pURCHASERETURNToolStripMenuItem.Click += new System.EventHandler(this.pURCHASERETURNToolStripMenuItem_Click);
-            // 
             // sALERETURNToolStripMenuItem
             // 
             this.sALERETURNToolStripMenuItem.Name = "sALERETURNToolStripMenuItem";
-            this.sALERETURNToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
-            | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.R)));
-            this.sALERETURNToolStripMenuItem.ShowShortcutKeys = false;
-            this.sALERETURNToolStripMenuItem.Size = new System.Drawing.Size(191, 24);
+            this.sALERETURNToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.sALERETURNToolStripMenuItem.Text = "SALE RETURN";
-            this.sALERETURNToolStripMenuItem.Click += new System.EventHandler(this.sALERETURNToolStripMenuItem_Click);
             // 
-            // oToolStripMenuItem
+            // pURCHASEToolStripMenuItem1
             // 
-            this.oToolStripMenuItem.Name = "oToolStripMenuItem";
-            this.oToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
-            this.oToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
-            this.oToolStripMenuItem.Text = "STOCK";
-            this.oToolStripMenuItem.Click += new System.EventHandler(this.oToolStripMenuItem_Click);
+            this.pURCHASEToolStripMenuItem1.Name = "pURCHASEToolStripMenuItem1";
+            this.pURCHASEToolStripMenuItem1.Size = new System.Drawing.Size(200, 24);
+            this.pURCHASEToolStripMenuItem1.Text = "PURCHASE RETURN";
             // 
-            // rEPORTToolStripMenuItem
+            // sTOCKToolStripMenuItem
             // 
-            this.rEPORTToolStripMenuItem.Name = "rEPORTToolStripMenuItem";
-            this.rEPORTToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.rEPORTToolStripMenuItem.Size = new System.Drawing.Size(102, 23);
-            this.rEPORTToolStripMenuItem.Text = "NEAR EXPIRY";
-            this.rEPORTToolStripMenuItem.Click += new System.EventHandler(this.rEPORTToolStripMenuItem_Click);
+            this.sTOCKToolStripMenuItem.Name = "sTOCKToolStripMenuItem";
+            this.sTOCKToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
+            this.sTOCKToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
+            this.sTOCKToolStripMenuItem.Text = "STOCK";
+            this.sTOCKToolStripMenuItem.Click += new System.EventHandler(this.sTOCKToolStripMenuItem_Click);
+            // 
+            // nEAREXPIRYToolStripMenuItem
+            // 
+            this.nEAREXPIRYToolStripMenuItem.Name = "nEAREXPIRYToolStripMenuItem";
+            this.nEAREXPIRYToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
+            this.nEAREXPIRYToolStripMenuItem.Size = new System.Drawing.Size(102, 23);
+            this.nEAREXPIRYToolStripMenuItem.Text = "NEAR EXPIRY";
+            this.nEAREXPIRYToolStripMenuItem.Click += new System.EventHandler(this.nEAREXPIRYToolStripMenuItem_Click);
             // 
             // rEPORTToolStripMenuItem1
             // 
@@ -473,13 +428,12 @@
             this.rEPORTToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F6;
             this.rEPORTToolStripMenuItem1.Size = new System.Drawing.Size(69, 23);
             this.rEPORTToolStripMenuItem1.Text = "REPORT";
-            this.rEPORTToolStripMenuItem1.Click += new System.EventHandler(this.rEPORTToolStripMenuItem1_Click);
             // 
             // tRANSACTIONToolStripMenuItem1
             // 
             this.tRANSACTIONToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cUSTOMERPAYMENTToolStripMenuItem,
-            this.pARTYPAYMENTToolStripMenuItem,
+            this.sELLERPAYMENTToolStripMenuItem,
             this.eXPENSESToolStripMenuItem,
             this.eMPLOYEESALARYToolStripMenuItem});
             this.tRANSACTIONToolStripMenuItem1.Name = "tRANSACTIONToolStripMenuItem1";
@@ -493,21 +447,16 @@
             this.cUSTOMERPAYMENTToolStripMenuItem.Text = "CUSTOMER PAYMENT";
             this.cUSTOMERPAYMENTToolStripMenuItem.Click += new System.EventHandler(this.cUSTOMERPAYMENTToolStripMenuItem_Click);
             // 
-            // pARTYPAYMENTToolStripMenuItem
+            // sELLERPAYMENTToolStripMenuItem
             // 
-            this.pARTYPAYMENTToolStripMenuItem.Name = "pARTYPAYMENTToolStripMenuItem";
-            this.pARTYPAYMENTToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.S)));
-            this.pARTYPAYMENTToolStripMenuItem.ShowShortcutKeys = false;
-            this.pARTYPAYMENTToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
-            this.pARTYPAYMENTToolStripMenuItem.Text = "SELLER PAYMENT";
-            this.pARTYPAYMENTToolStripMenuItem.Click += new System.EventHandler(this.pARTYPAYMENTToolStripMenuItem_Click);
+            this.sELLERPAYMENTToolStripMenuItem.Name = "sELLERPAYMENTToolStripMenuItem";
+            this.sELLERPAYMENTToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
+            this.sELLERPAYMENTToolStripMenuItem.Text = "SELLER PAYMENT";
+            this.sELLERPAYMENTToolStripMenuItem.Click += new System.EventHandler(this.sELLERPAYMENTToolStripMenuItem_Click);
             // 
             // eXPENSESToolStripMenuItem
             // 
             this.eXPENSESToolStripMenuItem.Name = "eXPENSESToolStripMenuItem";
-            this.eXPENSESToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.eXPENSESToolStripMenuItem.ShowShortcutKeys = false;
             this.eXPENSESToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.eXPENSESToolStripMenuItem.Text = "EXPENSES";
             this.eXPENSESToolStripMenuItem.Click += new System.EventHandler(this.eXPENSESToolStripMenuItem_Click);
@@ -515,30 +464,25 @@
             // eMPLOYEESALARYToolStripMenuItem
             // 
             this.eMPLOYEESALARYToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sALARYToolStripMenuItem,
-            this.dUEToolStripMenuItem});
+            this.dUEToolStripMenuItem,
+            this.pAYMENTToolStripMenuItem});
             this.eMPLOYEESALARYToolStripMenuItem.Name = "eMPLOYEESALARYToolStripMenuItem";
-            this.eMPLOYEESALARYToolStripMenuItem.ShowShortcutKeys = false;
             this.eMPLOYEESALARYToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
             this.eMPLOYEESALARYToolStripMenuItem.Text = "EMPLOYEE SALARY";
-            this.eMPLOYEESALARYToolStripMenuItem.Click += new System.EventHandler(this.eMPLOYEESALARYToolStripMenuItem_Click);
-            // 
-            // sALARYToolStripMenuItem
-            // 
-            this.sALARYToolStripMenuItem.Name = "sALARYToolStripMenuItem";
-            this.sALARYToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
-            this.sALARYToolStripMenuItem.Text = "PAYMENT";
-            this.sALARYToolStripMenuItem.Click += new System.EventHandler(this.sALARYToolStripMenuItem_Click);
             // 
             // dUEToolStripMenuItem
             // 
             this.dUEToolStripMenuItem.Name = "dUEToolStripMenuItem";
-            this.dUEToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
-            | System.Windows.Forms.Keys.D)));
-            this.dUEToolStripMenuItem.ShowShortcutKeys = false;
             this.dUEToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.dUEToolStripMenuItem.Text = "DUE";
             this.dUEToolStripMenuItem.Click += new System.EventHandler(this.dUEToolStripMenuItem_Click);
+            // 
+            // pAYMENTToolStripMenuItem
+            // 
+            this.pAYMENTToolStripMenuItem.Name = "pAYMENTToolStripMenuItem";
+            this.pAYMENTToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.pAYMENTToolStripMenuItem.Text = "PAYMENT";
+            this.pAYMENTToolStripMenuItem.Click += new System.EventHandler(this.pAYMENTToolStripMenuItem_Click);
             // 
             // sETTINGToolStripMenuItem
             // 
@@ -554,32 +498,27 @@
             // aDMINToolStripMenuItem
             // 
             this.aDMINToolStripMenuItem.Name = "aDMINToolStripMenuItem";
-            this.aDMINToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.aDMINToolStripMenuItem.Size = new System.Drawing.Size(313, 24);
+            this.aDMINToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.aDMINToolStripMenuItem.Text = "ADMIN";
             this.aDMINToolStripMenuItem.Click += new System.EventHandler(this.aDMINToolStripMenuItem_Click);
             // 
             // uSERToolStripMenuItem
             // 
             this.uSERToolStripMenuItem.Name = "uSERToolStripMenuItem";
-            this.uSERToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.uSERToolStripMenuItem.Size = new System.Drawing.Size(313, 24);
+            this.uSERToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.uSERToolStripMenuItem.Text = "USER";
             this.uSERToolStripMenuItem.Click += new System.EventHandler(this.uSERToolStripMenuItem_Click);
             // 
             // dATABASEBACKUPToolStripMenuItem
             // 
             this.dATABASEBACKUPToolStripMenuItem.Name = "dATABASEBACKUPToolStripMenuItem";
-            this.dATABASEBACKUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
-            | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.D)));
-            this.dATABASEBACKUPToolStripMenuItem.Size = new System.Drawing.Size(313, 24);
+            this.dATABASEBACKUPToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.dATABASEBACKUPToolStripMenuItem.Text = "DATABASE BACKUP";
             // 
             // dATABASERESTOREToolStripMenuItem
             // 
             this.dATABASERESTOREToolStripMenuItem.Name = "dATABASERESTOREToolStripMenuItem";
-            this.dATABASERESTOREToolStripMenuItem.Size = new System.Drawing.Size(313, 24);
+            this.dATABASERESTOREToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.dATABASERESTOREToolStripMenuItem.Text = "DATABASE RESTORE";
             // 
             // hELPToolStripMenuItem
@@ -594,19 +533,14 @@
             // iNDEXToolStripMenuItem
             // 
             this.iNDEXToolStripMenuItem.Name = "iNDEXToolStripMenuItem";
-            this.iNDEXToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.iNDEXToolStripMenuItem.ShowShortcutKeys = false;
-            this.iNDEXToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
+            this.iNDEXToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
             this.iNDEXToolStripMenuItem.Text = "INDEX";
             this.iNDEXToolStripMenuItem.Click += new System.EventHandler(this.iNDEXToolStripMenuItem_Click);
             // 
             // aBOUTToolStripMenuItem
             // 
             this.aBOUTToolStripMenuItem.Name = "aBOUTToolStripMenuItem";
-            this.aBOUTToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
-            | System.Windows.Forms.Keys.A)));
-            this.aBOUTToolStripMenuItem.ShowShortcutKeys = false;
-            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
+            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
             this.aBOUTToolStripMenuItem.Text = "ABOUT";
             // 
             // eXITToolStripMenuItem
@@ -617,257 +551,245 @@
             this.eXITToolStripMenuItem.Text = "EXIT";
             this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
             // 
-            // panel1
+            // treeView1
             // 
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 509);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1028, 100);
-            this.panel1.TabIndex = 1;
+            this.treeView1.BackColor = System.Drawing.SystemColors.Control;
+            this.treeView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeView1.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Name = "treeView1";
+            treeNode89.Name = "Node0";
+            treeNode89.Text = "RECENT VIEWS";
+            treeNode90.Name = "Node13";
+            treeNode90.Text = "Node13";
+            treeNode91.Name = "Node14";
+            treeNode91.Text = "Node14";
+            treeNode92.Name = "Node15";
+            treeNode92.Text = "Node15";
+            treeNode93.Name = "Node16";
+            treeNode93.Text = "Node16";
+            treeNode94.Name = "Node17";
+            treeNode94.Text = "Node17";
+            treeNode95.Name = "Node18";
+            treeNode95.Text = "Node18";
+            treeNode96.Name = "Node19";
+            treeNode96.Text = "Node19";
+            treeNode97.Name = "Node20";
+            treeNode97.Text = "Node20";
+            treeNode98.Name = "Node21";
+            treeNode98.Text = "Node21";
+            treeNode99.Name = "Node22";
+            treeNode99.Text = "Node22";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode89,
+            treeNode90,
+            treeNode91,
+            treeNode92,
+            treeNode93,
+            treeNode94,
+            treeNode95,
+            treeNode96,
+            treeNode97,
+            treeNode98,
+            treeNode99});
+            this.treeView1.Size = new System.Drawing.Size(155, 460);
+            this.treeView1.TabIndex = 0;
             // 
-            // groupBox1
+            // panel5
             // 
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(0, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1028, 97);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
+            this.panel5.Controls.Add(this.homepageimg);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(155, 49);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(718, 460);
+            this.panel5.TabIndex = 24;
             // 
-            // panel2
+            // homepageimg
             // 
-            this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 27);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1028, 22);
-            this.panel2.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.hometreeView);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 49);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(157, 460);
-            this.panel3.TabIndex = 3;
-            // 
-            // hometreeView
-            // 
-            this.hometreeView.BackColor = System.Drawing.SystemColors.Control;
-            this.hometreeView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.hometreeView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.hometreeView.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hometreeView.Location = new System.Drawing.Point(0, 0);
-            this.hometreeView.Name = "hometreeView";
-            treeNode1.Name = "Node0";
-            treeNode1.Text = "RECENT VIEWS";
-            treeNode2.Name = "Node1";
-            treeNode2.Text = "Node1";
-            treeNode3.Name = "Node2";
-            treeNode3.Text = "Node2";
-            treeNode4.Name = "Node3";
-            treeNode4.Text = "Node3";
-            treeNode5.Name = "Node4";
-            treeNode5.Text = "Node4";
-            treeNode6.Name = "Node5";
-            treeNode6.Text = "Node5";
-            treeNode7.Name = "Node6";
-            treeNode7.Text = "Node6";
-            treeNode8.Name = "Node7";
-            treeNode8.Text = "Node7";
-            treeNode9.Name = "Node8";
-            treeNode9.Text = "Node8";
-            treeNode10.Name = "Node9";
-            treeNode10.Text = "Node9";
-            treeNode11.Name = "Node10";
-            treeNode11.Text = "Node10";
-            this.hometreeView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11});
-            this.hometreeView.Size = new System.Drawing.Size(157, 460);
-            this.hometreeView.TabIndex = 0;
-            this.hometreeView.TabStop = false;
-            //this.hometreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.hometreeView_AfterSelect);
+            this.homepageimg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.homepageimg.Image = ((System.Drawing.Image)(resources.GetObject("homepageimg.Image")));
+            this.homepageimg.Location = new System.Drawing.Point(0, 0);
+            this.homepageimg.Name = "homepageimg";
+            this.homepageimg.Size = new System.Drawing.Size(718, 460);
+            this.homepageimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.homepageimg.TabIndex = 0;
+            this.homepageimg.TabStop = false;
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.SystemColors.Control;
             this.panel4.Controls.Add(this.button10);
-            this.panel4.Controls.Add(this.button9);
-            this.panel4.Controls.Add(this.button8);
             this.panel4.Controls.Add(this.button7);
             this.panel4.Controls.Add(this.button6);
+            this.panel4.Controls.Add(this.button9);
+            this.panel4.Controls.Add(this.button8);
             this.panel4.Controls.Add(this.button5);
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.button3);
             this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.puchase);
+            this.panel4.Controls.Add(this.button1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(873, 49);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(155, 460);
-            this.panel4.TabIndex = 4;
-            // 
-            // button10
-            // 
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(17, 343);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(117, 30);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "EXIT";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button9
-            // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(17, 307);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(117, 30);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "NEAR EXPIRY";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.panel4.TabIndex = 23;
             // 
             // button8
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.BackColor = System.Drawing.SystemColors.Control;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(17, 271);
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(17, 343);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(117, 30);
             this.button8.TabIndex = 7;
-            this.button8.Text = "P PAYMENT";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Text = "EXIT";
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button7
-            // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(17, 235);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(117, 30);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "C PAYMENT";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button6
-            // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(17, 199);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(117, 30);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "ORDER (P)";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.BackColor = System.Drawing.SystemColors.Control;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(17, 163);
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(17, 199);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(117, 30);
             this.button5.TabIndex = 4;
-            this.button5.Text = "ORDER (N)";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Text = "ORDER (P)";
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.BackColor = System.Drawing.SystemColors.Control;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(17, 127);
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(17, 163);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(117, 30);
             this.button4.TabIndex = 3;
-            this.button4.Text = "STOCK";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Text = "ORDER (N)";
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(17, 91);
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(17, 127);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(117, 30);
             this.button3.TabIndex = 2;
-            this.button3.Text = "RETURN";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Text = "STOCK";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(17, 55);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(117, 30);
             this.button2.TabIndex = 1;
             this.button2.Text = "SALE";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // puchase
+            // button1
             // 
-            this.puchase.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.puchase.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.puchase.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.puchase.Location = new System.Drawing.Point(17, 19);
-            this.puchase.Name = "puchase";
-            this.puchase.Size = new System.Drawing.Size(117, 30);
-            this.puchase.TabIndex = 0;
-            this.puchase.Text = "PURCHASE";
-            this.puchase.UseVisualStyleBackColor = true;
-            this.puchase.Click += new System.EventHandler(this.puchase_Click);
+            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(17, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "PURCHASE";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel5
+            // panel3
             // 
-            this.panel5.Controls.Add(this.homeimage);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(157, 49);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(716, 460);
-            this.panel5.TabIndex = 5;
+            this.panel3.Controls.Add(this.treeView1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 49);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(155, 460);
+            this.panel3.TabIndex = 22;
             // 
-            // homeimage
+            // panel1
             // 
-            this.homeimage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("homeimage.BackgroundImage")));
-            this.homeimage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.homeimage.Location = new System.Drawing.Point(0, 0);
-            this.homeimage.Name = "homeimage";
-            this.homeimage.Size = new System.Drawing.Size(716, 460);
-            this.homeimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.homeimage.TabIndex = 0;
-            this.homeimage.TabStop = false;
-            this.homeimage.Click += new System.EventHandler(this.homeimage_Click);
+            this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1028, 22);
+            this.panel1.TabIndex = 20;
+            // 
+            // panel2
+            // 
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 509);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1028, 100);
+            this.panel2.TabIndex = 21;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.SystemColors.Control;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(17, 91);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(117, 30);
+            this.button9.TabIndex = 8;
+            this.button9.Text = "RETURN";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.Control;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(17, 235);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(117, 30);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "C PAYMENT";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.Control;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(17, 271);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(117, 30);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "P PAYMENT";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.SystemColors.Control;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(17, 307);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(117, 30);
+            this.button10.TabIndex = 11;
+            this.button10.Text = "NEAR EXPIRY";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Home
             // 
@@ -878,23 +800,23 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.menubar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home Page";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Home_FormClosing);
             this.Load += new System.EventHandler(this.Home_Load);
             this.menubar.ResumeLayout(false);
             this.menubar.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.homeimage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homepageimg)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -903,76 +825,75 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menubar;
-        private System.Windows.Forms.ToolStripMenuItem dASHBOARDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mASTERSETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pURCHASEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sALEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rETURNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tRANSACTIONToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sTOCKToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tRANSACTIONToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem nEAREXPIRYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sETTINGToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hELPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rEPORTToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem dASHBOARDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aCCOUNTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tYPESETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pACKSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mONEYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pRODUCTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pARTYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eMPLOYEEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tERMSANDCONDITIONSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bILLSETTINGToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oTHERSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cOMPANYPROFILESETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bANKSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cURRENCYSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tAXSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pRODUCTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tYPESETUPToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem pACKSETUPToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tYPESETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pACKSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cOLORSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gROUPSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cOMPOSITIONSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pRODUCTSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eMPLOYEEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dETAILSSETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pAYMENTSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dETAILSSETUPToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sALARYSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tAXCONDITIONSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem oTHERSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rACKToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pURCHASEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sALEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rETURNToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nEWToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pREVIOUSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tRANSACTIONToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pURCHASERETURNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hOMEPAGEWALPAPERToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nEWORDERToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pREVIOUSORDERToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sALERETURNToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem oToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tRANSACTIONToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem pURCHASEToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem cUSTOMERPAYMENTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pARTYPAYMENTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sELLERPAYMENTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eXPENSESToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eMPLOYEESALARYToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rEPORTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sETTINGToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dUEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pAYMENTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aDMINToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uSERToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dATABASEBACKUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dATABASERESTOREToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hELPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem iNDEXToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBOUTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox homepageimg;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TreeView hometreeView;
-        private System.Windows.Forms.Button puchase;
-        private System.Windows.Forms.PictureBox homeimage;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ToolStripMenuItem rEPORTToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem hOMEDPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sALARYToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dUEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pARTYToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dETAILSSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pAYMENTSETUPToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button9;
     }
 }
 
