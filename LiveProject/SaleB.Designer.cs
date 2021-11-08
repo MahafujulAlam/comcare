@@ -47,41 +47,41 @@
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
             this.textBox47 = new System.Windows.Forms.TextBox();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -101,13 +101,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mrp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.batch = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pack = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.slno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pack = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.batch = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mrp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox49 = new System.Windows.Forms.TextBox();
@@ -389,7 +389,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 163F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164F));
             this.tableLayoutPanel1.Controls.Add(this.textBox47, 5, 5);
             this.tableLayoutPanel1.Controls.Add(this.textBox46, 4, 5);
             this.tableLayoutPanel1.Controls.Add(this.textBox45, 3, 5);
@@ -437,96 +437,297 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(710, 166);
             this.tableLayoutPanel1.TabIndex = 120;
             // 
-            // textBox27
+            // textBox47
             // 
-            this.textBox27.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox27.Location = new System.Drawing.Point(183, 22);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
-            this.textBox27.Size = new System.Drawing.Size(100, 20);
-            this.textBox27.TabIndex = 16;
+            this.textBox47.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox47.Location = new System.Drawing.Point(548, 138);
+            this.textBox47.Name = "textBox47";
+            this.textBox47.ReadOnly = true;
+            this.textBox47.Size = new System.Drawing.Size(136, 20);
+            this.textBox47.TabIndex = 36;
             // 
-            // textBox24
+            // textBox46
             // 
-            this.textBox24.BackColor = System.Drawing.Color.Snow;
-            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox24.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.ForeColor = System.Drawing.Color.Black;
-            this.textBox24.Location = new System.Drawing.Point(3, 138);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.ReadOnly = true;
-            this.textBox24.Size = new System.Drawing.Size(49, 15);
-            this.textBox24.TabIndex = 15;
-            this.textBox24.Text = "TOTAL";
+            this.textBox46.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox46.Location = new System.Drawing.Point(434, 138);
+            this.textBox46.Name = "textBox46";
+            this.textBox46.ReadOnly = true;
+            this.textBox46.Size = new System.Drawing.Size(100, 20);
+            this.textBox46.TabIndex = 35;
             // 
-            // textBox23
+            // textBox45
             // 
-            this.textBox23.BackColor = System.Drawing.Color.Snow;
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(104, 110);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(38, 15);
-            this.textBox23.TabIndex = 14;
-            this.textBox23.Text = "25";
+            this.textBox45.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox45.Location = new System.Drawing.Point(316, 138);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.ReadOnly = true;
+            this.textBox45.Size = new System.Drawing.Size(100, 20);
+            this.textBox45.TabIndex = 34;
             // 
-            // textBox22
+            // textBox44
             // 
-            this.textBox22.BackColor = System.Drawing.Color.Snow;
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox22.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.ForeColor = System.Drawing.Color.Black;
-            this.textBox22.Location = new System.Drawing.Point(104, 81);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(38, 15);
-            this.textBox22.TabIndex = 13;
-            this.textBox22.Text = "18";
+            this.textBox44.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox44.Location = new System.Drawing.Point(182, 138);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.ReadOnly = true;
+            this.textBox44.Size = new System.Drawing.Size(100, 20);
+            this.textBox44.TabIndex = 33;
             // 
-            // textBox21
+            // textBox42
             // 
-            this.textBox21.BackColor = System.Drawing.Color.Snow;
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox21.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(104, 51);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.ReadOnly = true;
-            this.textBox21.Size = new System.Drawing.Size(38, 15);
-            this.textBox21.TabIndex = 12;
-            this.textBox21.Text = "12";
+            this.textBox42.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox42.Location = new System.Drawing.Point(548, 110);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.ReadOnly = true;
+            this.textBox42.Size = new System.Drawing.Size(136, 20);
+            this.textBox42.TabIndex = 31;
             // 
-            // textBox19
+            // textBox41
             // 
-            this.textBox19.BackColor = System.Drawing.Color.Snow;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox19.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.ForeColor = System.Drawing.Color.Black;
-            this.textBox19.Location = new System.Drawing.Point(3, 110);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(49, 15);
-            this.textBox19.TabIndex = 10;
-            this.textBox19.Text = "GST";
+            this.textBox41.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox41.Location = new System.Drawing.Point(434, 110);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.ReadOnly = true;
+            this.textBox41.Size = new System.Drawing.Size(100, 20);
+            this.textBox41.TabIndex = 30;
             // 
-            // textBox18
+            // textBox40
             // 
-            this.textBox18.BackColor = System.Drawing.Color.Snow;
-            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox18.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.ForeColor = System.Drawing.Color.Black;
-            this.textBox18.Location = new System.Drawing.Point(3, 81);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ReadOnly = true;
-            this.textBox18.Size = new System.Drawing.Size(49, 15);
-            this.textBox18.TabIndex = 9;
-            this.textBox18.Text = "GST";
+            this.textBox40.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox40.Location = new System.Drawing.Point(316, 110);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.ReadOnly = true;
+            this.textBox40.Size = new System.Drawing.Size(100, 20);
+            this.textBox40.TabIndex = 29;
+            // 
+            // textBox39
+            // 
+            this.textBox39.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox39.Location = new System.Drawing.Point(182, 110);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.ReadOnly = true;
+            this.textBox39.Size = new System.Drawing.Size(100, 20);
+            this.textBox39.TabIndex = 28;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox38.Location = new System.Drawing.Point(548, 81);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.ReadOnly = true;
+            this.textBox38.Size = new System.Drawing.Size(136, 20);
+            this.textBox38.TabIndex = 27;
+            // 
+            // textBox37
+            // 
+            this.textBox37.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox37.Location = new System.Drawing.Point(434, 81);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.ReadOnly = true;
+            this.textBox37.Size = new System.Drawing.Size(100, 20);
+            this.textBox37.TabIndex = 26;
+            // 
+            // textBox36
+            // 
+            this.textBox36.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox36.Location = new System.Drawing.Point(316, 81);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.ReadOnly = true;
+            this.textBox36.Size = new System.Drawing.Size(100, 20);
+            this.textBox36.TabIndex = 25;
+            // 
+            // textBox35
+            // 
+            this.textBox35.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox35.Location = new System.Drawing.Point(182, 81);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.ReadOnly = true;
+            this.textBox35.Size = new System.Drawing.Size(100, 20);
+            this.textBox35.TabIndex = 24;
+            // 
+            // textBox34
+            // 
+            this.textBox34.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox34.Location = new System.Drawing.Point(548, 51);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.ReadOnly = true;
+            this.textBox34.Size = new System.Drawing.Size(136, 20);
+            this.textBox34.TabIndex = 23;
+            // 
+            // textBox33
+            // 
+            this.textBox33.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox33.Location = new System.Drawing.Point(434, 51);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.ReadOnly = true;
+            this.textBox33.Size = new System.Drawing.Size(100, 20);
+            this.textBox33.TabIndex = 22;
+            // 
+            // textBox32
+            // 
+            this.textBox32.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox32.Location = new System.Drawing.Point(316, 51);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.ReadOnly = true;
+            this.textBox32.Size = new System.Drawing.Size(100, 20);
+            this.textBox32.TabIndex = 21;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox31.Location = new System.Drawing.Point(182, 51);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.ReadOnly = true;
+            this.textBox31.Size = new System.Drawing.Size(100, 20);
+            this.textBox31.TabIndex = 20;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox30.Location = new System.Drawing.Point(548, 22);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.ReadOnly = true;
+            this.textBox30.Size = new System.Drawing.Size(136, 20);
+            this.textBox30.TabIndex = 19;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox29.Location = new System.Drawing.Point(434, 22);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.ReadOnly = true;
+            this.textBox29.Size = new System.Drawing.Size(100, 20);
+            this.textBox29.TabIndex = 18;
+            // 
+            // textBox28
+            // 
+            this.textBox28.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox28.Location = new System.Drawing.Point(316, 22);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.ReadOnly = true;
+            this.textBox28.Size = new System.Drawing.Size(100, 20);
+            this.textBox28.TabIndex = 17;
+            // 
+            // textBox20
+            // 
+            this.textBox20.BackColor = System.Drawing.Color.Snow;
+            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox20.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox20.ForeColor = System.Drawing.Color.Black;
+            this.textBox20.Location = new System.Drawing.Point(103, 22);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.ReadOnly = true;
+            this.textBox20.Size = new System.Drawing.Size(73, 15);
+            this.textBox20.TabIndex = 11;
+            this.textBox20.Text = "5";
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.Color.Snow;
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox16.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.ForeColor = System.Drawing.Color.Black;
+            this.textBox16.Location = new System.Drawing.Point(3, 22);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.ReadOnly = true;
+            this.textBox16.Size = new System.Drawing.Size(94, 15);
+            this.textBox16.TabIndex = 7;
+            this.textBox16.Text = "GST";
+            // 
+            // textBox15
+            // 
+            this.textBox15.BackColor = System.Drawing.Color.Snow;
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox15.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.ForeColor = System.Drawing.Color.Black;
+            this.textBox15.Location = new System.Drawing.Point(548, 3);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(159, 15);
+            this.textBox15.TabIndex = 6;
+            this.textBox15.Text = "TOTAL GST";
+            // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.Color.Snow;
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox14.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.ForeColor = System.Drawing.Color.Black;
+            this.textBox14.Location = new System.Drawing.Point(434, 3);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.ReadOnly = true;
+            this.textBox14.Size = new System.Drawing.Size(108, 15);
+            this.textBox14.TabIndex = 5;
+            this.textBox14.Text = "SGST\r\n";
+            // 
+            // textBox13
+            // 
+            this.textBox13.BackColor = System.Drawing.Color.Snow;
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.ForeColor = System.Drawing.Color.Black;
+            this.textBox13.Location = new System.Drawing.Point(316, 3);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.ReadOnly = true;
+            this.textBox13.Size = new System.Drawing.Size(112, 15);
+            this.textBox13.TabIndex = 4;
+            this.textBox13.Text = "CGST";
+            // 
+            // textBox12
+            // 
+            this.textBox12.BackColor = System.Drawing.Color.Snow;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.ForeColor = System.Drawing.Color.Black;
+            this.textBox12.Location = new System.Drawing.Point(182, 3);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(128, 15);
+            this.textBox12.TabIndex = 3;
+            this.textBox12.TabStop = false;
+            this.textBox12.Text = "TOTAL";
+            // 
+            // textBox10
+            // 
+            this.textBox10.BackColor = System.Drawing.Color.Snow;
+            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox10.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.ForeColor = System.Drawing.Color.Black;
+            this.textBox10.Location = new System.Drawing.Point(103, 3);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(73, 15);
+            this.textBox10.TabIndex = 2;
+            this.textBox10.Text = "RATE";
+            // 
+            // textBox11
+            // 
+            this.textBox11.BackColor = System.Drawing.Color.Snow;
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.ForeColor = System.Drawing.Color.Black;
+            this.textBox11.Location = new System.Drawing.Point(3, 3);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
+            this.textBox11.Size = new System.Drawing.Size(94, 15);
+            this.textBox11.TabIndex = 1;
+            this.textBox11.Text = "TAX";
             // 
             // textBox17
             // 
@@ -542,297 +743,96 @@
             this.textBox17.TabIndex = 8;
             this.textBox17.Text = "GST";
             // 
-            // textBox11
+            // textBox18
             // 
-            this.textBox11.BackColor = System.Drawing.Color.Snow;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.Black;
-            this.textBox11.Location = new System.Drawing.Point(3, 3);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(95, 15);
-            this.textBox11.TabIndex = 1;
-            this.textBox11.Text = "TAX";
+            this.textBox18.BackColor = System.Drawing.Color.Snow;
+            this.textBox18.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox18.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.ForeColor = System.Drawing.Color.Black;
+            this.textBox18.Location = new System.Drawing.Point(3, 81);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.ReadOnly = true;
+            this.textBox18.Size = new System.Drawing.Size(49, 15);
+            this.textBox18.TabIndex = 9;
+            this.textBox18.Text = "GST";
             // 
-            // textBox10
+            // textBox19
             // 
-            this.textBox10.BackColor = System.Drawing.Color.Snow;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox10.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.Black;
-            this.textBox10.Location = new System.Drawing.Point(104, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(73, 15);
-            this.textBox10.TabIndex = 2;
-            this.textBox10.Text = "RATE";
+            this.textBox19.BackColor = System.Drawing.Color.Snow;
+            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox19.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox19.ForeColor = System.Drawing.Color.Black;
+            this.textBox19.Location = new System.Drawing.Point(3, 110);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.ReadOnly = true;
+            this.textBox19.Size = new System.Drawing.Size(49, 15);
+            this.textBox19.TabIndex = 10;
+            this.textBox19.Text = "GST";
             // 
-            // textBox12
+            // textBox21
             // 
-            this.textBox12.BackColor = System.Drawing.Color.Snow;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.Color.Black;
-            this.textBox12.Location = new System.Drawing.Point(183, 3);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(128, 15);
-            this.textBox12.TabIndex = 3;
-            this.textBox12.TabStop = false;
-            this.textBox12.Text = "TOTAL";
+            this.textBox21.BackColor = System.Drawing.Color.Snow;
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox21.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.Location = new System.Drawing.Point(103, 51);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.ReadOnly = true;
+            this.textBox21.Size = new System.Drawing.Size(38, 15);
+            this.textBox21.TabIndex = 12;
+            this.textBox21.Text = "12";
             // 
-            // textBox13
+            // textBox22
             // 
-            this.textBox13.BackColor = System.Drawing.Color.Snow;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.Color.Black;
-            this.textBox13.Location = new System.Drawing.Point(317, 3);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(112, 15);
-            this.textBox13.TabIndex = 4;
-            this.textBox13.Text = "CGST";
+            this.textBox22.BackColor = System.Drawing.Color.Snow;
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox22.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.ForeColor = System.Drawing.Color.Black;
+            this.textBox22.Location = new System.Drawing.Point(103, 81);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.ReadOnly = true;
+            this.textBox22.Size = new System.Drawing.Size(38, 15);
+            this.textBox22.TabIndex = 13;
+            this.textBox22.Text = "18";
             // 
-            // textBox14
+            // textBox23
             // 
-            this.textBox14.BackColor = System.Drawing.Color.Snow;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.Color.Black;
-            this.textBox14.Location = new System.Drawing.Point(435, 3);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ReadOnly = true;
-            this.textBox14.Size = new System.Drawing.Size(108, 15);
-            this.textBox14.TabIndex = 5;
-            this.textBox14.Text = "SGST\r\n";
+            this.textBox23.BackColor = System.Drawing.Color.Snow;
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox23.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(103, 110);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.ReadOnly = true;
+            this.textBox23.Size = new System.Drawing.Size(38, 15);
+            this.textBox23.TabIndex = 14;
+            this.textBox23.Text = "25";
             // 
-            // textBox15
+            // textBox24
             // 
-            this.textBox15.BackColor = System.Drawing.Color.Snow;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.ForeColor = System.Drawing.Color.Black;
-            this.textBox15.Location = new System.Drawing.Point(549, 3);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(158, 15);
-            this.textBox15.TabIndex = 6;
-            this.textBox15.Text = "TOTAL GST";
+            this.textBox24.BackColor = System.Drawing.Color.Snow;
+            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox24.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.ForeColor = System.Drawing.Color.Black;
+            this.textBox24.Location = new System.Drawing.Point(3, 138);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.ReadOnly = true;
+            this.textBox24.Size = new System.Drawing.Size(49, 15);
+            this.textBox24.TabIndex = 15;
+            this.textBox24.Text = "TOTAL";
             // 
-            // textBox16
+            // textBox27
             // 
-            this.textBox16.BackColor = System.Drawing.Color.Snow;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox16.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.ForeColor = System.Drawing.Color.Black;
-            this.textBox16.Location = new System.Drawing.Point(3, 22);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ReadOnly = true;
-            this.textBox16.Size = new System.Drawing.Size(95, 15);
-            this.textBox16.TabIndex = 7;
-            this.textBox16.Text = "GST";
-            // 
-            // textBox20
-            // 
-            this.textBox20.BackColor = System.Drawing.Color.Snow;
-            this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox20.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.ForeColor = System.Drawing.Color.Black;
-            this.textBox20.Location = new System.Drawing.Point(104, 22);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.ReadOnly = true;
-            this.textBox20.Size = new System.Drawing.Size(73, 15);
-            this.textBox20.TabIndex = 11;
-            this.textBox20.Text = "5";
-            // 
-            // textBox28
-            // 
-            this.textBox28.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox28.Location = new System.Drawing.Point(317, 22);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
-            this.textBox28.Size = new System.Drawing.Size(100, 20);
-            this.textBox28.TabIndex = 17;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox29.Location = new System.Drawing.Point(435, 22);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(100, 20);
-            this.textBox29.TabIndex = 18;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox30.Location = new System.Drawing.Point(549, 22);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(136, 20);
-            this.textBox30.TabIndex = 19;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox31.Location = new System.Drawing.Point(183, 51);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(100, 20);
-            this.textBox31.TabIndex = 20;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox32.Location = new System.Drawing.Point(317, 51);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(100, 20);
-            this.textBox32.TabIndex = 21;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox33.Location = new System.Drawing.Point(435, 51);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(100, 20);
-            this.textBox33.TabIndex = 22;
-            // 
-            // textBox34
-            // 
-            this.textBox34.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox34.Location = new System.Drawing.Point(549, 51);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(136, 20);
-            this.textBox34.TabIndex = 23;
-            // 
-            // textBox35
-            // 
-            this.textBox35.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox35.Location = new System.Drawing.Point(183, 81);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.Size = new System.Drawing.Size(100, 20);
-            this.textBox35.TabIndex = 24;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox36.Location = new System.Drawing.Point(317, 81);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(100, 20);
-            this.textBox36.TabIndex = 25;
-            // 
-            // textBox37
-            // 
-            this.textBox37.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox37.Location = new System.Drawing.Point(435, 81);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(100, 20);
-            this.textBox37.TabIndex = 26;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox38.Location = new System.Drawing.Point(549, 81);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.ReadOnly = true;
-            this.textBox38.Size = new System.Drawing.Size(136, 20);
-            this.textBox38.TabIndex = 27;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox39.Location = new System.Drawing.Point(183, 110);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.ReadOnly = true;
-            this.textBox39.Size = new System.Drawing.Size(100, 20);
-            this.textBox39.TabIndex = 28;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox40.Location = new System.Drawing.Point(317, 110);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(100, 20);
-            this.textBox40.TabIndex = 29;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox41.Location = new System.Drawing.Point(435, 110);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(100, 20);
-            this.textBox41.TabIndex = 30;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox42.Location = new System.Drawing.Point(549, 110);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.ReadOnly = true;
-            this.textBox42.Size = new System.Drawing.Size(136, 20);
-            this.textBox42.TabIndex = 31;
-            // 
-            // textBox44
-            // 
-            this.textBox44.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox44.Location = new System.Drawing.Point(183, 138);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(100, 20);
-            this.textBox44.TabIndex = 33;
-            // 
-            // textBox45
-            // 
-            this.textBox45.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox45.Location = new System.Drawing.Point(317, 138);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.ReadOnly = true;
-            this.textBox45.Size = new System.Drawing.Size(100, 20);
-            this.textBox45.TabIndex = 34;
-            // 
-            // textBox46
-            // 
-            this.textBox46.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox46.Location = new System.Drawing.Point(435, 138);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.ReadOnly = true;
-            this.textBox46.Size = new System.Drawing.Size(100, 20);
-            this.textBox46.TabIndex = 35;
-            // 
-            // textBox47
-            // 
-            this.textBox47.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox47.Location = new System.Drawing.Point(549, 138);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.ReadOnly = true;
-            this.textBox47.Size = new System.Drawing.Size(136, 20);
-            this.textBox47.TabIndex = 36;
+            this.textBox27.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox27.Location = new System.Drawing.Point(182, 22);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.ReadOnly = true;
+            this.textBox27.Size = new System.Drawing.Size(100, 20);
+            this.textBox27.TabIndex = 16;
             // 
             // textBox25
             // 
@@ -1059,28 +1059,23 @@
             this.dataGridView1.Size = new System.Drawing.Size(744, 197);
             this.dataGridView1.TabIndex = 0;
             // 
-            // amount
+            // slno
             // 
-            this.amount.HeaderText = "AMOUNT";
-            this.amount.Name = "amount";
-            this.amount.ReadOnly = true;
-            this.amount.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.amount.Width = 80;
+            this.slno.HeaderText = "ITEM NAME";
+            this.slno.Name = "slno";
+            this.slno.ReadOnly = true;
+            this.slno.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.slno.Width = 200;
             // 
-            // mrp
+            // pack
             // 
-            this.mrp.HeaderText = "RATE";
-            this.mrp.Name = "mrp";
-            this.mrp.ReadOnly = true;
-            this.mrp.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.mrp.Width = 70;
+            this.pack.HeaderText = "PACK";
+            this.pack.Name = "pack";
             // 
-            // qty
+            // batch
             // 
-            this.qty.HeaderText = "UOM";
-            this.qty.Name = "qty";
-            this.qty.ReadOnly = true;
-            this.qty.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.batch.HeaderText = "BATCH";
+            this.batch.Name = "batch";
             // 
             // rate
             // 
@@ -1090,23 +1085,28 @@
             this.rate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.rate.Width = 50;
             // 
-            // batch
+            // qty
             // 
-            this.batch.HeaderText = "BATCH";
-            this.batch.Name = "batch";
+            this.qty.HeaderText = "UOM";
+            this.qty.Name = "qty";
+            this.qty.ReadOnly = true;
+            this.qty.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             // 
-            // pack
+            // mrp
             // 
-            this.pack.HeaderText = "PACK";
-            this.pack.Name = "pack";
+            this.mrp.HeaderText = "RATE";
+            this.mrp.Name = "mrp";
+            this.mrp.ReadOnly = true;
+            this.mrp.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.mrp.Width = 70;
             // 
-            // slno
+            // amount
             // 
-            this.slno.HeaderText = "ITEM NAME";
-            this.slno.Name = "slno";
-            this.slno.ReadOnly = true;
-            this.slno.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.slno.Width = 200;
+            this.amount.HeaderText = "AMOUNT";
+            this.amount.Name = "amount";
+            this.amount.ReadOnly = true;
+            this.amount.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.amount.Width = 80;
             // 
             // groupBox3
             // 

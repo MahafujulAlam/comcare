@@ -762,5 +762,11 @@ namespace LiveProject
             NearExpiry dlg = new NearExpiry();
             dlg.ShowDialog();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            SaleC sc = new SaleC();
+            sc.ShowDialog();
+        }
     }
 }
