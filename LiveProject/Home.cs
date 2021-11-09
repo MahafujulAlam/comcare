@@ -763,10 +763,10 @@ namespace LiveProject
             dlg.ShowDialog();
         }
 
-        private void mEDICINECOMPANYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button11_Click(object sender, EventArgs e)
         {
-            MedicineCompanySetup dlg = new MedicineCompanySetup();
-            dlg.ShowDialog();
+            SaleC sc = new SaleC();
+            sc.ShowDialog();
         }
     }
 }

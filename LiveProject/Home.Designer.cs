@@ -55,7 +55,6 @@
             this.cOLORSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gROUPSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOMPOSITIONSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mEDICINECOMPANYSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pARTYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dETAILSSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -111,6 +110,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.menubar.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.homepageimg)).BeginInit();
@@ -228,7 +228,6 @@
             this.cOLORSETUPToolStripMenuItem,
             this.gROUPSETUPToolStripMenuItem,
             this.cOMPOSITIONSETUPToolStripMenuItem,
-            this.mEDICINECOMPANYSETUPToolStripMenuItem,
             this.pRODUCTSETUPToolStripMenuItem});
             this.pRODUCTToolStripMenuItem.Name = "pRODUCTToolStripMenuItem";
             this.pRODUCTToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
@@ -237,49 +236,42 @@
             // tYPESETUPToolStripMenuItem
             // 
             this.tYPESETUPToolStripMenuItem.Name = "tYPESETUPToolStripMenuItem";
-            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.tYPESETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.tYPESETUPToolStripMenuItem.Text = "TYPE SETUP";
             this.tYPESETUPToolStripMenuItem.Click += new System.EventHandler(this.tYPESETUPToolStripMenuItem_Click);
             // 
             // pACKSETUPToolStripMenuItem
             // 
             this.pACKSETUPToolStripMenuItem.Name = "pACKSETUPToolStripMenuItem";
-            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.pACKSETUPToolStripMenuItem.Text = "PACK SETUP";
             this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
             // 
             // cOLORSETUPToolStripMenuItem
             // 
             this.cOLORSETUPToolStripMenuItem.Name = "cOLORSETUPToolStripMenuItem";
-            this.cOLORSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.cOLORSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.cOLORSETUPToolStripMenuItem.Text = "COLOR SETUP";
             this.cOLORSETUPToolStripMenuItem.Click += new System.EventHandler(this.cOLORSETUPToolStripMenuItem_Click);
             // 
             // gROUPSETUPToolStripMenuItem
             // 
             this.gROUPSETUPToolStripMenuItem.Name = "gROUPSETUPToolStripMenuItem";
-            this.gROUPSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.gROUPSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.gROUPSETUPToolStripMenuItem.Text = "GROUP SETUP";
             this.gROUPSETUPToolStripMenuItem.Click += new System.EventHandler(this.gROUPSETUPToolStripMenuItem_Click);
             // 
             // cOMPOSITIONSETUPToolStripMenuItem
             // 
             this.cOMPOSITIONSETUPToolStripMenuItem.Name = "cOMPOSITIONSETUPToolStripMenuItem";
-            this.cOMPOSITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.cOMPOSITIONSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.cOMPOSITIONSETUPToolStripMenuItem.Text = "COMPOSITION SETUP";
             this.cOMPOSITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.cOMPOSITIONSETUPToolStripMenuItem_Click);
-            // 
-            // mEDICINECOMPANYSETUPToolStripMenuItem
-            // 
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Name = "mEDICINECOMPANYSETUPToolStripMenuItem";
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Text = "MEDICINE COMPANY SETUP";
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Click += new System.EventHandler(this.mEDICINECOMPANYSETUPToolStripMenuItem_Click);
             // 
             // pRODUCTSETUPToolStripMenuItem
             // 
             this.pRODUCTSETUPToolStripMenuItem.Name = "pRODUCTSETUPToolStripMenuItem";
-            this.pRODUCTSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.pRODUCTSETUPToolStripMenuItem.Size = new System.Drawing.Size(216, 24);
             this.pRODUCTSETUPToolStripMenuItem.Text = "PRODUCT SETUP";
             this.pRODUCTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTSETUPToolStripMenuItem_Click);
             // 
@@ -607,6 +599,7 @@
             // 
             // panel5
             // 
+            this.panel5.Controls.Add(this.button11);
             this.panel5.Controls.Add(this.homepageimg);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(155, 49);
@@ -810,6 +803,16 @@
             this.panel2.Size = new System.Drawing.Size(1028, 100);
             this.panel2.TabIndex = 21;
             // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(162, 199);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 1;
+            this.button11.Text = "button11";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -913,7 +916,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.ToolStripMenuItem mEDICINECOMPANYSETUPToolStripMenuItem;
+        private System.Windows.Forms.Button button11;
     }
 }
 

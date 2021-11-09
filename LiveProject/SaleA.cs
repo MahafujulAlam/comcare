@@ -16,9 +16,54 @@ namespace LiveProject
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void close_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Sale_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sale_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
+            }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                SendKeys.Send("{TAB}");
+            }
+        }
+
+        private void groupBox7_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox4_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
