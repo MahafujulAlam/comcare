@@ -49,6 +49,10 @@
             this.license = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -95,10 +99,6 @@
             this.label27 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -407,6 +407,52 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Item Details";
             // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox14.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(177, 430);
+            this.textBox14.MaxLength = 6;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(260, 22);
+            this.textBox14.TabIndex = 14;
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox14.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PurchaseNew_KeyDown);
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(15, 430);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(46, 18);
+            this.label32.TabIndex = 125;
+            this.label32.Text = "QTY :";
+            // 
+            // textBox13
+            // 
+            this.textBox13.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox13.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(177, 374);
+            this.textBox13.MaxLength = 6;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(260, 22);
+            this.textBox13.TabIndex = 12;
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox13.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PurchaseNew_KeyDown);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(15, 374);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(70, 18);
+            this.label31.TabIndex = 123;
+            this.label31.Text = "COLOR :";
+            // 
             // textBox12
             // 
             this.textBox12.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -594,9 +640,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(468, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 18);
+            this.label1.Size = new System.Drawing.Size(56, 18);
             this.label1.TabIndex = 92;
-            this.label1.Text = "HSN CODE :";
+            this.label1.Text = "FREE :";
             // 
             // pan
             // 
@@ -615,11 +661,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(454, 34);
+            this.label11.Location = new System.Drawing.Point(468, 33);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(97, 18);
+            this.label11.Size = new System.Drawing.Size(55, 18);
             this.label11.TabIndex = 69;
-            this.label11.Text = "BATCH NO. :";
+            this.label11.Text = "RATE :";
             // 
             // pin
             // 
@@ -640,9 +686,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(15, 402);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 18);
+            this.label10.Size = new System.Drawing.Size(50, 18);
             this.label10.TabIndex = 67;
-            this.label10.Text = "UOM :";
+            this.label10.Text = "UNIT :";
             // 
             // village
             // 
@@ -909,52 +955,6 @@
             this.label26.Size = new System.Drawing.Size(58, 18);
             this.label26.TabIndex = 65;
             this.label26.Text = "CGST :";
-            // 
-            // textBox13
-            // 
-            this.textBox13.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox13.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(177, 374);
-            this.textBox13.MaxLength = 6;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(260, 22);
-            this.textBox13.TabIndex = 12;
-            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox13.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PurchaseNew_KeyDown);
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(15, 374);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(70, 18);
-            this.label31.TabIndex = 123;
-            this.label31.Text = "COLOR :";
-            // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(177, 430);
-            this.textBox14.MaxLength = 6;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(260, 22);
-            this.textBox14.TabIndex = 14;
-            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox14.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PurchaseNew_KeyDown);
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(15, 430);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(56, 18);
-            this.label32.TabIndex = 125;
-            this.label32.Text = "FREE :";
             // 
             // PurchaseNew
             // 

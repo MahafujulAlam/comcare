@@ -701,7 +701,7 @@ namespace LiveProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SaleA dlg = new SaleA();
+            SaleC dlg = new SaleC();
             dlg.ShowDialog();
         }
 
