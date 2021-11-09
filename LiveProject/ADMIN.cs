@@ -38,6 +38,13 @@ namespace LiveProject
             {
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                SendKeys.Send("{TAB}");
+            }
+
+
         }
 
         private void Admin_Load(object sender, EventArgs e)
@@ -57,6 +64,26 @@ namespace LiveProject
             {
                 e.Cancel = true;
             }
+        }
+
+        private void currpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newpass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void retypepass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

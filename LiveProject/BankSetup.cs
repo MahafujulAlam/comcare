@@ -33,11 +33,26 @@ namespace LiveProject
             {
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                SendKeys.Send("{TAB}");
+            }
         }
 
         private void BankSetup_FormClosing(object sender, FormClosingEventArgs e)
         {
             
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

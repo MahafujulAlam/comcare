@@ -47,6 +47,11 @@ namespace LiveProject
             {
                 this.Close();
             }
+            else if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                SendKeys.Send("{TAB}");
+            }
         }
 
         private void PurchaseNew_FormClosing(object sender, FormClosingEventArgs e)
@@ -56,6 +61,11 @@ namespace LiveProject
             {
                 e.Cancel = true;
             }
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
