@@ -392,3 +392,5 @@ E:\Live\comcare\LiveProject\obj\Debug\LiveProject.csproj.GenerateResource.cache
 E:\Live\comcare\LiveProject\obj\Debug\LiveProject.csproj.CoreCompileInputs.cache
 E:\Live\comcare\LiveProject\obj\Debug\LiveProject.exe
 E:\Live\comcare\LiveProject\obj\Debug\LiveProject.pdb
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.MedicineCompanySetup.resources
+D:\DOTNET\CSHARPWINDOWSAPP\compcare-master\LiveProject\obj\Debug\LiveProject.MedicineCompanySetupNew.resources
