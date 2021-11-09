@@ -65,16 +65,16 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(25, 44);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 18);
+            this.label7.Size = new System.Drawing.Size(138, 18);
             this.label7.TabIndex = 62;
-            this.label7.Text = "UOM NAME :";
+            this.label7.Text = "COMPANY NAME :";
             // 
             // name
             // 
             this.name.BackColor = System.Drawing.SystemColors.ControlLight;
             this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(135, 42);
+            this.name.Location = new System.Drawing.Point(172, 44);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(282, 20);
             this.name.TabIndex = 0;
@@ -86,11 +86,9 @@
             this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.usertype.FormattingEnabled = true;
             this.usertype.Items.AddRange(new object[] {
-            "SELECT",
-            "CASHIER",
-            "STAFF",
-            "ACCOUNTANT"});
-            this.usertype.Location = new System.Drawing.Point(135, 68);
+            "ACTIVE",
+            "INACTIVE"});
+            this.usertype.Location = new System.Drawing.Point(172, 70);
             this.usertype.Name = "usertype";
             this.usertype.Size = new System.Drawing.Size(282, 26);
             this.usertype.TabIndex = 1;
@@ -102,7 +100,7 @@
             this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(135, 101);
+            this.textBox2.Location = new System.Drawing.Point(172, 103);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(282, 20);

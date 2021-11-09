@@ -233,11 +233,11 @@
     <Compile Include="SaleB.Designer.cs">
       <DependentUpon>SaleB.cs</DependentUpon>
     </Compile>
-    <Compile Include="SaleC.cs">
+    <Compile Include="SaleA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaleC.Designer.cs">
-      <DependentUpon>SaleC.cs</DependentUpon>
+    <Compile Include="SaleA.Designer.cs">
+      <DependentUpon>SaleA.cs</DependentUpon>
     </Compile>
     <Compile Include="SaleD.cs">
       <SubType>Form</SubType>
@@ -305,11 +305,11 @@
     <Compile Include="ReturnSale.Designer.cs">
       <DependentUpon>ReturnSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="SaleA.cs">
+    <Compile Include="SaleC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaleA.Designer.cs">
-      <DependentUpon>SaleA.cs</DependentUpon>
+    <Compile Include="SaleC.Designer.cs">
+      <DependentUpon>SaleC.cs</DependentUpon>
     </Compile>
     <Compile Include="NearExpiry.cs">
       <SubType>Form</SubType>
@@ -535,8 +535,8 @@
     <EmbeddedResource Include="SaleB.resx">
       <DependentUpon>SaleB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaleC.resx">
-      <DependentUpon>SaleC.cs</DependentUpon>
+    <EmbeddedResource Include="SaleA.resx">
+      <DependentUpon>SaleA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SaleD.resx">
       <DependentUpon>SaleD.cs</DependentUpon>
@@ -571,8 +571,8 @@
     <EmbeddedResource Include="ReturnSale.resx">
       <DependentUpon>ReturnSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaleA.resx">
-      <DependentUpon>SaleA.cs</DependentUpon>
+    <EmbeddedResource Include="SaleC.resx">
+      <DependentUpon>SaleC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Stock.resx">
       <DependentUpon>Stock.cs</DependentUpon>
