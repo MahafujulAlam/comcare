@@ -762,5 +762,11 @@ namespace LiveProject
             NearExpiry dlg = new NearExpiry();
             dlg.ShowDialog();
         }
+
+        private void mEDICINECOMPANYSETUPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MedicineCompanySetup dlg = new MedicineCompanySetup();
+            dlg.ShowDialog();
+        }
     }
 }
