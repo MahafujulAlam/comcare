@@ -108,7 +108,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
@@ -140,7 +140,6 @@
             this.comboBox1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "SELECT",
             "ACTIVE",
             "INACTIVE"});
             this.comboBox1.Location = new System.Drawing.Point(108, 55);

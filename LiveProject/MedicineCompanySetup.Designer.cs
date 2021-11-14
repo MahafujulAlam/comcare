@@ -73,7 +73,7 @@
             this.searchbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.searchbtn.Image = global::LiveProject.Properties.Resources.search1;
             this.searchbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.searchbtn.Location = new System.Drawing.Point(232, 20);
+            this.searchbtn.Location = new System.Drawing.Point(553, 20);
             this.searchbtn.Name = "searchbtn";
             this.searchbtn.Size = new System.Drawing.Size(100, 30);
             this.searchbtn.TabIndex = 1;
@@ -86,7 +86,7 @@
             // 
             this.search.Location = new System.Drawing.Point(6, 23);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(220, 24);
+            this.search.Size = new System.Drawing.Size(541, 24);
             this.search.TabIndex = 0;
             this.search.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MedicineCompanySetup_KeyDown);
             // 
@@ -95,7 +95,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);

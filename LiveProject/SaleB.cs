@@ -16,17 +16,14 @@ namespace LiveProject
             InitializeComponent();
         }
 
-        private void SaleB_KeyDown(object sender, KeyEventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            if (e.KeyCode == Keys.Escape)
-            {
-                this.Close();
-            }
-            else if (e.KeyCode == Keys.Enter)
-            {
-                e.SuppressKeyPress = true;
-                SendKeys.Send("{TAB}");
-            }
+            this.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+           
         }
     }
 }

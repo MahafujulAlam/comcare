@@ -28,73 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node7");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node8");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node9");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node10");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node11");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node12");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node13");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node14");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node15");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node16");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("DATE1", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6,
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Node17");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node18");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node19");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node20");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node21");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node1", new System.Windows.Forms.TreeNode[] {
-            treeNode12,
-            treeNode13,
-            treeNode14,
-            treeNode15,
-            treeNode16});
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node22");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Node23");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node24");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Node25");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Node26");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
-            treeNode18,
-            treeNode19,
-            treeNode20,
-            treeNode21,
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Node27");
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Node28");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Node29");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Node30");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Node31");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
-            treeNode24,
-            treeNode25,
-            treeNode26,
-            treeNode27,
-            treeNode28});
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Node32");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Node33");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Node34");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Node35");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Node36");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Node4", new System.Windows.Forms.TreeNode[] {
-            treeNode30,
-            treeNode31,
-            treeNode32,
-            treeNode33,
-            treeNode34});
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Node5");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode186 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode187 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode188 = new System.Windows.Forms.TreeNode("Node9");
+            System.Windows.Forms.TreeNode treeNode189 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode190 = new System.Windows.Forms.TreeNode("Node11");
+            System.Windows.Forms.TreeNode treeNode191 = new System.Windows.Forms.TreeNode("Node12");
+            System.Windows.Forms.TreeNode treeNode192 = new System.Windows.Forms.TreeNode("Node13");
+            System.Windows.Forms.TreeNode treeNode193 = new System.Windows.Forms.TreeNode("Node14");
+            System.Windows.Forms.TreeNode treeNode194 = new System.Windows.Forms.TreeNode("Node15");
+            System.Windows.Forms.TreeNode treeNode195 = new System.Windows.Forms.TreeNode("Node16");
+            System.Windows.Forms.TreeNode treeNode196 = new System.Windows.Forms.TreeNode("DATE1", new System.Windows.Forms.TreeNode[] {
+            treeNode186,
+            treeNode187,
+            treeNode188,
+            treeNode189,
+            treeNode190,
+            treeNode191,
+            treeNode192,
+            treeNode193,
+            treeNode194,
+            treeNode195});
+            System.Windows.Forms.TreeNode treeNode197 = new System.Windows.Forms.TreeNode("Node17");
+            System.Windows.Forms.TreeNode treeNode198 = new System.Windows.Forms.TreeNode("Node18");
+            System.Windows.Forms.TreeNode treeNode199 = new System.Windows.Forms.TreeNode("Node19");
+            System.Windows.Forms.TreeNode treeNode200 = new System.Windows.Forms.TreeNode("Node20");
+            System.Windows.Forms.TreeNode treeNode201 = new System.Windows.Forms.TreeNode("Node21");
+            System.Windows.Forms.TreeNode treeNode202 = new System.Windows.Forms.TreeNode("Node1", new System.Windows.Forms.TreeNode[] {
+            treeNode197,
+            treeNode198,
+            treeNode199,
+            treeNode200,
+            treeNode201});
+            System.Windows.Forms.TreeNode treeNode203 = new System.Windows.Forms.TreeNode("Node22");
+            System.Windows.Forms.TreeNode treeNode204 = new System.Windows.Forms.TreeNode("Node23");
+            System.Windows.Forms.TreeNode treeNode205 = new System.Windows.Forms.TreeNode("Node24");
+            System.Windows.Forms.TreeNode treeNode206 = new System.Windows.Forms.TreeNode("Node25");
+            System.Windows.Forms.TreeNode treeNode207 = new System.Windows.Forms.TreeNode("Node26");
+            System.Windows.Forms.TreeNode treeNode208 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
+            treeNode203,
+            treeNode204,
+            treeNode205,
+            treeNode206,
+            treeNode207});
+            System.Windows.Forms.TreeNode treeNode209 = new System.Windows.Forms.TreeNode("Node27");
+            System.Windows.Forms.TreeNode treeNode210 = new System.Windows.Forms.TreeNode("Node28");
+            System.Windows.Forms.TreeNode treeNode211 = new System.Windows.Forms.TreeNode("Node29");
+            System.Windows.Forms.TreeNode treeNode212 = new System.Windows.Forms.TreeNode("Node30");
+            System.Windows.Forms.TreeNode treeNode213 = new System.Windows.Forms.TreeNode("Node31");
+            System.Windows.Forms.TreeNode treeNode214 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
+            treeNode209,
+            treeNode210,
+            treeNode211,
+            treeNode212,
+            treeNode213});
+            System.Windows.Forms.TreeNode treeNode215 = new System.Windows.Forms.TreeNode("Node32");
+            System.Windows.Forms.TreeNode treeNode216 = new System.Windows.Forms.TreeNode("Node33");
+            System.Windows.Forms.TreeNode treeNode217 = new System.Windows.Forms.TreeNode("Node34");
+            System.Windows.Forms.TreeNode treeNode218 = new System.Windows.Forms.TreeNode("Node35");
+            System.Windows.Forms.TreeNode treeNode219 = new System.Windows.Forms.TreeNode("Node36");
+            System.Windows.Forms.TreeNode treeNode220 = new System.Windows.Forms.TreeNode("Node4", new System.Windows.Forms.TreeNode[] {
+            treeNode215,
+            treeNode216,
+            treeNode217,
+            treeNode218,
+            treeNode219});
+            System.Windows.Forms.TreeNode treeNode221 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode222 = new System.Windows.Forms.TreeNode("Node6");
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -147,6 +147,12 @@
             this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox61 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.textBox60 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBox59 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
@@ -156,7 +162,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBox56 = new System.Windows.Forms.TextBox();
             this.textBox57 = new System.Windows.Forms.TextBox();
@@ -216,6 +221,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox5.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -440,10 +446,11 @@
             this.button1.Location = new System.Drawing.Point(819, 11);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 30);
-            this.button1.TabIndex = 119;
+            this.button1.TabIndex = 3;
             this.button1.Text = "SEARCH";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label3
             // 
@@ -464,7 +471,8 @@
             this.textBox2.MaxLength = 10;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(188, 17);
-            this.textBox2.TabIndex = 117;
+            this.textBox2.TabIndex = 2;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label1
             // 
@@ -484,7 +492,8 @@
             this.name.Location = new System.Drawing.Point(300, 18);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(179, 17);
-            this.name.TabIndex = 115;
+            this.name.TabIndex = 1;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // date
             // 
@@ -493,8 +502,9 @@
             this.date.Location = new System.Drawing.Point(71, 15);
             this.date.Name = "date";
             this.date.Size = new System.Drawing.Size(115, 24);
-            this.date.TabIndex = 114;
+            this.date.TabIndex = 0;
             this.date.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
+            this.date.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label2
             // 
@@ -524,7 +534,7 @@
             this.groupBox7.Location = new System.Drawing.Point(99, 125);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(943, 65);
-            this.groupBox7.TabIndex = 141;
+            this.groupBox7.TabIndex = 0;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Bill To";
             // 
@@ -537,7 +547,8 @@
             this.textBox52.MaxLength = 10;
             this.textBox52.Name = "textBox52";
             this.textBox52.Size = new System.Drawing.Size(224, 17);
-            this.textBox52.TabIndex = 125;
+            this.textBox52.TabIndex = 5;
+            this.textBox52.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label18
             // 
@@ -558,7 +569,8 @@
             this.textBox51.MaxLength = 10;
             this.textBox51.Name = "textBox51";
             this.textBox51.Size = new System.Drawing.Size(174, 17);
-            this.textBox51.TabIndex = 123;
+            this.textBox51.TabIndex = 3;
+            this.textBox51.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label17
             // 
@@ -579,7 +591,8 @@
             this.textBox50.MaxLength = 10;
             this.textBox50.Name = "textBox50";
             this.textBox50.Size = new System.Drawing.Size(150, 17);
-            this.textBox50.TabIndex = 121;
+            this.textBox50.TabIndex = 4;
+            this.textBox50.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label16
             // 
@@ -610,7 +623,8 @@
             this.textBox43.MaxLength = 10;
             this.textBox43.Name = "textBox43";
             this.textBox43.Size = new System.Drawing.Size(224, 17);
-            this.textBox43.TabIndex = 117;
+            this.textBox43.TabIndex = 2;
+            this.textBox43.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label14
             // 
@@ -630,7 +644,8 @@
             this.textBox48.Location = new System.Drawing.Point(425, 18);
             this.textBox48.Name = "textBox48";
             this.textBox48.Size = new System.Drawing.Size(150, 17);
-            this.textBox48.TabIndex = 120;
+            this.textBox48.TabIndex = 1;
+            this.textBox48.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // textBox49
             // 
@@ -640,7 +655,8 @@
             this.textBox49.Location = new System.Drawing.Point(115, 18);
             this.textBox49.Name = "textBox49";
             this.textBox49.Size = new System.Drawing.Size(174, 17);
-            this.textBox49.TabIndex = 115;
+            this.textBox49.TabIndex = 0;
+            this.textBox49.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label15
             // 
@@ -687,7 +703,8 @@
             this.textBox3.MaxLength = 10;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(224, 17);
-            this.textBox3.TabIndex = 117;
+            this.textBox3.TabIndex = 2;
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label4
             // 
@@ -707,7 +724,8 @@
             this.textBox5.Location = new System.Drawing.Point(416, 18);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(150, 17);
-            this.textBox5.TabIndex = 120;
+            this.textBox5.TabIndex = 1;
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // textBox4
             // 
@@ -716,8 +734,10 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(115, 18);
             this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(174, 17);
-            this.textBox4.TabIndex = 115;
+            this.textBox4.TabIndex = 0;
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // label6
             // 
@@ -731,7 +751,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.slno1,
@@ -742,22 +762,24 @@
             this.qty,
             this.mrp,
             this.amount});
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.Location = new System.Drawing.Point(99, 194);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(943, 195);
-            this.dataGridView1.TabIndex = 142;
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // slno1
             // 
             this.slno1.HeaderText = "SL NO";
             this.slno1.Name = "slno1";
+            this.slno1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.slno1.Width = 80;
             // 
             // slno
             // 
             this.slno.HeaderText = "PRODUCT DESCRIPTION";
             this.slno.Name = "slno";
-            this.slno.ReadOnly = true;
             this.slno.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.slno.Width = 250;
             // 
@@ -765,17 +787,18 @@
             // 
             this.pack.HeaderText = "PACK";
             this.pack.Name = "pack";
+            this.pack.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             // 
             // batch
             // 
             this.batch.HeaderText = "BATCH";
             this.batch.Name = "batch";
+            this.batch.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             // 
             // rate
             // 
             this.rate.HeaderText = "QTY";
             this.rate.Name = "rate";
-            this.rate.ReadOnly = true;
             this.rate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.rate.Width = 80;
             // 
@@ -783,14 +806,12 @@
             // 
             this.qty.HeaderText = "UOM";
             this.qty.Name = "qty";
-            this.qty.ReadOnly = true;
             this.qty.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             // 
             // mrp
             // 
             this.mrp.HeaderText = "RATE";
             this.mrp.Name = "mrp";
-            this.mrp.ReadOnly = true;
             this.mrp.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.mrp.Width = 90;
             // 
@@ -814,6 +835,13 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.Controls.Add(this.comboBox1);
+            this.groupBox8.Controls.Add(this.label27);
+            this.groupBox8.Controls.Add(this.textBox61);
+            this.groupBox8.Controls.Add(this.label26);
+            this.groupBox8.Controls.Add(this.textBox60);
+            this.groupBox8.Controls.Add(this.label25);
+            this.groupBox8.Controls.Add(this.textBox59);
             this.groupBox8.Controls.Add(this.label7);
             this.groupBox8.Controls.Add(this.textBox8);
             this.groupBox8.Controls.Add(this.textBox25);
@@ -823,18 +851,83 @@
             this.groupBox8.Controls.Add(this.label8);
             this.groupBox8.Controls.Add(this.textBox6);
             this.groupBox8.Controls.Add(this.textBox7);
-            this.groupBox8.Controls.Add(this.textBox26);
-            this.groupBox8.Location = new System.Drawing.Point(662, 10);
+            this.groupBox8.Location = new System.Drawing.Point(662, 0);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(274, 163);
+            this.groupBox8.Size = new System.Drawing.Size(281, 182);
             this.groupBox8.TabIndex = 127;
             this.groupBox8.TabStop = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(7, 154);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(109, 17);
+            this.label27.TabIndex = 130;
+            this.label27.Text = "DUE AMOUNT :";
+            // 
+            // textBox61
+            // 
+            this.textBox61.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox61.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox61.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox61.Location = new System.Drawing.Point(151, 154);
+            this.textBox61.Name = "textBox61";
+            this.textBox61.ReadOnly = true;
+            this.textBox61.Size = new System.Drawing.Size(115, 16);
+            this.textBox61.TabIndex = 129;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(7, 133);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(111, 17);
+            this.label26.TabIndex = 128;
+            this.label26.Text = "PAID AMOUNT :";
+            // 
+            // textBox60
+            // 
+            this.textBox60.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox60.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox60.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox60.Location = new System.Drawing.Point(151, 134);
+            this.textBox60.Name = "textBox60";
+            this.textBox60.Size = new System.Drawing.Size(115, 16);
+            this.textBox60.TabIndex = 2;
+            this.textBox60.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(7, 90);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(126, 17);
+            this.label25.TabIndex = 126;
+            this.label25.Text = "TOTAL AMOUNT :";
+            // 
+            // textBox59
+            // 
+            this.textBox59.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox59.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox59.Location = new System.Drawing.Point(151, 90);
+            this.textBox59.Name = "textBox59";
+            this.textBox59.ReadOnly = true;
+            this.textBox59.Size = new System.Drawing.Size(115, 16);
+            this.textBox59.TabIndex = 125;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 25);
+            this.label7.Location = new System.Drawing.Point(7, 17);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(108, 17);
             this.label7.TabIndex = 113;
@@ -846,7 +939,7 @@
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(151, 80);
+            this.textBox8.Location = new System.Drawing.Point(151, 54);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
             this.textBox8.Size = new System.Drawing.Size(115, 16);
@@ -858,7 +951,7 @@
             this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox25.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(151, 109);
+            this.textBox25.Location = new System.Drawing.Point(151, 72);
             this.textBox25.Name = "textBox25";
             this.textBox25.ReadOnly = true;
             this.textBox25.Size = new System.Drawing.Size(115, 16);
@@ -868,7 +961,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(6, 81);
+            this.label9.Location = new System.Drawing.Point(7, 55);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(50, 17);
             this.label9.TabIndex = 117;
@@ -878,17 +971,17 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(6, 138);
+            this.label12.Location = new System.Drawing.Point(7, 110);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(126, 17);
+            this.label12.Size = new System.Drawing.Size(69, 17);
             this.label12.TabIndex = 124;
-            this.label12.Text = "TOTAL AMOUNT :";
+            this.label12.Text = "PAID BY :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 110);
+            this.label11.Location = new System.Drawing.Point(7, 72);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(54, 17);
             this.label11.TabIndex = 122;
@@ -898,7 +991,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(6, 51);
+            this.label8.Location = new System.Drawing.Point(7, 35);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(87, 17);
             this.label8.TabIndex = 115;
@@ -910,7 +1003,7 @@
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(151, 23);
+            this.textBox6.Location = new System.Drawing.Point(151, 18);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
             this.textBox6.Size = new System.Drawing.Size(115, 16);
@@ -922,22 +1015,11 @@
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(151, 50);
+            this.textBox7.Location = new System.Drawing.Point(151, 36);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(115, 16);
-            this.textBox7.TabIndex = 114;
-            // 
-            // textBox26
-            // 
-            this.textBox26.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox26.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.Location = new System.Drawing.Point(151, 138);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.ReadOnly = true;
-            this.textBox26.Size = new System.Drawing.Size(115, 16);
-            this.textBox26.TabIndex = 123;
+            this.textBox7.TabIndex = 0;
+            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // groupBox6
             // 
@@ -965,6 +1047,7 @@
             this.textBox56.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox56.Location = new System.Drawing.Point(85, 52);
             this.textBox56.Name = "textBox56";
+            this.textBox56.ReadOnly = true;
             this.textBox56.Size = new System.Drawing.Size(119, 16);
             this.textBox56.TabIndex = 127;
             // 
@@ -1528,10 +1611,12 @@
             // 
             // textBox24
             // 
+            this.textBox24.BackColor = System.Drawing.Color.Snow;
+            this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox24.Location = new System.Drawing.Point(3, 132);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(64, 20);
+            this.textBox24.Size = new System.Drawing.Size(64, 13);
             this.textBox24.TabIndex = 37;
             this.textBox24.Text = "TOTAL";
             // 
@@ -1563,9 +1648,9 @@
             this.textBox58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox58.Location = new System.Drawing.Point(109, 13);
             this.textBox58.Name = "textBox58";
-            this.textBox58.ReadOnly = true;
             this.textBox58.Size = new System.Drawing.Size(826, 16);
-            this.textBox58.TabIndex = 120;
+            this.textBox58.TabIndex = 0;
+            this.textBox58.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button3
             // 
@@ -1578,10 +1663,11 @@
             this.button3.Name = "button3";
             this.button3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button3.Size = new System.Drawing.Size(159, 30);
-            this.button3.TabIndex = 151;
+            this.button3.TabIndex = 4;
             this.button3.Text = "SAVE AND PRINT";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button4
             // 
@@ -1594,10 +1680,11 @@
             this.button4.Name = "button4";
             this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button4.Size = new System.Drawing.Size(100, 30);
-            this.button4.TabIndex = 150;
+            this.button4.TabIndex = 3;
             this.button4.Text = "SAVE";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button5
             // 
@@ -1609,11 +1696,12 @@
             this.button5.Location = new System.Drawing.Point(942, 610);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 30);
-            this.button5.TabIndex = 149;
+            this.button5.TabIndex = 8;
             this.button5.Text = "CLOSE";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button6
             // 
@@ -1625,10 +1713,11 @@
             this.button6.Location = new System.Drawing.Point(836, 610);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 30);
-            this.button6.TabIndex = 147;
+            this.button6.TabIndex = 7;
             this.button6.Text = "CLEAR";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button7
             // 
@@ -1640,10 +1729,11 @@
             this.button7.Location = new System.Drawing.Point(730, 610);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(100, 30);
-            this.button7.TabIndex = 148;
+            this.button7.TabIndex = 5;
             this.button7.Text = "DELETE";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button8
             // 
@@ -1655,10 +1745,11 @@
             this.button8.Location = new System.Drawing.Point(249, 610);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 30);
-            this.button8.TabIndex = 145;
+            this.button8.TabIndex = 1;
             this.button8.Text = "NEW";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // button9
             // 
@@ -1670,10 +1761,11 @@
             this.button9.Location = new System.Drawing.Point(353, 610);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(100, 30);
-            this.button9.TabIndex = 146;
+            this.button9.TabIndex = 2;
             this.button9.Text = "UPDATE";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             // 
             // groupBox9
             // 
@@ -1692,90 +1784,104 @@
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView1.Location = new System.Drawing.Point(3, 17);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Node7";
-            treeNode1.Text = "Node7";
-            treeNode2.Name = "Node8";
-            treeNode2.Text = "Node8";
-            treeNode3.Name = "Node9";
-            treeNode3.Text = "Node9";
-            treeNode4.Name = "Node10";
-            treeNode4.Text = "Node10";
-            treeNode5.Name = "Node11";
-            treeNode5.Text = "Node11";
-            treeNode6.Name = "Node12";
-            treeNode6.Text = "Node12";
-            treeNode7.Name = "Node13";
-            treeNode7.Text = "Node13";
-            treeNode8.Name = "Node14";
-            treeNode8.Text = "Node14";
-            treeNode9.Name = "Node15";
-            treeNode9.Text = "Node15";
-            treeNode10.Name = "Node16";
-            treeNode10.Text = "Node16";
-            treeNode11.Name = "Node0";
-            treeNode11.Text = "DATE1";
-            treeNode12.Name = "Node17";
-            treeNode12.Text = "Node17";
-            treeNode13.Name = "Node18";
-            treeNode13.Text = "Node18";
-            treeNode14.Name = "Node19";
-            treeNode14.Text = "Node19";
-            treeNode15.Name = "Node20";
-            treeNode15.Text = "Node20";
-            treeNode16.Name = "Node21";
-            treeNode16.Text = "Node21";
-            treeNode17.Name = "Node1";
-            treeNode17.Text = "Node1";
-            treeNode18.Name = "Node22";
-            treeNode18.Text = "Node22";
-            treeNode19.Name = "Node23";
-            treeNode19.Text = "Node23";
-            treeNode20.Name = "Node24";
-            treeNode20.Text = "Node24";
-            treeNode21.Name = "Node25";
-            treeNode21.Text = "Node25";
-            treeNode22.Name = "Node26";
-            treeNode22.Text = "Node26";
-            treeNode23.Name = "Node2";
-            treeNode23.Text = "Node2";
-            treeNode24.Name = "Node27";
-            treeNode24.Text = "Node27";
-            treeNode25.Name = "Node28";
-            treeNode25.Text = "Node28";
-            treeNode26.Name = "Node29";
-            treeNode26.Text = "Node29";
-            treeNode27.Name = "Node30";
-            treeNode27.Text = "Node30";
-            treeNode28.Name = "Node31";
-            treeNode28.Text = "Node31";
-            treeNode29.Name = "Node3";
-            treeNode29.Text = "Node3";
-            treeNode30.Name = "Node32";
-            treeNode30.Text = "Node32";
-            treeNode31.Name = "Node33";
-            treeNode31.Text = "Node33";
-            treeNode32.Name = "Node34";
-            treeNode32.Text = "Node34";
-            treeNode33.Name = "Node35";
-            treeNode33.Text = "Node35";
-            treeNode34.Name = "Node36";
-            treeNode34.Text = "Node36";
-            treeNode35.Name = "Node4";
-            treeNode35.Text = "Node4";
-            treeNode36.Name = "Node5";
-            treeNode36.Text = "Node5";
-            treeNode37.Name = "Node6";
-            treeNode37.Text = "Node6";
+            treeNode186.Name = "Node7";
+            treeNode186.Text = "Node7";
+            treeNode187.Name = "Node8";
+            treeNode187.Text = "Node8";
+            treeNode188.Name = "Node9";
+            treeNode188.Text = "Node9";
+            treeNode189.Name = "Node10";
+            treeNode189.Text = "Node10";
+            treeNode190.Name = "Node11";
+            treeNode190.Text = "Node11";
+            treeNode191.Name = "Node12";
+            treeNode191.Text = "Node12";
+            treeNode192.Name = "Node13";
+            treeNode192.Text = "Node13";
+            treeNode193.Name = "Node14";
+            treeNode193.Text = "Node14";
+            treeNode194.Name = "Node15";
+            treeNode194.Text = "Node15";
+            treeNode195.Name = "Node16";
+            treeNode195.Text = "Node16";
+            treeNode196.Name = "Node0";
+            treeNode196.Text = "DATE1";
+            treeNode197.Name = "Node17";
+            treeNode197.Text = "Node17";
+            treeNode198.Name = "Node18";
+            treeNode198.Text = "Node18";
+            treeNode199.Name = "Node19";
+            treeNode199.Text = "Node19";
+            treeNode200.Name = "Node20";
+            treeNode200.Text = "Node20";
+            treeNode201.Name = "Node21";
+            treeNode201.Text = "Node21";
+            treeNode202.Name = "Node1";
+            treeNode202.Text = "Node1";
+            treeNode203.Name = "Node22";
+            treeNode203.Text = "Node22";
+            treeNode204.Name = "Node23";
+            treeNode204.Text = "Node23";
+            treeNode205.Name = "Node24";
+            treeNode205.Text = "Node24";
+            treeNode206.Name = "Node25";
+            treeNode206.Text = "Node25";
+            treeNode207.Name = "Node26";
+            treeNode207.Text = "Node26";
+            treeNode208.Name = "Node2";
+            treeNode208.Text = "Node2";
+            treeNode209.Name = "Node27";
+            treeNode209.Text = "Node27";
+            treeNode210.Name = "Node28";
+            treeNode210.Text = "Node28";
+            treeNode211.Name = "Node29";
+            treeNode211.Text = "Node29";
+            treeNode212.Name = "Node30";
+            treeNode212.Text = "Node30";
+            treeNode213.Name = "Node31";
+            treeNode213.Text = "Node31";
+            treeNode214.Name = "Node3";
+            treeNode214.Text = "Node3";
+            treeNode215.Name = "Node32";
+            treeNode215.Text = "Node32";
+            treeNode216.Name = "Node33";
+            treeNode216.Text = "Node33";
+            treeNode217.Name = "Node34";
+            treeNode217.Text = "Node34";
+            treeNode218.Name = "Node35";
+            treeNode218.Text = "Node35";
+            treeNode219.Name = "Node36";
+            treeNode219.Text = "Node36";
+            treeNode220.Name = "Node4";
+            treeNode220.Text = "Node4";
+            treeNode221.Name = "Node5";
+            treeNode221.Text = "Node5";
+            treeNode222.Name = "Node6";
+            treeNode222.Text = "Node6";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode17,
-            treeNode23,
-            treeNode29,
-            treeNode35,
-            treeNode36,
-            treeNode37});
+            treeNode196,
+            treeNode202,
+            treeNode208,
+            treeNode214,
+            treeNode220,
+            treeNode221,
+            treeNode222});
             this.treeView1.Size = new System.Drawing.Size(84, 548);
             this.treeView1.TabIndex = 154;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.comboBox1.Font = new System.Drawing.Font("Rockwell", 8F);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "CASH",
+            "CHEQUE",
+            " ONLINE TRANSFER"});
+            this.comboBox1.Location = new System.Drawing.Point(151, 109);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(115, 21);
+            this.comboBox1.TabIndex = 131;
             // 
             // SaleA
             // 
@@ -1811,9 +1917,15 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "SaleA";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SaleC";
+            this.Text = "SaleA";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SaleA_FormClosing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SaleA_KeyDown);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -1882,14 +1994,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn slno1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn slno;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pack;
-        private System.Windows.Forms.DataGridViewTextBoxColumn batch;
-        private System.Windows.Forms.DataGridViewTextBoxColumn rate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn qty;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mrp;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amount;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Label label7;
@@ -1901,7 +2005,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TextBox textBox56;
         private System.Windows.Forms.TextBox textBox57;
@@ -1961,5 +2064,20 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox textBox59;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TextBox textBox60;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox61;
+        private System.Windows.Forms.DataGridViewTextBoxColumn slno1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn slno;
+        private System.Windows.Forms.DataGridViewTextBoxColumn pack;
+        private System.Windows.Forms.DataGridViewTextBoxColumn batch;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn qty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mrp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn amount;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

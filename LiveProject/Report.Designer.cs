@@ -38,8 +38,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.date = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.date = new System.Windows.Forms.DateTimePicker();
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -50,7 +50,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
@@ -176,16 +176,6 @@
             this.groupBox1.TabIndex = 125;
             this.groupBox1.TabStop = false;
             // 
-            // date
-            // 
-            this.date.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
-            this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.date.Location = new System.Drawing.Point(454, 20);
-            this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(155, 20);
-            this.date.TabIndex = 1;
-            this.date.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
-            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
@@ -195,6 +185,16 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(148, 20);
             this.dateTimePicker1.TabIndex = 2;
             this.dateTimePicker1.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
+            // 
+            // date
+            // 
+            this.date.CalendarMonthBackground = System.Drawing.SystemColors.ControlLight;
+            this.date.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.date.Location = new System.Drawing.Point(454, 20);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(155, 20);
+            this.date.TabIndex = 1;
+            this.date.Value = new System.DateTime(2021, 10, 27, 0, 0, 0, 0);
             // 
             // panel2
             // 

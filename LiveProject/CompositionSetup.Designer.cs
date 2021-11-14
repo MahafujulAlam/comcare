@@ -61,7 +61,7 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Image = global::LiveProject.Properties.Resources.search1;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(202, 19);
+            this.button1.Location = new System.Drawing.Point(509, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 30);
             this.button1.TabIndex = 1;
@@ -74,7 +74,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(6, 23);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 24);
+            this.textBox2.Size = new System.Drawing.Size(497, 24);
             this.textBox2.TabIndex = 0;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompositionSetup_KeyDown);
             // 
@@ -83,7 +83,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);

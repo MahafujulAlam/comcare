@@ -36,19 +36,21 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.partytype = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.usertype = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.usertype = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.save = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
@@ -62,13 +64,13 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(0, 18);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 10, 4, 10);
+            this.textBox1.Location = new System.Drawing.Point(0, 15);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(661, 34);
+            this.textBox1.Size = new System.Drawing.Size(495, 29);
             this.textBox1.TabIndex = 98;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  PARTY PAYMENT SETUP";
@@ -77,10 +79,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(21, 39);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(16, 32);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 24);
+            this.label7.Size = new System.Drawing.Size(82, 18);
             this.label7.TabIndex = 62;
             this.label7.Text = "PARTY ID :";
             // 
@@ -89,10 +90,9 @@
             this.name.BackColor = System.Drawing.SystemColors.ControlLight;
             this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(221, 41);
-            this.name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.name.Location = new System.Drawing.Point(166, 30);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(376, 25);
+            this.name.Size = new System.Drawing.Size(282, 20);
             this.name.TabIndex = 0;
             this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
@@ -100,10 +100,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(21, 74);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(16, 60);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(143, 24);
+            this.label6.Size = new System.Drawing.Size(111, 18);
             this.label6.TabIndex = 64;
             this.label6.Text = "PARTY NAME :";
             // 
@@ -112,10 +111,9 @@
             this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
             this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact.Location = new System.Drawing.Point(221, 73);
-            this.contact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.contact.Location = new System.Drawing.Point(166, 56);
             this.contact.Name = "contact";
-            this.contact.Size = new System.Drawing.Size(376, 25);
+            this.contact.Size = new System.Drawing.Size(282, 20);
             this.contact.TabIndex = 1;
             this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
@@ -124,73 +122,137 @@
             this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(221, 351);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Location = new System.Drawing.Point(166, 250);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(376, 25);
-            this.textBox2.TabIndex = 9;
+            this.textBox2.Size = new System.Drawing.Size(282, 20);
+            this.textBox2.TabIndex = 8;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(21, 343);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(16, 252);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 24);
+            this.label10.Size = new System.Drawing.Size(102, 18);
             this.label10.TabIndex = 69;
-            this.label10.Text = "REMARK :";
+            this.label10.Text = "MICR CODE :";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.partytype);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.textBox7);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.usertype);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.usertype);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.name);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.contact);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(16, 68);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 55);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(628, 395);
-            this.groupBox1.TabIndex = 99;
+            this.groupBox1.Size = new System.Drawing.Size(471, 340);
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Party Payment";
             // 
-            // partytype
+            // comboBox2
             // 
-            this.partytype.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.partytype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.partytype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.partytype.FormattingEnabled = true;
-            this.partytype.Items.AddRange(new object[] {
-            "SELECT",
+            this.comboBox2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.partytype.Location = new System.Drawing.Point(221, 105);
-            this.partytype.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.partytype.Name = "partytype";
-            this.partytype.Size = new System.Drawing.Size(375, 30);
-            this.partytype.TabIndex = 2;
-            this.partytype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.comboBox2.Location = new System.Drawing.Point(166, 276);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(282, 26);
+            this.comboBox2.TabIndex = 9;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(16, 279);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(74, 18);
+            this.label11.TabIndex = 82;
+            this.label11.Text = "STATUS :";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(16, 308);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(80, 18);
+            this.label8.TabIndex = 80;
+            this.label8.Text = "REMARK :";
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(166, 308);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(282, 20);
+            this.textBox7.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(16, 226);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(97, 18);
+            this.label5.TabIndex = 78;
+            this.label5.Text = "IFSC CODE :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(16, 200);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(79, 18);
+            this.label4.TabIndex = 77;
+            this.label4.Text = "BRANCH :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(16, 174);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(103, 18);
+            this.label3.TabIndex = 76;
+            this.label3.Text = "BANK NAME :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(16, 148);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 18);
+            this.label2.TabIndex = 75;
+            this.label2.Text = "ACCOUNT NO :";
             // 
             // comboBox1
             // 
@@ -199,83 +261,35 @@
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "SELECT",
-            "ONLINE",
-            "OFFLINE"});
-            this.comboBox1.Location = new System.Drawing.Point(221, 272);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            "CASH",
+            "CREDIT",
+            "ADVANCE"});
+            this.comboBox1.Location = new System.Drawing.Point(166, 82);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(375, 30);
-            this.comboBox1.TabIndex = 7;
+            this.comboBox1.Size = new System.Drawing.Size(282, 26);
+            this.comboBox1.TabIndex = 2;
             this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(21, 107);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 24);
-            this.label8.TabIndex = 74;
-            this.label8.Text = "PARTY TYPE :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 276);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(16, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 24);
+            this.label1.Size = new System.Drawing.Size(137, 18);
             this.label1.TabIndex = 74;
             this.label1.Text = "PAYMENT MODE :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(21, 209);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 24);
-            this.label5.TabIndex = 62;
-            this.label5.Text = "EMAIL ID :";
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(221, 240);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Location = new System.Drawing.Point(166, 224);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(376, 25);
-            this.textBox5.TabIndex = 6;
+            this.textBox5.Size = new System.Drawing.Size(282, 20);
+            this.textBox5.TabIndex = 7;
             this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(221, 208);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(376, 25);
-            this.textBox6.TabIndex = 5;
-            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 242);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 24);
-            this.label4.TabIndex = 64;
-            this.label4.Text = "WEBSITE :";
             // 
             // usertype
             // 
@@ -284,72 +298,57 @@
             this.usertype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.usertype.FormattingEnabled = true;
             this.usertype.Items.AddRange(new object[] {
-            "SELECT",
-            "CASHIER",
-            "STAFF",
-            "MANAGER"});
-            this.usertype.Location = new System.Drawing.Point(221, 311);
-            this.usertype.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            "CASH",
+            "ONLINE TRANSFER",
+            "CHEQUE",
+            "DEMAND DRAFT"});
+            this.usertype.Location = new System.Drawing.Point(166, 114);
             this.usertype.Name = "usertype";
-            this.usertype.Size = new System.Drawing.Size(375, 30);
-            this.usertype.TabIndex = 8;
+            this.usertype.Size = new System.Drawing.Size(282, 26);
+            this.usertype.TabIndex = 3;
             this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(21, 309);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(16, 117);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(141, 24);
+            this.label9.Size = new System.Drawing.Size(110, 18);
             this.label9.TabIndex = 72;
             this.label9.Text = "PAYMENT BY :";
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(166, 198);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(282, 20);
+            this.textBox6.TabIndex = 6;
+            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(221, 176);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Location = new System.Drawing.Point(166, 172);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(376, 25);
-            this.textBox3.TabIndex = 4;
+            this.textBox3.Size = new System.Drawing.Size(282, 20);
+            this.textBox3.TabIndex = 5;
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 142);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 24);
-            this.label3.TabIndex = 62;
-            this.label3.Text = "ADDRESS :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(21, 175);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 24);
-            this.label2.TabIndex = 64;
-            this.label2.Text = "CONTACT NO :";
             // 
             // textBox4
             // 
             this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(221, 144);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Location = new System.Drawing.Point(166, 146);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(376, 25);
-            this.textBox4.TabIndex = 3;
+            this.textBox4.Size = new System.Drawing.Size(282, 20);
+            this.textBox4.TabIndex = 4;
             this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // save
@@ -359,11 +358,10 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(369, 470);
-            this.save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.save.Location = new System.Drawing.Point(277, 401);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.save.Size = new System.Drawing.Size(133, 37);
+            this.save.Size = new System.Drawing.Size(100, 30);
             this.save.TabIndex = 0;
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -377,11 +375,10 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(511, 470);
-            this.close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.close.Location = new System.Drawing.Point(383, 401);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.close.Size = new System.Drawing.Size(133, 37);
+            this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 1;
             this.close.Text = "CANCEL";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -393,27 +390,25 @@
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(661, 18);
+            this.panel1.Size = new System.Drawing.Size(495, 15);
             this.panel1.TabIndex = 96;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 517);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(0, 439);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(661, 12);
+            this.panel2.Size = new System.Drawing.Size(495, 10);
             this.panel2.TabIndex = 101;
             // 
             // PartyPaymentSetupNew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(661, 529);
+            this.ClientSize = new System.Drawing.Size(495, 449);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
@@ -421,7 +416,6 @@
             this.Controls.Add(this.close);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PartyPaymentSetupNew";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PartySetupNew";
@@ -447,20 +441,22 @@
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.Button close;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox usertype;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox partytype;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label11;
     }
 }

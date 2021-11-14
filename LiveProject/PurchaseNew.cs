@@ -16,29 +16,14 @@ namespace LiveProject
             InitializeComponent();
         }
 
-        private void PurchaseNew_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void save_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void close_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
 
         private void PurchaseNew_KeyDown(object sender, KeyEventArgs e)
@@ -61,11 +46,6 @@ namespace LiveProject
             {
                 e.Cancel = true;
             }
-        }
-
-        private void textBox11_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

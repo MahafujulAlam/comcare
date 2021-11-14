@@ -69,7 +69,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(67, 20);
+            this.dateTimePicker1.Location = new System.Drawing.Point(105, 18);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(161, 24);
@@ -94,7 +94,7 @@
             this.textBox3.Location = new System.Drawing.Point(105, 56);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(165, 20);
+            this.textBox3.Size = new System.Drawing.Size(307, 20);
             this.textBox3.TabIndex = 3;
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OrderP_KeyDown);
             // 
@@ -168,7 +168,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);

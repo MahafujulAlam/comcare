@@ -114,7 +114,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
@@ -914,7 +914,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 554);
+            this.panel2.Location = new System.Drawing.Point(0, 556);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(947, 10);
             this.panel2.TabIndex = 222;
@@ -924,7 +924,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(947, 564);
+            this.ClientSize = new System.Drawing.Size(947, 566);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox9);

@@ -48,7 +48,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
@@ -85,10 +85,8 @@
             this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.usertype.FormattingEnabled = true;
             this.usertype.Items.AddRange(new object[] {
-            "SELECT",
-            "CASHIER",
-            "STAFF",
-            "ACCOUNTANT"});
+            "ACTIVE",
+            "INACTIVE"});
             this.usertype.Location = new System.Drawing.Point(131, 73);
             this.usertype.Name = "usertype";
             this.usertype.Size = new System.Drawing.Size(282, 26);
@@ -102,7 +100,6 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(131, 106);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(282, 20);
             this.textBox2.TabIndex = 2;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CurrencySetupNew_KeyDown);

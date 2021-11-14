@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
             this.logobtn = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
             this.jurisdiction = new System.Windows.Forms.TextBox();
@@ -90,10 +86,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label24);
             this.groupBox1.Controls.Add(this.logobtn);
             this.groupBox1.Controls.Add(this.logo);
             this.groupBox1.Controls.Add(this.jurisdiction);
@@ -143,55 +135,11 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 42);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(896, 445);
+            this.groupBox1.Size = new System.Drawing.Size(896, 400);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(527, 405);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 18);
-            this.label1.TabIndex = 101;
-            this.label1.Text = "TO";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(562, 405);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 23;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(421, 405);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 22;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(282, 408);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(133, 18);
-            this.label24.TabIndex = 97;
-            this.label24.Text = "FINANCIAL YEAR :";
             // 
             // logobtn
             // 
@@ -200,7 +148,7 @@
             this.logobtn.Location = new System.Drawing.Point(821, 219);
             this.logobtn.Name = "logobtn";
             this.logobtn.Size = new System.Drawing.Size(60, 25);
-            this.logobtn.TabIndex = 17;
+            this.logobtn.TabIndex = 16;
             this.logobtn.Text = "Select";
             this.logobtn.UseVisualStyleBackColor = false;
             this.logobtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
@@ -223,7 +171,7 @@
             this.jurisdiction.Location = new System.Drawing.Point(621, 361);
             this.jurisdiction.Name = "jurisdiction";
             this.jurisdiction.Size = new System.Drawing.Size(260, 22);
-            this.jurisdiction.TabIndex = 21;
+            this.jurisdiction.TabIndex = 20;
             this.jurisdiction.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.jurisdiction.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
@@ -245,7 +193,7 @@
             this.mfglicenseno.Location = new System.Drawing.Point(621, 332);
             this.mfglicenseno.Name = "mfglicenseno";
             this.mfglicenseno.Size = new System.Drawing.Size(260, 22);
-            this.mfglicenseno.TabIndex = 20;
+            this.mfglicenseno.TabIndex = 19;
             this.mfglicenseno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.mfglicenseno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
@@ -267,7 +215,7 @@
             this.flicenseno.Location = new System.Drawing.Point(621, 303);
             this.flicenseno.Name = "flicenseno";
             this.flicenseno.Size = new System.Drawing.Size(260, 22);
-            this.flicenseno.TabIndex = 19;
+            this.flicenseno.TabIndex = 18;
             this.flicenseno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.flicenseno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
@@ -289,7 +237,7 @@
             this.dlno.Location = new System.Drawing.Point(621, 273);
             this.dlno.Name = "dlno";
             this.dlno.Size = new System.Drawing.Size(260, 22);
-            this.dlno.TabIndex = 18;
+            this.dlno.TabIndex = 17;
             this.dlno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.dlno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
@@ -632,7 +580,7 @@
             this.contact2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.contact2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contact2.Location = new System.Drawing.Point(159, 100);
-            this.contact2.MaxLength = 10;
+            this.contact2.MaxLength = 15;
             this.contact2.Name = "contact2";
             this.contact2.Size = new System.Drawing.Size(260, 22);
             this.contact2.TabIndex = 2;
@@ -646,9 +594,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(15, 101);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 18);
+            this.label4.Size = new System.Drawing.Size(115, 18);
             this.label4.TabIndex = 55;
-            this.label4.Text = "CONTACT 2 :";
+            this.label4.Text = "CONTACT NO :";
             // 
             // contact
             // 
@@ -670,9 +618,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(15, 72);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 18);
+            this.label3.Size = new System.Drawing.Size(99, 18);
             this.label3.TabIndex = 53;
-            this.label3.Text = "CONTACT :";
+            this.label3.Text = "MOBILE NO :";
             // 
             // name
             // 
@@ -704,7 +652,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = global::LiveProject.Properties.Resources.save34;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(596, 499);
+            this.button1.Location = new System.Drawing.Point(596, 448);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 30);
             this.button1.TabIndex = 0;
@@ -720,7 +668,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = global::LiveProject.Properties.Resources.updatet112;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(702, 499);
+            this.button2.Location = new System.Drawing.Point(702, 448);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 30);
             this.button2.TabIndex = 1;
@@ -737,7 +685,7 @@
             this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button3.Image = global::LiveProject.Properties.Resources.close;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(808, 499);
+            this.button3.Location = new System.Drawing.Point(808, 448);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 30);
             this.button3.TabIndex = 2;
@@ -761,7 +709,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Georgia", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.Color.Honeydew;
             this.textBox2.Location = new System.Drawing.Point(0, 13);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
@@ -776,7 +724,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 536);
+            this.panel2.Location = new System.Drawing.Point(0, 488);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(920, 10);
             this.panel2.TabIndex = 8;
@@ -787,7 +735,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(920, 546);
+            this.ClientSize = new System.Drawing.Size(920, 498);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.panel1);
@@ -866,10 +814,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Panel panel2;
     }
 }
