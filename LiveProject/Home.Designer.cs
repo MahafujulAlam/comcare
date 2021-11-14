@@ -44,22 +44,25 @@
             this.dASHBOARDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mASTERSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCCOUNTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cOMPANYPROFILESETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bANKSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lEDGERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bANKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cASHSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pARTYToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dETAILSSETUPToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pAYMENTSETUPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.fINANCIALYEARSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mONEYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cURRENCYSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tAXSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tYPESETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pACKSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uNITSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOLORSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gROUPSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cOMPOSITIONSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mEDICINECOMPANYSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pRODUCTSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pARTYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dETAILSSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pAYMENTSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eMPLOYEEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dETAILSSETUPToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sALARYSETUPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,6 +79,8 @@
             this.sALERETURNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pURCHASEToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sTOCKToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fRESHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dAMAGEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nEAREXPIRYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEPORTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tRANSACTIONToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -85,6 +90,7 @@
             this.eMPLOYEESALARYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dUEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pAYMENTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tRANSFERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sETTINGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aDMINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uSERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -154,9 +160,9 @@
             // 
             this.mASTERSETUPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aCCOUNTToolStripMenuItem,
+            this.lEDGERToolStripMenuItem,
             this.mONEYToolStripMenuItem,
             this.pRODUCTToolStripMenuItem,
-            this.pARTYToolStripMenuItem,
             this.eMPLOYEEToolStripMenuItem,
             this.tERMSANDCONDITIONSToolStripMenuItem,
             this.bILLSETTINGToolStripMenuItem,
@@ -167,30 +173,65 @@
             // 
             // aCCOUNTToolStripMenuItem
             // 
-            this.aCCOUNTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cOMPANYPROFILESETUPToolStripMenuItem,
-            this.bANKSETUPToolStripMenuItem});
             this.aCCOUNTToolStripMenuItem.Name = "aCCOUNTToolStripMenuItem";
             this.aCCOUNTToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
-            this.aCCOUNTToolStripMenuItem.Text = "ACCOUNT";
+            this.aCCOUNTToolStripMenuItem.Text = "COMPANY PROFILE";
+            this.aCCOUNTToolStripMenuItem.Click += new System.EventHandler(this.aCCOUNTToolStripMenuItem_Click);
             // 
-            // cOMPANYPROFILESETUPToolStripMenuItem
+            // lEDGERToolStripMenuItem
             // 
-            this.cOMPANYPROFILESETUPToolStripMenuItem.Name = "cOMPANYPROFILESETUPToolStripMenuItem";
-            this.cOMPANYPROFILESETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.cOMPANYPROFILESETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.cOMPANYPROFILESETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
-            this.cOMPANYPROFILESETUPToolStripMenuItem.Text = "COMPANY PROFILE SETUP";
-            this.cOMPANYPROFILESETUPToolStripMenuItem.Click += new System.EventHandler(this.cOMPANYPROFILESETUPToolStripMenuItem_Click);
+            this.lEDGERToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bANKToolStripMenuItem,
+            this.cASHSETUPToolStripMenuItem,
+            this.pARTYToolStripMenuItem1,
+            this.fINANCIALYEARSETUPToolStripMenuItem});
+            this.lEDGERToolStripMenuItem.Name = "lEDGERToolStripMenuItem";
+            this.lEDGERToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
+            this.lEDGERToolStripMenuItem.Text = "LEDGER";
             // 
-            // bANKSETUPToolStripMenuItem
+            // bANKToolStripMenuItem
             // 
-            this.bANKSETUPToolStripMenuItem.Name = "bANKSETUPToolStripMenuItem";
-            this.bANKSETUPToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.bANKSETUPToolStripMenuItem.ShowShortcutKeys = false;
-            this.bANKSETUPToolStripMenuItem.Size = new System.Drawing.Size(235, 24);
-            this.bANKSETUPToolStripMenuItem.Text = "BANK SETUP";
-            this.bANKSETUPToolStripMenuItem.Click += new System.EventHandler(this.bANKSETUPToolStripMenuItem_Click);
+            this.bANKToolStripMenuItem.Name = "bANKToolStripMenuItem";
+            this.bANKToolStripMenuItem.Size = new System.Drawing.Size(226, 24);
+            this.bANKToolStripMenuItem.Text = "BANK SETUP";
+            this.bANKToolStripMenuItem.Click += new System.EventHandler(this.bANKToolStripMenuItem_Click);
+            // 
+            // cASHSETUPToolStripMenuItem
+            // 
+            this.cASHSETUPToolStripMenuItem.Name = "cASHSETUPToolStripMenuItem";
+            this.cASHSETUPToolStripMenuItem.Size = new System.Drawing.Size(226, 24);
+            this.cASHSETUPToolStripMenuItem.Text = "CASH SETUP";
+            this.cASHSETUPToolStripMenuItem.Click += new System.EventHandler(this.cASHSETUPToolStripMenuItem_Click);
+            // 
+            // pARTYToolStripMenuItem1
+            // 
+            this.pARTYToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dETAILSSETUPToolStripMenuItem2,
+            this.pAYMENTSETUPToolStripMenuItem1});
+            this.pARTYToolStripMenuItem1.Name = "pARTYToolStripMenuItem1";
+            this.pARTYToolStripMenuItem1.Size = new System.Drawing.Size(226, 24);
+            this.pARTYToolStripMenuItem1.Text = "PARTY";
+            // 
+            // dETAILSSETUPToolStripMenuItem2
+            // 
+            this.dETAILSSETUPToolStripMenuItem2.Name = "dETAILSSETUPToolStripMenuItem2";
+            this.dETAILSSETUPToolStripMenuItem2.Size = new System.Drawing.Size(181, 24);
+            this.dETAILSSETUPToolStripMenuItem2.Text = "DETAILS SETUP";
+            this.dETAILSSETUPToolStripMenuItem2.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem2_Click);
+            // 
+            // pAYMENTSETUPToolStripMenuItem1
+            // 
+            this.pAYMENTSETUPToolStripMenuItem1.Name = "pAYMENTSETUPToolStripMenuItem1";
+            this.pAYMENTSETUPToolStripMenuItem1.Size = new System.Drawing.Size(181, 24);
+            this.pAYMENTSETUPToolStripMenuItem1.Text = "PAYMENT SETUP";
+            this.pAYMENTSETUPToolStripMenuItem1.Click += new System.EventHandler(this.pAYMENTSETUPToolStripMenuItem1_Click);
+            // 
+            // fINANCIALYEARSETUPToolStripMenuItem
+            // 
+            this.fINANCIALYEARSETUPToolStripMenuItem.Name = "fINANCIALYEARSETUPToolStripMenuItem";
+            this.fINANCIALYEARSETUPToolStripMenuItem.Size = new System.Drawing.Size(226, 24);
+            this.fINANCIALYEARSETUPToolStripMenuItem.Text = "FINANCIAL YEAR SETUP";
+            this.fINANCIALYEARSETUPToolStripMenuItem.Click += new System.EventHandler(this.fINANCIALYEARSETUPToolStripMenuItem_Click);
             // 
             // mONEYToolStripMenuItem
             // 
@@ -225,10 +266,11 @@
             this.pRODUCTToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tYPESETUPToolStripMenuItem,
             this.pACKSETUPToolStripMenuItem,
+            this.uNITSETUPToolStripMenuItem,
             this.cOLORSETUPToolStripMenuItem,
             this.gROUPSETUPToolStripMenuItem,
             this.cOMPOSITIONSETUPToolStripMenuItem,
-            this.mEDICINECOMPANYSETUPToolStripMenuItem,
+            this.mToolStripMenuItem,
             this.pRODUCTSETUPToolStripMenuItem});
             this.pRODUCTToolStripMenuItem.Name = "pRODUCTToolStripMenuItem";
             this.pRODUCTToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
@@ -247,6 +289,13 @@
             this.pACKSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
             this.pACKSETUPToolStripMenuItem.Text = "PACK SETUP";
             this.pACKSETUPToolStripMenuItem.Click += new System.EventHandler(this.pACKSETUPToolStripMenuItem_Click);
+            // 
+            // uNITSETUPToolStripMenuItem
+            // 
+            this.uNITSETUPToolStripMenuItem.Name = "uNITSETUPToolStripMenuItem";
+            this.uNITSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.uNITSETUPToolStripMenuItem.Text = "UNIT SETUP";
+            this.uNITSETUPToolStripMenuItem.Click += new System.EventHandler(this.uNITSETUPToolStripMenuItem_Click);
             // 
             // cOLORSETUPToolStripMenuItem
             // 
@@ -269,12 +318,12 @@
             this.cOMPOSITIONSETUPToolStripMenuItem.Text = "COMPOSITION SETUP";
             this.cOMPOSITIONSETUPToolStripMenuItem.Click += new System.EventHandler(this.cOMPOSITIONSETUPToolStripMenuItem_Click);
             // 
-            // mEDICINECOMPANYSETUPToolStripMenuItem
+            // mToolStripMenuItem
             // 
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Name = "mEDICINECOMPANYSETUPToolStripMenuItem";
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Text = "MEDICINE COMPANY SETUP";
-            this.mEDICINECOMPANYSETUPToolStripMenuItem.Click += new System.EventHandler(this.mEDICINECOMPANYSETUPToolStripMenuItem_Click);
+            this.mToolStripMenuItem.Name = "mToolStripMenuItem";
+            this.mToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
+            this.mToolStripMenuItem.Text = "MEDICINE COMPANY SETUP";
+            this.mToolStripMenuItem.Click += new System.EventHandler(this.mToolStripMenuItem_Click);
             // 
             // pRODUCTSETUPToolStripMenuItem
             // 
@@ -282,29 +331,6 @@
             this.pRODUCTSETUPToolStripMenuItem.Size = new System.Drawing.Size(256, 24);
             this.pRODUCTSETUPToolStripMenuItem.Text = "PRODUCT SETUP";
             this.pRODUCTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pRODUCTSETUPToolStripMenuItem_Click);
-            // 
-            // pARTYToolStripMenuItem
-            // 
-            this.pARTYToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dETAILSSETUPToolStripMenuItem,
-            this.pAYMENTSETUPToolStripMenuItem});
-            this.pARTYToolStripMenuItem.Name = "pARTYToolStripMenuItem";
-            this.pARTYToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
-            this.pARTYToolStripMenuItem.Text = "PARTY";
-            // 
-            // dETAILSSETUPToolStripMenuItem
-            // 
-            this.dETAILSSETUPToolStripMenuItem.Name = "dETAILSSETUPToolStripMenuItem";
-            this.dETAILSSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
-            this.dETAILSSETUPToolStripMenuItem.Text = "DETAILS SETUP";
-            this.dETAILSSETUPToolStripMenuItem.Click += new System.EventHandler(this.dETAILSSETUPToolStripMenuItem_Click);
-            // 
-            // pAYMENTSETUPToolStripMenuItem
-            // 
-            this.pAYMENTSETUPToolStripMenuItem.Name = "pAYMENTSETUPToolStripMenuItem";
-            this.pAYMENTSETUPToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
-            this.pAYMENTSETUPToolStripMenuItem.Text = "PAYMENT SETUP";
-            this.pAYMENTSETUPToolStripMenuItem.Click += new System.EventHandler(this.pAYMENTSETUPToolStripMenuItem_Click);
             // 
             // eMPLOYEEToolStripMenuItem
             // 
@@ -340,6 +366,7 @@
             this.bILLSETTINGToolStripMenuItem.Name = "bILLSETTINGToolStripMenuItem";
             this.bILLSETTINGToolStripMenuItem.Size = new System.Drawing.Size(240, 24);
             this.bILLSETTINGToolStripMenuItem.Text = "BILL SETTING";
+            this.bILLSETTINGToolStripMenuItem.Click += new System.EventHandler(this.bILLSETTINGToolStripMenuItem_Click);
             // 
             // oTHERSToolStripMenuItem
             // 
@@ -408,20 +435,38 @@
             this.sALERETURNToolStripMenuItem.Name = "sALERETURNToolStripMenuItem";
             this.sALERETURNToolStripMenuItem.Size = new System.Drawing.Size(200, 24);
             this.sALERETURNToolStripMenuItem.Text = "SALE RETURN";
+            this.sALERETURNToolStripMenuItem.Click += new System.EventHandler(this.sALERETURNToolStripMenuItem_Click);
             // 
             // pURCHASEToolStripMenuItem1
             // 
             this.pURCHASEToolStripMenuItem1.Name = "pURCHASEToolStripMenuItem1";
             this.pURCHASEToolStripMenuItem1.Size = new System.Drawing.Size(200, 24);
             this.pURCHASEToolStripMenuItem1.Text = "PURCHASE RETURN";
+            this.pURCHASEToolStripMenuItem1.Click += new System.EventHandler(this.pURCHASEToolStripMenuItem1_Click);
             // 
             // sTOCKToolStripMenuItem
             // 
+            this.sTOCKToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fRESHToolStripMenuItem,
+            this.dAMAGEToolStripMenuItem});
             this.sTOCKToolStripMenuItem.Name = "sTOCKToolStripMenuItem";
             this.sTOCKToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
             this.sTOCKToolStripMenuItem.Size = new System.Drawing.Size(62, 23);
             this.sTOCKToolStripMenuItem.Text = "STOCK";
-            this.sTOCKToolStripMenuItem.Click += new System.EventHandler(this.sTOCKToolStripMenuItem_Click);
+            // 
+            // fRESHToolStripMenuItem
+            // 
+            this.fRESHToolStripMenuItem.Name = "fRESHToolStripMenuItem";
+            this.fRESHToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
+            this.fRESHToolStripMenuItem.Text = "FRESH";
+            this.fRESHToolStripMenuItem.Click += new System.EventHandler(this.fRESHToolStripMenuItem_Click);
+            // 
+            // dAMAGEToolStripMenuItem
+            // 
+            this.dAMAGEToolStripMenuItem.Name = "dAMAGEToolStripMenuItem";
+            this.dAMAGEToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
+            this.dAMAGEToolStripMenuItem.Text = "DAMAGE";
+            this.dAMAGEToolStripMenuItem.Click += new System.EventHandler(this.dAMAGEToolStripMenuItem_Click);
             // 
             // nEAREXPIRYToolStripMenuItem
             // 
@@ -437,6 +482,7 @@
             this.rEPORTToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F6;
             this.rEPORTToolStripMenuItem1.Size = new System.Drawing.Size(69, 23);
             this.rEPORTToolStripMenuItem1.Text = "REPORT";
+            this.rEPORTToolStripMenuItem1.Click += new System.EventHandler(this.rEPORTToolStripMenuItem1_Click);
             // 
             // tRANSACTIONToolStripMenuItem1
             // 
@@ -444,7 +490,8 @@
             this.cUSTOMERPAYMENTToolStripMenuItem,
             this.sELLERPAYMENTToolStripMenuItem,
             this.eXPENSESToolStripMenuItem,
-            this.eMPLOYEESALARYToolStripMenuItem});
+            this.eMPLOYEESALARYToolStripMenuItem,
+            this.tRANSFERToolStripMenuItem});
             this.tRANSACTIONToolStripMenuItem1.Name = "tRANSACTIONToolStripMenuItem1";
             this.tRANSACTIONToolStripMenuItem1.Size = new System.Drawing.Size(112, 23);
             this.tRANSACTIONToolStripMenuItem1.Text = "TRANSACTION";
@@ -492,6 +539,13 @@
             this.pAYMENTToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.pAYMENTToolStripMenuItem.Text = "PAYMENT";
             this.pAYMENTToolStripMenuItem.Click += new System.EventHandler(this.pAYMENTToolStripMenuItem_Click);
+            // 
+            // tRANSFERToolStripMenuItem
+            // 
+            this.tRANSFERToolStripMenuItem.Name = "tRANSFERToolStripMenuItem";
+            this.tRANSFERToolStripMenuItem.Size = new System.Drawing.Size(213, 24);
+            this.tRANSFERToolStripMenuItem.Text = "TRANSFER";
+            this.tRANSFERToolStripMenuItem.Click += new System.EventHandler(this.tRANSFERToolStripMenuItem_Click);
             // 
             // sETTINGToolStripMenuItem
             // 
@@ -565,7 +619,7 @@
             this.treeView1.BackColor = System.Drawing.SystemColors.Control;
             this.treeView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.Font = new System.Drawing.Font("Segoe UI", 13F);
+            this.treeView1.Font = new System.Drawing.Font("Segoe UI", 12.5F);
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "Node0";
@@ -624,6 +678,7 @@
             this.homepageimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.homepageimg.TabIndex = 0;
             this.homepageimg.TabStop = false;
+            this.homepageimg.Click += new System.EventHandler(this.homepageimg_Click);
             // 
             // panel4
             // 
@@ -643,6 +698,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(155, 460);
             this.panel4.TabIndex = 23;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // button10
             // 
@@ -860,13 +916,10 @@
         private System.Windows.Forms.ToolStripMenuItem aCCOUNTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mONEYToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pRODUCTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pARTYToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eMPLOYEEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tERMSANDCONDITIONSToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bILLSETTINGToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem oTHERSToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cOMPANYPROFILESETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bANKSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cURRENCYSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tAXSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tYPESETUPToolStripMenuItem;
@@ -875,8 +928,6 @@
         private System.Windows.Forms.ToolStripMenuItem gROUPSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cOMPOSITIONSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pRODUCTSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dETAILSSETUPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pAYMENTSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dETAILSSETUPToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sALARYSETUPToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hOMEPAGEWALPAPERToolStripMenuItem;
@@ -913,7 +964,18 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.ToolStripMenuItem mEDICINECOMPANYSETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lEDGERToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pARTYToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem dETAILSSETUPToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem pAYMENTSETUPToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem bANKToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cASHSETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dAMAGEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fRESHToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uNITSETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fINANCIALYEARSETUPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tRANSFERToolStripMenuItem;
     }
 }
 

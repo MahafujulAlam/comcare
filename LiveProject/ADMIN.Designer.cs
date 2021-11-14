@@ -67,11 +67,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Georgia", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MintCream;
             this.label1.Location = new System.Drawing.Point(12, -1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 27);
+            this.label1.Size = new System.Drawing.Size(97, 27);
             this.label1.TabIndex = 57;
             this.label1.Text = "ADMIN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -84,7 +84,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.currpass);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 53);
+            this.groupBox1.Location = new System.Drawing.Point(12, 43);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(459, 150);
             this.groupBox1.TabIndex = 2;
@@ -173,7 +173,7 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(265, 214);
+            this.save.Location = new System.Drawing.Point(265, 201);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
@@ -191,7 +191,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(371, 214);
+            this.close.Location = new System.Drawing.Point(371, 201);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 1;
@@ -206,7 +206,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(484, 264);
+            this.ClientSize = new System.Drawing.Size(484, 240);
             this.Controls.Add(this.close);
             this.Controls.Add(this.save);
             this.Controls.Add(this.groupBox1);

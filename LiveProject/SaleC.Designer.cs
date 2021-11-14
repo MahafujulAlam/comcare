@@ -128,7 +128,6 @@
             this.deleteCF = new System.Windows.Forms.Button();
             this.addCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.slno1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.slno = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -146,7 +145,6 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,9 +152,9 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 690);
+            this.panel2.Location = new System.Drawing.Point(0, 711);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(968, 10);
+            this.panel2.Size = new System.Drawing.Size(1010, 10);
             this.panel2.TabIndex = 105;
             // 
             // textBox1
@@ -164,13 +162,13 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 10);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(968, 27);
+            this.textBox1.Size = new System.Drawing.Size(1010, 27);
             this.textBox1.TabIndex = 104;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  SALE BILL";
@@ -180,7 +178,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(968, 10);
+            this.panel1.Size = new System.Drawing.Size(1010, 10);
             this.panel1.TabIndex = 103;
             // 
             // groupBox1
@@ -199,6 +197,7 @@
             this.groupBox1.TabIndex = 106;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button1
             // 
@@ -1397,16 +1396,6 @@
             this.updateCF.UseVisualStyleBackColor = false;
             this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Sale_KeyDown);
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.dataGridView1);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(7, 193);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(954, 225);
-            this.groupBox3.TabIndex = 108;
-            this.groupBox3.TabStop = false;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
@@ -1420,11 +1409,10 @@
             this.qty,
             this.mrp,
             this.amount});
-            this.dataGridView1.Location = new System.Drawing.Point(5, 21);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 209);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(944, 197);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Sale_KeyDown);
+            this.dataGridView1.TabIndex = 120;
             // 
             // slno1
             // 
@@ -1485,7 +1473,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(968, 700);
+            this.ClientSize = new System.Drawing.Size(1010, 721);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.button2);
@@ -1496,7 +1485,6 @@
             this.Controls.Add(this.addCF);
             this.Controls.Add(this.updateCF);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
@@ -1527,7 +1515,6 @@
             this.groupBox5.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1636,7 +1623,6 @@
         private System.Windows.Forms.TextBox textBox54;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn slno1;
         private System.Windows.Forms.DataGridViewTextBoxColumn slno;

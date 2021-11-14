@@ -78,7 +78,7 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
@@ -286,9 +286,8 @@
             this.paymode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paymode.FormattingEnabled = true;
             this.paymode.Items.AddRange(new object[] {
-            "SELECT",
-            "GPAY",
-            "NEFRTS"});
+            "ONLINE",
+            "OFFLINE"});
             this.paymode.Location = new System.Drawing.Point(151, 113);
             this.paymode.Name = "paymode";
             this.paymode.Size = new System.Drawing.Size(282, 24);
@@ -302,7 +301,6 @@
             this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.remark.Location = new System.Drawing.Point(151, 255);
             this.remark.Name = "remark";
-            this.remark.PasswordChar = '*';
             this.remark.Size = new System.Drawing.Size(282, 22);
             this.remark.TabIndex = 8;
             this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalarySetupNew_KeyDown);

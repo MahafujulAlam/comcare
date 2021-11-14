@@ -33,9 +33,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,6 +45,10 @@
             this.close = new System.Windows.Forms.Button();
             this.deleteCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -57,13 +58,13 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(0, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(748, 29);
+            this.textBox1.Size = new System.Drawing.Size(801, 29);
             this.textBox1.TabIndex = 100;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  NEW ORDER";
@@ -75,16 +76,16 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(748, 15);
+            this.panel1.Size = new System.Drawing.Size(801, 15);
             this.panel1.TabIndex = 5;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 460);
+            this.panel2.Location = new System.Drawing.Point(0, 445);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(748, 10);
+            this.panel2.Size = new System.Drawing.Size(801, 10);
             this.panel2.TabIndex = 102;
             // 
             // dataGridView1
@@ -92,6 +93,7 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Snow;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column4,
             this.Column1,
             this.Column2,
             this.Column3});
@@ -99,37 +101,10 @@
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(729, 288);
+            this.dataGridView1.Size = new System.Drawing.Size(781, 288);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OrderN_KeyDown);
-            // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "ITEMS NAME";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 229;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column2.Frozen = true;
-            this.Column2.HeaderText = "COMPANY";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 229;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column3.Frozen = true;
-            this.Column3.HeaderText = "QTY";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 229;
             // 
             // groupBox1
             // 
@@ -144,14 +119,14 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(729, 57);
+            this.groupBox1.Size = new System.Drawing.Size(781, 57);
             this.groupBox1.TabIndex = 105;
             this.groupBox1.TabStop = false;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(560, 20);
+            this.dateTimePicker1.Location = new System.Drawing.Point(610, 20);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(161, 24);
@@ -161,7 +136,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(502, 23);
+            this.label3.Location = new System.Drawing.Point(552, 23);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 18);
@@ -176,7 +151,7 @@
             this.textBox3.Location = new System.Drawing.Point(333, 22);
             this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(165, 20);
+            this.textBox3.Size = new System.Drawing.Size(215, 20);
             this.textBox3.TabIndex = 1;
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OrderN_KeyDown);
             // 
@@ -219,7 +194,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = global::LiveProject.Properties.Resources.print;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(214, 416);
+            this.button2.Location = new System.Drawing.Point(265, 408);
             this.button2.Name = "button2";
             this.button2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.button2.Size = new System.Drawing.Size(100, 30);
@@ -237,7 +212,7 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(426, 416);
+            this.save.Location = new System.Drawing.Point(477, 408);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
@@ -254,7 +229,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(638, 416);
+            this.close.Location = new System.Drawing.Point(689, 408);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 4;
@@ -271,7 +246,7 @@
             this.deleteCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCF.Image = global::LiveProject.Properties.Resources.delete;
             this.deleteCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.deleteCF.Location = new System.Drawing.Point(532, 416);
+            this.deleteCF.Location = new System.Drawing.Point(583, 408);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
             this.deleteCF.TabIndex = 3;
@@ -287,7 +262,7 @@
             this.updateCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateCF.Location = new System.Drawing.Point(320, 416);
+            this.updateCF.Location = new System.Drawing.Point(371, 408);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
             this.updateCF.TabIndex = 1;
@@ -296,12 +271,46 @@
             this.updateCF.UseVisualStyleBackColor = false;
             this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OrderN_KeyDown);
             // 
+            // Column4
+            // 
+            this.Column4.Frozen = true;
+            this.Column4.HeaderText = "SL NO";
+            this.Column4.Name = "Column4";
+            this.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column1.Frozen = true;
+            this.Column1.HeaderText = "ITEMS NAME";
+            this.Column1.Name = "Column1";
+            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Column1.Width = 229;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column2.Frozen = true;
+            this.Column2.HeaderText = "COMPANY";
+            this.Column2.Name = "Column2";
+            this.Column2.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Column2.Width = 229;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column3.Frozen = true;
+            this.Column3.HeaderText = "QTY";
+            this.Column3.Name = "Column3";
+            this.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Column3.Width = 229;
+            // 
             // OrderN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(748, 470);
+            this.ClientSize = new System.Drawing.Size(801, 455);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.close);
@@ -348,6 +357,7 @@
         private System.Windows.Forms.Button close;
         private System.Windows.Forms.Button deleteCF;
         private System.Windows.Forms.Button updateCF;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;

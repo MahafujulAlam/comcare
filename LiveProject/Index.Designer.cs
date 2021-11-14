@@ -130,13 +130,13 @@
             this.textBox1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Georgia", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(0, 18);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 10, 4, 10);
+            this.textBox1.Location = new System.Drawing.Point(0, 15);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1165, 34);
+            this.textBox1.Size = new System.Drawing.Size(874, 29);
             this.textBox1.TabIndex = 102;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  INDEX";
@@ -145,9 +145,8 @@
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1165, 18);
+            this.panel4.Size = new System.Drawing.Size(874, 15);
             this.panel4.TabIndex = 101;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -156,30 +155,27 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(16, 68);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabControl1.Location = new System.Drawing.Point(12, 55);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1133, 548);
+            this.tabControl1.Size = new System.Drawing.Size(850, 445);
             this.tabControl1.TabIndex = 103;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.treeView1);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1125, 515);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(842, 416);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Shortcut Keys";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(8, 7);
-            this.treeView1.Margin = new System.Windows.Forms.Padding(4);
+            this.treeView1.Location = new System.Drawing.Point(6, 6);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "dashboard";
             treeNode1.Text = "DASHBOARD > F1";
@@ -293,17 +289,16 @@
             treeNode45,
             treeNode48,
             treeNode49});
-            this.treeView1.Size = new System.Drawing.Size(1105, 495);
+            this.treeView1.Size = new System.Drawing.Size(830, 403);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1125, 515);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(842, 416);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -315,10 +310,9 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(1011, 623);
-            this.close.Margin = new System.Windows.Forms.Padding(4);
+            this.close.Location = new System.Drawing.Point(758, 506);
             this.close.Name = "close";
-            this.close.Size = new System.Drawing.Size(133, 37);
+            this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 0;
             this.close.Text = "CLOSE";
             this.close.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -330,25 +324,23 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 671);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(0, 545);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1165, 12);
+            this.panel2.Size = new System.Drawing.Size(874, 10);
             this.panel2.TabIndex = 106;
             // 
             // Index
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(1165, 683);
+            this.ClientSize = new System.Drawing.Size(874, 555);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.close);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Index";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Index";

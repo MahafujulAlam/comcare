@@ -71,6 +71,12 @@
     <Compile Include="BillSetting.Designer.cs">
       <DependentUpon>BillSetting.cs</DependentUpon>
     </Compile>
+    <Compile Include="CashSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashSetup.Designer.cs">
+      <DependentUpon>CashSetup.cs</DependentUpon>
+    </Compile>
     <Compile Include="ColorSetupNew.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +155,18 @@
     <Compile Include="ExpensesNew.Designer.cs">
       <DependentUpon>ExpensesNew.cs</DependentUpon>
     </Compile>
+    <Compile Include="FinancialYearSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinancialYearSetup.Designer.cs">
+      <DependentUpon>FinancialYearSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialYearSetupNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinancialYearSetupNew.Designer.cs">
+      <DependentUpon>FinancialYearSetupNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="GroupSetup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,12 +178,6 @@
     </Compile>
     <Compile Include="GroupSetupNew.Designer.cs">
       <DependentUpon>GroupSetupNew.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HomeBG.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HomeBG.Designer.cs">
-      <DependentUpon>HomeBG.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeDp.cs">
       <SubType>Form</SubType>
@@ -227,17 +239,23 @@
     <Compile Include="PartyPaymentSetupNew.Designer.cs">
       <DependentUpon>PartyPaymentSetupNew.cs</DependentUpon>
     </Compile>
+    <Compile Include="PurchaseNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseNew.Designer.cs">
+      <DependentUpon>PurchaseNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="SaleB.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SaleB.Designer.cs">
       <DependentUpon>SaleB.cs</DependentUpon>
     </Compile>
-    <Compile Include="SaleA.cs">
+    <Compile Include="SaleC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaleA.Designer.cs">
-      <DependentUpon>SaleA.cs</DependentUpon>
+    <Compile Include="SaleC.Designer.cs">
+      <DependentUpon>SaleC.cs</DependentUpon>
     </Compile>
     <Compile Include="SaleD.cs">
       <SubType>Form</SubType>
@@ -269,12 +287,6 @@
     <Compile Include="Purchase.Designer.cs">
       <DependentUpon>Purchase.cs</DependentUpon>
     </Compile>
-    <Compile Include="PurchaseNew.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PurchaseNew.Designer.cs">
-      <DependentUpon>PurchaseNew.cs</DependentUpon>
-    </Compile>
     <Compile Include="RackSetup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -305,11 +317,11 @@
     <Compile Include="ReturnSale.Designer.cs">
       <DependentUpon>ReturnSale.cs</DependentUpon>
     </Compile>
-    <Compile Include="SaleC.cs">
+    <Compile Include="SaleA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SaleC.Designer.cs">
-      <DependentUpon>SaleC.cs</DependentUpon>
+    <Compile Include="SaleA.Designer.cs">
+      <DependentUpon>SaleA.cs</DependentUpon>
     </Compile>
     <Compile Include="NearExpiry.cs">
       <SubType>Form</SubType>
@@ -317,11 +329,23 @@
     <Compile Include="NearExpiry.Designer.cs">
       <DependentUpon>NearExpiry.cs</DependentUpon>
     </Compile>
-    <Compile Include="Stock.cs">
+    <Compile Include="StockDamage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Stock.Designer.cs">
-      <DependentUpon>Stock.cs</DependentUpon>
+    <Compile Include="StockDamage.Designer.cs">
+      <DependentUpon>StockDamage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockDamageAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDamageAdd.Designer.cs">
+      <DependentUpon>StockDamageAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockFresh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockFresh.Designer.cs">
+      <DependentUpon>StockFresh.cs</DependentUpon>
     </Compile>
     <Compile Include="TaxSetupNew.cs">
       <SubType>Form</SubType>
@@ -329,11 +353,35 @@
     <Compile Include="TaxSetupNew.Designer.cs">
       <DependentUpon>TaxSetupNew.cs</DependentUpon>
     </Compile>
+    <Compile Include="Transfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transfer.Designer.cs">
+      <DependentUpon>Transfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransferNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransferNew.Designer.cs">
+      <DependentUpon>TransferNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="TypeSetupNew.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TypeSetupNew.Designer.cs">
       <DependentUpon>TypeSetupNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnitSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitSetup.Designer.cs">
+      <DependentUpon>UnitSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnitSetupNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitSetupNew.Designer.cs">
+      <DependentUpon>UnitSetupNew.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs">
       <SubType>Form</SubType>
@@ -451,6 +499,9 @@
     <EmbeddedResource Include="BillSetting.resx">
       <DependentUpon>BillSetting.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CashSetup.resx">
+      <DependentUpon>CashSetup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ColorSetupNew.resx">
       <DependentUpon>ColorSetupNew.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,14 +541,17 @@
     <EmbeddedResource Include="ExpensesNew.resx">
       <DependentUpon>ExpensesNew.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FinancialYearSetup.resx">
+      <DependentUpon>FinancialYearSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinancialYearSetupNew.resx">
+      <DependentUpon>FinancialYearSetupNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GroupSetup.resx">
       <DependentUpon>GroupSetup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GroupSetupNew.resx">
       <DependentUpon>GroupSetupNew.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HomeBG.resx">
-      <DependentUpon>HomeBG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeDp.resx">
       <DependentUpon>HomeDp.cs</DependentUpon>
@@ -532,11 +586,14 @@
     <EmbeddedResource Include="PartyPaymentSetupNew.resx">
       <DependentUpon>PartyPaymentSetupNew.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseNew.resx">
+      <DependentUpon>PurchaseNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SaleB.resx">
       <DependentUpon>SaleB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaleA.resx">
-      <DependentUpon>SaleA.cs</DependentUpon>
+    <EmbeddedResource Include="SaleC.resx">
+      <DependentUpon>SaleC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SaleD.resx">
       <DependentUpon>SaleD.cs</DependentUpon>
@@ -553,9 +610,6 @@
     <EmbeddedResource Include="Purchase.resx">
       <DependentUpon>Purchase.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PurchaseNew.resx">
-      <DependentUpon>PurchaseNew.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="RackSetup.resx">
       <DependentUpon>RackSetup.cs</DependentUpon>
     </EmbeddedResource>
@@ -571,17 +625,35 @@
     <EmbeddedResource Include="ReturnSale.resx">
       <DependentUpon>ReturnSale.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SaleC.resx">
-      <DependentUpon>SaleC.cs</DependentUpon>
+    <EmbeddedResource Include="SaleA.resx">
+      <DependentUpon>SaleA.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Stock.resx">
-      <DependentUpon>Stock.cs</DependentUpon>
+    <EmbeddedResource Include="StockDamage.resx">
+      <DependentUpon>StockDamage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDamageAdd.resx">
+      <DependentUpon>StockDamageAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockFresh.resx">
+      <DependentUpon>StockFresh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TaxSetupNew.resx">
       <DependentUpon>TaxSetupNew.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Transfer.resx">
+      <DependentUpon>Transfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransferNew.resx">
+      <DependentUpon>TransferNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TypeSetupNew.resx">
       <DependentUpon>TypeSetupNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSetup.resx">
+      <DependentUpon>UnitSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSetupNew.resx">
+      <DependentUpon>UnitSetupNew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User.resx">
       <DependentUpon>User.cs</DependentUpon>
@@ -698,6 +770,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BillA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BillA1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BillB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
