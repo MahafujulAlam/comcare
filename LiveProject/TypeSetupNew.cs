@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -41,6 +42,49 @@ namespace LiveProject
             {
                 e.Cancel = true;
             }
+        }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-OJR6FSL\SQLEXPRESS; Initial Catalog = comcare; Integrated Security = true");
+            SqlCommand cmd = new SqlCommand("typesetupnewsp",con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //cmd.CommandText = "typesetupnewsp";
+            //cmd.Connection = con;
+            cmd.Parameters.AddWithValue("@typename", name.Text);
+            //SqlParameter param = new SqlParameter("@typename", SqlDbType.NVarChar);
+            //param.Value = name.Text;
+            //cmd.Parameters.Add(param);
+            cmd.Parameters.AddWithValue("@typecode", tcode.Text);
+            cmd.Parameters.AddWithValue("@typestatus",tstatus.Text);
+            cmd.Parameters.AddWithValue("@typeremark", tremark.Text);
+            try
+            {
+                con.Open();
+                if (cmd.ExecuteNonQuery() > 0)
+                {
+                    MessageBox.Show("Data Inserted Successfully.","Successful", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                    name.Text = "";
+                    tcode.Text = "";
+                    tstatus.Text = "";
+                    tremark.Text = "";
+
+                }
+                else
+                {
+                    MessageBox.Show("Try Again");
+                }
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                cmd.Dispose();
+            }
+
         }
     }
 }

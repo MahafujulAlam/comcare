@@ -35,9 +35,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.contact = new System.Windows.Forms.TextBox();
-            this.usertype = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tcode = new System.Windows.Forms.TextBox();
+            this.tstatus = new System.Windows.Forms.ComboBox();
+            this.tremark = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.close = new System.Windows.Forms.Button();
@@ -84,6 +84,7 @@
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
             // 
             // groupBox1
@@ -91,9 +92,9 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.name);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.contact);
-            this.groupBox1.Controls.Add(this.usertype);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.tcode);
+            this.groupBox1.Controls.Add(this.tstatus);
+            this.groupBox1.Controls.Add(this.tremark);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -135,40 +136,40 @@
             this.label6.TabIndex = 64;
             this.label6.Text = "CODE :";
             // 
-            // contact
+            // tcode
             // 
-            this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact.Location = new System.Drawing.Point(131, 67);
-            this.contact.Name = "contact";
-            this.contact.Size = new System.Drawing.Size(282, 20);
-            this.contact.TabIndex = 1;
-            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
+            this.tcode.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tcode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tcode.Location = new System.Drawing.Point(131, 67);
+            this.tcode.Name = "tcode";
+            this.tcode.Size = new System.Drawing.Size(282, 20);
+            this.tcode.TabIndex = 1;
+            this.tcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
             // 
-            // usertype
+            // tstatus
             // 
-            this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.usertype.FormattingEnabled = true;
-            this.usertype.Items.AddRange(new object[] {
+            this.tstatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tstatus.FormattingEnabled = true;
+            this.tstatus.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.usertype.Location = new System.Drawing.Point(131, 93);
-            this.usertype.Name = "usertype";
-            this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 2;
-            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
+            this.tstatus.Location = new System.Drawing.Point(131, 93);
+            this.tstatus.Name = "tstatus";
+            this.tstatus.Size = new System.Drawing.Size(282, 26);
+            this.tstatus.TabIndex = 2;
+            this.tstatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
             // 
-            // textBox2
+            // tremark
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(131, 126);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
+            this.tremark.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tremark.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tremark.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tremark.Location = new System.Drawing.Point(131, 126);
+            this.tremark.Name = "tremark";
+            this.tremark.Size = new System.Drawing.Size(282, 20);
+            this.tremark.TabIndex = 3;
+            this.tremark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -254,9 +255,9 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox name;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox contact;
-        private System.Windows.Forms.ComboBox usertype;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tcode;
+        private System.Windows.Forms.ComboBox tstatus;
+        private System.Windows.Forms.TextBox tremark;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button close;

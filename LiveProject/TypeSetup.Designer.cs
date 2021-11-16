@@ -39,6 +39,10 @@
             this.deleteCF = new System.Windows.Forms.Button();
             this.addCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tstatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tremark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -106,6 +110,11 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.name,
+            this.tcode,
+            this.tstatus,
+            this.tremark});
             this.dataGridView1.Location = new System.Drawing.Point(12, 117);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(683, 219);
@@ -194,6 +203,28 @@
             this.updateCF.UseVisualStyleBackColor = false;
             this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetup_KeyDown);
             // 
+            // name
+            // 
+            this.name.HeaderText = "Name";
+            this.name.Name = "name";
+            this.name.Width = 150;
+            // 
+            // tcode
+            // 
+            this.tcode.HeaderText = "Code";
+            this.tcode.Name = "tcode";
+            // 
+            // tstatus
+            // 
+            this.tstatus.HeaderText = "Status";
+            this.tstatus.Name = "tstatus";
+            // 
+            // tremark
+            // 
+            this.tremark.HeaderText = "Remark";
+            this.tremark.Name = "tremark";
+            this.tremark.Width = 290;
+            // 
             // TypeSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -217,6 +248,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TypeSetup";
+            this.Load += new System.EventHandler(this.TypeSetup_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetup_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -239,5 +271,9 @@
         private System.Windows.Forms.Button deleteCF;
         private System.Windows.Forms.Button addCF;
         private System.Windows.Forms.Button updateCF;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tcode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tstatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tremark;
     }
 }

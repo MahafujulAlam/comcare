@@ -30,15 +30,15 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.name = new System.Windows.Forms.TextBox();
-            this.usertype = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pname = new System.Windows.Forms.TextBox();
+            this.status = new System.Windows.Forms.ComboBox();
+            this.remark = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.save = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.psize = new System.Windows.Forms.TextBox();
             this.close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -71,40 +71,40 @@
             this.label7.TabIndex = 62;
             this.label7.Text = "PACK NAME :";
             // 
-            // name
+            // pname
             // 
-            this.name.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(135, 42);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(282, 20);
-            this.name.TabIndex = 0;
-            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
+            this.pname.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.pname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pname.Location = new System.Drawing.Point(135, 42);
+            this.pname.Name = "pname";
+            this.pname.Size = new System.Drawing.Size(282, 20);
+            this.pname.TabIndex = 0;
+            this.pname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
-            // usertype
+            // status
             // 
-            this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.usertype.FormattingEnabled = true;
-            this.usertype.Items.AddRange(new object[] {
+            this.status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.status.FormattingEnabled = true;
+            this.status.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.usertype.Location = new System.Drawing.Point(135, 94);
-            this.usertype.Name = "usertype";
-            this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 2;
-            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
+            this.status.Location = new System.Drawing.Point(135, 94);
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(282, 26);
+            this.status.TabIndex = 2;
+            this.status.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
-            // textBox2
+            // remark
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(135, 127);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
+            this.remark.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.remark.Location = new System.Drawing.Point(135, 127);
+            this.remark.Name = "remark";
+            this.remark.Size = new System.Drawing.Size(282, 20);
+            this.remark.TabIndex = 3;
+            this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -141,16 +141,17 @@
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.psize);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.name);
-            this.groupBox1.Controls.Add(this.usertype);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.pname);
+            this.groupBox1.Controls.Add(this.status);
+            this.groupBox1.Controls.Add(this.remark);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,16 +173,16 @@
             this.label1.TabIndex = 71;
             this.label1.Text = "PACK SIZE :";
             // 
-            // textBox3
+            // psize
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(135, 68);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(282, 20);
-            this.textBox3.TabIndex = 1;
-            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
+            this.psize.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.psize.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.psize.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.psize.Location = new System.Drawing.Point(135, 68);
+            this.psize.Name = "psize";
+            this.psize.Size = new System.Drawing.Size(282, 20);
+            this.psize.TabIndex = 1;
+            this.psize.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PackSetupNew_KeyDown);
             // 
             // close
             // 
@@ -251,9 +252,9 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox name;
-        private System.Windows.Forms.ComboBox usertype;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox pname;
+        private System.Windows.Forms.ComboBox status;
+        private System.Windows.Forms.TextBox remark;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button save;
@@ -262,6 +263,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox psize;
     }
 }
