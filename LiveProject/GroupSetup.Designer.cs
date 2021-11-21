@@ -39,6 +39,9 @@
             this.addCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -188,11 +191,36 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.name,
+            this.status,
+            this.remark});
             this.dataGridView1.Location = new System.Drawing.Point(12, 117);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(683, 219);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetup_KeyDown);
+            // 
+            // name
+            // 
+            this.name.HeaderText = "Name";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 220;
+            // 
+            // status
+            // 
+            this.status.HeaderText = "Status";
+            this.status.Name = "status";
+            this.status.ReadOnly = true;
+            this.status.Width = 150;
+            // 
+            // remark
+            // 
+            this.remark.HeaderText = "Remark";
+            this.remark.Name = "remark";
+            this.remark.ReadOnly = true;
+            this.remark.Width = 270;
             // 
             // GroupSetup
             // 
@@ -216,6 +244,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GroupSetup";
+            this.Load += new System.EventHandler(this.GroupSetup_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetup_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -238,5 +267,8 @@
         private System.Windows.Forms.Button addCF;
         private System.Windows.Forms.Button updateCF;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn remark;
     }
 }

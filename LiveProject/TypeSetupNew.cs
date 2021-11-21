@@ -60,19 +60,26 @@ namespace LiveProject
             cmd.Parameters.AddWithValue("@typeremark", tremark.Text);
             try
             {
-                con.Open();
-                if (cmd.ExecuteNonQuery() > 0)
+                if (name.Text != "" && tcode.Text != "" && tstatus.Text != "")
                 {
-                    MessageBox.Show("Data Inserted Successfully.","Successful", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                    name.Text = "";
-                    tcode.Text = "";
-                    tstatus.Text = "";
-                    tremark.Text = "";
+                    con.Open();
+                    if (cmd.ExecuteNonQuery() > 0)
+                    {
+                        MessageBox.Show("Data Inserted Successfully.","Successful", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        name.Text = "";
+                        tcode.Text = "";
+                        tstatus.Text = "";
+                        tremark.Text = "";
 
+                    }
+                    else
+                    {
+                        MessageBox.Show("Try Again");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Try Again");
+                    MessageBox.Show("Please fill the mandatory details!");
                 }
             }
             catch (SqlException ex)
@@ -84,6 +91,11 @@ namespace LiveProject
                 con.Close();
                 cmd.Dispose();
             }
+
+        }
+
+        private void TypeSetupNew_Load(object sender, EventArgs e)
+        {
 
         }
     }

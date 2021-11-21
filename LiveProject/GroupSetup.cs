@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -38,6 +39,43 @@ namespace LiveProject
         private void close_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void GroupSetup_Load(object sender, EventArgs e)
+        {
+            loadData();
+        }
+
+        private void loadData()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source =DESKTOP-OJR6FSL\SQLEXPRESS; Initial Catalog = comcare; Integrated Security = true");
+            SqlCommand cmd = new SqlCommand("Select * from GroupSetupNew", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            try
+            {
+                con.Open();
+                da.Fill(dt);
+            }
+            catch (SqlException e)
+            {
+                MessageBox.Show(e.Message);
+
+            }
+            finally
+            {
+                cmd.Dispose();
+                con.Close();
+                da.Dispose();
+
+            }
+
+            //dataGridView1.DataSource = dt;
+            foreach (DataRow drow in dt.Rows)
+            {
+                string[] strdata = { drow["groupName"].ToString(), drow["groupStatus"].ToString(), drow["groupRemark"].ToString() };
+                dataGridView1.Rows.Add(strdata);
+            }
         }
     }
 }

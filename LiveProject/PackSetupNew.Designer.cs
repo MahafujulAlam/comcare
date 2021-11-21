@@ -56,7 +56,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(472, 29);
+            this.textBox1.Size = new System.Drawing.Size(453, 29);
             this.textBox1.TabIndex = 93;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  PACK";
@@ -133,7 +133,7 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(252, 222);
+            this.save.Location = new System.Drawing.Point(234, 221);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
@@ -157,7 +157,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 55);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(446, 161);
+            this.groupBox1.Size = new System.Drawing.Size(428, 160);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Pack";
@@ -191,7 +191,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(358, 222);
+            this.close.Location = new System.Drawing.Point(340, 221);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
@@ -207,16 +207,16 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(472, 15);
+            this.panel1.Size = new System.Drawing.Size(453, 15);
             this.panel1.TabIndex = 0;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 260);
+            this.panel2.Location = new System.Drawing.Point(0, 261);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(472, 10);
+            this.panel2.Size = new System.Drawing.Size(453, 10);
             this.panel2.TabIndex = 96;
             // 
             // PackSetupNew
@@ -224,7 +224,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(472, 270);
+            this.ClientSize = new System.Drawing.Size(453, 271);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.save);

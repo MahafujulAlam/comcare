@@ -30,13 +30,13 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.remark = new System.Windows.Forms.TextBox();
+            this.cremark = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.name = new System.Windows.Forms.TextBox();
+            this.cname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cstatus = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.save = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -61,16 +61,16 @@
             this.label4.TabIndex = 53;
             this.label4.Text = "STATUS :";
             // 
-            // remark
+            // cremark
             // 
-            this.remark.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.remark.Location = new System.Drawing.Point(108, 87);
-            this.remark.Name = "remark";
-            this.remark.Size = new System.Drawing.Size(251, 22);
-            this.remark.TabIndex = 2;
-            this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
+            this.cremark.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.cremark.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cremark.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cremark.Location = new System.Drawing.Point(108, 87);
+            this.cremark.Name = "cremark";
+            this.cremark.Size = new System.Drawing.Size(251, 20);
+            this.cremark.TabIndex = 2;
+            this.cremark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // label3
             // 
@@ -82,16 +82,16 @@
             this.label3.TabIndex = 51;
             this.label3.Text = "REMARK :";
             // 
-            // name
+            // cname
             // 
-            this.name.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(108, 29);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(251, 20);
-            this.name.TabIndex = 0;
-            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
+            this.cname.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.cname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cname.Location = new System.Drawing.Point(108, 29);
+            this.cname.Name = "cname";
+            this.cname.Size = new System.Drawing.Size(251, 20);
+            this.cname.TabIndex = 0;
+            this.cname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // label2
             // 
@@ -121,12 +121,12 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cstatus);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.name);
+            this.groupBox1.Controls.Add(this.cname);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.remark);
+            this.groupBox1.Controls.Add(this.cremark);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(21, 55);
             this.groupBox1.Name = "groupBox1";
@@ -135,18 +135,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Color";
             // 
-            // comboBox1
+            // cstatus
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cstatus.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.cstatus.FormattingEnabled = true;
+            this.cstatus.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.comboBox1.Location = new System.Drawing.Point(108, 55);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(251, 26);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
+            this.cstatus.Location = new System.Drawing.Point(108, 55);
+            this.cstatus.Name = "cstatus";
+            this.cstatus.Size = new System.Drawing.Size(251, 26);
+            this.cstatus.TabIndex = 1;
+            this.cstatus.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // button1
             // 
@@ -179,6 +179,7 @@
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ColorSetupNew_KeyDown);
             // 
             // panel2
@@ -225,14 +226,14 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox remark;
+        private System.Windows.Forms.TextBox cremark;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.TextBox cname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cstatus;
         private System.Windows.Forms.Panel panel2;
     }
 }

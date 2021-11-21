@@ -239,6 +239,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TypeSetupNew";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TypeSetupNew_FormClosing);
+            this.Load += new System.EventHandler(this.TypeSetupNew_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TypeSetupNew_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

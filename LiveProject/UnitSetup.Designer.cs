@@ -39,6 +39,10 @@
             this.deleteCF = new System.Windows.Forms.Button();
             this.addCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
+            this.unitname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.selectpackq = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.unitstatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -82,6 +86,11 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.unitname,
+            this.selectpackq,
+            this.unitstatus,
+            this.remark});
             this.dataGridView1.Location = new System.Drawing.Point(12, 123);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(683, 219);
@@ -194,6 +203,34 @@
             this.updateCF.UseVisualStyleBackColor = false;
             this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.UnitSetup_KeyDown);
             // 
+            // unitname
+            // 
+            this.unitname.HeaderText = "UnitName";
+            this.unitname.Name = "unitname";
+            this.unitname.ReadOnly = true;
+            this.unitname.Width = 180;
+            // 
+            // selectpackq
+            // 
+            this.selectpackq.HeaderText = "Under The Pack";
+            this.selectpackq.Name = "selectpackq";
+            this.selectpackq.ReadOnly = true;
+            this.selectpackq.Width = 120;
+            // 
+            // unitstatus
+            // 
+            this.unitstatus.HeaderText = "Status";
+            this.unitstatus.Name = "unitstatus";
+            this.unitstatus.ReadOnly = true;
+            this.unitstatus.Width = 120;
+            // 
+            // remark
+            // 
+            this.remark.HeaderText = "Remark";
+            this.remark.Name = "remark";
+            this.remark.ReadOnly = true;
+            this.remark.Width = 219;
+            // 
             // UnitSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,6 +253,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UnitSetup";
+            this.Load += new System.EventHandler(this.UnitSetup_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.UnitSetup_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -238,5 +276,9 @@
         private System.Windows.Forms.Button deleteCF;
         private System.Windows.Forms.Button addCF;
         private System.Windows.Forms.Button updateCF;
+        private System.Windows.Forms.DataGridViewTextBoxColumn unitname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn selectpackq;
+        private System.Windows.Forms.DataGridViewTextBoxColumn unitstatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn remark;
     }
 }

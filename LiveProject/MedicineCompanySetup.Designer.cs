@@ -39,6 +39,9 @@
             this.deleteCF = new System.Windows.Forms.Button();
             this.addCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.remark = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +50,10 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.name,
+            this.status,
+            this.remark});
             this.dataGridView1.Location = new System.Drawing.Point(6, 128);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(677, 219);
@@ -200,6 +207,27 @@
             this.updateCF.Click += new System.EventHandler(this.updateCF_Click);
             this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MedicineCompanySetup_KeyDown);
             // 
+            // name
+            // 
+            this.name.HeaderText = "Name";
+            this.name.Name = "name";
+            this.name.ReadOnly = true;
+            this.name.Width = 170;
+            // 
+            // status
+            // 
+            this.status.HeaderText = "Status";
+            this.status.Name = "status";
+            this.status.ReadOnly = true;
+            this.status.Width = 150;
+            // 
+            // remark
+            // 
+            this.remark.HeaderText = "Remark";
+            this.remark.Name = "remark";
+            this.remark.ReadOnly = true;
+            this.remark.Width = 312;
+            // 
             // MedicineCompanySetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -219,6 +247,7 @@
             this.Name = "MedicineCompanySetup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MedicineCompanySetup";
+            this.Load += new System.EventHandler(this.MedicineCompanySetup_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MedicineCompanySetup_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -241,5 +270,8 @@
         private System.Windows.Forms.Button deleteCF;
         private System.Windows.Forms.Button addCF;
         private System.Windows.Forms.Button updateCF;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn status;
+        private System.Windows.Forms.DataGridViewTextBoxColumn remark;
     }
 }

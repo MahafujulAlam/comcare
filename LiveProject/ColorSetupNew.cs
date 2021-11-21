@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -84,6 +85,53 @@ namespace LiveProject
             {
                 e.SuppressKeyPress = true;
                 SendKeys.Send("{TAB}");
+            }
+        }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("Data Source = DESKTOP-OJR6FSL\\SQLEXPRESS; Initial Catalog = comcare; Integrated Security = true");
+            SqlCommand cmd = new SqlCommand("colorsetupnewsp", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            //cmd.Parameters.AddWithValue("@typename", name.Text);
+            SqlParameter param = new SqlParameter("@colorname", SqlDbType.NVarChar);
+            param.Value = cname.Text;
+            cmd.Parameters.Add(param);            
+            cmd.Parameters.AddWithValue("@colorstatus", cstatus.Text);
+            cmd.Parameters.AddWithValue("@colorremark", cremark.Text);
+
+            try
+            {
+                if (cname.Text != "" && cstatus.Text != "")
+                {
+                    con.Open();
+                    if (cmd.ExecuteNonQuery() > 0)
+                    {
+                        MessageBox.Show("Data Inserted Successfully.", "Successful", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        cname.Text = "";
+                        cstatus.Text = "";
+                        cremark.Text = "";
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Try Again");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please fill the mandatory details!");
+                }
+
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                cmd.Dispose();
             }
         }
     }

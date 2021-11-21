@@ -50,7 +50,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.license = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.cnno = new System.Windows.Forms.TextBox();
+            this.cinno = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.gstno = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -80,12 +80,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.logobtn);
             this.groupBox1.Controls.Add(this.logo);
             this.groupBox1.Controls.Add(this.jurisdiction);
@@ -107,7 +109,7 @@
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.license);
             this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.cnno);
+            this.groupBox1.Controls.Add(this.cinno);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.gstno);
             this.groupBox1.Controls.Add(this.label12);
@@ -145,12 +147,13 @@
             // 
             this.logobtn.BackColor = System.Drawing.Color.WhiteSmoke;
             this.logobtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.logobtn.Location = new System.Drawing.Point(821, 219);
+            this.logobtn.Location = new System.Drawing.Point(814, 199);
             this.logobtn.Name = "logobtn";
-            this.logobtn.Size = new System.Drawing.Size(60, 25);
+            this.logobtn.Size = new System.Drawing.Size(67, 25);
             this.logobtn.TabIndex = 16;
             this.logobtn.Text = "Select";
             this.logobtn.UseVisualStyleBackColor = false;
+            this.logobtn.Click += new System.EventHandler(this.logobtn_Click_1);
             this.logobtn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // logo
@@ -371,17 +374,17 @@
             this.label14.TabIndex = 75;
             this.label14.Text = "LICENSE NO. :";
             // 
-            // cnno
+            // cinno
             // 
-            this.cnno.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.cnno.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.cnno.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cnno.Location = new System.Drawing.Point(159, 361);
-            this.cnno.Name = "cnno";
-            this.cnno.Size = new System.Drawing.Size(260, 22);
-            this.cnno.TabIndex = 11;
-            this.cnno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.cnno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
+            this.cinno.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.cinno.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.cinno.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cinno.Location = new System.Drawing.Point(159, 361);
+            this.cinno.Name = "cinno";
+            this.cinno.Size = new System.Drawing.Size(260, 22);
+            this.cinno.TabIndex = 11;
+            this.cinno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.cinno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // label13
             // 
@@ -659,6 +662,7 @@
             this.button1.Text = "Save";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             // 
             // button2
@@ -729,6 +733,18 @@
             this.panel2.Size = new System.Drawing.Size(920, 10);
             this.panel2.TabIndex = 8;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.button4.Location = new System.Drawing.Point(814, 230);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(67, 25);
+            this.button4.TabIndex = 96;
+            this.button4.Text = "Remove";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // CompanyProfile
             // 
             this.AllowDrop = true;
@@ -785,7 +801,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox license;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox cnno;
+        private System.Windows.Forms.TextBox cinno;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox gstno;
         private System.Windows.Forms.Label label12;
@@ -815,5 +831,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button4;
     }
 }

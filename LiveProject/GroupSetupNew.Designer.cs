@@ -30,8 +30,8 @@
         {
             this.label7 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
-            this.usertype = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.status = new System.Windows.Forms.ComboBox();
+            this.remark = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.save = new System.Windows.Forms.Button();
@@ -64,29 +64,29 @@
             this.name.TabIndex = 0;
             this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
             // 
-            // usertype
+            // status
             // 
-            this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.usertype.FormattingEnabled = true;
-            this.usertype.Items.AddRange(new object[] {
+            this.status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.status.FormattingEnabled = true;
+            this.status.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.usertype.Location = new System.Drawing.Point(133, 65);
-            this.usertype.Name = "usertype";
-            this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 1;
-            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
+            this.status.Location = new System.Drawing.Point(133, 65);
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(282, 26);
+            this.status.TabIndex = 1;
+            this.status.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
             // 
-            // textBox2
+            // remark
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(133, 98);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
+            this.remark.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.remark.Location = new System.Drawing.Point(133, 98);
+            this.remark.Name = "remark";
+            this.remark.Size = new System.Drawing.Size(282, 20);
+            this.remark.TabIndex = 2;
+            this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -115,7 +115,7 @@
             this.save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = global::LiveProject.Properties.Resources.save34;
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(235, 219);
+            this.save.Location = new System.Drawing.Point(237, 200);
             this.save.Name = "save";
             this.save.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.save.Size = new System.Drawing.Size(100, 30);
@@ -123,20 +123,21 @@
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.name);
-            this.groupBox1.Controls.Add(this.usertype);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.status);
+            this.groupBox1.Controls.Add(this.remark);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 51);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(431, 158);
+            this.groupBox1.Size = new System.Drawing.Size(431, 143);
             this.groupBox1.TabIndex = 94;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Group";
@@ -164,7 +165,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.cancel;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(341, 219);
+            this.close.Location = new System.Drawing.Point(343, 200);
             this.close.Name = "close";
             this.close.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.close.Size = new System.Drawing.Size(100, 30);
@@ -187,7 +188,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 258);
+            this.panel2.Location = new System.Drawing.Point(0, 245);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(454, 10);
             this.panel2.TabIndex = 96;
@@ -197,7 +198,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(454, 268);
+            this.ClientSize = new System.Drawing.Size(454, 255);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.save);
             this.Controls.Add(this.groupBox1);
@@ -213,6 +214,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GroupSetupNew";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GroupSetupNew_FormClosing);
+            this.Load += new System.EventHandler(this.GroupSetupNew_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.GroupSetupNew_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -225,8 +227,8 @@
 
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox name;
-        private System.Windows.Forms.ComboBox usertype;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox status;
+        private System.Windows.Forms.TextBox remark;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button save;
