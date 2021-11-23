@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.logobtn = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
             this.jurisdiction = new System.Windows.Forms.TextBox();
@@ -80,7 +81,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.SuspendLayout();
@@ -142,6 +142,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
+            this.button4.Location = new System.Drawing.Point(814, 230);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(67, 25);
+            this.button4.TabIndex = 96;
+            this.button4.Text = "Remove";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // logobtn
             // 
@@ -733,18 +745,6 @@
             this.panel2.Size = new System.Drawing.Size(920, 10);
             this.panel2.TabIndex = 8;
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.button4.Location = new System.Drawing.Point(814, 230);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(67, 25);
-            this.button4.TabIndex = 96;
-            this.button4.Text = "Remove";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // CompanyProfile
             // 
             this.AllowDrop = true;
@@ -768,6 +768,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CompanyProfile";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CompanyProfile_FormClosing);
+            this.Load += new System.EventHandler(this.CompanyProfile_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CompanyProfile_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

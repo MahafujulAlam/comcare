@@ -193,6 +193,11 @@ namespace LiveProject
             logo.Image = null;
             logo.Update();
         }
+
+        private void CompanyProfile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

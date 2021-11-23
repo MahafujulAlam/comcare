@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -19,53 +20,40 @@ namespace LiveProject
 
         private void TaxSetup_Load(object sender, EventArgs e)
         {
-
+            loadData();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void loadData()
         {
+            SqlConnection con = new SqlConnection(@"Data Source =DESKTOP-OJR6FSL\SQLEXPRESS; Initial Catalog = comcare; Integrated Security = true");
+            SqlCommand cmd = new SqlCommand("Select * from TaxSetupNew", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            try
+            {
+                con.Open();
+                da.Fill(dt);
+            }
+            catch (SqlException e)
+            {
+                MessageBox.Show(e.Message);
 
-        }
+            }
+            finally
+            {
+                cmd.Dispose();
+                con.Close();
+                da.Dispose();
+            }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
+            //dataGridView1.DataSource = dt;
+            foreach (DataRow drow in dt.Rows)
+            {
+                string[] strdata = { drow["taxName"].ToString(), drow["taxRate"].ToString(), drow["taxStatus"].ToString(), drow["taxRemark"].ToString() };
+                dataGridView1.Rows.Add(strdata);
+            }
 
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ratetaxsetup_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void nametaxsetup_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void statustaxsetup_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void remarktaxsetup_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        }     
 
         private void addCF_Click(object sender, EventArgs e)
         {
