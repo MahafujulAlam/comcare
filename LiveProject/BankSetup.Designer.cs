@@ -39,6 +39,15 @@
             this.deleteCF = new System.Windows.Forms.Button();
             this.addCF = new System.Windows.Forms.Button();
             this.updateCF = new System.Windows.Forms.Button();
+            this.acname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.acno = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.actype = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bankname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.branchname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ifsccode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.micrcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.openingba = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.avlbal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +59,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 51);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(861, 60);
+            this.groupBox1.Size = new System.Drawing.Size(963, 60);
             this.groupBox1.TabIndex = 101;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search / Edit";
@@ -91,7 +100,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 8, 3, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(885, 29);
+            this.textBox1.Size = new System.Drawing.Size(988, 29);
             this.textBox1.TabIndex = 100;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "  BANK DETAILS";
@@ -101,16 +110,26 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(885, 15);
+            this.panel4.Size = new System.Drawing.Size(988, 15);
             this.panel4.TabIndex = 94;
             // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.acname,
+            this.acno,
+            this.actype,
+            this.bankname,
+            this.branchname,
+            this.ifsccode,
+            this.micrcode,
+            this.openingba,
+            this.avlbal});
             this.dataGridView1.Location = new System.Drawing.Point(12, 117);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(861, 272);
+            this.dataGridView1.Size = new System.Drawing.Size(963, 272);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetup_KeyDown);
             // 
@@ -121,7 +140,7 @@
             this.close.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close.Image = global::LiveProject.Properties.Resources.close;
             this.close.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.close.Location = new System.Drawing.Point(773, 395);
+            this.close.Location = new System.Drawing.Point(876, 395);
             this.close.Name = "close";
             this.close.Size = new System.Drawing.Size(100, 30);
             this.close.TabIndex = 4;
@@ -138,7 +157,7 @@
             this.clearCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearCF.Image = global::LiveProject.Properties.Resources.update;
             this.clearCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clearCF.Location = new System.Drawing.Point(561, 395);
+            this.clearCF.Location = new System.Drawing.Point(664, 395);
             this.clearCF.Name = "clearCF";
             this.clearCF.Size = new System.Drawing.Size(100, 30);
             this.clearCF.TabIndex = 2;
@@ -154,7 +173,7 @@
             this.deleteCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCF.Image = global::LiveProject.Properties.Resources.delete;
             this.deleteCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.deleteCF.Location = new System.Drawing.Point(667, 395);
+            this.deleteCF.Location = new System.Drawing.Point(770, 395);
             this.deleteCF.Name = "deleteCF";
             this.deleteCF.Size = new System.Drawing.Size(100, 30);
             this.deleteCF.TabIndex = 3;
@@ -170,7 +189,7 @@
             this.addCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCF.Image = global::LiveProject.Properties.Resources.add11;
             this.addCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addCF.Location = new System.Drawing.Point(351, 395);
+            this.addCF.Location = new System.Drawing.Point(454, 395);
             this.addCF.Name = "addCF";
             this.addCF.Size = new System.Drawing.Size(100, 30);
             this.addCF.TabIndex = 0;
@@ -187,7 +206,7 @@
             this.updateCF.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateCF.Image = global::LiveProject.Properties.Resources.updatet112;
             this.updateCF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateCF.Location = new System.Drawing.Point(455, 395);
+            this.updateCF.Location = new System.Drawing.Point(558, 395);
             this.updateCF.Name = "updateCF";
             this.updateCF.Size = new System.Drawing.Size(100, 30);
             this.updateCF.TabIndex = 1;
@@ -196,11 +215,66 @@
             this.updateCF.UseVisualStyleBackColor = false;
             this.updateCF.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetup_KeyDown);
             // 
+            // acname
+            // 
+            this.acname.HeaderText = "Account Name";
+            this.acname.Name = "acname";
+            this.acname.ReadOnly = true;
+            this.acname.Width = 120;
+            // 
+            // acno
+            // 
+            this.acno.HeaderText = "Account No";
+            this.acno.Name = "acno";
+            this.acno.ReadOnly = true;
+            // 
+            // actype
+            // 
+            this.actype.HeaderText = "Account Type";
+            this.actype.Name = "actype";
+            this.actype.ReadOnly = true;
+            // 
+            // bankname
+            // 
+            this.bankname.HeaderText = "BankName";
+            this.bankname.Name = "bankname";
+            this.bankname.ReadOnly = true;
+            // 
+            // branchname
+            // 
+            this.branchname.HeaderText = "BranchName";
+            this.branchname.Name = "branchname";
+            this.branchname.ReadOnly = true;
+            // 
+            // ifsccode
+            // 
+            this.ifsccode.HeaderText = "IFSC Code";
+            this.ifsccode.Name = "ifsccode";
+            this.ifsccode.ReadOnly = true;
+            // 
+            // micrcode
+            // 
+            this.micrcode.HeaderText = "MICR Code";
+            this.micrcode.Name = "micrcode";
+            this.micrcode.ReadOnly = true;
+            // 
+            // openingba
+            // 
+            this.openingba.HeaderText = "Opening Balance";
+            this.openingba.Name = "openingba";
+            this.openingba.ReadOnly = true;
+            // 
+            // avlbal
+            // 
+            this.avlbal.HeaderText = "Available Balance";
+            this.avlbal.Name = "avlbal";
+            this.avlbal.ReadOnly = true;
+            // 
             // BankSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(885, 437);
+            this.ClientSize = new System.Drawing.Size(988, 434);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.close);
@@ -219,6 +293,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BankSetup";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BankSetup_FormClosing);
+            this.Load += new System.EventHandler(this.BankSetup_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetup_KeyDown);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -241,5 +316,14 @@
         private System.Windows.Forms.Button addCF;
         private System.Windows.Forms.Button updateCF;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn acname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn acno;
+        private System.Windows.Forms.DataGridViewTextBoxColumn actype;
+        private System.Windows.Forms.DataGridViewTextBoxColumn bankname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn branchname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ifsccode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn micrcode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn openingba;
+        private System.Windows.Forms.DataGridViewTextBoxColumn avlbal;
     }
 }

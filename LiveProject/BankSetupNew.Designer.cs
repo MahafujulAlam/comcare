@@ -32,25 +32,25 @@
             this.label7 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.contact = new System.Windows.Forms.TextBox();
-            this.usertype = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.acno = new System.Windows.Forms.TextBox();
+            this.status = new System.Windows.Forms.ComboBox();
+            this.remark = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.actype = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.avlbal = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.openingbal = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.micrcode = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.ifsccode = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.branch = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.bankname = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.save = new System.Windows.Forms.Button();
@@ -106,40 +106,40 @@
             this.label6.TabIndex = 64;
             this.label6.Text = "ACCOUNT NO :";
             // 
-            // contact
+            // acno
             // 
-            this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact.Location = new System.Drawing.Point(183, 65);
-            this.contact.Name = "contact";
-            this.contact.Size = new System.Drawing.Size(282, 20);
-            this.contact.TabIndex = 1;
-            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.acno.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.acno.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.acno.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.acno.Location = new System.Drawing.Point(183, 65);
+            this.acno.Name = "acno";
+            this.acno.Size = new System.Drawing.Size(282, 20);
+            this.acno.TabIndex = 1;
+            this.acno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
-            // usertype
+            // status
             // 
-            this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.usertype.FormattingEnabled = true;
-            this.usertype.Items.AddRange(new object[] {
+            this.status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.status.FormattingEnabled = true;
+            this.status.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.usertype.Location = new System.Drawing.Point(183, 277);
-            this.usertype.Name = "usertype";
-            this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 9;
-            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.status.Location = new System.Drawing.Point(183, 277);
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(282, 26);
+            this.status.TabIndex = 9;
+            this.status.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
-            // textBox2
+            // remark
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(183, 309);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 10;
-            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.remark.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.remark.Location = new System.Drawing.Point(183, 309);
+            this.remark.Name = "remark";
+            this.remark.Size = new System.Drawing.Size(282, 20);
+            this.remark.TabIndex = 10;
+            this.remark.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -163,26 +163,26 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.actype);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.avlbal);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.openingbal);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.micrcode);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.ifsccode);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.branch);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.bankname);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.name);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.contact);
-            this.groupBox1.Controls.Add(this.usertype);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.acno);
+            this.groupBox1.Controls.Add(this.status);
+            this.groupBox1.Controls.Add(this.remark);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -193,20 +193,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Bank";
             // 
-            // comboBox1
+            // actype
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.actype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.actype.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.actype.FormattingEnabled = true;
+            this.actype.Items.AddRange(new object[] {
             "SAVING",
             "CURRENT",
             "CC"});
-            this.comboBox1.Location = new System.Drawing.Point(183, 91);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(282, 24);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.actype.Location = new System.Drawing.Point(183, 91);
+            this.actype.Name = "actype";
+            this.actype.Size = new System.Drawing.Size(282, 24);
+            this.actype.TabIndex = 2;
+            this.actype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label8
             // 
@@ -218,16 +218,16 @@
             this.label8.TabIndex = 84;
             this.label8.Text = "AVAILABLE BALANCE :";
             // 
-            // textBox8
+            // avlbal
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(183, 251);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(282, 20);
-            this.textBox8.TabIndex = 8;
-            this.textBox8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.avlbal.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.avlbal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.avlbal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.avlbal.Location = new System.Drawing.Point(183, 251);
+            this.avlbal.Name = "avlbal";
+            this.avlbal.Size = new System.Drawing.Size(282, 20);
+            this.avlbal.TabIndex = 8;
+            this.avlbal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label11
             // 
@@ -239,16 +239,16 @@
             this.label11.TabIndex = 83;
             this.label11.Text = "OPENING BALANCE :";
             // 
-            // textBox9
+            // openingbal
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(183, 225);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(282, 20);
-            this.textBox9.TabIndex = 7;
-            this.textBox9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.openingbal.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.openingbal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.openingbal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.openingbal.Location = new System.Drawing.Point(183, 225);
+            this.openingbal.Name = "openingbal";
+            this.openingbal.Size = new System.Drawing.Size(282, 20);
+            this.openingbal.TabIndex = 7;
+            this.openingbal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label5
             // 
@@ -260,16 +260,16 @@
             this.label5.TabIndex = 80;
             this.label5.Text = "MICR CODE :";
             // 
-            // textBox7
+            // micrcode
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(183, 199);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(282, 20);
-            this.textBox7.TabIndex = 6;
-            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.micrcode.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.micrcode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.micrcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.micrcode.Location = new System.Drawing.Point(183, 199);
+            this.micrcode.Name = "micrcode";
+            this.micrcode.Size = new System.Drawing.Size(282, 20);
+            this.micrcode.TabIndex = 6;
+            this.micrcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label4
             // 
@@ -281,16 +281,16 @@
             this.label4.TabIndex = 78;
             this.label4.Text = "IFSC CODE :";
             // 
-            // textBox6
+            // ifsccode
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(183, 173);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(282, 20);
-            this.textBox6.TabIndex = 5;
-            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.ifsccode.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ifsccode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ifsccode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ifsccode.Location = new System.Drawing.Point(183, 173);
+            this.ifsccode.Name = "ifsccode";
+            this.ifsccode.Size = new System.Drawing.Size(282, 20);
+            this.ifsccode.TabIndex = 5;
+            this.ifsccode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label3
             // 
@@ -302,16 +302,16 @@
             this.label3.TabIndex = 76;
             this.label3.Text = "BRANCH :";
             // 
-            // textBox5
+            // branch
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(183, 147);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(282, 20);
-            this.textBox5.TabIndex = 4;
-            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.branch.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.branch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.branch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.branch.Location = new System.Drawing.Point(183, 147);
+            this.branch.Name = "branch";
+            this.branch.Size = new System.Drawing.Size(282, 20);
+            this.branch.TabIndex = 4;
+            this.branch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label2
             // 
@@ -323,16 +323,16 @@
             this.label2.TabIndex = 74;
             this.label2.Text = "BANK NAME :";
             // 
-            // textBox4
+            // bankname
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(183, 121);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(282, 20);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
+            this.bankname.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.bankname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bankname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bankname.Location = new System.Drawing.Point(183, 121);
+            this.bankname.Name = "bankname";
+            this.bankname.Size = new System.Drawing.Size(282, 20);
+            this.bankname.TabIndex = 3;
+            this.bankname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // label1
             // 
@@ -367,6 +367,7 @@
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.BankSetupNew_KeyDown);
             // 
             // close
@@ -432,9 +433,9 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox name;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox contact;
-        private System.Windows.Forms.ComboBox usertype;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox acno;
+        private System.Windows.Forms.ComboBox status;
+        private System.Windows.Forms.TextBox remark;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button save;
@@ -443,18 +444,18 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox ifsccode;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox branch;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox bankname;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox micrcode;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox avlbal;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox openingbal;
+        private System.Windows.Forms.ComboBox actype;
     }
 }
