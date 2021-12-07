@@ -30,28 +30,28 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.name = new System.Windows.Forms.TextBox();
+            this.partyid = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.contact = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.partyname = new System.Windows.Forms.TextBox();
+            this.micrcode = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.status = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.remark = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.paymentmode = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.usertype = new System.Windows.Forms.ComboBox();
+            this.ifsccode = new System.Windows.Forms.TextBox();
+            this.paymentby = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.branch = new System.Windows.Forms.TextBox();
+            this.bankname = new System.Windows.Forms.TextBox();
+            this.accno = new System.Windows.Forms.TextBox();
             this.save = new System.Windows.Forms.Button();
             this.close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -85,16 +85,16 @@
             this.label7.TabIndex = 62;
             this.label7.Text = "PARTY ID :";
             // 
-            // name
+            // partyid
             // 
-            this.name.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(166, 30);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(282, 20);
-            this.name.TabIndex = 0;
-            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.partyid.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.partyid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.partyid.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.partyid.Location = new System.Drawing.Point(166, 30);
+            this.partyid.Name = "partyid";
+            this.partyid.Size = new System.Drawing.Size(282, 20);
+            this.partyid.TabIndex = 0;
+            this.partyid.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // label6
             // 
@@ -106,27 +106,27 @@
             this.label6.TabIndex = 64;
             this.label6.Text = "PARTY NAME :";
             // 
-            // contact
+            // partyname
             // 
-            this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.contact.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact.Location = new System.Drawing.Point(166, 56);
-            this.contact.Name = "contact";
-            this.contact.Size = new System.Drawing.Size(282, 20);
-            this.contact.TabIndex = 1;
-            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.partyname.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.partyname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.partyname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.partyname.Location = new System.Drawing.Point(166, 56);
+            this.partyname.Name = "partyname";
+            this.partyname.Size = new System.Drawing.Size(282, 20);
+            this.partyname.TabIndex = 1;
+            this.partyname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
-            // textBox2
+            // micrcode
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(166, 250);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(282, 20);
-            this.textBox2.TabIndex = 8;
-            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.micrcode.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.micrcode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.micrcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.micrcode.Location = new System.Drawing.Point(166, 250);
+            this.micrcode.Name = "micrcode";
+            this.micrcode.Size = new System.Drawing.Size(282, 20);
+            this.micrcode.TabIndex = 8;
+            this.micrcode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // label10
             // 
@@ -140,28 +140,28 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.status);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.remark);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.paymentmode);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.usertype);
+            this.groupBox1.Controls.Add(this.ifsccode);
+            this.groupBox1.Controls.Add(this.micrcode);
+            this.groupBox1.Controls.Add(this.paymentby);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.branch);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.name);
+            this.groupBox1.Controls.Add(this.partyid);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.contact);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.bankname);
+            this.groupBox1.Controls.Add(this.partyname);
+            this.groupBox1.Controls.Add(this.accno);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 55);
             this.groupBox1.Name = "groupBox1";
@@ -170,19 +170,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Party Payment";
             // 
-            // comboBox2
+            // status
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.status.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.status.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.status.FormattingEnabled = true;
+            this.status.Items.AddRange(new object[] {
             "ACTIVE",
             "INACTIVE"});
-            this.comboBox2.Location = new System.Drawing.Point(166, 276);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(282, 26);
-            this.comboBox2.TabIndex = 9;
+            this.status.Location = new System.Drawing.Point(166, 276);
+            this.status.Name = "status";
+            this.status.Size = new System.Drawing.Size(282, 26);
+            this.status.TabIndex = 9;
             // 
             // label11
             // 
@@ -204,15 +204,15 @@
             this.label8.TabIndex = 80;
             this.label8.Text = "REMARK :";
             // 
-            // textBox7
+            // remark
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(166, 308);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(282, 20);
-            this.textBox7.TabIndex = 10;
+            this.remark.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.remark.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.remark.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.remark.Location = new System.Drawing.Point(166, 308);
+            this.remark.Name = "remark";
+            this.remark.Size = new System.Drawing.Size(282, 20);
+            this.remark.TabIndex = 10;
             // 
             // label5
             // 
@@ -254,21 +254,21 @@
             this.label2.TabIndex = 75;
             this.label2.Text = "ACCOUNT NO :";
             // 
-            // comboBox1
+            // paymentmode
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.paymentmode.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.paymentmode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.paymentmode.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.paymentmode.FormattingEnabled = true;
+            this.paymentmode.Items.AddRange(new object[] {
             "CASH",
             "CREDIT",
             "ADVANCE"});
-            this.comboBox1.Location = new System.Drawing.Point(166, 82);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(282, 26);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.paymentmode.Location = new System.Drawing.Point(166, 82);
+            this.paymentmode.Name = "paymentmode";
+            this.paymentmode.Size = new System.Drawing.Size(282, 26);
+            this.paymentmode.TabIndex = 2;
+            this.paymentmode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // label1
             // 
@@ -280,33 +280,33 @@
             this.label1.TabIndex = 74;
             this.label1.Text = "PAYMENT MODE :";
             // 
-            // textBox5
+            // ifsccode
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(166, 224);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(282, 20);
-            this.textBox5.TabIndex = 7;
-            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.ifsccode.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ifsccode.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ifsccode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ifsccode.Location = new System.Drawing.Point(166, 224);
+            this.ifsccode.Name = "ifsccode";
+            this.ifsccode.Size = new System.Drawing.Size(282, 20);
+            this.ifsccode.TabIndex = 7;
+            this.ifsccode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
-            // usertype
+            // paymentby
             // 
-            this.usertype.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.usertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.usertype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.usertype.FormattingEnabled = true;
-            this.usertype.Items.AddRange(new object[] {
+            this.paymentby.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.paymentby.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.paymentby.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.paymentby.FormattingEnabled = true;
+            this.paymentby.Items.AddRange(new object[] {
             "CASH",
             "ONLINE TRANSFER",
             "CHEQUE",
             "DEMAND DRAFT"});
-            this.usertype.Location = new System.Drawing.Point(166, 114);
-            this.usertype.Name = "usertype";
-            this.usertype.Size = new System.Drawing.Size(282, 26);
-            this.usertype.TabIndex = 3;
-            this.usertype.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.paymentby.Location = new System.Drawing.Point(166, 114);
+            this.paymentby.Name = "paymentby";
+            this.paymentby.Size = new System.Drawing.Size(282, 26);
+            this.paymentby.TabIndex = 3;
+            this.paymentby.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // label9
             // 
@@ -318,38 +318,38 @@
             this.label9.TabIndex = 72;
             this.label9.Text = "PAYMENT BY :";
             // 
-            // textBox6
+            // branch
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(166, 198);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(282, 20);
-            this.textBox6.TabIndex = 6;
-            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.branch.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.branch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.branch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.branch.Location = new System.Drawing.Point(166, 198);
+            this.branch.Name = "branch";
+            this.branch.Size = new System.Drawing.Size(282, 20);
+            this.branch.TabIndex = 6;
+            this.branch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
-            // textBox3
+            // bankname
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(166, 172);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(282, 20);
-            this.textBox3.TabIndex = 5;
-            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.bankname.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.bankname.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bankname.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bankname.Location = new System.Drawing.Point(166, 172);
+            this.bankname.Name = "bankname";
+            this.bankname.Size = new System.Drawing.Size(282, 20);
+            this.bankname.TabIndex = 5;
+            this.bankname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
-            // textBox4
+            // accno
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(166, 146);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(282, 20);
-            this.textBox4.TabIndex = 4;
-            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
+            this.accno.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.accno.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.accno.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accno.Location = new System.Drawing.Point(166, 146);
+            this.accno.Name = "accno";
+            this.accno.Size = new System.Drawing.Size(282, 20);
+            this.accno.TabIndex = 4;
+            this.accno.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // save
             // 
@@ -366,6 +366,7 @@
             this.save.Text = "SAVE";
             this.save.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.save.UseVisualStyleBackColor = false;
+            this.save.Click += new System.EventHandler(this.save_Click);
             this.save.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyPaymentSetupNew_KeyDown);
             // 
             // close
@@ -432,31 +433,31 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.TextBox partyid;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox contact;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox partyname;
+        private System.Windows.Forms.TextBox micrcode;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.Button close;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox paymentmode;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox ifsccode;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox usertype;
+        private System.Windows.Forms.ComboBox paymentby;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox branch;
+        private System.Windows.Forms.TextBox bankname;
+        private System.Windows.Forms.TextBox accno;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox remark;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox status;
         private System.Windows.Forms.Label label11;
     }
 }

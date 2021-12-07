@@ -47,6 +47,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.partytype = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.gstno = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.cnno = new System.Windows.Forms.TextBox();
@@ -65,15 +67,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.country = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.contact2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.contact = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.partyid = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.partytype = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,6 +91,7 @@
             this.button1.Text = "Save";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
             // 
             // mfglicenseno
@@ -326,11 +327,11 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.country);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.contact2);
-            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.contact);
-            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.name);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.partyid);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -340,6 +341,31 @@
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details";
+            // 
+            // partytype
+            // 
+            this.partytype.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.partytype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.partytype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.partytype.FormattingEnabled = true;
+            this.partytype.Items.AddRange(new object[] {
+            "SELECT",
+            "ACTIVE",
+            "INACTIVE"});
+            this.partytype.Location = new System.Drawing.Point(159, 100);
+            this.partytype.Name = "partytype";
+            this.partytype.Size = new System.Drawing.Size(260, 26);
+            this.partytype.TabIndex = 95;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(15, 103);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 18);
+            this.label1.TabIndex = 96;
+            this.label1.Text = "PARTY TYPE :";
             // 
             // gstno
             // 
@@ -542,18 +568,18 @@
             this.label5.TabIndex = 57;
             this.label5.Text = "COUNTRY :";
             // 
-            // contact2
+            // contact
             // 
-            this.contact2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.contact2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.contact2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact2.Location = new System.Drawing.Point(159, 132);
-            this.contact2.MaxLength = 10;
-            this.contact2.Name = "contact2";
-            this.contact2.Size = new System.Drawing.Size(260, 22);
-            this.contact2.TabIndex = 2;
-            this.contact2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.contact2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
+            this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.contact.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.contact.Location = new System.Drawing.Point(159, 132);
+            this.contact.MaxLength = 10;
+            this.contact.Name = "contact";
+            this.contact.Size = new System.Drawing.Size(260, 22);
+            this.contact.TabIndex = 2;
+            this.contact.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
             // 
             // label4
             // 
@@ -565,18 +591,18 @@
             this.label4.TabIndex = 55;
             this.label4.Text = "CONTACT NO :";
             // 
-            // contact
+            // name
             // 
-            this.contact.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.contact.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.contact.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.contact.Location = new System.Drawing.Point(159, 71);
-            this.contact.MaxLength = 10;
-            this.contact.Name = "contact";
-            this.contact.Size = new System.Drawing.Size(260, 22);
-            this.contact.TabIndex = 1;
-            this.contact.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.contact.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
+            this.name.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.name.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Location = new System.Drawing.Point(159, 71);
+            this.name.MaxLength = 10;
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(260, 22);
+            this.name.TabIndex = 1;
+            this.name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
             // 
             // label3
             // 
@@ -588,17 +614,17 @@
             this.label3.TabIndex = 53;
             this.label3.Text = "PARTY NAME :";
             // 
-            // name
+            // partyid
             // 
-            this.name.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.name.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.name.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(159, 42);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(260, 22);
-            this.name.TabIndex = 0;
-            this.name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.name.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
+            this.partyid.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.partyid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.partyid.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.partyid.Location = new System.Drawing.Point(159, 42);
+            this.partyid.Name = "partyid";
+            this.partyid.Size = new System.Drawing.Size(260, 22);
+            this.partyid.TabIndex = 0;
+            this.partyid.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.partyid.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartyDetailsNew_KeyDown);
             // 
             // label2
             // 
@@ -618,31 +644,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(920, 10);
             this.panel2.TabIndex = 14;
-            // 
-            // partytype
-            // 
-            this.partytype.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.partytype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.partytype.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.partytype.FormattingEnabled = true;
-            this.partytype.Items.AddRange(new object[] {
-            "SELECT",
-            "ACTIVE",
-            "INACTIVE"});
-            this.partytype.Location = new System.Drawing.Point(159, 100);
-            this.partytype.Name = "partytype";
-            this.partytype.Size = new System.Drawing.Size(260, 26);
-            this.partytype.TabIndex = 95;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 103);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 18);
-            this.label1.TabIndex = 96;
-            this.label1.Text = "PARTY TYPE :";
             // 
             // PartyDetailsNew
             // 
@@ -708,11 +709,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox country;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox contact2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox contact;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox name;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox partyid;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox cnno;
         private System.Windows.Forms.Label label13;
