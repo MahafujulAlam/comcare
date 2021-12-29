@@ -550,6 +550,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeeSalaryDueNew";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EmployeeSalaryDueNew_FormClosing);
+            this.Load += new System.EventHandler(this.EmployeeSalaryDueNew_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EmployeeSalaryDueNew_KeyDown);
             this.GroupBox1.ResumeLayout(false);
             this.GroupBox1.PerformLayout();

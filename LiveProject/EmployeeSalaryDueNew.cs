@@ -66,5 +66,10 @@ namespace LiveProject
                 e.Cancel = true;
             }
         }
+
+        private void EmployeeSalaryDueNew_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
